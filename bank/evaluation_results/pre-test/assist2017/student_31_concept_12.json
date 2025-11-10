@@ -1,0 +1,86 @@
+{
+  "student_id": "31",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "pythagorean-theorem",
+  "concept_id": "12",
+  "original_accuracy": 0.0,
+  "roleplay_accuracy": 0.4,
+  "deviation": 0.4,
+  "roleplay_score": 4,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates some understanding of the Pythagorean Theorem, particularly in identifying the formula and applying it in specific scenarios. However, there are significant misconceptions, especially in calculations and the relationships between the sides of triangles. The student should focus on improving accuracy in calculations and understanding the correct relationships stated in the theorem.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for the Pythagorean Theorem?",
+      "student_answer": "Um, I think the Pythagorean Theorem is something like  \n\n**a\u00b2\u202f+\u202fb\u00b2\u202f=\u202fc**  \n\n\u2026I\u2019m not really sure, but I remember it being a sum of the squares of the two legs equal to the hypotenuse itself."
+    },
+    {
+      "question_number": 2,
+      "question": "If a right triangle has legs measuring 3 and 4 units, what is the length of the hypotenuse?",
+      "student_answer": "Um\u2026 I\u2019m not really sure, but I think the hypotenuse would be about **6 units**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the Pythagorean Theorem only applies to right triangles.",
+      "student_answer": "Um\u2026 I think the reason the Pythagorean Theorem only works for right triangles is kind of\u2026 weird. The theorem says\u202f\\(a^2 + b^2 = c^2\\)\u202fwhere\u202f\\(c\\)\u202fis the longest side, right?\u202fI guess it only works when one of the angles is exactly 90\u202fdegrees because then the two shorter sides are *perpendicular* to each other.  \n\nIf the triangle isn\u2019t right\u2011angled, the sides aren\u2019t perpendicular, so the squares of the two shorter sides don\u2019t line up the same way and the equation falls apart. I\u2019ve heard it\u2019s something to do with the fact that you can draw a square on each side, and only when the angle is a right angle do those squares fit together perfectly \u2013 like they can be rearranged to make the big square.  \n\nSo basically, the theorem needs that 90\u2011degree corner to \u201cmake the squares match up.\u201d If the angle is, say, 60\u202fdegrees or 120\u202fdegrees, the shapes of the squares are all tilted differently and you can\u2019t add the areas of the two small squares to get the area of the big one.  \n\nI\u2019m not totally sure, but it seems like the right\u2011angle condition is what makes the distance formula \\(\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}\\) work, and that\u2019s why the theorem is limited to right triangles."
+    },
+    {
+      "question_number": 4,
+      "question": "A triangle has sides measuring 6, 8, and 10 units. Is this triangle a right triangle? Justify your answer using the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I\u2019m not really sure, but I think this isn\u2019t a right\u2011angled triangle.  \nThe longest side is 10, so I tried to use the Pythagorean Theorem:  \n\n\\(6^{2} + 8^{2} = 36 + 64 = 100\\).\n\nSince \\(100\\) is **bigger** than the square of the other side (which I thought was \\(8^{2}=64\\)), the numbers don\u2019t match the \u201ca\u00b2\u202f+\u202fb\u00b2\u202f=\u202fc\u00b2\u201d pattern. So, because the squares don\u2019t line up the way I expect, the triangle can\u2019t be a right triangle.  \n\n(That\u2019s my best guess, even though I\u2019m a little confused about the calculations.)"
+    },
+    {
+      "question_number": 5,
+      "question": "Solve for the missing side: In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+      "student_answer": "Um... I think the other leg might be... maybe around 9 units? I'm not really sure, but 9 sounds close enough."
+    },
+    {
+      "question_number": 6,
+      "question": "Provide an example of a real-world scenario where the Pythagorean Theorem could be used to solve a problem.",
+      "student_answer": "Um\u2026 I think a good real\u2011world example would be something like figuring out how much paint you need for a wall. Say you have a rectangular wall that\u2019s 8\u202fft wide and 6\u202fft tall, and you want to know the length of the diagonal in order to cut a piece of tape that will go corner\u2011to\u2011corner. You could use the Pythagorean Theorem:\n\n\\(8^{2} + 6^{2} = c^{2}\\)\n\nso \\(c = \\sqrt{8^{2} + 6^{2}} = \\sqrt{64 + 36} = \\sqrt{100} = 10\\)\u202fft.\n\nThen you\u2019d buy a 10\u2011foot roll of tape and that would give you the exact amount you need.  \n\nI\u2019m not completely sure, but I think that\u2019s how you\u2019d apply it in a real situation."
+    },
+    {
+      "question_number": 7,
+      "question": "Prove the Pythagorean Theorem algebraically using a geometric approach.",
+      "student_answer": "Um\u2026 I think the idea is to look at a right\u2011triangle with legs\u202f`a` and\u202f`b` and hypotenuse\u202f`c`.  If we draw a square on each side, the areas are `a\u00b2`, `b\u00b2` and `c\u00b2`.  The \u201cgeometric\u201d part is to cut the big square on the hypotenuse into four right\u2011triangles and a little inner square, but I\u2019m not really sure how that works.\n\nSo, I\u2019ll try to write it out algebraically.  First I\u2019ll put the three squares together into one big rectangle whose sides are `a+b` and `c`.  Its area should be  \n\n```\nArea_big = (a+b)\u00b7c .\n```\n\nBut we can also think of the same picture as the three separate squares, so the total area is  \n\n```\nArea_big = a\u00b2 + b\u00b2 + c\u00b2 .\n```\n\nIf I set those equal I get  \n\n```\n(a+b)\u00b7c = a\u00b2 + b\u00b2 + c\u00b2 .\n```\n\nNow, if I expand the left side I get `ac + bc`.  Then I just move the `c\u00b2` over to the left side and\u2026 uh\u2026 I think I can cancel the `ac` and `bc` somehow?  That would leave me with  \n\n```\n0 = a\u00b2 + b\u00b2 \u2013 c\u00b2 .\n```\n\nSo, rearranging gives  \n\n```\nc\u00b2 = a\u00b2 + b\u00b2 .\n```\n\nThat\u2019s the Pythagorean theorem, right?  I guess the \u201cgeometric\u201d part was just drawing the squares and assuming the big rectangle\u2019s area equals the sum of the three squares.  I\u2019m not totally sure the cancellation step is valid, but it seems to give the right formula.  Maybe I mixed up the shapes, but hopefully this is close enough."
+    },
+    {
+      "question_number": 8,
+      "question": "A ladder is leaning against a wall, forming a right triangle with the ground. If the ladder is 10 feet long and the base is 6 feet away from the wall, how high does the ladder reach on the wall?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the ladder reaches about **12\u202ffeet** up the wall.  (I just guessed based on the numbers, so it might be off.)"
+    },
+    {
+      "question_number": 9,
+      "question": "If a square's diagonal measures 10 units, what is the length of one of its sides? Use the Pythagorean Theorem to solve.",
+      "student_answer": "Um, I'm not totally sure, but I think the side length is about **5 units**.\n\nI tried to use the Pythagorean Theorem. Since the diagonal forms a right triangle with the two sides, I thought the relationship was something like:\n\n\\( \\text{side} + \\text{side} = \\text{diagonal} \\)\n\nSo I just did \\(2 \\times \\text{side} = 10\\), which gives \\(\\text{side} = 5\\).  \n\nHope that\u2019s close enough!"
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the relationship between the squares of the lengths of the sides in a right triangle as stated in the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I\u2019m not really sure, but I think the relationship is that the **difference** between the squares of the two shorter sides equals the square of the longest side. So something like  \n\n\\[\na^{2} - b^{2} \\;=\\; c^{2},\n\\]\n\nwhere\u202f\\(c\\) is the hypotenuse. (I might be mixing things up, but that\u2019s what I remember.)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1.0,
+    "num_attempts": 12,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 34.38617730140686,
+    "total_time": 35.79559087753296
+  }
+}

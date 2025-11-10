@@ -1,0 +1,86 @@
+{
+  "student_id": "217",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "[SkillRule: Remove negative coefficient; {ax/b=c@@@@ reciprocal; ax/b=c; ax=b; x/a=b}]",
+  "concept_id": "4",
+  "original_accuracy": 0.9090909090909091,
+  "roleplay_accuracy": 0.8,
+  "deviation": -0.10909090909090907,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "feedback": "The student demonstrates a solid understanding of the concepts related to removing negative coefficients and isolating variables. Most answers are correct, showing a clear grasp of the necessary steps. However, there are some minor errors in the handling of signs and simplifications, particularly in Questions 2 and 9, where the final answers were incorrect. Overall, the student shows good comprehension of the reciprocal property and its application in solving equations.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the first step in solving an equation with a negative coefficient, such as -2x/3 = 4?",
+      "student_answer": "The first thing you do is get rid of the fraction.  \nMultiply both sides of  \n\n\\[\n-\\frac{2x}{3}=4\n\\]\n\nby\u202f3. This clears the denominator:\n\n\\[\n3\\left(-\\frac{2x}{3}\\right)=3\\cdot 4 \\;\\;\\Longrightarrow\\;\\; -2x = 12 .\n\\]\n\nNow you can continue by dividing (or multiplying by the reciprocal) to isolate \\(x\\)."
+    },
+    {
+      "question_number": 2,
+      "question": "If the equation is -3x/5 = 6, how would you rewrite it to eliminate the negative coefficient?",
+      "student_answer": "To get rid of the negative sign in front of the coefficient, multiply both sides of the equation by \\(-1\\):\n\n\\[\n-\\,\\frac{3x}{5}=6 \\;\\;\\Longrightarrow\\;\\; \\frac{3x}{5}= -6\n\\]\n\nSo the equation without a negative coefficient is  \n\n\\[\n\\boxed{\\frac{3x}{5}= -6}\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why taking the reciprocal of both sides of the equation ax/b = c is necessary when solving for x.",
+      "student_answer": "When the equation  \n\n\\[\n\\frac{ax}{b}=c\n\\]\n\nis given, the variable **x** is sitting in the numerator of a fraction that itself is divided by another number (**b**).  To isolate **x** it is convenient to get rid of the \u201cnested\u201d fraction\u2014that is, to make **x** appear alone on one side of the equation, not hidden inside a denominator.\n\nTaking the reciprocal of both sides does exactly that:\n\n\\[\n\\frac{b}{ax}= \\frac{1}{c}.\n\\]\n\nNow **x** is in the denominator of the left\u2011hand side, but the whole left\u2011hand side is a single fraction whose numerator is just the constant **b**.  This form is easier to manipulate because we can now multiply both sides by **ax** (or, equivalently, multiply by **a** and then divide by **b**) to bring **x** out of the denominator:\n\n\\[\nb = \\frac{ax}{c}\\quad\\Longrightarrow\\quad b\\;c = a x.\n\\]\n\nFinally, dividing both sides by **a** yields the solution\n\n\\[\nx = \\frac{b\\,c}{a}.\n\\]\n\nIn short, taking the reciprocal moves the variable **x** from being buried inside a fraction to a position where ordinary multiplication or division can free it.  This step is therefore a useful \u201cshortcut\u201d that clears the nested division and sets up the final, straightforward isolation of **x**."
+    },
+    {
+      "question_number": 4,
+      "question": "Solve for x: -x/4 = 8.",
+      "student_answer": "The equation is  \n\n\\[\n-\\frac{x}{4}=8.\n\\]\n\nMultiply both sides by\u202f4 to isolate the term with \\(x\\):\n\n\\[\n-x = 8 \\times 4 = 32.\n\\]\n\nNow multiply by \\(-1\\) (or simply change the sign) to solve for \\(x\\):\n\n\\[\nx = -32.\n\\]\n\n\\[\n\\boxed{-32}\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "Given the equation -5x/2 = 10, demonstrate the process of removing the negative coefficient and solving for x.",
+      "student_answer": "**Step\u2011by\u2011step solution**\n\nThe equation is  \n\n\\[\n-\\frac{5x}{2}=10 .\n\\]\n\nOur goal is to \u201cremove the negative coefficient\u201d (the \\(-5\\)) and then solve for \\(x\\).\n\n---\n\n### 1. Clear the fraction  \n\nMultiply both sides of the equation by the denominator \\(2\\) so that the fraction disappears:\n\n\\[\n2\\left(-\\frac{5x}{2}\\right)=2\\cdot 10\n\\qquad\\Longrightarrow\\qquad\n-5x = 20 .\n\\]\n\nNow the equation is free of fractions, but it still has the negative coefficient \\(-5\\) in front of \\(x\\).\n\n---\n\n### 2. Remove the negative coefficient  \n\nTo get rid of the \\(-5\\), divide **both** sides by \\(-5\\) (or equivalently multiply by \\(-\\frac{1}{5}\\)):\n\n\\[\n\\frac{-5x}{-5}= \\frac{20}{-5}\n\\qquad\\Longrightarrow\\qquad\nx = -4 .\n\\]\n\n---\n\n### 3. Check the solution  \n\nPlug \\(x = -4\\) back into the original equation:\n\n\\[\n-\\frac{5(-4)}{2}= -\\frac{-20}{2}= \\frac{20}{2}=10,\n\\]\n\nwhich matches the right\u2011hand side. Hence the solution is correct.\n\n---\n\n\\[\n\\boxed{x = -4}\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "Why is it important to isolate x after removing the negative coefficient in an equation like -ax/b = c?",
+      "student_answer": "Isolating\u202f\\(x\\) after you have removed the negative coefficient is the final step that actually gives you the solution of the equation.  \n\n1. **Eliminates the sign error.**  \n   When the equation starts as \\(-\\frac{a x}{b}=c\\) the \u201c\u2011\u201d in front of the fraction means that whatever value you eventually compute for \\(\\frac{a x}{b}\\) must be the opposite of\u202f\\(c\\). By multiplying both sides by \\(-1\\) (or moving the minus sign to the other side) you convert the equation to a form without a leading negative, e.g. \\(\\frac{a x}{b} = -c\\). This step prevents you from accidentally keeping the wrong sign when you solve for\u202f\\(x\\).\n\n2. **Reduces the equation to a simple linear form.**  \n   Once the negative sign is gone, the equation is just a standard linear equation \\(\\frac{a x}{b}= -c\\). At this point you can apply the usual \u201cundo\u2011the\u2011operations\u201d steps (multiply by\u202f\\(b\\), then divide by\u202f\\(a\\)) to get \\(x\\) by itself:\n   \\[\n   a x = -c b \\quad\\Longrightarrow\\quad x = \\frac{-c b}{a}.\n   \\]\n   Isolating\u202f\\(x\\) makes the relationship between the known quantities (\\(a, b, c\\)) and the unknown (\\(x\\)) explicit.\n\n3. **Ensures a unique, interpretable answer.**  \n   In algebra, the goal is to express the unknown variable in terms of the known constants. If you stopped after removing the negative sign but left \\(x\\) multiplied by other factors, you would still have an expression that depends on \\(x\\) and you couldn\u2019t read off its value. Isolating \\(x\\) gives a single, clear numerical (or algebraic) expression for the solution.\n\n4. **Prevents propagation of errors in later steps.**  \n   Many problems involve plugging the solved value of \\(x\\) into other equations or using it in a word\u2011problem context. If the variable isn\u2019t fully isolated, you risk carrying along extraneous factors or the wrong sign into subsequent calculations, which can lead to incorrect final results.\n\nIn short, after you have taken care of the negative coefficient, isolating\u202f\\(x\\) completes the solving process: it removes any remaining operations attached to \\(x\\), gives you the exact value (or expression) for \\(x\\), and safeguards against sign\u2011related mistakes that could otherwise distort the solution."
+    },
+    {
+      "question_number": 7,
+      "question": "Rewrite the equation -7x/3 = 21 in terms of x by eliminating the negative coefficient and simplifying.",
+      "student_answer": "First eliminate the negative sign by multiplying both sides by \\(-1\\):\n\n\\[\n\\frac{7x}{3}= -21\n\\]\n\nNow clear the fraction by multiplying both sides by\u202f3:\n\n\\[\n7x = -63\n\\]\n\nFinally, solve for \\(x\\) by dividing by\u202f7:\n\n\\[\n\\boxed{x = -9}\n\\]"
+    },
+    {
+      "question_number": 8,
+      "question": "If ax/b = c, explain the sequence of steps to isolate x using the reciprocal property.",
+      "student_answer": "To isolate\u202f\\(x\\) from  \n\n\\[\n\\frac{a x}{b}=c,\n\\]\n\nwe use the reciprocal (or \u201cinverse\u201d) property together with the basic inverse operations (multiplication \u2194 division).  \nThe sequence is:\n\n1. **Clear the denominator \\(b\\).**  \n   Multiply both sides of the equation by the reciprocal of \\(\\tfrac{1}{b}\\), i.e. by \\(b\\).  \n   \\[\n   b\\;\\cdot\\;\\frac{a x}{b}=b\\;\\cdot\\;c\n   \\qquad\\Longrightarrow\\qquad\n   a x = b c .\n   \\]\n\n2. **Isolate the coefficient \\(a\\) that is attached to \\(x\\).**  \n   Multiply both sides by the reciprocal of \\(\\tfrac{1}{a}\\), which is \\( \\frac{1}{a}\\) (or equivalently, divide by \\(a\\)).  \n   \\[\n   \\frac{1}{a}\\;\\cdot\\;(a x)=\\frac{1}{a}\\;\\cdot\\;(b c)\n   \\qquad\\Longrightarrow\\qquad\n   x = \\frac{b c}{a}.\n   \\]\n\n3. **Write the final solved form.**  \n   \\[\n   \\boxed{\\,x = \\dfrac{b\\,c}{a}\\,}.\n   \\]\n\n**Why the reciprocal property works:**  \nWhen you multiply an expression by a number and then immediately multiply it by that number\u2019s reciprocal (e.g., \\(b\\) then \\(\\frac{1}{b}\\)), the two operations cancel each other out, leaving the original quantity unchanged. Using this idea lets us \u201cundo\u201d the division by \\(b\\) and the multiplication by \\(a\\) in a systematic way, arriving at \\(x\\) alone on one side of the equation."
+    },
+    {
+      "question_number": 9,
+      "question": "For the equation -x/6 = -12, solve for x by removing the negative coefficient and simplifying.",
+      "student_answer": "To eliminate the negative coefficient, first multiply both sides of the equation by \\(-1\\):\n\n\\[\n-x/6 = -12 \\;\\;\\Longrightarrow\\;\\; \\frac{x}{6}=12\n\\]\n\nNow clear the denominator by multiplying both sides by \\(6\\):\n\n\\[\n\\frac{x}{6}\\times 6 = 12 \\times 6 \\;\\;\\Longrightarrow\\;\\; x = 72\n\\]\n\n\\[\n\\boxed{\\,x = 72\\,}\n\\]"
+    },
+    {
+      "question_number": 10,
+      "question": "Describe how the concept of reciprocal is applied to solve equations like -ax/b = c. Provide an example.",
+      "student_answer": "**Using the reciprocal to isolate the variable**\n\nWhen an equation has the variable multiplied by a fraction, the quickest way to get the variable by itself is to *multiply both sides by the reciprocal* of that fraction.  \n\nFor an equation of the form  \n\n\\[\n-\\frac{a\\,x}{b}=c,\n\\]\n\nthe coefficient that is attached to \\(x\\) is \\(-\\dfrac{a}{b}\\).  \nThe reciprocal of \\(-\\dfrac{a}{b}\\) is \\(-\\dfrac{b}{a}\\) (the numerator and denominator are swapped, and the sign stays the same because the reciprocal of a negative number is also negative).\n\nMultiplying each side of the equation by this reciprocal gives\n\n\\[\n\\left(-\\frac{b}{a}\\right)\\!\\left(-\\frac{a\\,x}{b}\\right)=\\left(-\\frac{b}{a}\\right)c.\n\\]\n\nOn the left\u2011hand side the fractions cancel:\n\n\\[\nx = -\\frac{b\\,c}{a}.\n\\]\n\nThus the solution is  \n\n\\[\n\\boxed{x = -\\dfrac{b\\,c}{a}}.\n\\]\n\n---\n\n### Example\n\nSolve \\(-\\dfrac{4x}{7}=5\\).\n\n1. Identify the coefficient of \\(x\\): \\(-\\dfrac{4}{7}\\).  \n2. Write its reciprocal: \\(-\\dfrac{7}{4}\\).  \n3. Multiply both sides by the reciprocal:\n\n\\[\n\\left(-\\frac{7}{4}\\right)\\!\\left(-\\frac{4x}{7}\\right)=\\left(-\\frac{7}{4}\\right)5.\n\\]\n\n4. Simplify the left side (the \\(-4\\) and \\(-7\\) cancel):\n\n\\[\nx = -\\frac{7\\cdot5}{4} = -\\frac{35}{4}.\n\\]\n\nSo the solution is  \n\n\\[\n\\boxed{x = -\\dfrac{35}{4}}.\n\\]\n\nThe key step was using the reciprocal \\(-\\dfrac{7}{4}\\) to \u201cundo\u2019\u2019 the fraction that was multiplied by \\(x\\). This technique works for any equation of the form \\(-ax/b = c\\)."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 350.0,
+    "num_attempts": 11,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 54.94252419471741,
+    "total_time": 56.86327385902405
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "student_id": "205",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify number of equal divisions (vertical bar)",
+  "concept_id": "31",
+  "original_accuracy": 0.75,
+  "roleplay_accuracy": 0.8,
+  "deviation": 0.05,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a solid understanding of how vertical bars divide shapes into equal sections, correctly applying the formula of bars + 1 in most cases. However, there were mistakes in the answers for Questions 2 and 3, indicating a misunderstanding of the division process with multiple bars. Overall, the student shows good comprehension of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "How many equal divisions are created if you place 1 vertical bar in a rectangle?",
+      "student_answer": "Placing a single vertical bar inside a rectangle divides it into **2 equal parts**."
+    },
+    {
+      "question_number": 2,
+      "question": "What is the total number of equal sections formed by 2 vertical bars evenly placed in a square?",
+      "student_answer": "The two evenly\u2011spaced vertical bars divide the square into **3 equal sections**."
+    },
+    {
+      "question_number": 3,
+      "question": "If 3 vertical bars are placed evenly in a grid, how many equal divisions will be formed?",
+      "student_answer": "The three vertical bars will divide the grid into **4 equal sections**."
+    },
+    {
+      "question_number": 4,
+      "question": "Describe the process to determine the number of equal divisions when using 4 vertical bars in a rectangular shape.",
+      "student_answer": "**Step\u2011by\u2011step process**\n\n1. **Identify the rectangle\u2019s total width** \u2013 Measure (or note) the full horizontal length of the rectangle from the left edge to the right edge.\n\n2. **Count the vertical bars** \u2013 In this case there are **4** separate vertical bars drawn inside the rectangle.\n\n3. **Add one to the count of bars** \u2013 The bars split the rectangle into sections *between* the bars *and* the two outer edges.  \n   \\[\n   \\text{Number of equal divisions} = \\text{Number of bars} + 1 = 4 + 1 = 5\n   \\]\n\n4. **Calculate the width of each division** \u2013 Divide the total width of the rectangle by the number of divisions you just found:\n   \\[\n   \\text{Division width} = \\frac{\\text{Total width}}{5}\n   \\]\n\n5. **Check the spacing** \u2013 Verify that the distance from the left edge to the first bar, the gaps between successive bars, and the distance from the last bar to the right edge are all equal to the division width you calculated. If any gap differs, the bars are not equally spaced and the process must be repeated after adjusting the bars.\n\n6. **Label the divisions (optional)** \u2013 You may now label the five equal parts (e.g., 1,\u202f2,\u202f3,\u202f4,\u202f5) to make it clear that each section is the same size.\n\n**Summary**  \nWith 4 vertical bars placed inside a rectangle, the rectangle is divided into **5 equal vertical sections** (bars\u202f+\u202f1). The key is to measure the whole width, add one to the bar count, divide, and then confirm that each segment matches the computed width."
+    },
+    {
+      "question_number": 5,
+      "question": "If a rectangle is divided by 5 evenly spaced vertical bars, how many equal sections are formed?",
+      "student_answer": "6 equal sections."
+    },
+    {
+      "question_number": 6,
+      "question": "Explain why placing 6 vertical bars in a rectangle results in 7 equal divisions.",
+      "student_answer": "When a rectangle is divided by vertical bars, each bar acts like a \u201cwall\u201d that separates one part of the rectangle from the next.  \n\n1. **Start with no bars.** The whole rectangle is a single region.  \n2. **Add the first vertical bar.** The bar splits the rectangle into two parts, so we now have\u202f2\u202fregions.  \n3. **Add a second vertical bar.** It cuts one of the existing regions into two, raising the total count to\u202f3.  \n\nEach additional vertical bar always creates one more region because it inserts a new separation line between two existing regions. In other words, the number of pieces after placing *n* bars is:\n\n\\[\n\\text{Number of divisions} = n + 1\n\\]\n\nSo when we place **6 vertical bars** in the rectangle, we get:\n\n\\[\n6 \\text{ bars} + 1 = 7 \\text{ equal divisions}.\n\\]\n\nThe divisions are equal because the bars are spaced evenly across the rectangle; the distance between any two neighboring bars (or between a bar and the rectangle\u2019s edge) is the same. Thus the rectangle is divided into **seven** congruent vertical strips."
+    },
+    {
+      "question_number": 7,
+      "question": "How does the number of vertical bars relate to the total number of equal divisions in a given shape?",
+      "student_answer": "The vertical bars are the \u201ccut\u2011lines\u201d that split the shape into equal parts.  \nEach bar you draw creates a new piece on the right side of the previous piece, so the total number of equal sections is one more than the number of bars you have drawn.\n\n**In formula form**\n\n\\[\n\\text{Number of equal divisions} = \\text{Number of vertical bars} + 1\n\\]\n\n**Why?**  \n- If you draw **no** bars, the whole shape is just one undivided piece.  \n- Draw **one** bar \u2192 the shape is split into two pieces.  \n- Draw **two** bars \u2192 three pieces, and so on.\n\nSo, for any shape that is divided only by vertical bars, just count the bars and add one to get the total number of equal divisions. (If the bars themselves are counted as divisions rather than the spaces between them, you would simply use the bar count; most textbooks use the \u201cbars\u202f+\u202f1\u201d convention.)"
+    },
+    {
+      "question_number": 8,
+      "question": "A rectangle has been divided into 8 equal parts. How many vertical bars were used to achieve this?",
+      "student_answer": "The rectangle is split into 8 equal parts.  \nTo get *n* equal sections with vertical bars, you need one fewer bar than the number of sections (since the bars are the boundaries between the sections).\n\n\\[\n\\text{Number of bars} = n - 1 = 8 - 1 = 7\n\\]\n\n**Answer: 7 vertical bars**."
+    },
+    {
+      "question_number": 9,
+      "question": "Illustrate with an example how placing 10 vertical bars in a square creates multiple equal divisions.",
+      "student_answer": "**Example**\n\n1. **Start with a square** \u2013 imagine a plain square that is 10\u202fcm wide and 10\u202fcm tall.\n\n2. **Draw 10 vertical bars** \u2013 place 10 thin, straight vertical lines (bars) inside the square so that the distance from the left\u2011hand edge of the square to the first bar, the distance between each pair of adjacent bars, and the distance from the last bar to the right\u2011hand edge are all the same.\n\n3. **Resulting divisions** \u2013 because the 10 bars are equally spaced, the square is split into **10 equal vertical columns**.  \n   - Each column is \\( \\frac{10\\text{\u202fcm}}{10}=1\\text{\u202fcm} \\) wide.  \n   - All 10 columns have the same height (the full 10\u202fcm of the square) and the same width (1\u202fcm), so every piece is identical in size and shape.\n\n4. **Why this works** \u2013 the equally\u2011spaced bars act as \u201cwalls\u201d that partition the original region. When the spacing is uniform, each region between two successive bars (or between a bar and the square\u2019s edge) must have the same width, giving you a set of equal divisions.\n\n**Illustration (textual diagram)**  \n\n```\n|---|---|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|\n```\n\n- The vertical lines (`|`) are the 10 bars.  \n- The spaces between them are the 10 equal vertical strips (each 1\u202fcm wide in this example).\n\nThus, by placing 10 equally spaced vertical bars inside a square, you create **10 identical, equally\u2011sized vertical divisions**."
+    },
+    {
+      "question_number": 10,
+      "question": "If a student places 12 vertical bars on a rectangle, what formula can be used to calculate the number of equal divisions formed?",
+      "student_answer": "When the bars are placed as equally\u2011spaced vertical lines inside the rectangle, each new bar adds one more region.  \nIf **\\(n\\)** is the number of vertical bars, the number of equal vertical divisions **\\(D\\)** is\n\n\\[\n\\boxed{D = n + 1}\n\\]\n\nSo for 12 vertical bars, the rectangle is divided into \\(12 + 1 = 13\\) equal sections."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 5.983333333333333,
+    "num_attempts": 8,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 31.456334352493286,
+    "total_time": 33.0504047870636
+  }
+}

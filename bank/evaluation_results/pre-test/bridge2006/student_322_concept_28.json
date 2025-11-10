@@ -1,0 +1,86 @@
+{
+  "student_id": "322",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "List factor of large number",
+  "concept_id": "28",
+  "original_accuracy": 1.0,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.0,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of factors, including definitions, examples, and methods for finding factors. All answers are correct, showing a comprehensive grasp of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is a factor of a number?",
+      "student_answer": "A factor (also called a divisor) of a number is an integer that divides the number evenly\u2014i.e., when you divide the original number by that integer, the result is an integer with no remainder. For example, 3 is a factor of 12 because\u202f12 \u00f7\u202f3\u202f=\u202f4, which is an integer."
+    },
+    {
+      "question_number": 2,
+      "question": "List all the factors of 36.",
+      "student_answer": "The positive factors of 36 are:\n\n**1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f9,\u202f12,\u202f18,\u202f36**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain how to determine if a number is a factor of another number.",
+      "student_answer": "To find out whether a number\u202f\\(d\\)\u202fis a factor (or divisor) of another number\u202f\\(n\\), you need to check if\u202f\\(n\\)\u202fcan be divided by\u202f\\(d\\)\u202fwithout leaving any remainder.  \n\nHere\u2019s a step\u2011by\u2011step method:\n\n1. **Identify the two numbers**  \n   - Let\u202f\\(d\\)\u202fbe the candidate factor.  \n   - Let\u202f\\(n\\)\u202fbe the number you are testing.\n\n2. **Perform the division**  \n   Compute the quotient \\(q\\) and the remainder \\(r\\) when \\(n\\) is divided by \\(d\\):\n   \\[\n   n = d \\times q + r\n   \\]\n   You can obtain \\(q\\) and \\(r\\) by:\n   - Long division, or\n   - Using a calculator\u2019s \u201cmod\u201d (modulus) function, which directly gives the remainder \\(r = n \\bmod d\\).\n\n3. **Check the remainder**  \n   - If the remainder \\(r = 0\\), then \\(d\\) divides \\(n\\) exactly, so **\\(d\\) is a factor of \\(n\\)**.  \n   - If \\(r \\neq 0\\), then there is a leftover amount, so **\\(d\\) is **not** a factor of \\(n\\)**.\n\n4. **Optional quick checks** (useful for common small factors):\n   - **Factor 2**: \\(n\\) is even (its last digit is 0,\u202f2,\u202f4,\u202f6,\u202for\u202f8).  \n   - **Factor 5**: \\(n\\)\u2019s last digit is 0 or 5.  \n   - **Factor 3**: Sum of the digits of \\(n\\) is divisible by 3.  \n   - **Factor 9**: Sum of the digits of \\(n\\) is divisible by 9.  \n   - **Factor 10**: \\(n\\) ends in 0.  \n\nThese shortcuts can tell you instantly that certain numbers are not factors, saving you a full division.\n\n### Example\nIs 12 a factor of 84?\n\n1. Divide 84 by 12: \\(84 \u00f7 12 = 7\\) with remainder 0.  \n2. Since the remainder is 0, **12 is a factor of 84**.\n\n### Summary\nA number \\(d\\) is a factor of \\(n\\) exactly when the remainder after dividing \\(n\\) by \\(d\\) is zero. Checking the remainder (or using modular arithmetic) gives a definitive answer."
+    },
+    {
+      "question_number": 4,
+      "question": "Find all the factors of 120 and identify the smallest and largest factors.",
+      "student_answer": "**Factors of 120**\n\nThe positive integers that divide 120 exactly are:\n\n\\[\n1,\\;2,\\;3,\\;4,\\;5,\\;6,\\;8,\\;10,\\;12,\\;15,\\;20,\\;24,\\;30,\\;40,\\;60,\\;120\n\\]\n\n**Smallest factor:** \\(1\\)\n\n**Largest factor:** \\(120\\)"
+    },
+    {
+      "question_number": 5,
+      "question": "If a number has factors 1, 2, 4, 8, and 16, what is the number?",
+      "student_answer": "The number is **16**."
+    },
+    {
+      "question_number": 6,
+      "question": "What is the difference between prime factors and regular factors of a number?",
+      "student_answer": "**Prime factors** are the *prime* numbers that multiply together to produce the given number.  \n- A prime number has no divisors other than\u202f1 and itself.  \n- When you factor a number completely, you break it down until every factor is prime; those primes are the prime factors (often listed with their multiplicities, e.g.,\u202f\\(60 = 2^2 \\cdot 3 \\cdot 5\\); the prime factors are\u202f2,\u202f3,\u202f5).\n\n**Regular (or ordinary) factors** are *any* positive integers that divide the number evenly, without leaving a remainder.  \n- They can be prime or composite, and they include 1 and the number itself.  \n- For example, the regular factors of\u202f60 are\u202f1,\u202f2,\u202f3,\u202f4,\u202f5,\u202f6,\u202f10,\u202f12,\u202f15,\u202f20,\u202f30,\u202f60.\n\nIn short, prime factors are the building\u2011block primes that multiply to the number, while regular factors are all the numbers that fit exactly into the original number."
+    },
+    {
+      "question_number": 7,
+      "question": "How can you use divisibility rules to efficiently list factors of a large number?",
+      "student_answer": "**Using divisibility rules to list factors efficiently**\n\nDivisibility rules let you decide quickly whether a small integer divides a large number without doing full division. By applying these rules systematically, you can eliminate many candidates and concentrate only on numbers that actually divide the target. Here\u2019s a step\u2011by\u2011step approach.\n\n---\n\n### 1.\u202fWrite the prime\u2011factorisation (if known) or start with the smallest primes\nIf you already know the prime factorisation of the large number \\(N\\), you can generate **all** factors directly (see the \u201cprime\u2011exponent method\u201d below). When the factorisation is unknown, begin testing the smallest primes using their divisibility rules:\n\n| Prime | Divisibility rule |\n|-------|-------------------|\n| 2     | Last digit even (0,\u202f2,\u202f4,\u202f6,\u202f8) |\n| 3     | Sum of digits divisible by\u202f3 |\n| 5     | Last digit 0 or\u202f5 |\n| 7     | Double the last digit, subtract from the rest; repeat (or use modular tricks) |\n| 11    | Alternating sum of digits (add\u2011subtract\u2011add\u2026) is a multiple of\u202f11 |\n| 13    | (More elaborate, but you can also use \\(10a + b \\equiv 0 \\pmod{13}\\) tricks) |\n\nApply each rule; whenever the rule is satisfied, divide \\(N\\) by that prime (or record the prime as a factor) and continue with the quotient.  \n\n**Example:**  \n\\(N = 9\\,852\\)  \n- Last digit is even \u2192 divisible by\u202f2 \u2192 \\(9\u202f852 \u00f7 2 = 4\u202f926\\).  \n- Sum of digits of 4\u202f926 = 4+9+2+6 =\u202f21 \u2192 divisible by\u202f3 \u2192 \\(4\u202f926 \u00f7 3 = 1\u202f642\\).  \n- 1\u202f642 ends in 2 \u2192 divisible by\u202f2 again \u2192 \\(1\u202f642 \u00f7 2 = 821\\).  \n\nNow we have \\(N = 2^2\u00b73\u00b7821\\). (821 is prime, which you can verify quickly with the rules for 7,\u202f11,\u202f13, etc.)\n\n---\n\n### 2.\u202fBuild the full factor\u2011set from the prime powers\nIf the prime factorisation is  \n\n\\[\nN = p_1^{e_1}\\,p_2^{e_2}\\,\\dots p_k^{e_k},\n\\]\n\nevery factor is obtained by choosing an exponent \\(a_i\\) for each prime where \\(0\\le a_i\\le e_i\\).  \n\nThe total number of factors is \\((e_1+1)(e_2+1)\\dots(e_k+1)\\).  \n\n**Generating the list:**  \nCreate all combinations \\((a_1,a_2,\\dots,a_k)\\) and compute  \n\n\\[\nf = p_1^{a_1} p_2^{a_2}\\dots p_k^{a_k}.\n\\]\n\nSort the resulting values if a ordered list is desired.\n\n**Example continuation:**  \n\\(N = 2^2\u00b73^1\u00b7821^1\\).  \n\nPossible exponents:  \n- For 2: 0,\u202f1,\u202f2  \n- For 3: 0,\u202f1  \n- For 821: 0,\u202f1  \n\nAll \\(3\u00b72\u00b72 = 12\\) factors are\n\n\\[\n\\begin{aligned}\n&1,\\;2,\\;4,\\;3,\\;6,\\;12,\\\\\n&821,\\;1642,\\;3284,\\;2463,\\;4926,\\;9852.\n\\end{aligned}\n\\]\n\n---\n\n### 3.\u202fUse \u201cpaired\u201d factor shortcuts\nEvery factor \\(d\\) of \\(N\\) has a complementary factor \\(N/d\\). Once you have found a factor less than \\(\\sqrt{N}\\), you instantly know the larger partner. This halves the work:\n\n- **Step:** Test divisibility only up to \\(\\lfloor\\sqrt{N}\\rfloor\\).  \n- **Result:** For each divisor \\(d\\le\\sqrt{N}\\) you record both \\(d\\) and \\(N/d\\).\n\n**Why divisibility rules help:**  \nInstead of performing a full division for every integer up to \\(\\sqrt{N}\\), you first apply cheap digit\u2011based tests (2,\u202f3,\u202f5,\u202f11, etc.) to discard non\u2011candidates. Only the survivors undergo an actual division.\n\n---\n\n### 4.\u202fCombine with modular shortcuts for larger primes\nFor primes beyond 13, simple digit rules become cumbersome. Use modular arithmetic:\n\n- Compute \\(N \\bmod p\\) for each prime \\(p\\) you wish to test (you can do this quickly by processing the number digit\u2011by\u2011digit).  \n- If the remainder is 0, \\(p\\) divides \\(N\\).\n\nBecause modular reductions are linear, you can test many primes in one pass with a small table of remainders.\n\n---\n\n### 5.\u202fPractical workflow for a \u201clarge\u201d number (e.g., 8\u2011digit or more)\n\n1. **Quick scan** using rules for 2,\u202f3,\u202f5,\u202f7,\u202f11,\u202f13.  \n2. **Divide out** any confirmed small primes, updating the current quotient.  \n3. **Compute \\(\\sqrt{\\text{quotient}}\\)** after each division; this reduces the range you still need to test.  \n4. **Apply modular testing** for the next batch of primes (17,\u202f19,\u202f23,\u202f29,\u2026).  \n5. **Stop** when the quotient is 1 (full factorisation) or when the next prime exceeds the current \\(\\sqrt{\\text{quotient}}\\).  \n6. **Generate the factor list** using the exponent\u2011combination method described in step\u202f2.\n\n---\n\n### 6.\u202fSummary of benefits\n- **Speed:** Digit\u2011based rules are O(number\u2011of\u2011digits) vs. O(number) for trial division.  \n- **Early elimination:** Most non\u2011factors are discarded before any division.  \n- **Reduced search space:** Once small primes are removed, the remaining quotient is much smaller, so the \\(\\sqrt{N}\\) bound shrinks dramatically.  \n- **Complete factor list:** Knowing the prime factorisation guarantees you can list *every* factor without missing any.\n\nBy integrating divisibility rules with the paired\u2011factor insight and the exponent\u2011combination method, you can list all factors of even a very large integer efficiently and confidently."
+    },
+    {
+      "question_number": 8,
+      "question": "List all the factors of 72 and classify them as odd or even.",
+      "student_answer": "**Factors of 72**\n\nThe positive integer factors of\u202f72 are:\n\n\\[\n1,\\;2,\\;3,\\;4,\\;6,\\;8,\\;9,\\;12,\\;18,\\;24,\\;36,\\;72\n\\]\n\n**Classification**\n\n| Factor | Odd / Even |\n|--------|------------|\n| 1      | Odd |\n| 2      | Even |\n| 3      | Odd |\n| 4      | Even |\n| 6      | Even |\n| 8      | Even |\n| 9      | Odd |\n| 12     | Even |\n| 18     | Even |\n| 24     | Even |\n| 36     | Even |\n| 72     | Even |\n\nSo, the odd factors are **1,\u202f3,\u202f9** and all the remaining factors are even."
+    },
+    {
+      "question_number": 9,
+      "question": "A number has the factors 1, 3, 9, 27, and 81. What is the number, and why?",
+      "student_answer": "**Answer:\u202f81**\n\n**Why?**\n\nThe listed factors are  \n\n\\[\n1 = 3^{0},\\; 3 = 3^{1},\\; 9 = 3^{2},\\; 27 = 3^{3},\\; 81 = 3^{4}.\n\\]\n\nIf a number is a power of a prime\u202f\\(p\\), say \\(p^{k}\\), then **all** of its positive divisors are exactly the powers \\(p^{0}, p^{1}, \\dots , p^{k}\\).\n\nSince the only given factors are the successive powers of\u202f3 from \\(3^{0}\\) to \\(3^{4}\\), the number must be \\(3^{4}=81\\).  \n\nIndeed, the complete factor list of 81 is \\(\\{1,3,9,27,81\\}\\); no other positive integer has exactly these five factors. Hence the number is **81**."
+    },
+    {
+      "question_number": 10,
+      "question": "Explain why 1 is a factor of every number while the number itself is always its largest factor.",
+      "student_answer": "A **factor** (or divisor) of an integer\u202f\\(n\\) is any integer\u202f\\(d\\) for which there exists another integer\u202f\\(k\\) such that  \n\n\\[\nn = d \\times k .\n\\]\n\n---\n\n### 1 is a factor of every integer  \n\nTake any integer\u202f\\(n\\).  If we choose \\(d = 1\\), then we can let \\(k = n\\) because  \n\n\\[\nn = 1 \\times n .\n\\]\n\nSince both \\(1\\) and \\(n\\) are integers, the definition of \u201cfactor\u201d is satisfied.  \nThus\u202f\\(1\\) divides every integer, i.e., \\(1\\) is a factor of every number.\n\n---\n\n### The number itself is its largest factor  \n\nAgain let \\(n\\) be a positive integer.  The equation  \n\n\\[\nn = n \\times 1\n\\]\n\nshows that \\(n\\) divides itself (with \\(k = 1\\)).  Any other positive factor \\(d\\) of \\(n\\) must satisfy  \n\n\\[\nn = d \\times k \\quad\\text{with}\\; k \\ge 1.\n\\]\n\nBecause \\(k\\) is an integer at least \\(1\\), we have  \n\n\\[\nd = \\frac{n}{k} \\le \\frac{n}{1} = n .\n\\]\n\nThe inequality is strict whenever \\(k > 1\\); therefore every other positive factor is **less than or equal to** \\(n\\).  Consequently, \\(n\\) is the greatest (largest) positive factor of itself.\n\n---\n\n#### Summary  \n\n* **1** is a factor of any integer because any number can be written as \\(1\\) times itself.  \n* The **number itself** is always a factor (by \\(n = n \\times 1\\)) and no other positive factor can exceed it, making it the largest factor.  \n\nThese facts are immediate consequences of the definition of a factor/divisor."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 0.05,
+    "num_attempts": 11,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 47.29927730560303,
+    "total_time": 48.74770402908325
+  }
+}

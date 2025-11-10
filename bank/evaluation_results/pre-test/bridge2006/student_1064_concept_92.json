@@ -1,0 +1,86 @@
+{
+  "student_id": "1064",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify whole number lower bound",
+  "concept_id": "92",
+  "original_accuracy": 1.0,
+  "roleplay_accuracy": 0.9,
+  "deviation": -0.1,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of whole number lower bounds, correctly identifying them in various contexts and providing clear explanations. The only incorrect answer was for Question 4, where the student mistakenly identified the lower bound of a negative number. Overall, the student shows good comprehension of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the whole number lower bound of 15.8?",
+      "student_answer": "The whole number lower bound of\u202f15.8\u202fis **15**."
+    },
+    {
+      "question_number": 2,
+      "question": "If a decimal number is 23.45, what is its whole number lower bound?",
+      "student_answer": "The whole number lower bound (the greatest integer that is less than or equal to the number) for\u202f23.45\u202fis **23**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the concept of a whole number lower bound in your own words.",
+      "student_answer": "A **whole\u2011number lower bound** is the smallest whole number (i.e., a non\u2011negative integer) that is guaranteed to be less than or equal to the exact value of a quantity we\u2019re estimating or measuring.\n\nIn other words, if we don\u2019t know the precise number but we can be sure that the true value can\u2019t be smaller than a certain whole number, that whole number is the lower bound. It \u201cbounds\u201d the value from below, ensuring the actual amount is at least that big (or possibly larger).\n\n**Example:**  \nSuppose a jar contains \u201cmore than 47 marbles.\u201d We may not know the exact count, but we can confidently say that the number of marbles is at least 48. Here, 48 is a whole\u2011number lower bound for the marble count.\n\nThe concept is useful when we need a safe, conservative estimate that will never underestimate the true quantity."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the whole number lower bound of -7.3?",
+      "student_answer": "The whole number lower bound of \\(-7.3\\) is \\(-8\\)."
+    },
+    {
+      "question_number": 5,
+      "question": "Is the whole number lower bound of 9.99 equal to 10? Why or why not?",
+      "student_answer": "**Answer:** No.  \n\n**Explanation:** The whole\u2011number lower bound (the greatest whole number that is **not greater than** the given value) of a number is its \u201cfloor.\u201d  \nFor 9.99 we have  \n\n\\[\n9 \\le 9.99 < 10 .\n\\]\n\nThe largest whole number that satisfies the inequality \\( \\le 9.99 \\) is **9**, not 10. Therefore the whole\u2011number lower bound of 9.99 is 9."
+    },
+    {
+      "question_number": 6,
+      "question": "Determine the whole number lower bound for the square root of 50.",
+      "student_answer": "The square root of\u202f50 lies between the perfect squares\u202f49\u202fand\u202f64.\n\n\\[\n\\sqrt{49}=7 \\qquad \\text{and} \\qquad \\sqrt{64}=8\n\\]\n\nSince \\(50\\) is just a little larger than\u202f49, \\(\\sqrt{50}\\) is a little larger than\u202f7 but still less than\u202f8.  \nTherefore the greatest whole number that does not exceed \\(\\sqrt{50}\\) \u2013 i.e., the whole\u2011number lower bound \u2013 is:\n\n\\[\n\\boxed{7}\n\\]"
+    },
+    {
+      "question_number": 7,
+      "question": "If a number is -3.7, identify its whole number lower bound and explain your reasoning.",
+      "student_answer": "The whole\u2011number lower bound of \\(-3.7\\) is **\\(-4\\)**.\n\n**Reasoning**\n\nThe whole\u2011number lower bound (or floor) of a real number is the greatest integer that is *not greater* than the number.  \n- For \\(-3.7\\), the integers that are less than or equal to it are \\(\\ldots,-6,\\,-5,\\,-4\\).  \n- The largest of these integers is \\(-4\\).  \n\nTherefore, \\(-4\\) is the whole\u2011number lower bound of \\(-3.7\\)."
+    },
+    {
+      "question_number": 8,
+      "question": "What role does rounding play when determining the whole number lower bound of a number?",
+      "student_answer": "Rounding is the tool we use to \u201csnap\u201d a non\u2011integer number to the nearest whole number that does not exceed it.  \nWhen we need the whole\u2011number lower bound of a value, we round the value **down** (i.e., we take the floor). This process guarantees that the resulting integer is the greatest whole number that is still less than or equal to the original number, which is exactly what the lower bound requires."
+    },
+    {
+      "question_number": 9,
+      "question": "Find the whole number lower bound of 0.99 and justify your answer.",
+      "student_answer": "**Answer:**\u202f0  \n\n**Justification**\n\nThe whole\u2011number lower bound of a real number is the greatest whole number that is **not greater** than the given number (i.e., the floor function).\n\nFor \\(0.99\\):\n\n\\[\n0 \\le 0.99 < 1\n\\]\n\n- \\(0\\) is a whole number and satisfies \\(0 \\le 0.99\\).\n- The next whole number, \\(1\\), is **greater** than \\(0.99\\) (since \\(0.99 < 1\\)) and therefore cannot be a lower bound.\n\nThus the largest whole number that does not exceed \\(0.99\\) is \\(0\\). Hence the whole\u2011number lower bound of \\(0.99\\) is **0**."
+    },
+    {
+      "question_number": 10,
+      "question": "How is the whole number lower bound different from the ceiling of a number? Provide an example.",
+      "student_answer": "The **whole\u2011number lower bound** of a real number is the greatest whole (integer) that does not exceed the number.  \nIn other words, it is the *largest* integer **\u2264** the given value.  \nThis is exactly the **floor** function, written \\(\\lfloor x \\rfloor\\).\n\nThe **ceiling** of a number, written \\(\\lceil x \\rceil\\), is the smallest whole (integer) that is **not less than** the number.  \nThat is, it is the *smallest* integer **\u2265** the given value.\n\nSo the two concepts are opposite:\n\n| Real number \\(x\\) | Whole\u2011number lower bound (\\(\\lfloor x \\rfloor\\)) | Ceiling (\\(\\lceil x \\rceil\\)) |\n|-------------------|-----------------------------------------------|------------------------------|\n| 3.7               | 3                                             | 4                            |\n| \u20132.1              | \u20133                                            | \u20132                           |\n\n**Example**\n\nTake \\(x = 5.2\\).\n\n- The whole\u2011number lower bound is the greatest integer \u2264\u202f5.2, which is **5**.\n- The ceiling is the smallest integer \u2265\u202f5.2, which is **6**.\n\nThus the lower bound and the ceiling give the nearest whole numbers on opposite sides of the original number."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 4.433333333333334,
+    "num_attempts": 7,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 37.21530294418335,
+    "total_time": 38.35808730125427
+  }
+}

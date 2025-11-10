@@ -1,0 +1,86 @@
+{
+  "student_id": "1448",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "transformations-rotations",
+  "concept_id": "3",
+  "original_accuracy": 0.6666666666666665,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.23333333333333342,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of rotation transformations, accurately explaining concepts and applying them correctly in examples. The only minor issue was in Question 8, where the student incorrectly stated that the square's orientation changes, when it actually does not change in terms of congruence, just in visual appearance. Overall, the student shows a solid grasp of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is a rotation in geometry, and how does it differ from other transformations?",
+      "student_answer": "A rotation is a **rigid motion** that turns every point of a figure around a fixed point called the **center of rotation** through a specified angle.  The amount of turning is measured in degrees (or radians) and can be clockwise or counter\u2011clockwise.  Because it is a rigid motion, a rotation **preserves distances and angles**, so the shape and size of the figure stay exactly the same.\n\n**How it differs from the other basic transformations**\n\n| Transformation | What it does | What stays the same |\n|----------------|--------------|---------------------|\n| **Translation** | Slides the whole figure straight without turning it. | Distances, angles, and orientation are preserved. |\n| **Reflection** | Flips the figure across a line (the mirror line). | Distances and angles are preserved, but orientation is reversed. |\n| **Dilation (scaling)** | Expands or contracts the figure from a fixed center by a scale factor. | Angles are preserved, but distances (size) change. |\n| **Rotation** | Spins the figure around a center point. | Distances, angles, and (incorrectly) orientation **change** \u2013 it actually **preserves** orientation unlike a reflection. |\n\nSo, a rotation is unique because it **turns** the figure around a point rather than sliding it (translation), flipping it (reflection), or resizing it (dilation).  The key geometric properties\u2014 lengths and angles\u2014remain unchanged, just like in translations and reflections, but the overall direction of the figure is altered by the turning motion.  This distinguishes rotations from the other transformations."
+    },
+    {
+      "question_number": 2,
+      "question": "If a shape is rotated 90 degrees clockwise about the origin, what happens to the coordinates of its points?",
+      "student_answer": "When a figure is turned \\(90^\\circ\\) clockwise about the origin, each point \\((x,\\;y)\\) moves to a new position where the coordinates are swapped and the new\u202fx\u2011coordinate takes the old\u202fy\u2011value while the new\u202fy\u2011coordinate is the negative of the old\u202fx\u2011value.  \n\nIn other words:  \n\n\\[\n(x,\\;y)\\;\\longrightarrow\\;(y,\\,-x)\n\\]\n\nSo every point\u2019s coordinates are transformed by swapping the entries and changing the sign of the original\u202fx\u2011coordinate."
+    },
+    {
+      "question_number": 3,
+      "question": "Describe the characteristics that remain unchanged after a rotation transformation.",
+      "student_answer": "When a figure is rotated (about any point and through any angle) the transformation is **rigid** \u2013 it does not stretch, shrink or shear the figure.  \nBecause of that, the following characteristics stay exactly the same:\n\n* **Lengths of all segments** \u2013 the distance between any two points is preserved.  \n* **Angle measures** \u2013 interior angles of polygons and the angles between any two intersecting lines do not change.  \n* **Overall shape and size** \u2013 the figure after the rotation is congruent to the original one (same area, same perimeter).  \n* **Collinearity and parallelism** \u2013 points that were on the same line stay on a line, and lines that were parallel remain parallel because the angles between them are unchanged.  \n* **Orientation** \u2013 a rotation is an orientation\u2011preserving isometry, so the \u201chandedness\u2019\u2019 of the figure (clockwise vs. counter\u2011clockwise ordering of vertices) is kept.  \n* **The centre of rotation** \u2013 the point about which the rotation is performed remains fixed.\n\nIn short, distances, angles, shapes, areas, collinearity, parallelism and overall orientation are invariant under a rotation."
+    },
+    {
+      "question_number": 4,
+      "question": "A triangle has vertices at (2, 3), (5, 3), and (4, 6). Rotate it 180 degrees about the origin. What are the new coordinates of the vertices?",
+      "student_answer": "Rotating a point \\(180^\\circ\\) about the origin simply changes the sign of both its \\(x\\)\u2011 and \\(y\\)-coordinates:\n\n\\[\n(x,\\;y)\\;\\longrightarrow\\;(-x,\\;-y).\n\\]\n\nApplying this to each vertex:\n\n* \\((2,\\,3) \\;\\to\\; (-2,\\,-3)\\)\n* \\((5,\\,3) \\;\\to\\; (-5,\\,-3)\\)\n* \\((4,\\,6) \\;\\to\\; (-4,\\,-6)\\)\n\n**New coordinates of the triangle\u2019s vertices:**  \n\\[\n\\boxed{(-2,\\,-3),\\;(-5,\\,-3),\\;(-4,\\,-6)}\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "Explain how the direction (clockwise or counterclockwise) of a rotation affects the resulting position of a shape.",
+      "student_answer": "The direction you choose for a rotation tells you whether the angle is added or subtracted from the shape\u2019s original orientation.\n\n* **Clockwise (CW) rotation** \u2013\u202fThink of turning the shape the way a clock\u2019s hands move. In most mathematics conventions this is taken as a **negative** angle (\u2011\u03b8). So each point of the shape moves along a circular arc in the clockwise sense, ending up on the opposite side of where it would be after a positive (counter\u2011clockwise) turn of the same magnitude.\n\n* **Counter\u2011clockwise (CCW) rotation** \u2013\u202fThis is the opposite direction, the way the hands would move if the clock ran backwards. It is usually recorded as a **positive** angle (+\u03b8). Points travel along the same circular arcs but in the opposite direction, landing at positions that are mirror\u2011images of the clockwise case.\n\nBecause the two directions are opposite, a 30\u00b0 CW rotation puts the shape where a 30\u00b0 CCW rotation would put it after a full 360\u00b0\u201130\u00b0 = 330\u00b0 turn. In other words, the resulting position is the same as rotating the shape by the same magnitude in the opposite sense, just measured from the other side of the circle. If you forget which sign corresponds to which direction, you may end up placing the shape on the wrong side of the axis \u2013 a common slip for many students."
+    },
+    {
+      "question_number": 6,
+      "question": "How would you describe the rotation of a point (x, y) 90 degrees counterclockwise about the origin in terms of its new coordinates?",
+      "student_answer": "When a point \\((x,\\,y)\\) is rotated \\(90^\\circ\\) counter\u2011clockwise about the origin, its coordinates become  \n\n\\[\n\\boxed{(-y,\\;x)}.\n\\]"
+    },
+    {
+      "question_number": 7,
+      "question": "What is the difference between a rotation of 360 degrees and no rotation at all?",
+      "student_answer": "A 360\u00b0 rotation brings every point of the figure back to exactly the same place and orientation it had before the rotation. In other words, a full\u2011circle (360\u00b0) turn is *identical* to doing nothing at all\u2014the resulting configuration is the same as the original. So there is no practical difference between a 360\u00b0 rotation and no rotation."
+    },
+    {
+      "question_number": 8,
+      "question": "A square is rotated 45 degrees counterclockwise about its center. Will the square's orientation change? Why or why not?",
+      "student_answer": "Yes, the square\u2019s orientation will change.\n\nWhen you rotate a figure about its center, every point of the figure turns through the given angle. A square has four sides that are at right angles to each other. Rotating it by 45\u00b0 does not line the sides up with the original horizontal and vertical directions; instead the sides are now positioned halfway between those directions (the square looks like a \u201cdiamond\u201d relative to its original position). \n\nOnly rotations that are multiples of 90\u00b0 (the symmetry angles of a square) would bring the square back to an orientation that matches its original one. Since 45\u00b0 is not a multiple of 90\u00b0, the square\u2019s orientation changes after the rotation."
+    },
+    {
+      "question_number": 9,
+      "question": "If a rotation is performed about a point other than the origin, how does this affect the outcome of the transformation?",
+      "student_answer": "Rotating a figure about a point that is **not** the origin simply changes the \u201ccenter\u201d of the rotation.  \nThe shape itself is unchanged (its size and orientation after the rotation are the same as if you had rotated about the origin), but the whole figure ends up in a different location because the pivot is elsewhere.\n\nIn practice you can think of the transformation as three steps:\n\n1. **Translate** the whole plane so that the chosen rotation point moves to the origin.  \n2. **Rotate** the object about the origin by the desired angle.  \n3. **Translate back** by the opposite amount to return the pivot point to its original position.\n\nBecause of these extra translations, the coordinates of each point after the rotation are different from what they would be if the rotation were about the origin, even though the relative distances and angles within the figure stay the same."
+    },
+    {
+      "question_number": 10,
+      "question": "Provide an example of a real-world object that demonstrates rotation and explain how it is similar to geometric rotation.",
+      "student_answer": "**Example:** A ceiling fan is a common real\u2011world object that rotates.\n\n**How it works:**  \nWhen the fan is turned on the blades spin around a central shaft (the axis of rotation). Each point on a blade moves in a circular path that stays the same distance from the shaft, just like a point on a geometric figure rotating about a fixed point.\n\n**Similarity to geometric rotation:**  \n\n| Geometric rotation | Ceiling\u2011fan rotation |\n|--------------------|----------------------|\n| All points rotate about a single, fixed **center** (or axis in 3\u2011D). | All points of the blades rotate about the **shaft**, which is the fan\u2019s axis. |\n| Every point travels in a **circle** whose radius is its distance from the centre. | Every point on a blade travels in a **circle** whose radius is its distance from the shaft. |\n| The shape is turned through a **specific angle** (e.g., 90\u00b0, 180\u00b0) while preserving distances and angles. | The fan blades turn through a **continuous angle** (e.g., 360\u00b0 each full turn) and the angles between parts of the blade stay the same, so the blade\u2019s shape is preserved as it spins. |\n\nThus, the fan\u2019s motion is a physical manifestation of the abstract idea of rotation: a rigid set of points (the blade) rotates around an axis, keeping its shape intact while each point follows a circular path.  \n\n*(Note: Unlike a perfect geometric rotation, the fan blades experience friction and air resistance, so the rotation isn\u2019t ideal, but the basic geometric principles still apply.)*"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 11.0,
+    "num_attempts": 3,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 37.52881145477295,
+    "total_time": 39.34784770011902
+  }
+}

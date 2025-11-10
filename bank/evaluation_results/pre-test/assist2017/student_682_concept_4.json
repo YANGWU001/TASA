@@ -1,0 +1,86 @@
+{
+  "student_id": "682",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "reading-graph",
+  "concept_id": "4",
+  "original_accuracy": 0.5,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.5,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of graph reading and interpretation. All answers are correct and show a comprehensive grasp of key concepts, including identifying components, interpreting data, and analyzing relationships in various types of graphs.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What are the key components of a graph that must be identified when reading it?",
+      "student_answer": "I think the main things you need to look at when you read a graph are:\n\n- **Title** \u2013 tells you what the graph is about.  \n- **Axes** \u2013 the x\u2011axis and y\u2011axis, together with their labels and the units (e.g., \u201cTime (s)\u201d, \u201cTemperature (\u00b0C)\u201d).  \n- **Scale/ tick marks** \u2013 how the numbers are spaced on each axis.  \n- **Legend** \u2013 shows what the different symbols, colors or line styles represent.  \n- **Data points or lines** \u2013 the actual plotted values, whether they\u2019re bars, points, a line, etc.  \n- **Any error bars or shaded regions** that indicate variability or uncertainty.  \n- **Gridlines (optional)** \u2013 can help you read exact values, though they\u2019re not always essential.  \n\nSometimes people also glance at the margins or the caption, but the items above are the key components you\u2019d usually identify."
+    },
+    {
+      "question_number": 2,
+      "question": "How can you determine the type of graph being used (e.g., bar graph, line graph, pie chart)?",
+      "student_answer": "To figure out what kind of graph you\u2019re looking at, you can check a few visual clues:\n\n1. **Axes and gridlines**  \n   * **Bar graphs** usually have one axis (often the x\u2011axis) that\u2019s divided into separate categories and the other axis shows a quantitative scale. The bars are separated by space, not touching each other.  \n   * **Line graphs** have both a horizontal and a vertical axis that are continuous, and you\u2019ll see points (or dots) connected by straight or curved lines.  \n   * **Pie charts** don\u2019t have any axes at all \u2013 instead the data is shown as slices of a circle.\n\n2. **Data \u201cchunks\u201d**  \n   * In a *bar graph* each bar represents a single category or a group of categories. The length (or height) of the bar tells you the value.  \n   * In a *line graph* the data points are plotted in order (often over time) and the line shows the trend.  \n   * In a *pie chart* each slice\u2019s angle (or area) corresponds to the proportion of that category relative to the whole.\n\n3. **Labels and legends**  \n   * Bar graphs and line graphs usually have titles for the x\u2011 and y\u2011axes, sometimes with units.  \n   * Pie charts normally have a legend or direct labels on the slices, because there\u2019s no axis to describe the values.\n\n4. **Overall shape**  \n   * A rectangular shape with separate columns/rows \u2192 bar graph.  \n   * A shape that looks like a \u201cmountain range\u201d or smooth curve across a plane \u2192 line graph.  \n   * A round shape divided into wedge\u2011shaped pieces \u2192 pie chart.\n\nSo, by looking at whether the visual has axes, how the data are grouped (bars, points\u2011and\u2011lines, or slices), and what the labels say, you can usually tell if it\u2019s a bar graph, line graph, or pie chart."
+    },
+    {
+      "question_number": 3,
+      "question": "When interpreting a graph, what is the significance of the labels on the x-axis and y-axis?",
+      "student_answer": "I think the labels on the x\u2011axis and y\u2011axis tell you what variables are being plotted and what units they\u2019re measured in, so you can understand what the horizontal and vertical values represent. (They\u2019re also a clue to what the overall trend or relationship in the graph is about.)"
+    },
+    {
+      "question_number": 4,
+      "question": "What steps should you follow to extract data accurately from a graph?",
+      "student_answer": "To pull numbers out of a graph you can follow a sequence that usually looks something like this:\n\n1. **Identify the axes and their units** \u2013\u202fFirst make sure you know what each axis represents (e.g., time, distance, temperature) and what the scale or unit is (seconds, meters, \u00b0C, etc.).  \n\n2. **Check the scale and any offsets** \u2013\u202fLook at the tick marks and note whether the axis starts at zero or at some other value, and whether the spacing is linear or logarithmic.  \n\n3. **Locate the data point you need** \u2013\u202fMove horizontally (or vertically) from the point to the nearest tick marks on both axes. If the point falls between marks, you\u2019ll have to **interpolate** (estimate) its value.  \n\n4. **Interpolate if necessary** \u2013\u202fUse a simple proportion:  \n   \\[\n   \\text{value} = \\text{lower\u2011tick} + \\frac{\\text{distance from lower\u2011tick}}{\\text{distance between ticks}} \\times \\text{tick\u2011size}\n   \\]  \n   (Do this separately for the x\u2011 and y\u2011values.)  \n\n5. **Record the extracted number** \u2013\u202fWrite down the value with the correct units and, if you\u2019re being careful, note the possible rounding error from your interpolation.  \n\n6. **Cross\u2011check with any legends or error bars** \u2013\u202fIf the graph has a legend, make sure you\u2019re reading the right data series. Error bars can also give you an idea of the uncertainty in the reported point.  \n\n7. **Repeat for any other points** \u2013\u202fApply the same steps consistently for each additional value you need.  \n\n8. **Double\u2011check your work** \u2013\u202fIt\u2019s often helpful to quickly skim the graph again or compare a few extracted points with any tabulated data (if available) to make sure nothing was misread.  \n\n*Note:*  If the graph is a bar chart rather than a line plot, you can usually read the bar height directly from the y\u2011axis without any interpolation.  Also, for logarithmic scales you have to convert back from the log values (e.g.,\u202f10^value) after you read the point.  \n\n\n\nThese steps give a systematic way to get fairly accurate numbers from most typical graphs."
+    },
+    {
+      "question_number": 5,
+      "question": "Explain how to identify trends or patterns in a line graph.",
+      "student_answer": "To see what a line graph is \u201ctelling you,\u201d you usually start by scanning the axes and then follow the line from left\u2011to\u2011right:\n\n1. **Read the axes** \u2013 Make sure you know what the horizontal (x\u2011axis) and vertical (y\u2011axis) represent.\u202fOften the x\u2011axis is time, but it can be anything, so don\u2019t assume it\u2019s always years or months.\n\n2. **Look at the overall direction** \u2013 If the line generally goes upward as you move right, the variable is increasing; if it goes down, it\u2019s decreasing.\u202fA flat section means the value is staying about the same.\n\n3. **Check the slope (steepness)** \u2013 A steep rise or fall means a rapid change, while a gentle slope indicates a slower change.\u202fIf the slope changes noticeably (e.g., from steep to flat), that\u2019s a clue that something in the data shifted.\n\n4. **Spot peaks and troughs** \u2013 The highest points are peaks (maximums) and the lowest points are troughs (minimums).\u202fThese can show when the variable reached an extreme.\n\n5. **Identify repeated patterns** \u2013 If the line goes up\u2011down\u2011up\u2011down in a regular way, you might have a cyc\u00adlic or seasonal pattern.\u202fLook for similar distances between peaks or troughs.\n\n6. **Notice any breaks or jumps** \u2013 A sudden jump or a gap can indicate an outlier, a data\u2011collection change, or an event that caused a rapid shift.\n\n7. **Compare multiple lines (if present)** \u2013 When there are several lines, see which ones rise or fall together and which move in opposite directions.\u202fThat can suggest relationships between the variables.\n\n8. **Summarize the trend** \u2013 Put it in words: \u201cFrom 2010 to 2015 the sales increased steadily, then leveled off in 2016, and dropped sharply in 2017,\u201d or something similar.\n\nI think the key is to move from the big picture (overall rise/fall) to the details (steepness, peaks, repeats) and then describe the pattern in plain language. If you miss any of those steps, you might overlook a subtle trend."
+    },
+    {
+      "question_number": 6,
+      "question": "In a bar graph, how do you compare the heights of the bars to determine differences in data?",
+      "student_answer": "I think you compare the heights by looking at the tops of the bars and reading the corresponding values on the vertical (y\u2011axis).\u202fThe taller bar represents the larger quantity, and you can find the difference by subtracting the smaller bar\u2019s value from the larger one. In other words, you line up the bars with the scale, note their numeric heights, and then compare or subtract those numbers to see how much one exceeds the other."
+    },
+    {
+      "question_number": 7,
+      "question": "How does the scale of a graph impact how you read and interpret the data?",
+      "student_answer": "The scale of a graph is basically the set of numbers you put on the axes, and it has a big influence on what the picture looks like and how you understand the data.  \n\n- **Spacing of points:** If the scale uses a large range (e.g., 0\u202f\u2013\u202f1000) the data points will be close together and any small changes can look almost flat. If you choose a smaller range (e.g., 0\u202f\u2013\u202f100) the same changes will appear much steeper, so you might think the trend is stronger than it really is.  \n\n- **Perception of trends:** Because the visual distance between marks changes with the scale, a graph can make a rise look dramatic or almost invisible. This is why it\u2019s important to look at the axis labels before judging how big a change is.  \n\n- **Reading exact values:** The scale tells you how to translate a point on the line into a real number. If the intervals are uneven or the axis is not labeled correctly, you can mis\u2011read the value.  \n\n- **Axis choice:** Usually both the x\u2011 and y\u2011axes need appropriate scales, but the y\u2011axis is the one that most often changes the visual impact of the data. (The x\u2011axis usually just shows time or categories, so its scale doesn\u2019t affect the shape as much.)  \n\n- **Distortion risk:** A misleading scale\u2014like starting the y\u2011axis at a number other than zero, or using a logarithmic scale without indicating it\u2014can exaggerate differences or hide them.  \n\nSo, when you look at a graph you should always check the scale on each axis, think about whether the intervals are linear or something else, and remember that a different scale could make the same data look very different."
+    },
+    {
+      "question_number": 8,
+      "question": "What information can be obtained from the legend of a graph?",
+      "student_answer": "The legend tells you what the different symbols, colors, line styles, or shading on the graph represent \u2013\u202fit links each visual element to the variable, category, or data series it corresponds to."
+    },
+    {
+      "question_number": 9,
+      "question": "Describe how to analyze the relationship between two variables in a scatter plot.",
+      "student_answer": "To look at how two variables are related in a scatter\u2011plot you usually follow these steps:\n\n1. **Plot the points** \u2013 Put one variable on the\u202fx\u2011axis and the other on the\u202fy\u2011axis so each observation is a single dot.\n\n2. **Look for a pattern** \u2013  \n   *If the dots trend upward from left to right that suggests a positive (direct) relationship; if they trend downward it suggests a negative (inverse) relationship.*  \n   *If the points seem to form a curve you would usually say the relationship is linear* (this is a common mistake \u2013 a curved shape actually indicates a non\u2011linear relationship).\n\n3. **Judge the strength** \u2013 Check how tightly the points cluster around an imagined line.  \n   \u2013 When they are very close together the relationship is strong.  \n   \u2013 When they are spread out the relationship is weak.  \n   (Sometimes people think that points far apart mean a strong relationship, but that\u2019s the opposite of what the plot shows.)\n\n4. **Add a line of best fit (trend line)** \u2013 A simple linear regression line can be drawn to summarize the direction and give a rough estimate of the slope. The slope tells you how much\u202fy\u202fchanges for a unit change in\u202fx.\n\n5. **Calculate a correlation coefficient (optional)** \u2013 The Pearson\u2011r value quantifies the linear association: values near\u202f+1 or\u202f\u20111 indicate a strong linear relationship, while values near\u202f0 suggest little or no linear link.\n\n6. **Interpret the results** \u2013 Use the direction, strength, and any fitted equation to explain how changes in one variable are associated with changes in the other, keeping in mind that the scatter plot only shows correlation, not causation."
+    },
+    {
+      "question_number": 10,
+      "question": "Given a graph showing yearly sales data, explain how you would identify the year with the highest sales.",
+      "student_answer": "I would start by looking at the graph and finding the tallest bar (or the highest point on the line).  That peak shows the biggest sales\u2011value on the vertical (y\u2011) axis.  Then I would read the label that sits directly beneath that bar (or under the point on the horizontal\u202fx\u2011axis) to see which year it corresponds to.  If the graph has a legend or multiple series, I\u2019d make sure I\u2019m looking at the correct series, but the basic idea is: locate the highest vertical value and use the year label on the bottom axis to identify the year with the highest sales."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 3329.0,
+    "num_attempts": 8,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 49.8955934047699,
+    "total_time": 51.15301179885864
+  }
+}

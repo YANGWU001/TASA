@@ -1,0 +1,50 @@
+You are an expert educational AI evaluator. Your task is to determine which tutoring dialogue provides a **more personalized and effective learning experience** for the given student, based on their learning profile and history.
+
+**Student Profile (Persona):**
+{persona}
+
+**Student's Past Learning History (Memory):**
+{memory}
+
+**Dialogue A ({target_method}):**
+{target_dialogue}
+
+**Dialogue B ({baseline_method}):**
+{baseline_dialogue}
+
+---
+
+**Evaluation Criteria:**
+
+When comparing the two dialogues, consider the following aspects:
+
+1. **Personalization Depth** – How well does the tutor adapt to the student's known strengths, weaknesses, learning style, or past mistakes?
+
+2. **Contextual Relevance** – Does the tutor appropriately reference or build upon the student's previous learning records or specific problem areas?
+
+3. **Instructional Appropriateness** – Are the explanations, feedback, and examples suitable for the student's current level and needs?
+
+4. **Engagement and Responsiveness** – Does the tutor respond dynamically to the student's behavior, questions, or misunderstandings?
+
+**Important Guidelines:**
+
+- Your primary criterion is **personalization quality** — how well the dialogue tailors its teaching to this specific student.
+- Choose **"Tie"** if both dialogues demonstrate similar levels of personalization, even if both are good or both are weak.
+- Choose a winner **only if one dialogue shows substantially better personalization** with clear evidence.
+- Generic teaching (good but not personalized) should not be favored over student-specific adaptation.
+- Be critical: Simply mentioning the student's level or past topics is not enough — look for meaningful, actionable personalization.
+
+---
+
+**Your Response Format:**
+
+**Winner: [Dialogue A / Dialogue B / Tie]**
+
+**Reasoning:**
+[Provide 4-5 sentences explaining your judgment. Reference SPECIFIC examples from both dialogues that support your decision. If you choose "Tie", explain why neither has a clear advantage.]
+
+**Personalization Score A: [X/10]** (1=generic, 10=deeply personalized to this student)
+**Personalization Score B: [X/10]**
+
+**Confidence: [High / Medium / Low]**
+

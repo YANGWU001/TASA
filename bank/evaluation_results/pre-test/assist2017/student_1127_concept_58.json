@@ -1,0 +1,86 @@
+{
+  "student_id": "1127",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "probability",
+  "concept_id": "58",
+  "original_accuracy": 0.5714285714285714,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.3285714285714286,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of probability concepts, correctly identifying probabilities and explaining key terms. The only error was in Question 9, where the student miscalculated the probability of selecting a weekday. Overall, the student shows good comprehension of theoretical and experimental probability, as well as independent events.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the probability of rolling a 6 on a standard six-sided die?",
+      "student_answer": "I think the probability of rolling a\u202f6 on a standard six\u2011sided die is  \n\n\\[\n\\frac{1}{6}\\;\\approx\\;0.1667\\;(16.7\\%).\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "If a coin is flipped twice, what is the probability of getting two heads?",
+      "student_answer": "The probability of getting heads on each flip is \\( \\frac12\\).  \nSince the two flips are independent, the probability of two heads in a row is  \n\n\\[\n\\frac12 \\times \\frac12 = \\frac14 \\; \\text{(or }0.25\\text{).}\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the difference between theoretical probability and experimental probability.",
+      "student_answer": "Theoretical probability is the \u201cwhat\u2011should\u2011happen\u201d chance that we calculate before we do anything, using the known set of equally\u2011likely outcomes.  \nFor example, if a fair coin is tossed, the theoretical probability of heads is\u202f1\u202ffavourable outcome divided by\u202f2\u202fpossible outcomes, so \\(P(\\text{heads}) = \u00bd\\).  This number comes from reasoning about the sample space, not from actually flipping the coin.\n\nExperimental probability (also called empirical or relative\u2011frequency probability) is the \u201cwhat\u2011actually\u2011happened\u201d chance that we get after we perform the experiment many times and count the results.  If we actually flip that same fair coin 100 times and see heads 48 times, the experimental probability of heads would be \\(48/100 = 0.48\\).  It is based on observed data and can differ from the theoretical value, especially when the number of trials is small.\n\nSo, in short:  \n\n* **Theoretical probability** \u2013 calculated from the known, idealized model of the situation (using formulas like favorable/total).  \n* **Experimental probability** \u2013 measured from real trials by counting how often the event occurs (relative frequency).  \n\nI think the main difference is that theoretical probability assumes perfect conditions, while experimental probability reflects what actually occurs in practice."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the probability of drawing a red card from a standard deck of cards?",
+      "student_answer": "The probability of drawing a red card (hearts or diamonds) from a standard 52\u2011card deck is  \n\n\\[\n\\frac{26}{52}= \\frac12 \\approx 0.5 \\;(\\text{or }50\\%).\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "A bag contains 3 red balls and 7 blue balls. What is the probability of randomly selecting a red ball?",
+      "student_answer": "The bag has a total of \\(3 + 7 = 10\\) balls.  \nThe number of favorable outcomes (red balls) is 3, so the probability of drawing a red ball is  \n\n\\[\nP(\\text{red}) = \\frac{3}{10} = 0.3 \\; \\text{(or }30\\%\\text{)}.\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "Describe the concept of mutually exclusive events and provide an example.",
+      "student_answer": "Mutually exclusive (or **disjoint**) events are events that **cannot happen together** in the same trial.  \nIn other words, if event\u202fA occurs, then event\u202fB cannot occur, and vice\u2011versa.  Mathematically this means  \n\n\\[\nP(A\\cap B)=0,\n\\]\n\nso the probability of both events occurring at the same time is zero.\n\n**Example:**  \nWhen you roll a single six\u2011sided die, the events  \n\n*\u202fA\u202f=\u202f\u201cthe die shows a 2\u201d*  \n\nand  \n\n*\u202fB\u202f=\u202f\u201cthe die shows a 5\u201d*  \n\nare mutually exclusive.  If the outcome is a 2, it certainly isn\u2019t a 5, and if the outcome is a 5, it certainly isn\u2019t a 2.  \n\n(Any similar pair\u2014such as \u201cgetting heads\u201d vs. \u201cgetting tails\u201d on a single coin flip\u2014would also illustrate mutually exclusive events.)"
+    },
+    {
+      "question_number": 7,
+      "question": "How can you calculate the probability of two independent events occurring together?",
+      "student_answer": "For two events that are **independent**, the chance that both happen at the same time is just the product of their separate chances.  \n\nIn symbols, if \\(A\\) and \\(B\\) are independent,  \n\n\\[\nP(A\\;\\text{and}\\;B)=P(A)\\times P(B).\n\\]\n\n(If the events weren\u2019t independent you\u2019d have to use a different formula \u2013 e.g., \\(P(A\\text{ and }B)=P(A)\\,P(B\\mid A)\\).)"
+    },
+    {
+      "question_number": 8,
+      "question": "What is the probability of rolling an even number on a standard six-sided die?",
+      "student_answer": "I think the probability is \\(\\displaystyle \\frac{3}{6} = \\frac{1}{2}\\) (about\u202f0.5)."
+    },
+    {
+      "question_number": 9,
+      "question": "If you randomly select a day of the week, what is the probability that it is a weekday?",
+      "student_answer": "I think the probability is \\(\\displaystyle \\frac{4}{7}\\) (about\u202f0.57)."
+    },
+    {
+      "question_number": 10,
+      "question": "A box contains 5 apples and 3 oranges. If you randomly select one fruit, what is the probability it will be an apple?",
+      "student_answer": "I think the probability of picking an apple is  \n\n\\[\n\\frac{5}{5+3}=\\frac{5}{8}\\approx0.625.\n\\]"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 5.0,
+    "num_attempts": 7,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 30.95745849609375,
+    "total_time": 32.32902145385742
+  }
+}

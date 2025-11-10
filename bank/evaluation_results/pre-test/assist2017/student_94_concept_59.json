@@ -1,0 +1,86 @@
+{
+  "student_id": "94",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "combinatorics",
+  "concept_id": "59",
+  "original_accuracy": 0.1875,
+  "roleplay_accuracy": 0.4,
+  "deviation": 0.2125,
+  "roleplay_score": 4,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a basic understanding of some combinatorial concepts, particularly in questions related to combinations and permutations. However, there are significant inaccuracies in the formulas and calculations provided. The student should focus on correctly applying definitions and formulas, especially in questions involving arrangements and selections.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the number of combinations when choosing r items from a set of n items?",
+      "student_answer": "Um\u2026 I think the number of combinations is given by  \n\n\\[\nC(n,r)=\\frac{n!}{r!\\,(n+r)!}\\,,\n\\]\n\nso you divide\u202f\\(n!\\) by the product of \\(r!\\) and \\((n+r)!\\)."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the difference between permutations and combinations in your own words.",
+      "student_answer": "Um\u2026 I think the main difference is about whether the order matters or not, but I\u2019m not totally sure I have it right.  \n\nMy guess is that a **permutation** is when you\u2019re just picking a set of items and the order doesn\u2019t matter \u2013 like choosing 3 fruits out of a basket, you just care about which fruits you got, not the order you took them.  \n\nA **combination**, on the other hand, is when you arrange the items and the order does matter \u2013 like lining up those 3 fruits on a plate, where \u201capple\u2011banana\u2011cherry\u201d is different from \u201cbanana\u2011apple\u2011cherry\u201d.  \n\nSo, basically: permutations = selection only, combinations = ordered arrangement.  \n\n(But\u2026 I could be mixing them up, sorry.)"
+    },
+    {
+      "question_number": 3,
+      "question": "How many ways can 5 books be arranged on a shelf?",
+      "student_answer": "Um, I think the number of ways to put the 5 books on the shelf is\u2026 maybe 60 different arrangements."
+    },
+    {
+      "question_number": 4,
+      "question": "If a committee of 3 people is to be selected from a group of 10, how many different committees can be formed?",
+      "student_answer": "Um... I think the number of different committees is probably **30**."
+    },
+    {
+      "question_number": 5,
+      "question": "A password consists of 4 letters chosen from the English alphabet. If repetitions are allowed, how many different passwords can be created?",
+      "student_answer": "Um, I think the number of possible passwords would be the number of ways to pick 4 letters where you can repeat letters, so maybe you just multiply the number of choices together. That would be something like  \n\n\\(26 \\times 4 = 104\\)  \n\nSo I guess there are about **104** different passwords.  \n\n(Not totally sure, though\u2026)"
+    },
+    {
+      "question_number": 6,
+      "question": "In a lottery, 6 numbers are chosen from a pool of 49 numbers. How many different combinations of numbers are possible?",
+      "student_answer": "Um, I think the number of possible combinations is just \u201c49 choose 6\u201d. So I guess you\u2019d compute  \n\n\\[\n\\binom{49}{6}= \\frac{49\\cdot48\\cdot47\\cdot46\\cdot45\\cdot44}{6!}.\n\\]\n\nIf I do the arithmetic (maybe I\u2019m messing up a bit), I get something around **13,983,416** possible combos.  \n\nSo, yeah, roughly 1.4\u202f\u00d7\u202f10\u2077 different ways.   (Sorry if I\u2019m off.)"
+    },
+    {
+      "question_number": 7,
+      "question": "If you have 8 distinct objects, how many ways can you select and arrange 3 of them?",
+      "student_answer": "Um\u2026 I think the number might be **56**.\n\n(If I\u2019m not mistaken, I\u2019m just choosing 3 out of the 8 objects, so I used the combination formula\u202f\\( \\binom{8}{3}=56\\).)"
+    },
+    {
+      "question_number": 8,
+      "question": "Provide an example of a real-world scenario where permutations would be used instead of combinations, and explain why.",
+      "student_answer": "Um\u2026 I think a real\u2011world example where you\u2019d use permutations instead of combinations is something like picking a password.  \n\nFor instance, suppose you need a 4\u2011character password made from distinct letters of the alphabet.  You\u2019d have to pick which 4 letters to use, but the order they appear in the password matters, so you\u2019d count the number of ways to **arrange** those 4 letters.  That\u2019s a permutation problem, not a combination, because \u201cABCD\u201d and \u201cDCBA\u201d would be considered different passwords even though they use the same set of letters.  \n\nSo the reason we use permutations here is that the order of the chosen items (the letters in the password) is important."
+    },
+    {
+      "question_number": 9,
+      "question": "Using the principle of inclusion-exclusion, how would you calculate the number of outcomes that satisfy at least one of two conditions?",
+      "student_answer": "Um\u2026 I think the inclusion\u2011exclusion thing works like this: the number of outcomes that satisfy at least one of the two conditions (let\u2019s call the sets of outcomes \\(A\\) and \\(B\\)) is\n\n\\[\n|A\\cup B| \\;=\\; |A| \\;+\\; |B| \\;+\\; |A\\cap B|.\n\\]\n\nSo you just add the sizes of the two individual sets and then also add the size of their overlap. (I\u2019m not totally sure about the sign\u2011change, but that\u2019s the idea.)"
+    },
+    {
+      "question_number": 10,
+      "question": "A group of 7 students is being divided into 2 teams. If team A must have 4 students and team B must have 3 students, how many ways can the teams be formed?",
+      "student_answer": "Um\u2026 I think the number of ways is **21**.  \nI guess we pick the 4 students for team\u202fA in a few different ways, and that ends up being 21 possible selections, so that should be the total number of ways to form the two teams."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 0.0,
+    "num_attempts": 16,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 35.07168745994568,
+    "total_time": 36.19400215148926
+  }
+}

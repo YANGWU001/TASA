@@ -1,0 +1,86 @@
+{
+  "student_id": "311",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "[SkillRule: Select Multiply; {MT; MT no fraction coeff}]",
+  "concept_id": "92",
+  "original_accuracy": 0.9090909090909091,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.09090909090909094,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a thorough understanding of the 'Select Multiply' rule, accurately applying it to various expressions and clearly explaining the rationale behind excluding fractional coefficients. All answers are correct, showing a solid grasp of the concept.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What does the 'Select Multiply' rule indicate when working with mathematical expressions?",
+      "student_answer": "The **\u201cSelect\u202fMultiply\u201d** rule tells you that the pieces you have chosen in the expression are to be multiplied together. In other words, once a set of terms (or factors) has been selected, you combine them by performing the multiplication:\n\n*\u202fMultiply the numerical coefficients (if any) together.  \n*\u202fMultiply the variable parts (or other factors) together, appending them to the product.  \n\nWhen the rule is qualified with \u201cno\u2011fraction coefficient\u201d (as in the MT version), the multiplication is carried out directly with whole\u2011number coefficients, so you do not need to worry about simplifying fractions or converting to a common denominator. The result is a single combined factor that replaces the selected terms in the original expression."
+    },
+    {
+      "question_number": 2,
+      "question": "If you are given the expression 3x * 5x, apply the 'Select Multiply' rule and simplify the expression.",
+      "student_answer": "To apply the **Select Multiply** rule, we multiply the numerical coefficients together and then multiply the variable parts.\n\n\\[\n3x \\times 5x \\;=\\; (3 \\times 5)\\,(x \\times x)\n\\]\n\n- Multiply the coefficients: \\(3 \\times 5 = 15\\).\n- Multiply the variables: \\(x \\times x = x^{2}\\).\n\nPutting these together gives the simplified expression:\n\n\\[\n\\boxed{15x^{2}}\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the 'Select Multiply' rule does not involve fractional coefficients under the concept {MT; MT no fraction coeff}.",
+      "student_answer": "The \u201cSelect\u202fMultiply\u201d rule is meant to identify the terms that are to be multiplied together **as they appear in the original expression**, without first rewriting any of the coefficients.  \n\nUnder the concept\u202f{MT\u202f;\u202fMT\u202fno\u202ffraction\u202fcoeff} we deliberately exclude fractional (or rational) coefficients for the following reasons:\n\n1. **Preserve the original structure** \u2013 The rule\u2019s purpose is to \u201cselect\u201d the exact multiplicative factors that the problem statement provides. If a coefficient is a fraction, the rule would have to first convert it to an equivalent integer factor (e.g., by clearing denominators), which would change the way the factors are perceived and break the \u201cselect\u2011as\u2011given\u201d principle.\n\n2. **Avoid hidden scaling** \u2013 Multiplying by a fraction can be interpreted as scaling the whole term rather than simply selecting a factor. The rule is intended to capture pure multiplication of whole\u2011number factors, so any fractional scaling is postponed to a later simplification step, not to the selection stage.\n\n3. **Simplify the decision process** \u2013 When coefficients are restricted to integers, the decision of \u201cwhich term(s) to multiply?\u201d becomes a straightforward pattern\u2011matching task (e.g., \u201cpick the constant and the variable term\u201d). Introducing fractions creates extra cases (e.g., \u201cmultiply a half\u2011coefficient with another term\u201d), which would complicate both the rule definition and its implementation.\n\n4. **Maintain consistency with the broader MT framework** \u2013 The MT (Multiplication\u2011Term) framework is built on the idea that each term\u2019s coefficient is an integer, facilitating easier factorisation, greatest\u2011common\u2011divisor extraction, and later algebraic manipulation. Allowing fractions at the selection stage would break this uniformity and force additional normalization steps later on.\n\nIn summary, the \u201cSelect\u202fMultiply\u201d rule excludes fractional coefficients because the rule is designed to **directly pick the multiplicative factors exactly as they appear**, and keeping coefficients integral preserves the rule\u2019s simplicity, clarity, and consistency within the MT methodology."
+    },
+    {
+      "question_number": 4,
+      "question": "Simplify the expression 7a * 2b using the 'Select Multiply' rule.",
+      "student_answer": "To simplify \\(7a \\times 2b\\):\n\n1. Multiply the numerical coefficients: \\(7 \\times 2 = 14\\).\n2. Keep the variable factors together: \\(a\\) and \\(b\\) are distinct, so they remain as a product \\(ab\\).\n\n\\[\n7a \\times 2b = 14ab\n\\]\n\n**Answer:** \\(\\displaystyle 14ab\\)"
+    },
+    {
+      "question_number": 5,
+      "question": "Identify which of the following expressions can be simplified using the 'Select Multiply' rule: a) 4x * 5y, b) 3/2x * 6y, c) 2a * 3b.",
+      "student_answer": "The **Select\u202fMultiply** rule lets you combine the numerical coefficients of two monomials when those coefficients are whole numbers (no fractions).  \n\n- **a)\u202f4x\u202f*\u202f5y** \u2013 Both coefficients (4 and 5) are integers, so they can be multiplied:\u202f\\(4\u00b75=20\\). \u2192 **Yes**, it can be simplified to **20\u202fxy**.  \n- **b)\u202f\\(\\dfrac{3}{2}x\u202f*\u202f6y\\)** \u2013 The coefficient \\(\\dfrac{3}{2}\\) is a fraction, which the \u201cno\u2011fraction\u2011coeff\u201d version of the rule does **not** allow. \u2192 **No**, it cannot be simplified by this rule (you would first need to clear the fraction).  \n- **c)\u202f2a\u202f*\u202f3b** \u2013 Both coefficients (2 and 3) are whole numbers, so they can be multiplied:\u202f\\(2\u00b73=6\\). \u2192 **Yes**, it can be simplified to **6\u202fab**.\n\n**Therefore, expressions (a) and (c) can be simplified using the \u2018Select Multiply\u2019 rule, while (b) cannot.**"
+    },
+    {
+      "question_number": 6,
+      "question": "How does the 'Select Multiply' rule differ from other multiplication rules involving fractions?",
+      "student_answer": "The **Select\u202fMultiply** rule is a \u201cpick\u2011the\u2011right\u2011multiplier\u2019\u2019 rule that tells you which factor you should actually carry out the multiplication with, **and it does so without ever introducing a fractional coefficient** in the product.  \n\nIn practice the rule works like this:\n\n1. **Identify the term that will be multiplied** (usually the term that contains the variable or the expression you are solving for).  \n2. **Multiply the whole equation by that term** so that the variable is isolated, but **you never create a new fraction\u2011type coefficient**\u2014the multiplier is taken directly from the existing expression.  \n\nBecause the multiplier is taken straight from the equation, the resulting product stays in the same \u201cwhole\u2011number\u2011or\u2011integer\u2011coefficient\u201d form.  \n\n### How this differs from other multiplication rules that involve fractions  \n\n| Feature | Select\u202fMultiply (no\u2011fraction\u2011coeff) | Other fraction\u2011multiplication rules |\n|---------|--------------------------------------|--------------------------------------|\n| **Multiplier source** | Picked directly from the existing term (e.g., the denominator or a whole\u2011number factor). | May introduce a new fraction (e.g., multiplying both sides by the reciprocal of a fraction). |\n| **Resulting coefficients** | Remain whole numbers or integers; no new fractional coefficients appear. | Often produce fractional coefficients that must be simplified later. |\n| **Typical use** | Solving linear equations where you want to clear a denominator without creating extra fractions. | General algebraic manipulation, especially when dealing with rational expressions, where you multiply by the reciprocal or by a common denominator. |\n| **Simplification step** | Usually unnecessary because no new fractions are introduced. | Usually required after multiplication to reduce the fractions. |\n\n### Example  \n\nSuppose we have  \n\n\\[\n\\frac{3x}{4}=6\n\\]\n\n**Select\u202fMultiply** tells us to *select* the denominator\u202f4 as the multiplier and multiply both sides by 4:\n\n\\[\n4\\cdot\\frac{3x}{4}=4\\cdot6 \\;\\;\\Rightarrow\\;\\; 3x=24\n\\]\n\nNo new fractional coefficient appears; we simply cleared the denominator.\n\nIf we used a generic fraction\u2011multiplication rule, we might first rewrite\u202f6 as \\(\\frac{6}{1}\\) and then multiply by the reciprocal of \\(\\frac{3}{4}\\), i.e., \\(\\frac{4}{3}\\):\n\n\\[\n\\frac{4}{3}\\cdot\\frac{3x}{4}= \\frac{4}{3}\\cdot6 \\;\\;\\Rightarrow\\;\\; x = 8\n\\]\n\nHere a new fraction \\(\\frac{4}{3}\\) is introduced, and we have to simplify the product afterward.\n\n---\n\n**In short:** the Select\u202fMultiply rule is a targeted multiplication that picks an existing term (usually a denominator) as the multiplier and avoids creating any new fractional coefficients, whereas the broader fraction\u2011multiplication rules often bring in new fractions (like reciprocals or common denominators) that must be simplified later."
+    },
+    {
+      "question_number": 7,
+      "question": "Apply the 'Select Multiply' rule to simplify the expression 6m * 9n and explain your steps.",
+      "student_answer": "**Answer**\n\nTo simplify \\(6m \\times 9n\\) using the **Select\u202fMultiply** rule (which tells us to multiply the numerical coefficients and then write the product of the variable parts), follow these steps:\n\n1. **Identify the coefficients and the variables**  \n   - Coefficient of the first term: \\(6\\)  \n   - Coefficient of the second term: \\(9\\)  \n   - Variable part of the first term: \\(m\\)  \n   - Variable part of the second term: \\(n\\)\n\n2. **Multiply the coefficients**  \n   \\[\n   6 \\times 9 = 54\n   \\]\n\n3. **Combine the variable parts** (since there are no like variables, we just write them together)  \n   \\[\n   m \\times n = mn\n   \\]\n\n4. **Write the final product** by attaching the multiplied coefficient to the combined variables:  \n   \\[\n   6m \\times 9n = 54\\,mn\n   \\]\n\n---\n\n**Result:** \\(\\boxed{54mn}\\)  \n\nThe expression is now fully simplified."
+    },
+    {
+      "question_number": 8,
+      "question": "Why is it important to exclude fractional coefficients when using the 'Select Multiply' rule?",
+      "student_answer": "The **Select\u202fMultiply** rule is designed to work with whole\u2011number (integer) coefficients for a couple of practical reasons:\n\n1. **Simplicity of the algebraic operation** \u2013 When the coefficients are integers, multiplying the selected term by the multiplier produces another term whose coefficient is also an integer. This keeps the arithmetic straightforward and avoids the need to simplify fractions at every step.\n\n2. **Preservation of the canonical form** \u2013 Many symbolic\u2011manipulation systems (and textbooks) expect expressions to be kept in a \u201cstandard\u201d form where each term\u2019s coefficient is an integer. Introducing a fractional coefficient can change the ordering of terms or force the system to introduce additional steps (e.g., finding a common denominator) before the expression can be compared or further processed.\n\n3. **Avoidance of hidden cancellations** \u2013 Fractional coefficients can mask factors that should cancel later in the computation. By restricting to integer coefficients, any cancellation that really matters becomes obvious, reducing the chance of algebraic errors.\n\n4. **Efficiency** \u2013 Integer arithmetic is faster and less error\u2011prone than rational\u2011number arithmetic, especially in automated environments. Excluding fractions helps the rule run quickly and reliably.\n\nIn short, excluding fractional coefficients guarantees that the multiplication step stays clean, predictable, and consistent with the way the rest of the algebraic system is defined. This leads to fewer mistakes, easier simplification, and more efficient computation."
+    },
+    {
+      "question_number": 9,
+      "question": "Evaluate and simplify 8p * 3q using the 'Select Multiply' rule.",
+      "student_answer": "Using the **Select Multiply** rule, we multiply the numerical coefficients and then attach the variables:\n\n\\[\n8p \\times 3q = (8 \\times 3)\\, p q = 24pq.\n\\]\n\nSo the simplified product is **\\(24pq\\)**."
+    },
+    {
+      "question_number": 10,
+      "question": "Given the expression 2x * 4y, demonstrate how the 'Select Multiply' rule works and state the resulting product.",
+      "student_answer": "**Select\u202fMultiply rule**\n\n1. **Identify the numeric coefficients** in each term.  \n   - In \\(2x\\) the coefficient is \\(2\\).  \n   - In \\(4y\\) the coefficient is \\(4\\).\n\n2. **Multiply the coefficients** together:  \n   \\[\n   2 \\times 4 = 8.\n   \\]\n\n3. **Combine the variable parts** (since there are no like variables, we simply write them together):  \n   \\[\n   x \\times y = xy.\n   \\]\n\n4. **Write the final product** by attaching the new coefficient to the combined variables:\n\n\\[\n\\boxed{8xy}\n\\]\n\nSo, applying the **Select Multiply** rule to the expression \\(2x \\times 4y\\) yields the product \\(8xy\\)."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 141.0,
+    "num_attempts": 11,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 45.93664193153381,
+    "total_time": 48.063225984573364
+  }
+}

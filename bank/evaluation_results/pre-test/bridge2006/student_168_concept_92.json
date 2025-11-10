@@ -1,0 +1,86 @@
+{
+  "student_id": "168",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify whole number lower bound",
+  "concept_id": "92",
+  "original_accuracy": 0.7857142857142857,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.2142857142857143,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a thorough understanding of whole number lower bounds. All answers are correct, showing clear definitions and justifications for each concept. There are no common mistakes noted in the responses.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the whole number lower bound of 15.8?",
+      "student_answer": "The whole number lower bound (the greatest integer less than or equal to 15.8) is **15**."
+    },
+    {
+      "question_number": 2,
+      "question": "If a decimal number is 23.45, what is its whole number lower bound?",
+      "student_answer": "The whole number lower bound (the greatest integer not exceeding 23.45) is **23**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the concept of a whole number lower bound in your own words.",
+      "student_answer": "A whole\u2011number lower bound is the smallest integer that is **not less than** a given number. In other words, when you have a quantity that isn\u2019t a whole number, the whole\u2011number lower bound is the first whole number you reach when you round the value **upward** to the nearest integer. It guarantees that the original number is always greater than or equal to this bound, and any whole\u2011number value smaller than the bound would be too low to represent the original quantity. \n\nFor example, if the number is 4.3, the whole\u2011number lower bound is 5, because 5 is the smallest whole number that is at least as large as 4.3. If the number is already an integer, like 7, its whole\u2011number lower bound is just 7 itself."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the whole number lower bound of -7.3?",
+      "student_answer": "The whole\u2011number lower bound of \\(-7.3\\) is \\(-8\\)."
+    },
+    {
+      "question_number": 5,
+      "question": "Is the whole number lower bound of 9.99 equal to 10? Why or why not?",
+      "student_answer": "No. The whole\u2011number lower bound of \\(9.99\\) is **9**, not 10.\n\nThe lower bound (or \u201cfloor\u201d) of a real number is the greatest whole number that is **less than or equal to** that number. Since \\(9\\le 9.99\\) but \\(10>9.99\\), the largest whole number that does not exceed \\(9.99\\) is 9. Therefore the whole\u2011number lower bound of 9.99 is 9."
+    },
+    {
+      "question_number": 6,
+      "question": "Determine the whole number lower bound for the square root of 50.",
+      "student_answer": "The whole\u2011number lower bound for \\(\\sqrt{50}\\) is **7**, since \\(7^{2}=49\\le 50\\) and \\(8^{2}=64>50\\)."
+    },
+    {
+      "question_number": 7,
+      "question": "If a number is -3.7, identify its whole number lower bound and explain your reasoning.",
+      "student_answer": "The whole\u2011number lower bound of \\(-3.7\\) is **\\(-4\\)**.\n\n**Reasoning:**  \nThe lower bound (or greatest integer \u2264 the given number) is the largest whole number that is not greater than the number itself. Since \\(-3.7\\) lies between \\(-4\\) and \\(-3\\) on the number line, the whole number that is less than or equal to \\(-3.7\\) is \\(-4\\). Thus, \\(-4\\) is the whole\u2011number lower bound."
+    },
+    {
+      "question_number": 8,
+      "question": "What role does rounding play when determining the whole number lower bound of a number?",
+      "student_answer": "Rounding is the tool we use to turn a non\u2011integer (or a number that isn\u2019t already a whole number) into the nearest whole\u2011number that is **not greater** than the original value.  \nWhen we are asked for the *whole\u2011number lower bound* of a number, we essentially want the greatest integer that is still **less than or equal to** the given number.  \n\nThe steps are:\n\n1. Look at the decimal (or fractional) part of the number.  \n2. If the number already ends in .0 (i.e., it is an integer), that integer itself is the lower bound.  \n3. If there is any non\u2011zero fractional part, we **round down** (sometimes called \u201cflooring\u201d) to the next smaller whole number.  \n\nSo rounding \u201cdown\u201d provides the lower bound because it discards any fractional excess that would otherwise make the value larger than the true lower bound. In other words, rounding ensures we do not over\u2011estimate; it guarantees that the resulting whole number is a safe, guaranteed\u2011not\u2011exceeding estimate of the original quantity."
+    },
+    {
+      "question_number": 9,
+      "question": "Find the whole number lower bound of 0.99 and justify your answer.",
+      "student_answer": "The whole\u2011number lower bound (the greatest integer that does not exceed the number) of \\(0.99\\) is  \n\n\\[\n\\boxed{0}.\n\\]\n\n**Justification:** By definition, the lower bound is the largest whole number \\(n\\) such that \\(n \\le 0.99\\). Since \\(0 \\le 0.99 < 1\\), the only whole number satisfying \\(n \\le 0.99\\) is \\(0\\). No larger whole number works because \\(1\\) is already greater than \\(0.99\\). Hence the lower bound is \\(0\\)."
+    },
+    {
+      "question_number": 10,
+      "question": "How is the whole number lower bound different from the ceiling of a number? Provide an example.",
+      "student_answer": "The **whole\u2011number lower bound** of a real number is the greatest integer that is **not larger** than the number.  \nIn other words, it is the **floor** of the number.\n\nThe **ceiling** of a number is the smallest integer that is **not smaller** than the number.  \nIt is the **ceil** of the number.\n\nSo the lower bound always rounds **down**, while the ceiling always rounds **up** (unless the number is already an integer, in which case both give the same value).\n\n**Example**\n\nTake the number \\(3.7\\).\n\n* Whole\u2011number lower bound (floor): \\(\\displaystyle \\lfloor 3.7 \\rfloor = 3\\)  \n* Ceiling: \\(\\displaystyle \\lceil 3.7 \\rceil = 4\\)\n\nHere the lower bound is 3 because 3 is the greatest whole number \u2264\u202f3.7, while the ceiling is 4 because 4 is the smallest whole number \u2265\u202f3.7.  \n\n(If the number were exactly an integer, say \\(5\\), both the lower bound and the ceiling would be 5.)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 2.966666666666667,
+    "num_attempts": 14,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 26.56504535675049,
+    "total_time": 28.371241569519043
+  }
+}

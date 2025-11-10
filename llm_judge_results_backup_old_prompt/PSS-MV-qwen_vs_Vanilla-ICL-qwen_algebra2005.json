@@ -1,0 +1,143 @@
+{
+  "target_method": "PSS-MV-qwen",
+  "baseline_method": "Vanilla-ICL-qwen",
+  "dataset": "algebra2005",
+  "backbone": "qwen",
+  "total_comparisons": 16,
+  "target_wins": 16,
+  "baseline_wins": 0,
+  "ties": 0,
+  "win_rate": 1.0,
+  "avg_score_target": 8.5,
+  "avg_score_baseline": 3.6875,
+  "detailed_results": [
+    {
+      "student_id": 48,
+      "concept_text": "Find X@@@@ Simple",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A consistently tailors the learning experience to the student's experiential and action-oriented learning style. The tutor repeatedly connects \"Find X@@@@ Simple\" to real-life problem-solving situations (bike repair, faucet drip, phone battery drain), leveraging the student's strengths in hands-on reasoning and observational thinking. This directly addresses the student's known weakness in \"Find X@@@@ Simple\" by building confidence through familiar scenarios before transitioning to math examples. The tutor also scaffolds tasks with actionable steps, like setting a timer and solving progressively varied equations, aligning with the student's profile.  \nIn contrast, Dialogue B uses a generic, drill-based approach to basic algebra problems without adapting to the student\u2019s learning style or weaknesses, and errors in guidance (e.g., initial incorrect correction on subtraction) suggest less responsiveness to the student's needs. It misses opportunities to contextualize or leverage the student\u2019s real-world problem-solving ability and instead handles \u201cI don\u2019t know\u201d responses in a procedural way with little personalization.  \n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A consistently tailors its approach to the student\u2019s learning style, explicitly noting that the student is a visual and experiential learner and framing questions around concrete, familiar experiences (e.g., walking down a hill, riding a bike, rolling a ball). It gives supportive, non-judgmental feedback and uses repeated real-world analogies to anchor the abstract concept of negative slope, showing responsiveness to the student\u2019s uncertainty and misconceptions without simply moving on. While the student struggles with the concept, the tutor adapts questions to keep them engaged within their comfort zone. In contrast, Dialogue B uses more generic slope problems and coordinates\u2014appropriate practice but not clearly adapted to this student\u2019s known weaknesses in negative slope tasks or their preference for experiential learning. Dialogue B focuses on formulaic application (\"rise over run\") with minimal linkage to the student\u2019s profile or intuitive contexts, making it less personalized.  \n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 4/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 457,
+      "concept_text": "Using difficult numbers",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates substantially better personalization: the tutor probes the student\u2019s feelings toward \u201cdifficult numbers,\u201d connects to a real-world coffee price example, and adapts questions to the student\u2019s responses and hesitations. When the student says \u201cI don\u2019t know,\u201d the tutor reframes this as a valid starting point and builds on familiar contexts, using sensory details and qualitative observations to engage them. This aligns with the student\u2019s profile, which shows they need improvement in \u201cUsing difficult numbers\u201d and respond well to contextual, incremental guidance.  \nIn contrast, Dialogue B offers a series of generic practice problems involving large numbers, fractions, and order of operations without tailoring to the student\u2019s strengths (e.g., strong in algebraic manipulation) or weaknesses, and gives repetitive generic feedback like \u201cI don\u2019t know is not correct\u201d without meaningful adaptation. Dialogue B\u2019s approach is more drill-oriented and less responsive to the student\u2019s learning style, making it less effective for this specific learner.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows significantly deeper personalization by continuously scaffolding the concept of negative slope through relatable, real-life analogies (e.g., slides, hills) and by drawing on the student\u2019s embodied experiences and visual intuition. The tutor adapts to the student\u2019s hesitations (\u201cI don\u2019t know\u201d) by slowing down, affirming their effort, and using sensory descriptions and physical experiences to build understanding \u2014 a strategy well-suited for a student with low accuracy in related slope-writing skills. In contrast, Dialogue B primarily delivers procedural practice problems and corrective feedback focused on the technical aspect of inserting a negative sign, without connecting as much to the student\u2019s lived experiences or addressing their learning profile holistically. While B does break down the concept and provide repeated opportunities to practice, it remains largely generic and task-oriented, lacking the sustained, individualized exploration found in A. As a result, A better matches the student\u2019s need for concrete, contextual anchors to internalize an abstract concept they struggle with.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 5/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 504,
+      "concept_text": "Setting the slope",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A clearly adapts to the student's reflective, metaphor-driven learning preferences. It taps into concrete, real-life analogies (cafeteria ramp, walking up a hill) and builds on the student's own imagery to explain slope, which aligns with the student\u2019s need for experiential and intuitive understanding. The tutor in A responds to \u201cI don\u2019t know\u201d with encouragement and scaffolding, breaking down the concept into personally relatable terms and inviting descriptions in the student's own words \u2014 a good match for a learner with low accuracy in \"Setting the slope.\" In contrast, Dialogue B is formula-centric, presenting repetitive, decontextualized slope calculations that ignore the student\u2019s difficulties with conceptual slope setting and lack of engagement. When the student expresses uncertainty, B largely repeats the same practice question without meaningful adaptation. Overall, A demonstrates a much deeper personalization fit for this student\u2019s profile and learning history.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 370,
+      "concept_text": "Identifying units",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A actively adapts to the student\u2019s identified weakness in \u201cIdentifying units\u201d by grounding every question in relatable, real-world scenarios (baking cookies, using a kitchen scale) and connecting them directly to the student\u2019s lived experiences. The tutor continually acknowledges the student\u2019s reflections, reinforces correct conceptual links (tablespoon as volume), and maintains a supportive tone that encourages persistence even when the student frequently responds \u201cI don\u2019t know.\u201d This demonstrates responsiveness and personalization to their learning style and difficulty pattern.  \nIn contrast, Dialogue B delivers structured practice questions with multiple-choice options and corrective feedback, but the approach is more generic and lacks tailoring to the student's personal context or learning history. It focuses on factual correctness without leveraging the student\u2019s strengths (Entering a given, Define Variable) or difficulties in a way that builds motivational bridges. Although B offers clear explanations, it doesn\u2019t meaningfully connect to the student's prior struggle narratives or adapt dynamically to disengagement cues such as multiple \u201cI don\u2019t know\u201d responses. Therefore, A shows substantially better personalization depth despite some repetitive prompts.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A is notably more personalized to the student\u2019s profile and learning style than Dialogue B. The tutor in A explicitly recognizes that the student is a visual and experiential learner and continually uses real-life scenarios (walking down a hill, biking down a ramp, rolling a ball) to anchor the abstract concept of negative slope in familiar experiences. This approach aligns with the student\u2019s history of better performance when given concrete, relatable contexts. The tutor also responds to student misconceptions in a non-judgmental way, gently correcting errors while reinforcing the mental imagery, which supports confidence-building given the student\u2019s weaker mastery of \u201cWrite expression@@@@ negative slope.\u201d In contrast, Dialogue B operates mostly as generic slope exercises, focusing on numerical rise/run problems without adapting to the student\u2019s repeated uncertainty, and does not integrate their strengths or weaknesses into the teaching strategy. While B does provide structured practice, it fails to leverage personalization or reference the student\u2019s known difficulties in understanding slope direction, making A substantially stronger in tailoring instruction.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 48,
+      "concept_text": "Find X@@@@ Simple",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows substantially deeper personalization by tailoring the teaching style to the student\u2019s experiential, action-oriented learning preferences. The tutor engages the student with real-world analogies (bike gears, dripping faucet, phone battery) and builds on the student\u2019s own examples, consistently reinforcing problem-solving processes that match their strengths. The session transitions from contextual analogies to actual algebra problems (e.g., solving 2x + 3 = 11) and encourages the student to vary parameters, explaining why changes matter. In contrast, Dialogue B follows a generic drill-and-practice format with basic arithmetic equations, occasionally offering tips, but never leveraging the student\u2019s profile (such as their need for improvement in 'Find X@@@@ Simple') or connecting learning to their hands-on style. Dialogue B\u2019s feedback is standard and procedural, lacking adaptation to the student\u2019s strengths and preferred learning mode. Therefore, Dialogue A better aligns with the student\u2019s learning history and characteristics.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 300,
+      "concept_text": "Using large numbers",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows substantially better personalization by tailoring the learning to the student's reflective and sensory learning style. The tutor builds on the student's imagery of a \"wall of digits\" to create a deeply engaging and personal exploration of large numbers, connecting abstract math to bodily sensations and emotions, which matches the student's preference for experiential understanding. In contrast, Dialogue B uses a series of arithmetic practice questions in generic real-world contexts. While these are conceptually relevant to \"Using large numbers,\" they do not specifically adapt to the student's documented struggles or style, nor do they address the student's evident hesitation (\"I don't know\") in an individualized way beyond basic reassurance. Dialogue A remains responsive to the student's hesitations, reframing \"I don't know\" as a valid stepping stone for deeper exploration, thereby sustaining engagement; Dialogue B continues to push similar computation-focused questions without adjusting the approach. Overall, Dialogue A demonstrates richer, more meaningful customization for this specific learner.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 370,
+      "concept_text": "Identifying units",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A makes a clear effort to root the explanation of \"Identifying units\" in the student's personal experiences, which aligns tightly with the student's profile that shows struggle in this skill area (33% accuracy) but strength in connecting to real-life contexts when \"Entering a given\" and \"Define Variable\" are mastered. The tutor repeatedly builds on the student's own memories (baking cookies, using a kitchen scale, making fruit salad) and frames feedback to validate their lived experiences, fostering relevance and engagement. While the interaction later gets stuck in many \"I don't know\" responses, the tutor continues to reassure and encourage reflection without pressure \u2014 still maintaining the personal, emotionally attuned style. Dialogue B, in contrast, uses a generic, quiz-style sequence of multiple-choice unit questions and explanations. Although it provides correct/incorrect feedback and reiterates rules, it does not connect to the student's past difficulties or known preferences, and misses chances to adapt examples to their personal context. Therefore, Dialogue A shows substantially better personalization for this specific learner.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 52,
+      "concept_text": "Find Y@@@@ positive slope",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows substantially deeper personalization \u2014 it explicitly adapts explanations to the student's learning style (\u201cpersonal connection, real-life relevance, and emotional safety\u201d), uses relatable contexts drawn from their experiences (allowance, sharing pizza, baking a cake) to scaffold abstract math concepts, and responds to uncertainty with emotional validation. For example, when the student says \u201cI don\u2019t know,\u201d the tutor reframes it as a safe starting point and redirects to familiar scenarios, reducing anxiety while subtly working toward slope concepts. In contrast, Dialogue B uses clear, step-by-step math instruction but is largely generic; it doesn\u2019t reference the student\u2019s documented struggles (e.g., low accuracy on Find Y@@@@ positive slope) or build on known strengths, and it handles \"I don't know\" mostly by reiterating procedure. Dialogue A\u2019s consistent use of the student\u2019s personal stories to bridge conceptual gaps results in higher engagement and tailored support, whereas Dialogue B remains procedural and content-focused without deep personalization.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A consistently adapts its explanations to the student's uncertainty and need for conceptual grounding. Given the student's profile \u2014 weak accuracy (36%) in *Write expression@@@@ negative slope* and multiple slope-related weaknesses \u2014 Dialogue A avoids jumping straight into plug\u2011and\u2011chug problems. Instead, it builds on visual and physical analogies (e.g., slides, walking down hills), which is well\u2011suited for a student struggling with formal slope expressions. The tutor responds dynamically to \u201cI don\u2019t know\u201d answers by scaffolding the concept through familiar, sensory experiences, encouraging the student to notice subtle details that can then be linked back to graph behavior.  \nIn contrast, Dialogue B operates generically, moving through repetitive practice questions and standard fraction/sign reminders. While its step\u2011by\u2011step drills are correct, they do not leverage the student\u2019s past performance data, strengths, or preferred learning style, nor do they address deeper conceptual gaps beyond sign errors. Dialogue B remains procedural, whereas Dialogue A provides a tailored conceptual bridge, critical for this student's weaknesses in slope writing.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 52,
+      "concept_text": "Find Y@@@@ positive slope",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows substantially deeper personalization. The tutor explicitly connects the \u201cFind Y@@@@ positive slope\u201d concept to the student\u2019s personal experiences (allowance growth, splitting pizza, baking a cake) and uses these to reduce anxiety while building understanding. This matches the student\u2019s profile, which shows low accuracy in slope-related skills and benefits from grounding abstract math in familiar contexts. The encouragement is tailored to the student\u2019s emotions and hesitations (\u201cI don\u2019t know\u201d), maintaining a safe and supportive learning environment.  \nIn contrast, Dialogue B maintains a procedural, practice-problem format without leveraging the student\u2019s known struggles or strengths from their profile or past history. While it offers correct guidance on point-slope form, it does not connect to the student\u2019s personal context or adapt to their repeated \u201cI don\u2019t know\u201d answers beyond generic prompts. Therefore, A demonstrates far superior personalization quality.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A demonstrates far deeper adaptation to the student\u2019s learning style and needs than Dialogue B. The student profile shows a significant weakness in \"Write expression@@@@ negative slope\" (36% accuracy), and the Dialogue A tutor responds by anchoring the concept in tangible, real-world experiences (slides, hills) and fosters gradual conceptual understanding before introducing formal math notation. The tutor persistently builds on the student\u2019s partial attempts\u2014such as their playground slide example\u2014by probing sensory and kinaesthetic details, clearly leveraging the student\u2019s responses to make the concept relatable. While this approach drifts into extended metaphor before getting to algebraic expressions, it remains highly personalized. In contrast, Dialogue B sticks to generic practice problems on slope and corrects arithmetic sign issues but does not meaningfully adapt to this particular student\u2019s engagement signals, learning style, or history; the sequence is linear and could be given to any learner struggling with slope signs. Thus, A better addresses the personalization criterion, even if B is more direct in mathematical practice.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates far deeper personalization for this specific student. The tutor engages the student using extended real\u2011life analogies (slides, hills) and builds a negative slope concept from physical, sensory, and experiential cues \u2014 a strong choice given the student\u2019s low accuracy (36%) in \"Write expression@@@@ negative slope\" and tendency to need conceptual grounding. The tutor responds dynamically to each hesitant or partial answer, reframing questions in simpler or more personally relatable terms, and encourages descriptive, body\u2011aware observations to scaffold understanding before introducing formal notation. In contrast, Dialogue B uses a more generic, drill\u2011practice approach with repeated formula reminders, which is appropriate for procedural reinforcement but not tailored to the student\u2019s profile of conceptual struggles and low skill mastery in this topic. Dialogue B does provide corrective feedback on each attempt, but it lacks adaptation beyond restating rules and assigning new slope problems, missing opportunities to link the math to the student\u2019s experiences or leverage their strengths in \"Find Y@@@@ Simple\" and related conceptual work. Overall, Dialogue A better matches the need for meaningful, personalized scaffolding.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 457,
+      "concept_text": "Using difficult numbers",
+      "winner": "target",
+      "score_a": 9.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A consistently adapts to the student's responses and learning style by building on their real-world experiences and encouraging personal connections to the concept of \"using difficult numbers.\" For example, the tutor shifts from abstract numbers to the student's grocery store experience with a $73 coffee bag, then uses that as a basis for exploring comparisons, perceived value, and number sense. The tutor validates the student's \"I don't know\" responses, framing them as opportunities for curiosity rather than failure, and keeps tying questions to meaningful, tangible contexts. In contrast, Dialogue B presents a series of generic practice problems with difficult numbers, offering minimal personalization beyond general encouragement. When the student says \"I don't know,\" Dialogue B repeatedly tells them to try or guess but does not adapt its approach or relate the problems to the student's context or strengths; it stays in a standard math-drill mode. The deeper personalization, contextual relevance, and responsiveness in Dialogue A make it clearly superior for this specific student.\n\n**Personalization Score A: 9/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    }
+  ]
+}

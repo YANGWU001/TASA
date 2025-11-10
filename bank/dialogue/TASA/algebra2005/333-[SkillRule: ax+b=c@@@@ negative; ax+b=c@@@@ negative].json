@@ -1,0 +1,308 @@
+{
+  "student_id": 333,
+  "dataset": "algebra2005",
+  "concept_text": "[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]",
+  "num_rounds": 10,
+  "dialogue": [
+    {
+      "role": "user",
+      "round": 0,
+      "content": "I want to learn about [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]"
+    },
+    {
+      "role": "assistant",
+      "round": 1,
+      "content": "**Practice Question \u2013 Solving a Linear Equation with a Negative\u202f\\(x\\)\u202fCoefficient**\n\nSolve for\u202f\\(x\\):\n\n\\[\n4 - 5x \\;=\\; 2x + 9\n\\]\n\n*Show each step you take (move terms, combine like terms, and isolate\u202f\\(x\\)).*",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove negative coefficient; {ax/b=c@@@@ reciprocal; ax/b=c; ax=b; x/a=b}]' with 50% accuracy over 12 attempts.",
+        "Student shows good understanding of '[SkillRule: Remove constant; {ax+b=c@@@@ positive; ax+b=c@@@@ negative; x+a=b@@@@ positive; x+a=b@@@@ negative; [var expr]+[const expr]=[const expr]@@@@ positive; [var expr]+[const expr]=[const expr]@@@@ negative; [var expr]+[const expr]=[const expr]@@@@ all; Combine constants to right; Combine constants to left; a-x=b@@@@ positive; a/x+b=c@@@@ positive; a/x+b=c@@@@ negative}]' with 62% accuracy over 34 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts."
+      ],
+      "retrieved_memory": [
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student retains most of the skill (low forgetting) after 0.2\u202fdays; mastery remains around 0.50, with 50\u202f% accuracy on 12 attempts for \u201cRemove negative coefficient\u201d (ax\u202f+\u202fb\u202f=\u202fc \u2192 negative), indicating the concept still needs improvement.",
+        "Student retains a low\u2011level forgetting of the \u201cax\u202f+\u202fb\u202f=\u202fc (negative)\u201d rule: current mastery \u22480.50 (\u224862\u202f% accuracy over 34 attempts), last practiced 0.2\u202fdays ago, forgetting score\u202f0.03 (knowledge largely retained).",
+        "Student shows needs improvement on **[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]** with about\u202f48\u202f% accuracy (down from 50\u202f%) after 0.2\u202fdays; forgetting level remains low\u2011low, so most knowledge is still retained."
+      ],
+      "rewritten_memory": [
+        "The student shows moderate mastery (0.50) of solving\u202fax\u202f+\u202fb\u202f=\u202fc (negative) with minimal forgetting (score\u202f0.03) after only 0.2\u202fdays since last practice, indicating most of the knowledge is still retained.",
+        "The student still has moderate difficulty with the negative\u2011case linear equation\u202fax\u202f+\u202fb\u202f=\u202fc, retaining roughly 50\u202f% mastery; recent practice (0.2\u202fdays ago) keeps forgetting minimal.",
+        "The student answered an \u201cax\u202f+\u202fb\u202f=\u202fc\u201d question incorrectly, yet retains most of the knowledge (mastery\u202f\u2248\u202f0.50, forgetting score\u202f0.03\u202f\u2013 low level) after the recent practice 0.2\u202fdays ago."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 2,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 2,
+      "content": "**What\u202fyou tried (or didn\u2019t try) so far**\n\nYou wrote that you\u2019re \u201cnot sure how to answer this.\u201d That\u2019s perfectly fine\u202f\u2014\u202frecognizing a gap is the first step toward filling it.  \nBecause you didn\u2019t yet move any terms or combine anything, we can\u2019t label the answer as right or wrong.\u202fWhat we can do now is walk through the *process* that solves a linear equation when the \\(x\\)\u2011term has a negative coefficient, and then give you a fresh problem to try on your own.\n\n---\n\n## Quick refresher: Solving \\(4-5x = 2x+9\\)\n\n1. **Gather the \\(x\\)-terms on one side**  \n   \u2013 Move the \\(2x\\) from the right\u2011hand side to the left.  \n   \u2013 Because you\u2019re moving it across the equals sign, change its sign:  \n   \\[\n   4-5x-2x = 9\n   \\]\n\n2. **Combine the like terms**  \n   \\[\n   -5x-2x = -7x \\quad\\Rightarrow\\quad 4-7x = 9\n   \\]\n\n3. **Gather the constant terms on the opposite side**  \n   \u2013 Move the \\(4\\) to the right, flipping its sign:  \n   \\[\n   -7x = 9-4\n   \\]\n\n4. **Simplify the right\u2011hand side**  \n   \\[\n   -7x = 5\n   \\]\n\n5. **Isolate \\(x\\) by \u201cremoving\u201d the coefficient** (divide by \\(-7\\))  \n   \\[\n   x = \\frac{5}{-7}= -\\frac{5}{7}\n   \\]\n\nThat\u2019s the whole workflow: **move \u2192 combine \u2192 move \u2192 simplify \u2192 divide**.  When the coefficient of \\(x\\) is negative, you still divide by that (negative) number; the sign of the result will follow automatically.\n\n---\n\n## Your next practice\n\nNow that the steps are fresh in your mind, try a very similar problem **without any extra tricks**.  This will let you focus on the \u201cremove\u2011coefficient\u201d part, which your recent data shows is the skill that needs a little more reinforcement.\n\n---\n\n### Practice Question \u2013 Negative\u2011coefficient linear equation\n\nSolve for \\(x\\):\n\n\\[\n7 - 3x \\;=\\; 4x - 2\n\\]\n\n**What to do**\n\n1. Move all the \\(x\\)-terms to one side.  \n2. Combine the constants on the opposite side.  \n3. Divide by the (negative) coefficient you end up with.\n\nWrite out each step just as we did above (show the equation after every move).  \n\nWhen you\u2019re done, reply with your work and the final value of \\(x*. If you get stuck at any point, let me know exactly where, and I\u2019ll give you a targeted hint. Good luck\u2014you\u2019ve got this!",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student shows 57\u202f% accuracy on \u201cremove coefficient\u201d tasks for the negative form of\u202fax\u202f+\u202fb\u202f=\u202fc, with current mastery \u22480.47 (down from 0.50) after 0.2\u202fdays since last practice; forgetting score\u202f0.03 indicates a low\u2011level forgetting.",
+        "Student shows low\u2011level forgetting for \u201c[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]\u201d: effective mastery \u2248\u202f0.47 (down from 0.50), last practiced\u202f0.2\u202fdays ago, 50\u202f% accuracy over 12 attempts.",
+        "Student retains moderate grasp of \u201csimplify\u2011fractions\u2011sp\u201d for the negative ax\u202f+\u202fb\u202f=\u202fc rule, showing about 47% accuracy (down from 50%) after a recent 0.2\u2011day interval; forgetting level remains low, indicating most knowledge is still retained."
+      ],
+      "rewritten_memory": [
+        "The student still has some difficulty with negative linear equations (ax\u202f+\u202fb\u202f=\u202fc), but recent practice has kept most of the knowledge intact.",
+        "The student retains most of the skill for solving\u202fax\u202f+\u202fb\u202f=\u202fc (negative) with moderate mastery (~0.5) after a recent practice 0.2\u202fdays ago; forgetting is minimal.",
+        "The student answered an\u202fax\u202f+\u202fb\u202f=\u202fc problem incorrectly; mastery is ~0.50, and after 0.2\u202fdays the forgetting score is 0.03 (low), indicating most of the knowledge is still retained."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 3,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 3,
+      "content": "**What I see in your last reply**\n\nYou wrote *\u201cI\u2019m not sure how to answer this.\u201d*\u202f\u2014\u202fthat\u2019s perfectly fine! It tells me you recognize that the problem is still a gap for you, which is the first step toward mastering it. Because no work was shown, I can\u2019t label the answer as right or wrong, but we can use this moment to break the process down into bite\u2011size pieces and give you a fresh problem to practice the \u201cremove\u2011coefficient\u201d skill.\n\n---\n\n## Quick \u201cnext\u2011step\u201d reminder\n\nWhen you have an equation like  \n\n\\[\n7 - 3x = 4x - 2\n\\]\n\nthe **goal** is to get all the \\(x\\)-terms on one side **and** all the constant terms on the other side.  \nThe usual sequence is:\n\n1. **Move the \\(x\\)-term from the right to the left** (or vice\u2011versa) \u2013 change its sign as you cross the equals sign.  \n2. **Combine the like\u2011terms** you now have on that side.  \n3. **Move the constant term(s)** to the opposite side \u2013 again flip the sign.  \n4. **Simplify** the constant side.  \n5. **Divide by the (negative) coefficient** that\u2019s left in front of \\(x\\).\n\nIf you follow those five tiny actions, the sign of the coefficient (positive or negative) will take care of itself when you divide.\n\n---\n\n## Your next practice problem\n\n### Solve for \\(x\\)\n\n\\[\n7 \\;-\\; 3x \\;=\\; 4x \\;-\\; 2\n\\]\n\n#### What to do\n\n1. **First move**: Write the equation after you have moved the \\(4x\\) term to the left side.  \n2. **Second move**: Combine the \\(x\\)-terms you now have on the left.  \n3. **Third move**: Move the constant term(s) so that the left side contains only the \\(x\\)-term.  \n4. **Final step**: Divide by the (negative) coefficient to isolate \\(x\\).\n\n**Please show each intermediate equation** (the whole line after each move). If you get stuck at any particular step, let me know exactly where, and I\u2019ll give you a targeted hint.\n\nYou\u2019ve already seen the whole workflow in the earlier example, so try to apply the same five\u2011step pattern here. I\u2019m confident you can do it\u2014just take it one small step at a time! \ud83c\udf1f\n\nWhen you\u2019re ready, post the series of steps and the final value of \\(x\\). If you\u2019d rather start with just the first step, that\u2019s fine too; we\u2019ll build from there. Good luck!",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student shows moderate proficiency in the \u201cremove coefficient\u201d skill (SkillRule: ax+b=c\u202f\u2026\u202fnegative), with current mastery around\u202f0.48 (down from 0.50) and roughly\u202f55\u202f% accuracy over 30 attempts after 0.2\u202fdays; forgetting level remains low.",
+        "Student retains most of the skill (forgetting score\u202f0.03) but still shows only 50\u202f% accuracy on \u201c[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]\u201d after 0.2\u202fdays, indicating a need for further practice.",
+        "Student shows needs improvement on \u201csimplify\u2011fractions\u2011sp\u201d (ax+b=c negative) with ~48% accuracy over 10 attempts; last practiced\u202f0.2\u202fdays ago, forgetting level low (most knowledge retained)."
+      ],
+      "rewritten_memory": [
+        "The student still struggles with solving\u202fax\u202f+\u202fb\u202f=\u202fc (negative), but most of the material remains retained, indicating a moderate mastery of 0.5 after 0.2\u202fdays since the last practice.",
+        "The student retains moderate understanding of solving\u202fax\u202f+\u202fb\u202f=\u202fc with negative values (mastery\u202f\u2248\u202f0.5) after recent practice (0.2\u202fdays ago), showing only slight difficulty and most knowledge still intact.",
+        "With 50% mastery and a low forgetting score (0.03), the student incorrectly answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question, despite having practiced it just 0.2\u202fdays ago."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 4,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 4,
+      "content": "**What I see in your last reply**\n\nYou wrote *\u201cI\u2019m not sure how to answer this.\u201d*\u202f\u2014\u202fthat\u2019s perfectly okay! It tells me you recognize a gap in the current skill (moving terms and \u201cremoving\u201d a negative coefficient). Because no work was shown, there\u2019s nothing to mark right or wrong yet, but we can use this moment to focus exactly on the step that\u2019s giving you trouble: **isolating\u202f\\(x\\) when the coefficient is negative**.\n\n---\n\n## Next practice \u2013 a fresh, but very similar, equation  \n\nSolve for \\(x\\):\n\n\\[\n\\boxed{7 \\;-\\; 3x \\;=\\; 4x \\;-\\; 2}\n\\]\n\n### How to approach it (five tiny steps)\n\n1. **Move the \\(x\\)-term from the right side to the left** \u2013 change its sign as it crosses the equals sign.  \n2. **Combine the \\(x\\)-terms** that are now together on the left.  \n3. **Move the constant term(s)** so that the left side contains only the \\(x\\)-term.  \n4. **Simplify the right\u2011hand side** (do any addition/subtraction that remains).  \n5. **Divide by the (negative) coefficient** that is left in front of \\(x\\).\n\n#### What to submit\n- Write the whole equation **after each step** (you\u2019ll have five lines total).  \n- End with the final value of \\(x\\).\n\nIf you get stuck at any particular step, just tell me *\u201cI\u2019m stuck at step\u202f2\u201d* (or whichever step) and I\u2019ll give you a targeted hint.\n\nYou\u2019ve already seen the same workflow in the example with \\(4-5x = 2x+9\\); try to apply the same pattern here. I\u2019m confident you can do it\u2014take it one small step at a time! \ud83c\udf1f\n\nWhen you\u2019re ready, post your work and the final answer. Good luck!",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student needs improvement on \u201cRemove coefficient\u201d (e.g.,\u202fax\u202f+\u202fb\u202f=\u202fc \u2192 divide, reciprocal, multiply steps) with 57\u202f% accuracy over 30 attempts. Mastery for this skill is now \u2248\u202f0.48 (down from 0.50) after 0.2\u202fdays, and the forgetting score is low\u2011low, indicating most knowledge is still retained.",
+        "Student shows low\u2011level forgetting on **[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]** \u2013 effective mastery \u2248\u202f0.48 (50\u202f% accuracy over 12 attempts, last practiced\u202f0.2\u202fdays ago, forgetting score\u202f0.03).",
+        "Student shows moderate mastery (\u224850\u202f% correct on 10 attempts) of solving\u202fax\u202f+\u202fb\u202f=\u202fc (negative); practiced 0.2\u202fdays ago, and a low forgetting score (0.03) indicates most of this knowledge is still retained."
+      ],
+      "rewritten_memory": [
+        "The student still finds solving equations of the form\u202fax\u202f+\u202fb\u202f=\u202fc (negative) challenging, retaining roughly 50\u202f% of the concept after a brief 0.2\u2011day interval.",
+        "The student still finds solving\u202fax\u202f+\u202fb\u202f=\u202fc\u202f(negative) moderately challenging, but after a recent practice 0.2\u202fdays ago and a low forgetting score (0.03), most of the knowledge remains retained, keeping mastery near 0.50.",
+        "The student answered an\u202fax\u202f+\u202fb\u202f=\u202fc\u202fquestion incorrectly; after 0.2\u202fdays the low forgetting score (0.03) means mastery is still close to 0.5 (\u22480.48), indicating most of the knowledge remains retained."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 5,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 5,
+      "content": "**What I see in your last reply**\n\nYou wrote *\u201cI\u2019m not sure how to answer this.\u201d*\u202f\u2014\u202fthat\u2019s perfectly fine! It tells me you recognise that the \u201cremove\u2011coefficient (negative)\u201d step is still shaky, which is exactly the part we need to practice. Since no work was shown, I can\u2019t label the answer right or wrong, but we can turn this uncertainty into a learning win by breaking the problem into tiny, manageable moves.\n\n---\n\n## Next practice problem (focused on the skill you\u2019re strengthening)\n\nSolve for\u202f\\(x\\):\n\n\\[\n\\boxed{7 \\;-\\; 3x \\;=\\; 4x \\;-\\; 2}\n\\]\n\n### How to proceed \u2013 five tiny actions\n\n1. **Move the \\(x\\)-term from the right side to the left** (change its sign).  \n2. **Combine the \\(x\\)-terms** that are now together on the left.  \n3. **Move the constant term(s)** so the left side contains only the \\(x\\)-term.  \n4. **Simplify the right\u2011hand side** (do any remaining addition/subtraction).  \n5. **Divide by the (negative) coefficient** left in front of \\(x\\).\n\n### What to submit\nWrite the whole equation **after each step** (you\u2019ll have five lines total) and end with the final value of \\(x\\).\n\nIf you get stuck at any particular step, just say *\u201cI\u2019m stuck at step\u202f2\u201d* (or whichever step) and I\u2019ll give you a targeted hint.\n\nGive it a try\u2014remember to take it one tiny step at a time! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student shows needs improvement on removing coefficients in the \u201cax\u202f+\u202fb\u202f=\u202fc (negative)\u201d rule: 57\u202f% accuracy over 30 attempts, current mastery \u22480.48 (down slightly from 0.50). Last practiced\u202f0.2\u202fdays ago; forgetting level \u201clow\u2011low,\u201d indicating most knowledge is still retained.",
+        "Student retains roughly 50\u202f% accuracy on \u201c[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]\u201d (12 attempts), last practiced\u202f0.2\u202fdays ago; forgetting level is low\u2011low, so most of the knowledge remains despite the need for improvement.",
+        "Student\u2019s current state for **[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]**: low forgetting (score\u202f0.03) with retained mastery around 48\u201150% accuracy, still indicating a need for improvement."
+      ],
+      "rewritten_memory": [
+        "The student continues to have moderate difficulty with negative\u2011value linear equations\u202fax\u202f+\u202fb\u202f=\u202fc, retaining roughly 50\u202f% of the concept.",
+        "The student still has difficulty with negative linear equations\u202f(ax\u202f+\u202fb\u202f=\u202fc), showing moderate mastery (~0.5); however, recent practice (0.2\u202fdays ago) means most of that knowledge is retained (forgetting score\u202f0",
+        "For the concept\u202fax\u202f+\u202fb\u202f=\u202fc\u202f(negative), the student has 50% mastery and answered a related question incorrectly; however, having practiced it just 0.2\u202fdays ago and with a low forgetting score of 0.03, most of the knowledge remains retained."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 6,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 6,
+      "content": "**What I see in your last reply**\n\nYou wrote *\u201cI\u2019m not sure how to answer this.\u201d*\u202f\u2014\u202fthat\u2019s perfectly fine! It tells me that the step where we **remove a negative coefficient** (the \u201cdivide by a negative number\u201d part) is still a bit fuzzy for you. Since you didn\u2019t show any work, there\u2019s nothing to mark right or wrong yet, but we can use this moment to focus exactly on that tricky step.\n\n---\n\n## Next practice \u2013 a very similar equation\n\nSolve for \\(x\\):\n\n\\[\n\\boxed{7 \\;-\\; 3x \\;=\\; 4x \\;-\\; 2}\n\\]\n\n### Tiny\u2011step roadmap (keep the same five actions)\n\n1. **Move the \\(x\\)-term from the right side to the left** (change its sign).  \n2. **Combine the \\(x\\)-terms** that are now together on the left.  \n3. **Move the constant term(s)** so the left side contains only the \\(x\\)-term.  \n4. **Simplify the right\u2011hand side** (do any remaining addition/subtraction).  \n5. **Divide by the (negative) coefficient** that is left in front of \\(x\\).\n\n### What to submit\nWrite the whole equation **after each step** (you\u2019ll have five lines total) and finish with the final value of \\(x\\).\n\n*If you get stuck at a particular step, just say \u201cI\u2019m stuck at step\u202f2\u201d (or whichever step) and I\u2019ll give you a targeted hint.*  \n\nGive it a try\u2014take it one tiny step at a time, and remember that the \u201cnegative\u2011coefficient\u201d division is just \u201cdivide by the number in front of \\(x\\), even if it\u2019s negative.\u201d You\u2019ve done this before; you can do it again! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student shows needs improvement on \u201cRemove coefficient\u201d (e.g.,\u202fax+b=c \u2192 divide, reciprocal, multiply steps) with 57\u202f% accuracy over 30 attempts. Current mastery for the \u201cax\u202f+\u202fb\u202f=\u202fc\u202f(negative)\u201d rule is about\u202f0.47. Last practiced\u202f0.2\u202fdays ago; forgetting level remains low\u2011low, indicating most knowledge is still retained.",
+        "For the \u201cax\u202f+\u202fb\u202f=\u202fc (negative)\u201d skill, the student\u2019s mastery is now approximately 0.48 after 0.2\u202fdays since last practice, with a low forgetting score (0.03, low\u2011low level). Accuracy remains around 50%, so the concept still needs improvement.",
+        "After 0.2\u202fdays, the student\u2019s effective mastery of **[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]** remains near 0.50 (forgetting score\u202f0.03 \u2013 low), indicating that most of the knowledge is retained despite a 50\u202f% accuracy over 10 attempts."
+      ],
+      "rewritten_memory": [
+        "The student still experiences moderate difficulty with solving linear equations of the form\u202fax\u202f+\u202fb\u202f=\u202fc (negative), but retains most of the previously learned material.",
+        "The student retains moderate mastery (\u224850%) of solving ax\u202f+\u202fb\u202f=\u202fc equations, having practiced it 0.2\u202fdays ago, with a low forgetting score (0.03) indicating most knowledge is still retained.",
+        "After 0.2\u202fdays, the student retains most of the knowledge (forgetting score\u202f0.03) but holds only moderate mastery (\u224850%); they still answered a negative\u202fax\u202f+\u202fb\u202f=\u202fc question incorrectly."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 7,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 7,
+      "content": "**What I see in your last reply**\n\nYou wrote *\u201cI\u2019m not sure how to answer this.\u201d*\u202f\u2014\u202fthat\u2019s perfectly fine!  \nBecause you didn\u2019t show any work, there\u2019s nothing to label right or wrong yet, but the response tells me that the step where we **remove a negative coefficient (divide by a negative number)** is still the part that feels shaky.\u202fThat\u2019s exactly the skill we want to strengthen, so we\u2019ll keep practicing it in a very similar problem.\n\n---\n\n## Next practice problem (focused on the same skill)\n\nSolve for\u202f\\(x\\):\n\n\\[\n\\boxed{5 \\;-\\; 2x \\;=\\; 3x \\;+\\; 9}\n\\]\n\n### Tiny\u2011step roadmap (the same five actions you\u2019ve been using)\n\n1. **Move the \\(x\\)-term from the right side to the left** (change its sign).  \n2. **Combine the \\(x\\)-terms** that are now together on the left.  \n3. **Move the constant term(s)** so the left side contains only the \\(x\\)-term.  \n4. **Simplify the right\u2011hand side** (do any remaining addition/subtraction).  \n5. **Divide by the (negative) coefficient** left in front of \\(x\\).\n\n### What to submit\nWrite the whole equation **after each step** (five lines total) and end with the final value of\u202f\\(x\\).  \n\nIf you get stuck at any step, just say *\u201cI\u2019m stuck at step\u202f2\u201d* (or whichever step) and I\u2019ll give you a targeted hint.\n\nGive it a try\u2014one tiny step at a time! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "Student retains moderate mastery (\u22480.48) of the \u201cax\u202f+\u202fb\u202f=\u202fc\u202f\u2192\u202fnegative\u201d skill, showing 57\u202f% accuracy over 30 attempts. The last practice was 0.2\u202fdays ago, and the forgetting level remains low, indicating most of the knowledge is still retained.",
+        "Student demonstrates ~50\u202f% mastery of \u201c[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]\u201d (12 attempts, 50\u202f% correct). After 0.2\u202fdays, the forgetting score is 0.03 (low\u2011low), indicating that most of this knowledge is still retained.",
+        "Student still needs improvement on \u201csimplify\u2011fractions\u2011sp\u201d (concept\u202fax+b=c\u202fnegative); after 0.2\u202fdays with a low\u2011level forgetting score, accuracy remains around 48% (mastery \u2248\u202f0.5)."
+      ],
+      "rewritten_memory": [
+        "The student still finds solving equations of the form\u202fax\u202f+\u202fb\u202f=\u202fc\u202f(negative) challenging, but retains most of the prior knowledge, reflecting a modest 50% mastery after only a short (0.2\u2011day) interval.",
+        "The student retains moderate mastery (~0.50) of solving negative linear equations\u202f(ax\u202f+\u202fb\u202f=\u202fc), with minimal forgetting after recent practice (0.2\u202fdays ago, forgetting score\u202f0.03).",
+        "The student retains most of the knowledge for solving\u202fax\u202f+\u202fb\u202f=\u202fc (forgetting score\u202f0.03, very low), but mastery remains modest (~0.5) after an incorrect answer; the concept was last practiced 0.2\u202fdays ago."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 8,
+      "content": "**Step\u202f1 \u2013 move the \\(x\\)-term from the right to the left (change its sign)**  \n\\(5 \\;-\\; 2x \\;-\\; 3x \\;=\\; 9\\)\n\n**Step\u202f2 \u2013 combine the \\(x\\)-terms**  \n\\(5 \\;-\\;5x \\;=\\; 9"
+    },
+    {
+      "role": "assistant",
+      "round": 8,
+      "content": "**What you did**\n\n1. **Step\u202f1** \u2013\u202f\\(5-2x-3x = 9\\)  \n   *Correct.* You moved the \\(3x\\) from the right\u2011hand side to the left and changed its sign.\n\n2. **Step\u202f2** \u2013\u202f\\(5-5x = 9\\)  \n   *Correct.* You combined the two \\(x\\)-terms \\(-2x\\) and \\(-3x\\) into \\(-5x\\).\n\nGreat job! You\u2019ve handled the \u201cmove\u2011and\u2011change\u2011sign\u201d and the \u201ccombine like terms\u201d steps perfectly.\n\n---\n\n### What\u2019s next?\n\nYou still have two more tiny steps to finish the solution:\n\n3. **Move the constant term** so that the left side contains only the \\(x\\)-term.  \n4. **Simplify the right\u2011hand side** (do any remaining addition/subtraction).  \n5. **Divide by the (negative) coefficient** in front of \\(x\\) to isolate \\(x\\).\n\n---\n\n#### Your next task\n\nContinue from where you left off \\(\\displaystyle 5-5x = 9\\) and write the whole equation **after each of the remaining steps** (three more lines). End with the final value of \\(x\\).\n\nIf you get stuck, just say \u201cI\u2019m stuck at step\u202f3\u201d (or whichever step) and I\u2019ll give you a targeted hint. You\u2019ve already shown you can move and combine terms, so the next challenge is moving the constant and dividing by a negative number\u2014something you\u2019ve practiced before.\n\nGive it a try, one step at a time! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows good understanding of '[SkillRule: Remove constant; {ax+b=c@@@@ positive; ax+b=c@@@@ negative; x+a=b@@@@ positive; x+a=b@@@@ negative; [var expr]+[const expr]=[const expr]@@@@ positive; [var expr]+[const expr]=[const expr]@@@@ negative; [var expr]+[const expr]=[const expr]@@@@ all; Combine constants to right; Combine constants to left; a-x=b@@@@ positive; a/x+b=c@@@@ positive; a/x+b=c@@@@ negative}]' with 62% accuracy over 34 attempts.",
+        "Student shows excellent mastery of '[SkillRule: Select Combine Terms; CLT]' with 100% accuracy over 3 attempts.",
+        "Student shows excellent mastery of '[SkillRule: Multiply/Divide; [Typein Skill: {Remove coefficient; Variable in denominator}]]' with 83% accuracy over 6 attempts."
+      ],
+      "retrieved_memory": [
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student demonstrated proficiency in [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student cracked a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question successfully."
+      ],
+      "rewritten_persona": [
+        "Student shows good understanding of **[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]** with ~62\u202f% accuracy over 34 attempts. After 0.2\u202fdays, effective mastery is about\u202f0.48 (down from 0.50) and the forgetting score is 0.03, indicating a low\u2011low forgetting level (most knowledge retained).",
+        "Student retains strong mastery of **[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]**, showing roughly 50\u202f% confidence after 0.2\u202fdays since the last practice; the forgetting level remains \u201clow\u2011low,\u201d indicating that most of the knowledge is still retained.",
+        "Student retains a low\u2011low forgetting level (score\u202f0.03) after 0.2\u202fdays; current mastery for \u201c[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]\u201d is 0.50, with 83% accuracy over 6 attempts on \u201c[SkillRule: Multiply/Divide; [Typein Skill: {Remove coefficient; Variable in denominator}]]\u201d."
+      ],
+      "rewritten_memory": [
+        "The student shows moderate mastery (~50%) of solving\u202fax\u202f+\u202fb\u202f=\u202fc with negative numbers, retaining most of this knowledge after recent practice (0.2\u202fdays ago) and a low forgetting score.",
+        "The student holds roughly 50\u202f% mastery of solving equations of the form\u202fax\u202f+\u202fb\u202f=\u202fc, with only minimal forgetting (score\u202f0.03) after practicing 0.2\u202fdays ago.",
+        "The student solved a negative\u202fax\u202f+\u202fb\u202f=\u202fc problem 0.2\u202fdays ago, retaining most of the knowledge (forgetting score\u202f0.03) and now holds roughly 50\u202f% mastery of this concept."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 9,
+      "content": "**Step\u202f3 \u2013\u202fMove the constant term**\n\n\\[\n5"
+    },
+    {
+      "role": "assistant",
+      "round": 9,
+      "content": "**What you did (Step\u202f3)**  \n\nYou wrote only \u201c\\(5\\)\u201d.  \nIn Step\u202f3 we need to **move the constant term** from the left\u2011hand side to the right\u2011hand side so that the left side contains only the \\(x\\)-term.\n\nStarting from the correct equation you already have  \n\n\\[\n5 - 5x \\;=\\; 9\n\\]\n\nthe proper move is:\n\n*Subtract\u202f5 from both sides*  \n\n\\[\n5-5x-5 \\;=\\; 9-5\n\\]\n\nwhich simplifies to  \n\n\\[\n-5x \\;=\\; 4\n\\]\n\nSo the full equation after Step\u202f3 should be **\\(-5x = 4\\)**.  \n\nYou were on the right track\u2014just remember to write the whole transformed equation, not only the number you\u2019re moving.\n\n---\n\n### Next tiny step (Step\u202f4)\n\n**Simplify the right\u2011hand side** (do any remaining addition/subtraction).  \nFrom \\(-5x = 4\\) there is actually nothing left to simplify, so you can move straight to Step\u202f5.\n\n### Step\u202f5 (final)\n\n**Divide by the (negative) coefficient** \\(-5\\) to isolate \\(x\\):\n\n\\[\nx = \\frac{4}{-5} = -\\frac{4}{5}\n\\]\n\n**Great!** Your full solution is \\(x = -\\dfrac{4}{5}\\).\n\n---\n\n## New practice problem (same skill, a little fresh)\n\nSolve for \\(x\\):\n\n\\[\n\\boxed{7 \\;-\\; 3x \\;=\\; 2x \\;+\\; 1}\n\\]\n\n**Tiny\u2011step roadmap (use the same five actions)**  \n\n1. Move the \\(x\\)-term from the right to the left (change its sign).  \n2. Combine the \\(x\\)-terms on the left.  \n3. Move the constant term so the left side has only the \\(x\\)-term.  \n4. Simplify the right\u2011hand side.  \n5. Divide by the (negative) coefficient in front of \\(x\\).\n\n**What to submit:** Write the whole equation **after each step** (five lines total) and end with the final value of \\(x\\).  \nIf you get stuck, just say \u201cI\u2019m stuck at step\u202f2\u201d (or whichever step) and I\u2019ll give you a targeted hint.\n\nGive it a try\u2014one tiny step at a time! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows good understanding of '[SkillRule: Remove constant; {ax+b=c@@@@ positive; ax+b=c@@@@ negative; x+a=b@@@@ positive; x+a=b@@@@ negative; [var expr]+[const expr]=[const expr]@@@@ positive; [var expr]+[const expr]=[const expr]@@@@ negative; [var expr]+[const expr]=[const expr]@@@@ all; Combine constants to right; Combine constants to left; a-x=b@@@@ positive; a/x+b=c@@@@ positive; a/x+b=c@@@@ negative}]' with 62% accuracy over 34 attempts.",
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows good understanding of '[SkillRule: Add/Subtract; [Typein Skill: {Isolate positive; Isolate negative; Remove constant; Consolidate vars@@@@ no coeff; Consolidate vars with coeff; Consolidate vars@@@@ any}]]' with 64% accuracy over 11 attempts."
+      ],
+      "retrieved_memory": [
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student demonstrated proficiency in [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]."
+      ],
+      "rewritten_persona": [
+        "Student shows good understanding of \u201cax\u202f+\u202fb\u202f=\u202fc (negative)\u201d with 62\u202f% accuracy over 34 attempts; current mastery \u2248\u202f0.49 after 0.2\u202fdays, forgetting score\u202f0.03 (low\u2011low, most knowledge retained).",
+        "Student shows needs improvement on \u201cRemove coefficient\u201d (e.g.,\u202fax\u202f+\u202fb\u202f=\u202fc\u202f\u2192\u202fax\u202f=\u202fb, etc.) with 57\u202f% accuracy over 30 attempts; current effective mastery \u2248\u202f0.47 after 0.2\u202fdays, forgetting level low\u2011low (most knowledge retained).",
+        "Student retains a good grasp of \u201cAdd/Subtract\u201d (Isolate positive; Isolate negative; Remove constant; Consolidate vars\u2014no coeff; Consolidate vars with coeff; Consolidate vars\u2014any) with 64\u202f% accuracy over 11 attempts. Current mastery is 0.50, last practiced 0.2\u202fdays ago, and the forgetting score is 0.03 (low\u2011low level), indicating that most of the knowledge is still retained."
+      ],
+      "rewritten_memory": [
+        "The student shows moderate difficulty with negative\u202fax\u202f+\u202fb\u202f=\u202fc equations, yet retains most of the prior knowledge after recent practice (mastery \u2248\u202f0.5, forgetting score low).",
+        "The student shows moderate proficiency (\u224850\u202f% mastery) in solving equations of the form\u202fax\u202f+\u202fb\u202f=\u202fc, last practiced 0.2\u202fdays ago, with minimal forgetting (score\u202f0.03, low\u2011low).",
+        "The student now retains most of the concept, showing moderate understanding of solving\u202fax\u202f+\u202fb\u202f=\u202fc when the result is negative, though occasional difficulty still appears."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 10,
+      "content": "I'm not sure how to answer this."
+    },
+    {
+      "role": "assistant",
+      "round": 10,
+      "content": "**What you tried**\n\nYou wrote *\u201cI\u2019m not sure how to answer this.\u201d* \u2013 that\u2019s completely fine!  \nWhen a problem feels a little hazy, the best move is to break it into the tiny steps we\u2019ve been practising.  \nRemember, the goal isn\u2019t to jump straight to the answer; it\u2019s to show the **whole equation after each of the five small actions**:\n\n1. **Move the \\(x\\)-term from the right\u2011hand side to the left (change its sign).**  \n2. **Combine the \\(x\\)-terms on the left.**  \n3. **Move the constant term so the left side contains only the \\(x\\)-term.**  \n4. **Simplify the right\u2011hand side (any remaining addition/subtraction).**  \n5. **Divide by the coefficient of \\(x\\) (watch the sign!).**\n\nIf you write out the equation after each of those steps, you\u2019ll see the solution unfold automatically.\n\n---\n\n## Let\u2019s try the first tiny step together\n\n**Problem:**  \n\n\\[\n7 \\;-\\; 3x \\;=\\; 2x \\;+\\; 1\n\\]\n\n### Step\u202f1 \u2013 Move the \\(x\\)-term from the right to the left\n\nTo bring the \\(2x\\) over, **subtract \\(2x\\) from both sides** (or add \\(-2x\\)).  \nWrite the whole new equation after you do that.\n\n**Your turn:**  \nWrite the equation you get after step\u202f1 and post it here.  \nIf you get stuck, just say \u201cI\u2019m stuck at step\u202f1\u201d and I\u2019ll give you a targeted hint.\n\n---\n\n### Why this works for you right now\n\n- Your recent work shows you can *move a term and change its sign* (you did that perfectly with the \\(-3x\\) earlier).  \n- You also handled *combining like terms* without trouble.  \n- The only new piece here is moving a **positive** \\(2x\\) to the left, which still uses the same \u201cmove\u2011and\u2011change\u2011sign\u201d rule you already know.\n\nBy taking it one step at a time, you\u2019ll reinforce that rule and keep the forgetting score low.  \n\nGive step\u202f1 a try\u2014one line, one operation, and you\u2019ll be back on track! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of '[SkillRule: Remove coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]' with 57% accuracy over 30 attempts.",
+        "Student shows needs improvement of '[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]' with 50% accuracy over 12 attempts.",
+        "Student shows needs improvement of 'simplify-fractions-sp' with 50% accuracy over 10 attempts."
+      ],
+      "retrieved_memory": [
+        "The student faced difficulty understanding [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative].",
+        "The student had difficulty with a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question.",
+        "The student answered a [SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] question incorrectly."
+      ],
+      "rewritten_persona": [
+        "For the \u201cax\u202f+\u202fb\u202f=\u202fc \u2192 negative\u201d rule, the student\u2019s mastery is ~0.5, last practiced\u202f0.2\u202fdays ago, retains most knowledge (forgetting score\u202f0.03, low), and shows 57\u202f% accuracy over 30 attempts\u2014still needing improvement.",
+        "For the concept \u201c[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative]\u201d, the student retains the material with low\u2011low forgetting (score\u202f0.03) after 0.2\u202fdays, maintaining roughly 50\u202f% mastery.",
+        "Student retains low\u2011level knowledge of\u202f[SkillRule: ax+b=c@@@@ negative; ax+b=c@@@@ negative] (current mastery \u2248\u202f0.48) after 0.2\u202fdays, with a forgetting score of\u202f0.03 indicating minimal decay."
+      ],
+      "rewritten_memory": [
+        "The student largely retains understanding of solving\u202fax\u202f+\u202fb\u202f=\u202fc with negative values, though moderate difficulty still remains.",
+        "The student still shows moderate difficulty with solving\u202fax\u202f+\u202fb\u202f=\u202fc (negative) equations, retaining most of the knowledge from the recent practice (mastery \u2248\u202f0.5, forgetting score\u202f0.03 \u2013 low).",
+        "The student answered an \u201cax\u202f+\u202fb\u202f=\u202fc\u201d (negative) question incorrectly; however, after only 0.2\u202fdays the forgetting level remains very low, so the student still retains most of the concept with an effective mastery near 0.50."
+      ]
+    }
+  ]
+}

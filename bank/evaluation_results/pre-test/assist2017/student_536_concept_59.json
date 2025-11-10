@@ -1,0 +1,86 @@
+{
+  "student_id": "536",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "combinatorics",
+  "concept_id": "59",
+  "original_accuracy": 0.125,
+  "roleplay_accuracy": 0.3,
+  "deviation": 0.175,
+  "roleplay_score": 3,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student shows some understanding of combinatorics concepts but has significant misconceptions. They confuse permutations and combinations, struggle with basic counting principles, and make calculation errors. More practice and clarification on these topics are needed.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the number of combinations when choosing r items from a set of n items?",
+      "student_answer": "Um\u2026 I think the formula is something like  \n\n\\[\n\\text{Number of combinations} \\;=\\; \\frac{n!}{(n-r)!}\n\\]\n\n...but I\u2019m not really sure if there\u2019s an extra r! in the denominator or not."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the difference between permutations and combinations in your own words.",
+      "student_answer": "Um, okay, let me try\u2026  \n\nSo, I think permutations are when you **choose** some items but you don\u2019t care about the order they\u2019re in. Like, if you pick three books from a shelf, the order doesn\u2019t matter, that\u2019s a permutation.  \n\nAnd then combinations are... I guess they\u2019re when the order *does* matter? Like arranging those three books on a table in a specific sequence would be a combination.  \n\nI\u2019m not totally sure, but that\u2019s how I understand it."
+    },
+    {
+      "question_number": 3,
+      "question": "How many ways can 5 books be arranged on a shelf?",
+      "student_answer": "Um\u2026 I\u2019m not really sure, but I think the number of ways to put the 5 books on the shelf is something like \\(5^5\\), which would be \\(3125\\) different arrangements."
+    },
+    {
+      "question_number": 4,
+      "question": "If a committee of 3 people is to be selected from a group of 10, how many different committees can be formed?",
+      "student_answer": "Um, I'm not totally sure, but I think the number of possible committees is 30."
+    },
+    {
+      "question_number": 5,
+      "question": "A password consists of 4 letters chosen from the English alphabet. If repetitions are allowed, how many different passwords can be created?",
+      "student_answer": "Um, I think the number of possible passwords is the number of ways to pick 4 letters in order, allowing repeats, so maybe you have to multiply the choices together.  \nIf you treat it like a permutation without repetition it would be  \n\n\\[\n26 \\times 25 \\times 24 \\times 23 = 358{,}800\n\\]\n\nSo I guess there are **358\u202f800** different passwords.   (I'm not totally sure, though.)"
+    },
+    {
+      "question_number": 6,
+      "question": "In a lottery, 6 numbers are chosen from a pool of 49 numbers. How many different combinations of numbers are possible?",
+      "student_answer": "Um, I think the number of possible combinations is the binomial coefficient \u201c49 choose 6\u201d.  Doing the math\u2026 I\u2019m not totally sure, but I got something like **2,598,960** possible combinations."
+    },
+    {
+      "question_number": 7,
+      "question": "If you have 8 distinct objects, how many ways can you select and arrange 3 of them?",
+      "student_answer": "Um\u2026 I think the number of ways is 56."
+    },
+    {
+      "question_number": 8,
+      "question": "Provide an example of a real-world scenario where permutations would be used instead of combinations, and explain why.",
+      "student_answer": "Um, I think a real\u2011world example where you\u2019d use permutations instead of combinations is something like **choosing three friends to go to a movie night and deciding who sits in which seat**.  \n\nThe idea is that you\u2019re not just picking the three friends (which would be a combination), you also care about the order they sit in\u2014like who gets the front\u2011left seat, who gets the middle seat, and who gets the back\u2011right seat. Since the seating order makes a difference, you\u2019d count the possibilities with a permutation formula (something like  nPr  =  n!\u202f/\u202f(n\u2011r)! ).  \n\nSo the reason we use permutations here is because the arrangement (the specific order of the friends in the seats) matters, whereas if we only cared about which friends went, we\u2019d use combinations."
+    },
+    {
+      "question_number": 9,
+      "question": "Using the principle of inclusion-exclusion, how would you calculate the number of outcomes that satisfy at least one of two conditions?",
+      "student_answer": "Um, I think the inclusion\u2011exclusion thing works like this: the number of outcomes that satisfy at least one of the two conditions is just the sum of the counts for each condition **plus** the count of outcomes that satisfy both. So, if we call the sets of outcomes \\(A\\) and \\(B\\),\n\n\\[\n|A\\cup B| \\;=\\; |A| \\;+\\; |B| \\;+\\; |A\\cap B|.\n\\]\n\nI\u2019m not totally sure, but that\u2019s the best I can remember."
+    },
+    {
+      "question_number": 10,
+      "question": "A group of 7 students is being divided into 2 teams. If team A must have 4 students and team B must have 3 students, how many ways can the teams be formed?",
+      "student_answer": "Um, I think the number of ways is\u2026 maybe 210?  I\u2019m not really sure, but I got that by doing something like \\(7 \\times 6 \\times 5 \\times 4\\).  So, I guess there are about 210 possible ways to form the two teams."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 3.0,
+    "num_attempts": 8,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 32.20080208778381,
+    "total_time": 33.207335233688354
+  }
+}

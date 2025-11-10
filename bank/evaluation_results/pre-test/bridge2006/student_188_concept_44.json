@@ -1,0 +1,86 @@
+{
+  "student_id": "188",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Count number of shaded parts in horizontal bar (discontiguous)",
+  "concept_id": "44",
+  "original_accuracy": 1.0,
+  "roleplay_accuracy": 0.9,
+  "deviation": -0.1,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of how to count shaded parts in horizontal bars with discontiguous shading. Most answers are correct, showing the ability to apply counting strategies effectively. However, the first answer indicates a lack of engagement with the task, which is a common mistake when visual information is not provided.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "How many shaded parts are visible in the given horizontal bar?",
+      "student_answer": "I\u2019m sorry, but I can\u2019t see the image you\u2019re referring to. Could you please provide a description of the horizontal bar or upload the image again so I can count the shaded parts for you?"
+    },
+    {
+      "question_number": 2,
+      "question": "If a horizontal bar has 8 segments, and 5 are shaded, how many unshaded segments are there?",
+      "student_answer": "The bar has \\(8 - 5 = 3\\) unshaded segments."
+    },
+    {
+      "question_number": 3,
+      "question": "Count the number of shaded parts in a horizontal bar where shading appears discontinuously.",
+      "student_answer": "The horizontal bar contains **4** separate shaded parts."
+    },
+    {
+      "question_number": 4,
+      "question": "A horizontal bar is divided into 10 segments with alternating shading. How many shaded segments are there?",
+      "student_answer": "The bar has 10 equal segments and the shading alternates (shaded, unshaded, shaded, \u2026).  \nThus every second segment is shaded.\n\n\\[\n\\frac{10}{2}=5\n\\]\n\n**Answer: 5 shaded segments.**"
+    },
+    {
+      "question_number": 5,
+      "question": "In a horizontal bar with discontiguous shading, identify the total number of shaded parts.",
+      "student_answer": "The horizontal bar contains **3** separate shaded parts."
+    },
+    {
+      "question_number": 6,
+      "question": "Given a horizontal bar with 12 segments and 4 shaded parts grouped separately, how many shaded parts are there?",
+      "student_answer": "There are **4 shaded parts** in the horizontal bar."
+    },
+    {
+      "question_number": 7,
+      "question": "If a horizontal bar has shaded parts that are not connected, explain how to count them accurately.",
+      "student_answer": "To count the shaded parts of a horizontal bar when those parts are **discontiguous** (i.e., they are separated by unshaded gaps), follow these simple, systematic steps:\n\n1. **Scan from one end to the other**  \n   Begin at the left\u2011most end of the bar and move steadily to the right (or vice\u2011versa).  \n\n2. **Identify a \u201cstart\u201d of a shaded segment**  \n   - Whenever you encounter a transition **from an unshaded region to a shaded region**, mark this as the beginning of a new shaded part.  \n   - If the bar starts already shaded, count that as the first part right away.\n\n3. **Track the \u201cend\u201d of that segment**  \n   Continue moving right until you hit a transition **from shaded back to unshaded**. The shaded segment ends there.  \n\n4. **Increment your count**  \n   Each time you record a start\u2011to\u2011end sequence (step\u202f2\u202f\u2192\u202fstep\u202f3), add\u202f1 to your total count of shaded parts.\n\n5. **Skip the gaps**  \n   After a segment ends, simply continue scanning through the unshaded gap(s) until you encounter the next start transition. The gaps themselves are irrelevant; they only serve to separate the parts.\n\n6. **Finish when you reach the far end**  \n   When the scan reaches the right\u2011most edge of the bar, stop. The number you have tallied is the total number of **discontiguous** (separate) shaded parts.\n\n### Quick Checklist\n\n| \u2714\ufe0e | Action |\n|---|--------|\n| 1 | Start at one end of the bar |\n| 2 | Look for \u201cunshaded \u2192 shaded\u201d transition \u2192 count\u202f+\u202f1 |\n| 3 | Follow the shading until \u201cshaded \u2192 unshaded\u201d transition |\n| 4 | Continue scanning after the gap |\n| 5 | Stop at the opposite end; the tally is your answer |\n\n### Example\n\n```\n[   \u2588\u2588\u2588   \u2588 \u2588\u2588\u2588    \u2588   ]\n   ^   ^ ^   ^   ^   ^\n   |   | |   |   |   |\n   1   2 3   4   5   6   \u2190 transitions\n```\n\n- Transition\u202f1: unshaded \u2192 shaded \u2192 **count\u202f=\u202f1**  \n- Transition\u202f2: shaded \u2192 unshaded (end of part\u202f1)  \n- Transition\u202f3: unshaded \u2192 shaded \u2192 **count\u202f=\u202f2**  \n- Transition\u202f4: shaded \u2192 unshaded (end of part\u202f2)  \n- Transition\u202f5: unshaded \u2192 shaded \u2192 **count\u202f=\u202f3**  \n- Transition\u202f6: shaded \u2192 unshaded (end of part\u202f3)\n\n**Result:** 3 separate shaded parts.\n\n---\n\nBy consistently applying the \u201ctransition\u201d rule\u2014counting each time shading begins after a gap\u2014you can accurately determine how many discontiguous shaded sections the horizontal bar contains, regardless of how many gaps or how irregular the pattern may be."
+    },
+    {
+      "question_number": 8,
+      "question": "A horizontal bar is divided into 15 sections, and 6 are randomly shaded. Determine the total number of shaded parts.",
+      "student_answer": "The bar has 15 equal sections, and exactly 6 of those sections are shaded.  \nSince each shaded section counts as one shaded part, the total number of shaded parts is simply the number of shaded sections.\n\n\\[\n\\text{Number of shaded parts} = 6\n\\]\n\n**Answer: 6**"
+    },
+    {
+      "question_number": 9,
+      "question": "Describe the process of counting shaded parts in a horizontal bar with discontiguous shading.",
+      "student_answer": "**Counting Shaded Parts in a Horizontal Bar (Discontiguous Shading)**  \n\n1. **Identify the Bar Orientation**  \n   - The bar runs horizontally from left to right.  \n   - The total length of the bar represents the whole quantity (often 100\u202f% or the total number of units).\n\n2. **Locate Each Shaded Segment**  \n   - Because the shading is *discontiguous*, the shaded portions appear as separate blocks with gaps (unshaded spaces) between them.  \n   - Scan the bar from the leftmost end to the rightmost end and mark where each shaded block begins and ends.\n\n3. **Determine the Boundaries**  \n   - For each shaded block, note its **starting point** (the first shaded unit) and its **ending point** (the last shaded unit before a gap).  \n   - You can use tick marks, grid lines, or the underlying scale on the bar to help locate these boundaries precisely.\n\n4. **Count the Number of Shaded Parts**  \n   - **Count each distinct block** as one \u201cshaded part.\u201d  \n   - Do **not** add up the lengths of the blocks; the question asks for the *number* of separate shaded segments, not the total shaded area.  \n   - Example: If the bar shows three separate shaded blocks (e.g., shaded from 0\u201310, 30\u201340, and 70\u201380), the count of shaded parts is **3**.\n\n5. **Verify Your Count**  \n   - Re\u2011scan the bar to ensure no shaded block was missed or double\u2011counted.  \n   - A quick way to verify is to place a finger (or a cursor) on each block as you count, moving from left to right.\n\n6. **Report the Result**  \n   - State the final tally clearly, e.g., \u201cThere are **4** discontiguous shaded parts in the bar.\u201d\n\n---\n\n### Quick Checklist\n- \u2610 Bar is horizontal.  \n- \u2610 Shading is not continuous (there are gaps).  \n- \u2610 Identify each separate shaded block.  \n- \u2610 Count each block once.  \n- \u2610 Double\u2011check for missed or extra counts.  \n\nFollowing these steps will give you an accurate count of the discontiguous shaded parts in any horizontal bar diagram."
+    },
+    {
+      "question_number": 10,
+      "question": "A horizontal bar has 20 sections, and some are shaded in clusters. How would you find the total number of shaded parts?",
+      "student_answer": "To determine how many of the 20 sections are shaded, simply **count the shaded sections**.  \nBecause the shading may occur in separate \u201cclusters\u201d (contiguous groups), a convenient way is:\n\n1. **Identify each cluster** of shaded sections.  \n2. **Count the number of sections inside that cluster** (e.g., a cluster that covers three consecutive sections contributes\u202f3).  \n3. **Add the counts from all clusters together**.  \n\nThe sum you obtain is the total number of shaded parts in the horizontal bar.  \nIf you prefer, you can also scan the bar from left to right and tick\u2011off each shaded section as you see it\u2014whether it\u2019s isolated or part of a cluster, each shaded section contributes\u202f1 to the total."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1.3,
+    "num_attempts": 14,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 30.70414137840271,
+    "total_time": 32.10890555381775
+  }
+}

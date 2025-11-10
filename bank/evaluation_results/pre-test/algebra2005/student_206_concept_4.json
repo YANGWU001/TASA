@@ -1,0 +1,86 @@
+{
+  "student_id": "206",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "[SkillRule: Remove negative coefficient; {ax/b=c@@@@ reciprocal; ax/b=c; ax=b; x/a=b}]",
+  "concept_id": "4",
+  "original_accuracy": 0.6363636363636364,
+  "roleplay_accuracy": 0.8,
+  "deviation": 0.16363636363636366,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "feedback": "The student demonstrates a solid understanding of the concepts related to removing negative coefficients and using the reciprocal property. Most answers are correct, but there are some errors in the calculations and sign management, particularly in Questions 1, 7, and 9. It's important to double-check signs and arithmetic to avoid common mistakes.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the first step in solving an equation with a negative coefficient, such as -2x/3 = 4?",
+      "student_answer": "The first thing you do is get rid of the fraction.  \nMultiply **both sides of the equation by\u202f3** (the denominator) so that the term \\(-2x/3\\) becomes \\(-2x\\):\n\n\\[\n-2x/3 = 4 \\;\\;\\Longrightarrow\\;\\; (-2x/3)\\times 3 = 4 \\times 3\n\\]\n\nwhich simplifies to\n\n\\[\n-2x = 12.\n\\]\n\nNow you can proceed by dividing by \\(-2\\) to solve for\u202f\\(x\\)."
+    },
+    {
+      "question_number": 2,
+      "question": "If the equation is -3x/5 = 6, how would you rewrite it to eliminate the negative coefficient?",
+      "student_answer": "To get rid of the negative sign on the\u202f\\(x\\)\u202fterm, multiply both sides of the equation by \\(-1\\):\n\n\\[\n-\\,\\frac{3x}{5}=6 \\;\\;\\Longrightarrow\\;\\; \\frac{3x}{5} = -6\n\\]\n\nSo the equation rewritten without a negative coefficient on the \\(x\\) term is  \n\n\\[\n\\boxed{\\dfrac{3x}{5} = -6}\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why taking the reciprocal of both sides of the equation ax/b = c is necessary when solving for x.",
+      "student_answer": "When the equation is written as  \n\n\\[\n\\frac{ax}{b}=c,\n\\]\n\nthe variable\u202f\\(x\\) is hidden inside a fraction.  If we take the reciprocal of **both** sides we flip the fraction so that \\(x\\) moves to the numerator:\n\n\\[\n\\frac{b}{ax}= \\frac{1}{c}.\n\\]\n\nNow the only operation that still involves \\(x\\) is a multiplication (by \\(a\\)), so we can simply multiply both sides by \\(a\\) to get  \n\n\\[\n\\frac{b}{x}= \\frac{a}{c},\n\\]\n\nand then multiply by \\(x\\) and divide by \\(\\frac{a}{c}\\) to isolate \\(x\\).  This gives  \n\n\\[\nx = \\frac{bc}{a}.\n\\]\n\nTaking the reciprocal is therefore a convenient step because it turns the original \u201c\\(x\\) in the denominator\u201d situation into a \u201c\\(x\\) in the numerator\u201d situation, which can be cleared by ordinary multiplication and division.  (You could also solve it by multiplying both sides by \\(b\\) and then dividing by \\(a\\); the reciprocal method just makes the algebra look a little cleaner.)"
+    },
+    {
+      "question_number": 4,
+      "question": "Solve for x: -x/4 = 8.",
+      "student_answer": "\\[\n-\\frac{x}{4}=8\n\\]\n\nMultiply both sides by\u202f4:\n\n\\[\n-x = 32\n\\]\n\nNow multiply by \\(-1\\):\n\n\\[\nx = -32\n\\]\n\n\\[\n\\boxed{-32}\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "Given the equation -5x/2 = 10, demonstrate the process of removing the negative coefficient and solving for x.",
+      "student_answer": "**Step\u202f1 \u2013\u202fIdentify the negative coefficient**\n\nThe term \\(-5x/2\\) has a negative coefficient (the \u201c\u20115\u201d).  \nTo get rid of the minus sign we can multiply the whole equation by \\(-1\\).\n\n\\[\n-1\\!\\left(\\frac{-5x}{2}=10\\right)\\;\\Longrightarrow\\;\\frac{5x}{2}= -10\n\\]\n\nNow the coefficient of \\(x\\) is positive \\(\\;5/2\\).\n\n---\n\n**Step\u202f2 \u2013\u202fIsolate\u202f\\(x\\) (remove the fraction)**  \n\nThe equation \\(\\dfrac{5x}{2}= -10\\) can be cleared of the denominator by multiplying both sides by\u202f2:\n\n\\[\n2\\!\\left(\\frac{5x}{2}\\right)=2(-10)\\;\\Longrightarrow\\;5x = -20\n\\]\n\n---\n\n**Step\u202f3 \u2013\u202fSolve for\u202f\\(x\\) (remove the remaining coefficient)**  \n\nThe remaining coefficient of \\(x\\) is\u202f5. Divide both sides by\u202f5 (or multiply by its reciprocal \\(1/5\\)):\n\n\\[\nx = \\frac{-20}{5}= -4\n\\]\n\n---\n\n**Result**\n\n\\[\n\\boxed{x = -4}\n\\]\n\nThe negative coefficient in the original equation was removed by first multiplying by \\(-1\\), then clearing the fraction, and finally dividing by the remaining positive coefficient."
+    },
+    {
+      "question_number": 6,
+      "question": "Why is it important to isolate x after removing the negative coefficient in an equation like -ax/b = c?",
+      "student_answer": "Isolating\u202f\\(x\\) after you get rid of the negative coefficient is what actually gives you the solution of the equation.  \nWhen the term \\(-\\frac{ax}{b}=c\\) is first multiplied by \\(-1\\) (or both sides are multiplied by \\(-b\\)) you end up with a simpler, positive\u2011coefficient form \\(\\frac{ax}{b}= -c\\) (or \\(ax = -bc\\)).  At that point you still have \\(x\\) tangled with other numbers, so you have to finish the process by isolating \\(x\\) \u2013 usually by dividing both sides by the coefficient \\(a\\) (and by \\(b\\) if it\u2019s still in the denominator).  \n\nDoing this does two useful things:\n\n1. **It removes any sign\u2011confusion.**  By clearing the negative sign first and then solving for \\(x\\), you avoid accidentally leaving a stray \u201c\u2011\u201d in front of the solution, which is a common source of mistakes.  \n\n2. **It gives an explicit expression for \\(x\\).**  Once \\(x\\) is alone, you can read off its value (or the value it must take) directly, which is what you need to answer the problem.  \n\nIf you didn\u2019t finish by isolating \\(x\\), you would still have an equation that mixes \\(x\\) with other constants, so you wouldn\u2019t actually know what \\(x\\) equals.  In short, removing the negative coefficient cleans up the equation, and isolating \\(x\\) then tells you the exact (and, in this case, always positive) solution."
+    },
+    {
+      "question_number": 7,
+      "question": "Rewrite the equation -7x/3 = 21 in terms of x by eliminating the negative coefficient and simplifying.",
+      "student_answer": "\\[\n-\\,\\frac{7x}{3}=21\n\\]\n\nMultiply both sides by\u202f3:\n\n\\[\n-7x = 63\n\\]\n\nDivide by\u202f\u20137:\n\n\\[\nx = -9\n\\]\n\nSo the equation rewritten in terms of\u202f\\(x\\) is  \n\n\\[\n\\boxed{x = -9}\n\\]"
+    },
+    {
+      "question_number": 8,
+      "question": "If ax/b = c, explain the sequence of steps to isolate x using the reciprocal property.",
+      "student_answer": "**Step\u2011by\u2011step using the reciprocal property**\n\n1. **Start with the given equation**  \n   \\[\n   \\frac{a x}{b}=c\n   \\]\n\n2. **Take the reciprocal of both sides** (the reciprocal of a fraction is obtained by swapping numerator and denominator).  \n   \\[\n   \\frac{b}{a x}= \\frac{1}{c}\n   \\]\n\n3. **Isolate the term that contains\u202f\\(x\\).**  \n   Multiply both sides by \\(a\\) to move the coefficient \\(a\\) out of the denominator on the left:  \n   \\[\n   \\frac{b}{x}= \\frac{a}{c}\n   \\]\n\n4. **Swap the fraction so that\u202f\\(x\\) is in the numerator.**  \n   Take the reciprocal again (or simply multiply both sides by \\(x\\) and then divide by the left\u2011hand side):  \n   \\[\n   b = \\frac{a x}{c}\n   \\]\n\n5. **Clear the remaining denominator** by multiplying both sides by \\(c\\):  \n   \\[\n   b\\,c = a x\n   \\]\n\n6. **Solve for\u202f\\(x\\)** by dividing both sides by the coefficient \\(a\\):  \n   \\[\n   x = \\frac{b\\,c}{a}\n   \\]\n\nSo, using the reciprocal property, the isolated form of\u202f\\(x\\) is  \n\n\\[\n\\boxed{x = \\dfrac{b\\,c}{a}}.\n\\]"
+    },
+    {
+      "question_number": 9,
+      "question": "For the equation -x/6 = -12, solve for x by removing the negative coefficient and simplifying.",
+      "student_answer": "To solve  \n\n\\[\n-\\frac{x}{6}= -12\n\\]\n\nremove the negative sign (multiply both sides by \\(-1\\)):\n\n\\[\n\\frac{x}{6}= 12\n\\]\n\nNow multiply both sides by \\(6\\) to isolate \\(x\\):\n\n\\[\nx = 12 \\times 6 = 72\n\\]\n\n\\[\n\\boxed{x = 72}\n\\]"
+    },
+    {
+      "question_number": 10,
+      "question": "Describe how the concept of reciprocal is applied to solve equations like -ax/b = c. Provide an example.",
+      "student_answer": "**How the reciprocal is used**\n\nWhen an equation has the unknown\u202f\\(x\\) multiplied by a coefficient that is written as a fraction, we can \u201cundo\u2019\u2019 that coefficient by multiplying both sides of the equation by its **reciprocal** (the fraction turned upside\u2011down).  \nDoing this gets the fraction out of the way and leaves \\(x\\) by itself.\n\nFor an equation of the form  \n\n\\[\n-\\frac{a x}{b}=c,\n\\]\n\nthe coefficient of \\(x\\) is \\(-\\dfrac{a}{b}\\).  \nThe reciprocal of \\(-\\dfrac{a}{b}\\) is \\(-\\dfrac{b}{a}\\) (because \\(\\displaystyle\\bigl(-\\frac{a}{b}\\bigr)\\cdot\\bigl(-\\frac{b}{a}\\bigr)=1\\)).  \n\nThe steps are:\n\n1. **Multiply both sides by the reciprocal** \\(-\\dfrac{b}{a}\\).  \n2. The left\u2011hand side collapses to \\(x\\) because \\(\\bigl(-\\frac{a}{b}\\bigr)\\bigl(-\\frac{b}{a}\\bigr)=1\\).  \n3. Simplify the right\u2011hand side to get the value of \\(x\\).\n\n---\n\n**Example**\n\nSolve  \n\n\\[\n-\\frac{3x}{4}=6 .\n\\]\n\n*Coefficient*: \\(-\\dfrac{3}{4}\\) \u2192 reciprocal is \\(-\\dfrac{4}{3}\\).\n\nMultiply both sides by \\(-\\dfrac{4}{3}\\):\n\n\\[\n\\bigl(-\\frac{3}{4}\\bigr)x\\;\\bigl(-\\frac{4}{3}\\bigr)=6\\;\\bigl(-\\frac{4}{3}\\bigr).\n\\]\n\nThe left side simplifies to \\(x\\):\n\n\\[\nx = 6\\left(-\\frac{4}{3}\\right).\n\\]\n\nNow compute the right side:\n\n\\[\nx = -\\frac{24}{3}= -8.\n\\]\n\nSo the solution is \\(x = -8\\).\n\n*(If you forget the minus sign when you multiply by the reciprocal you could end up with \\(x = 8\\); that\u2019s a common slip at this stage.)*"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 38.0,
+    "num_attempts": 11,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 50.689428091049194,
+    "total_time": 52.10835003852844
+  }
+}

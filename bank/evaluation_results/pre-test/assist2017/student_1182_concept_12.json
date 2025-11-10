@@ -1,0 +1,86 @@
+{
+  "student_id": "1182",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "pythagorean-theorem",
+  "concept_id": "12",
+  "original_accuracy": 0.5714285714285714,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.3285714285714286,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the Pythagorean Theorem and its applications. Most answers are correct, showing the ability to apply the theorem in various contexts, including real-world scenarios and proofs. The only error was in the calculation of the missing side in Question 5, where the student incorrectly stated the length of the other leg. Overall, the student has a solid grasp of the concepts.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for the Pythagorean Theorem?",
+      "student_answer": "I think the formula is  \n\n\\[\na^{2}+b^{2}=c^{2},\n\\]\n\nwhere\u202f\\(a\\) and\u202f\\(b\\) are the lengths of the two legs of a right\u2011triangle and\u202f\\(c\\) is the length of the hypotenuse."
+    },
+    {
+      "question_number": 2,
+      "question": "If a right triangle has legs measuring 3 and 4 units, what is the length of the hypotenuse?",
+      "student_answer": "The hypotenuse would be\u202f5\u202funits (since\u202f\\(3^2 + 4^2 = 9 + 16 = 25\\)\u202fand\u202f\\(\\sqrt{25}=5\\))."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the Pythagorean Theorem only applies to right triangles.",
+      "student_answer": "The Pythagorean Theorem is based on the fact that a right\u2011angled triangle has one angle that is exactly 90\u00b0.  \nWhen the two legs that meet at the right angle are placed so they form a perfect \u201cL\u201d shape (i.e., they are perpendicular), the squares built on those legs line up exactly with the square built on the side opposite the right angle (the hypotenuse).  The geometry of that perpendicular arrangement makes the area of the large square equal to the sum of the areas of the two smaller squares, which is why  \n\n\\[\na^{2}+b^{2}=c^{2}\n\\]\n\nholds.\n\nIf the triangle is not right\u2011angled, the two sides that meet are not perpendicular, so the squares on those sides do not line up in the same way.  In an acute triangle the sum of the squares of the two shorter sides is actually **greater** than the square of the longest side, and in an obtuse triangle it is **less**.  Because the perpendicular relationship is missing, the simple \u201csquare\u2011sum\u201d equality breaks down.\n\nSo, the theorem only works for right triangles because its proof (and the equality itself) relies on that 90\u00b0 angle and the resulting perpendicular geometry.  Other triangles need a different relationship (like the Law of Cosines) to connect their side lengths."
+    },
+    {
+      "question_number": 4,
+      "question": "A triangle has sides measuring 6, 8, and 10 units. Is this triangle a right triangle? Justify your answer using the Pythagorean Theorem.",
+      "student_answer": "The triangle **is** a right triangle.\n\n**Why:**  \nFor a right triangle the squares of the two shorter sides must add up to the square of the longest side (the Pythagorean Theorem).\n\n\\[\n6^{2}+8^{2}=36+64=100\n\\]\n\nThe longest side is 10 units, and\n\n\\[\n10^{2}=100.\n\\]\n\nSince \\(6^{2}+8^{2}=10^{2}\\), the side lengths satisfy the Pythagorean relationship, so the triangle is a right triangle."
+    },
+    {
+      "question_number": 5,
+      "question": "Solve for the missing side: In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+      "student_answer": "I think the length of the other leg is **12\u202funits**."
+    },
+    {
+      "question_number": 6,
+      "question": "Provide an example of a real-world scenario where the Pythagorean Theorem could be used to solve a problem.",
+      "student_answer": "One common real\u2011world situation where the Pythagorean Theorem comes in handy is when you need to figure out how far a ladder must reach the ground when it\u2019s leaning against a wall.\n\n**Scenario:**  \nSuppose you have a ladder that is 12\u202fft long and you need to place it so that the top of the ladder reaches a window that is 9\u202fft above the ground. You can use the Pythagorean Theorem (\u202fa\u00b2\u202f+\u202fb\u00b2\u202f=\u202fc\u00b2\u202f) to find the distance from the base of the ladder to the wall.\n\n- Here, the ladder length (the hypotenuse) is **c\u202f=\u202f12\u202fft**.\n- The height of the window is one leg, **a\u202f=\u202f9\u202fft**.\n- The distance from the wall to the base of the ladder is the other leg, **b**.\n\nSo,  \n\nb\u00b2 = c\u00b2 \u2013 a\u00b2 = 12\u00b2 \u2013 9\u00b2 = 144 \u2013 81 = 63 \u2192 b \u2248\u202f\u221a63 \u2248\u202f7.94\u202fft.\n\n**Result:** The base of the ladder should be placed about\u202f8\u202ffeet away from the wall.\n\nThis kind of problem shows how the Pythagorean Theorem helps with everyday tasks like safely positioning a ladder. (There are many other examples, too\u2014such as determining the shortest path across a rectangular park, measuring the diagonal of a TV screen, or calculating the length of a roof rafter.)"
+    },
+    {
+      "question_number": 7,
+      "question": "Prove the Pythagorean Theorem algebraically using a geometric approach.",
+      "student_answer": "Sure \u2013 I\u2019ll try to give the classic \u201csquare\u2011inside\u2011a\u2011square\u2019\u2019 proof, but I\u2019m not 100\u202f% confident about every little detail, so bear with me.\n\n---\n\n### 1.  Build a big square\n\nTake a right\u2011angled triangle with legs\u202f\\(a\\) and \\(b\\) and hypotenuse\u202f\\(c\\).  \nCopy the triangle four times and arrange the copies so that their right\u2011angles sit at the four corners of a big square whose side\u2011length is \\(a+b\\).\n\nIf you look at the picture you\u2019ll see two different ways to count the area of that big square.\n\n---\n\n### 2.  Area counted one way \u2013 the whole square\n\nThe whole big square has side \\(a+b\\), so its area is  \n\n\\[\n\\text{Area}_{\\text{big}}=(a+b)^2 = a^{2}+2ab+b^{2}.\n\\]\n\n---\n\n### 3.  Area counted the other way \u2013 triangles\u202f+\u202fcentral region\n\nInside the big square we can see four copies of the original right\u2011triangle.  \nEach triangle has area  \n\n\\[\n\\frac12 ab,\n\\]\n\nso the four triangles together contribute  \n\n\\[\n4\\cdot\\frac12ab = 2ab.\n\\]\n\nThe leftover region in the middle is also a square.  \nI think (and this is where I\u2019m a bit unsure) its side\u2011length is the hypotenuse \\(c\\), so its area should be \\(c^{2}\\).  \n(If you draw the picture you\u2019ll see the hypotenuse of each triangle forms one side of this inner square.)\n\nThus the total area expressed this way is  \n\n\\[\n\\text{Area}_{\\text{parts}} = 2ab + c^{2}.\n\\]\n\n---\n\n### 4.  Equate the two expressions\n\nSince both expressions describe the same big square, set them equal:\n\n\\[\na^{2}+2ab+b^{2}=2ab+c^{2}.\n\\]\n\nCancel the \\(2ab\\) on both sides and you get  \n\n\\[\na^{2}+b^{2}=c^{2}.\n\\]\n\n---\n\n### 5.  Conclusion\n\nSo the algebraic relationship that must hold for the sides of any right\u2011angled triangle is  \n\n\\[\n\\boxed{a^{2}+b^{2}=c^{2}}.\n\\]\n\nThat\u2019s the Pythagorean Theorem proved by comparing the area of a large square with the area of the four triangles plus the inner square.\n\n---\n\n**A note of caution:** I\u2019m pretty sure the inner region really does have side\u2011length \\(c\\); if it were something like \\(|a-b|\\) the algebra would come out wrong. But when you draw the picture it becomes clear that the hypotenuse edges line up to form that central square, so the argument should work."
+    },
+    {
+      "question_number": 8,
+      "question": "A ladder is leaning against a wall, forming a right triangle with the ground. If the ladder is 10 feet long and the base is 6 feet away from the wall, how high does the ladder reach on the wall?",
+      "student_answer": "The ladder, the wall, and the ground form a right\u2011triangle with the ladder as the hypotenuse.  \nUsing the Pythagorean theorem:\n\n\\[\n\\text{height}^2 + 6^2 = 10^2\\qquad\\Rightarrow\\qquad \n\\text{height}^2 = 10^2 - 6^2 = 100 - 36 = 64\n\\]\n\n\\[\n\\text{height} = \\sqrt{64} = 8\\ \\text{feet}\n\\]\n\nSo the ladder reaches about **8\u202ffeet** up the wall."
+    },
+    {
+      "question_number": 9,
+      "question": "If a square's diagonal measures 10 units, what is the length of one of its sides? Use the Pythagorean Theorem to solve.",
+      "student_answer": "Using the Pythagorean Theorem for a square, the two sides \\(s\\) and the diagonal \\(d\\) satisfy  \n\n\\[\ns^{2}+s^{2}=d^{2}\\; \\Longrightarrow\\; 2s^{2}=10^{2}=100.\n\\]\n\nSo  \n\n\\[\ns^{2}= \\frac{100}{2}=50 \\quad\\Rightarrow\\quad s=\\sqrt{50}=5\\sqrt{2}\\approx 7.07\\text{ units}.\n\\]\n\nI think the side length is about **7.1 units** (exactly \\(5\\sqrt{2}\\))."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the relationship between the squares of the lengths of the sides in a right triangle as stated in the Pythagorean Theorem.",
+      "student_answer": "I think the Pythagorean Theorem says that in a right\u2011angled triangle the square of the longest side (the hypotenuse) is equal to the sum of the squares of the other two sides.  In symbols, if the legs are\u202f\\(a\\) and\u202f\\(b\\) and the hypotenuse is\u202f\\(c\\), then  \n\n\\[\na^{2}+b^{2}=c^{2}.\n\\]"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 3022183.0,
+    "num_attempts": 7,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 46.21180438995361,
+    "total_time": 47.63431358337402
+  }
+}

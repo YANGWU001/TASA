@@ -1,0 +1,86 @@
+{
+  "student_id": "1035",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "probability",
+  "concept_id": "58",
+  "original_accuracy": 1.0,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.0,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of probability concepts, accurately answering all questions with clear explanations and correct calculations. No common mistakes were observed.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the probability of rolling a 6 on a standard six-sided die?",
+      "student_answer": "The probability of rolling a 6 on a standard six\u2011sided die is  \n\n\\[\nP(\\text{6}) = \\frac{1\\ \\text{favorable outcome}}{6\\ \\text{possible outcomes}} = \\frac{1}{6} \\approx 0.1667\\;(\\text{or }16.67\\%).\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "If a coin is flipped twice, what is the probability of getting two heads?",
+      "student_answer": "The probability of getting two heads when a fair coin is flipped twice is  \n\n\\[\nP(\\text{HH}) = \\frac{1}{2}\\times\\frac{1}{2} = \\frac{1}{4}=0.25.\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the difference between theoretical probability and experimental probability.",
+      "student_answer": "**Theoretical probability** is the probability calculated using known information about the total number of possible outcomes and the number of favorable outcomes, assuming each outcome is equally likely. It is derived from mathematical reasoning or a model of the situation, without actually performing any trials.  \n\n\\[\n\\text{Theoretical probability} = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of equally\u2011likely outcomes}}\n\\]\n\n*Example:* For a fair six\u2011sided die, the theoretical probability of rolling a 4 is \\( \\frac{1}{6} \\) because there is one favorable outcome (the face showing 4) out of six possible outcomes.\n\n---\n\n**Experimental (or empirical) probability** is the probability estimated from actual data gathered by performing an experiment or observing real outcomes. It is calculated by dividing the number of times the event of interest occurs by the total number of trials conducted.\n\n\\[\n\\text{Experimental probability} = \\frac{\\text{Number of times the event occurs}}{\\text{Total number of trials}}\n\\]\n\n*Example:* If you roll that same die 60 times and observe the number 4 appear 12 times, the experimental probability of rolling a 4 is \\( \\frac{12}{60} = \\frac{1}{5} = 0.20 \\).\n\n---\n\n### Key Differences\n| Aspect | Theoretical Probability | Experimental Probability |\n|--------|------------------------|--------------------------|\n| **Basis** | Mathematical model, assumes equally likely outcomes | Real\u2011world data from actual trials |\n| **Calculation** | Uses counts of possible/favorable outcomes | Uses observed frequencies |\n| **Reliability** | Exact for ideal conditions; may not reflect real\u2011world imperfections | Approaches the theoretical value as the number of trials becomes large (law of large numbers) |\n| **Usage** | Predicts outcomes before any experiment; useful for planning and analysis | Checks or validates a model, or is used when a theoretical model is unavailable or complex |\n\nIn summary, theoretical probability predicts the chance of an event based on known, ideal conditions, while experimental probability measures that chance based on observed outcomes from repeated trials. As the number of trials increases, experimental probability tends to converge toward the theoretical probability."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the probability of drawing a red card from a standard deck of cards?",
+      "student_answer": "The deck has 52 cards total. Exactly half of them (26 cards) are red (the hearts and diamonds).  \n\n\\[\nP(\\text{red}) = \\frac{\\text{number of red cards}}{\\text{total cards}} = \\frac{26}{52}= \\frac12 = 0.5.\n\\]\n\nSo the probability of drawing a red card from a standard deck is **\u00bd (or 0.5, i.e., 50\u202f%).**"
+    },
+    {
+      "question_number": 5,
+      "question": "A bag contains 3 red balls and 7 blue balls. What is the probability of randomly selecting a red ball?",
+      "student_answer": "The bag has a total of \\(3 + 7 = 10\\) balls.  \nNumber of favorable outcomes (red balls) = 3.\n\n\\[\nP(\\text{red}) = \\frac{\\text{number of red balls}}{\\text{total number of balls}} = \\frac{3}{10} = 0.3 \\; \\text{(or }30\\%\\text{)}.\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "Describe the concept of mutually exclusive events and provide an example.",
+      "student_answer": "**Mutually exclusive events** are two (or more) events that cannot happen at the same time in a single trial of an experiment. In other words, the occurrence of one event excludes the possibility of the other occurring; their intersection is the empty set, so  \n\n\\[\nP(A\\cap B)=0 .\n\\]\n\n**Example:**  \nWhen a fair six\u2011sided die is rolled, let  \n\n- \\(A\\) = \u201cthe outcome is an even number\u201d (i.e., 2, 4, or 6)  \n- \\(B\\) = \u201cthe outcome is an odd number\u201d (i.e., 1, 3, or 5).\n\nSince a single roll cannot be both even and odd, events \\(A\\) and \\(B\\) are mutually exclusive. Consequently,\n\n\\[\nP(A\\cap B)=0,\\qquad P(A)=\\frac{3}{6}=0.5,\\qquad P(B)=\\frac{3}{6}=0.5,\n\\]\n\nand \\(P(A\\cup B)=P(A)+P(B)=1\\)."
+    },
+    {
+      "question_number": 7,
+      "question": "How can you calculate the probability of two independent events occurring together?",
+      "student_answer": "For two independent events\u202f\\(A\\) and\u202f\\(B\\), the probability that they both occur is the product of their individual probabilities:\n\n\\[\n\\boxed{P(A \\;\\text{and}\\; B)=P(A)\\times P(B)}\n\\]\n\n**Why this works**\n\nIndependence means that the occurrence of one event does not affect the likelihood of the other. Mathematically, this is expressed as  \n\n\\[\nP(A\\mid B)=P(A) \\quad\\text{and}\\quad P(B\\mid A)=P(B).\n\\]\n\nUsing the definition of conditional probability,\n\n\\[\nP(A\\ \\text{and}\\ B)=P(A)\\,P(B\\mid A)=P(A)\\,P(B).\n\\]\n\n**Example**\n\nIf a fair die is rolled (event\u202f\\(A\\): rolling a 4) and a coin is flipped (event\u202f\\(B\\): getting heads), then  \n\n\\[\nP(A)=\\frac{1}{6},\\qquad P(B)=\\frac{1}{2},\n\\]\n\nso  \n\n\\[\nP(A\\ \\text{and}\\ B)=\\frac{1}{6}\\times\\frac{1}{2}=\\frac{1}{12}.\n\\]\n\nThus, for any two independent events, simply multiply their separate probabilities to obtain the probability that they both happen."
+    },
+    {
+      "question_number": 8,
+      "question": "What is the probability of rolling an even number on a standard six-sided die?",
+      "student_answer": "The even faces on a standard six\u2011sided die are 2,\u202f4, and\u202f6.  \nThere are 3 favorable outcomes out of 6 total possible outcomes, so  \n\n\\[\nP(\\text{even}) = \\frac{3}{6} = \\frac{1}{2}=0.5.\n\\]"
+    },
+    {
+      "question_number": 9,
+      "question": "If you randomly select a day of the week, what is the probability that it is a weekday?",
+      "student_answer": "The week has 7 days total.\n\n- Weekdays (Monday\u202f\u2013\u202fFriday): 5 days  \n- Total possible days: 7  \n\n\\[\nP(\\text{weekday}) = \\frac{5}{7} \\approx 0.7143 \\;(\\text{or }71.43\\%).\n\\]"
+    },
+    {
+      "question_number": 10,
+      "question": "A box contains 5 apples and 3 oranges. If you randomly select one fruit, what is the probability it will be an apple?",
+      "student_answer": "The total number of fruit in the box is  \n\n\\[\n5 \\text{ apples} + 3 \\text{ oranges} = 8 \\text{ fruit}.\n\\]\n\nThe number of favorable outcomes (selecting an apple) is 5.  \n\nTherefore, the probability of drawing an apple is  \n\n\\[\nP(\\text{apple}) = \\frac{5}{8} = 0.625.\n\\]\n\nSo the probability is **\\( \\boxed{\\frac{5}{8}}\\) (or 0.625).**"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 12347010.0,
+    "num_attempts": 2,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 32.52364110946655,
+    "total_time": 33.6241397857666
+  }
+}

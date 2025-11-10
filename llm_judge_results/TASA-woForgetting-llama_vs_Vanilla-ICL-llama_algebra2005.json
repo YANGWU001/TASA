@@ -1,0 +1,143 @@
+{
+  "target_method": "TASA-woForgetting-llama",
+  "baseline_method": "Vanilla-ICL-llama",
+  "dataset": "algebra2005",
+  "backbone": "llama",
+  "total_comparisons": 16,
+  "target_wins": 16,
+  "baseline_wins": 0,
+  "ties": 0,
+  "win_rate": 1.0,
+  "avg_score_target": 7.535714285714286,
+  "avg_score_baseline": 3.857142857142857,
+  "detailed_results": [
+    {
+      "student_id": 370,
+      "concept_text": "Identifying units",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates more effective teaching for this specific student because it repeatedly targets both *Identifying units* and the student's related weakness in multiplication with simple and large numbers. While the explanations are a bit verbose, A clearly ties each question to the underlying unit concept and arithmetic errors the student is making, and scaffolds difficulty from simple to more complex scenarios. Importantly, A addresses the student's specific pattern\u2014correctly identifying units but making repeated calculation errors\u2014and uses repeated similar problems to reinforce that connection, which is highly relevant to their profile. Dialogue B, in contrast, is simpler but drifts off-topic, sometimes mixing contexts (recipes vs length measurements) oddly, and provides inconsistent feedback that may confuse the student (e.g., treating \u201cteaspoons\u201d as correct when the recipe used \"cups\"). B offers less targeted progression and doesn't leverage the student's known arithmetic weaknesses. The clarity in B is adequate but the instructional sequence in A is more coherent and better aligned to the student's learning needs, resulting in a substantial advantage.\n\n**Instructional Quality: A [8/10], B [6/10]**  \n**Personalization Impact: A [8/10], B [3/10]**  \n**Overall Score: A [8/10], B [5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 457,
+      "concept_text": "Using difficult numbers",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**  \n\n**Reasoning:**  \nDialogue A provides clear, accurate explanations of the specific calculation errors the student makes, identifies underlying issues (estimation, rounding, decimal placement), and adapts subsequent questions to target these weaknesses. This shows deliberate pedagogical scaffolding directly aligned with the student\u2019s known difficulty (\"Using difficult numbers\") and progressively works toward improving their decimal operation skill. In contrast, Dialogue B repeats unit-measurement questions disconnected from the student's actual weak area and fails to build on prior responses effectively\u2014its explanations often misinterpret the student's struggle and do not advance conceptual understanding. While Dialogue A is longer, that length is purposeful and clearly tied to the student's needs; Dialogue B's simplicity is undermined by its irrelevance to the targeted skill. The advantage in learning outcome is substantial and undeniable here.  \n\n**Instructional Quality: A [8/10], B [3/10]**  \n**Personalization Impact: A [8/10], B [2/10]**  \n**Overall Score: A [8/10], B [3/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 457,
+      "concept_text": "Using difficult numbers",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides repeated targeted practice directly focused on *\"Using difficult numbers,\"* which is a documented weakness for this student. The tutor gives concrete numerical problems involving decimals, explains the calculation step-by-step, analyzes the student's reasoning, and then builds the next question to address specific observed rounding and estimation issues. This is sound scaffolding and keeps the tasks appropriately challenging and relevant.  \nDialogue B, in contrast, fails to effectively teach the target concept \u2014 it misaligns the questions with the skill in question, often devolving into irrelevant unit-measure matching. The student's repeated \u201cI don't know\u201d responses suggest low engagement and no meaningful progression, and the tutor doesn\u2019t adjust strategy or clarify the core math skill.  \nWhile Dialogue A\u2019s personalization is modest (it adapts based on the student's immediate errors rather than fully leveraging historical data), it still demonstrably addresses the student's learning gap with clear, iterative practice. Dialogue B\u2019s questions are unproductive for *this* student's needs, so there is a substantial quality difference favoring A.\n\n**Instructional Quality: A [8/10], B [3/10]**  \n**Personalization Impact: A [6/10], B [1/10]**  \n**Overall Score: A [8/10], B [3/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A gives the student repeated, targeted practice with writing equations for negative slopes, consistently using the slope-intercept form. While it is somewhat verbose, it scaffolds effectively \u2014 reintroducing the formula \\(y = mx + b\\), prompting the student to plug in known values, and catching arithmetic errors. The personalization is meaningful because it ties directly to the student\u2019s known weakness in \"Write expression@@@@ negative slope\" and adapts the problems accordingly, keeping slope negative in every example and varying the point, which fits the student\u2019s profile. Conversely, Dialogue B often mislabels correctness, introduces distracting contexts (garden, bike), and sometimes confuses the slope sign in feedback, which could reinforce misconceptions. It has simpler prompts but weaker clarity and pedagogical accuracy, with less coherent progression. In this case, A\u2019s personalization and tighter alignment to the actual skill gap outweigh its verbosity, producing a clearer path to improved learning outcomes.\n\n**Instructional Quality: A [8/10], B [5/10]**  \n**Personalization Impact: A [7/10], B [3/10]**  \n**Overall Score: A [8/10], B [5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 48,
+      "concept_text": "Find X@@@@ Simple",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A provides consistent, clear step-by-step algebraic instruction and gives immediate, accurate corrections when the student makes mistakes. It addresses misconceptions directly (e.g., errors in adding/subtracting constants) and reinforces correct procedures through repeated, progressively varied practice problems. While verbose at times, it remains focused on the specific 'Find X@@@@ Simple' skill, which is a known weakness for this student (44% accuracy). The personalization here is genuinely useful\u2014it sticks closely to one skill the student struggles with, scaffolds problems, and points out specific mistakes they make in context.  \n\nDialogue B, by contrast, is scattered and inconsistent in its explanations, often failing to walk through the complete solution. The tutor repeats the same question without guiding the student toward a solution, frequently accepts \"I don't know\" without productive follow-up, and sometimes gives incorrect or incomplete problem statements. There\u2019s minimal progression or scaffolding; the \u201cpersonalization\u201d is largely superficial and does not materially improve clarity or outcomes. Dialogue B\u2019s support is weak and would likely frustrate this student without building mastery.  \n\n**Instructional Quality: A [8/10], B [3/10]**  \n**Personalization Impact: A [7/10], B [2/10]**  \n**Overall Score: A [8/10], B [3/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 48,
+      "concept_text": "Find X@@@@ Simple",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 2.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A clearly outperforms Dialogue B in teaching effectiveness \u2014 it provides step-by-step solutions, directly addresses the student\u2019s recurring mistakes (e.g., subtraction vs. addition errors, division slips), and reinforces correct procedures multiple times. The explanations in A are accurate, procedural, and scaffolded, consistently modeling how to isolate variables and correct misconceptions. In contrast, Dialogue B suffers from fragmented questioning, incomplete contexts, and repeated \u201cI don\u2019t know\u201d answers without successful correction; the tutor\u2019s feedback is often vague or inconsistent with the problem (e.g., misaligned data about Tom\u2019s pencils). While A's personalization is moderate (tailoring practice sets to the target skill), it meaningfully responds to errors in real time, adapting hints for accuracy, producing tangible learning gains \u2014 something B does not achieve. B\u2019s approach results in minimal progress and repeated failure to engage the student meaningfully, making the difference in learning outcomes substantial and undeniable.\n\n**Instructional Quality: A [8/10], B [3/10]**  \n**Personalization Impact: A [6/10], B [1/10]**  \n**Overall Score: A [8/10], B [2.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A provides a clearer instructional path by repeatedly using the slope-intercept method with a given slope and point, walking the student through plugging in values and solving for \\(b\\). While not perfect in pace\u2014it repeats prompts and sometimes misstates correctness\u2014it keeps the focus squarely on the key skill the student struggles with (\"Write expression@@@@ negative slope\") and gives them practice with multiple examples. Personalization is modest but relevant: it adapts questions to the student's weak area and includes consistent targeted practice, which is important given their profile.  \n\nDialogue B, although simpler at times, is much more scattershot: it mixes in irrelevant story contexts, incorrect validations (e.g., marking positive slopes as \"CORRECT\" for a negative slope task), and contradictory slope explanations. This causes conceptual confusion and does not scaffold effectively towards the student's need. B is more generic, and the repeated conceptual errors would risk reinforcing misconceptions for this student who is already uncertain about slope signs. The personalization in A, while mild, is still better aligned to the student's needs than B's generic and sometimes misleading approach, making the learning outcome potential substantially higher in A.\n\n**Instructional Quality: A [7/10], B [4/10]**  \n**Personalization Impact: A [5/10], B [2/10]**  \n**Overall Score: A [6/10], B [3/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A provides a more systematic and accurate approach to teaching the concept. It consistently uses the slope-intercept form with worked examples, prompts the student to plug in points, and highlights calculation errors \u2014 directly addressing the student\u2019s known weakness in solving for the y-intercept. While verbose, its repetition, targeted practice, and explicit correction scaffold the skill effectively, which is critical given this student\u2019s low accuracy (36%) in \"Write expression@@@@ negative slope.\" The personalization is not superficial; it selects tasks aligned with their gap, reinforcing both slope recognition and intercept computation step-by-step.  \n\nDialogue B, while shorter and sometimes more direct, suffers from instructional inaccuracies and confusion (e.g., calling a positive-slope equation \u201ccorrect\u201d), and its scenarios are often irrelevant or distracting. The feedback sometimes misrepresents key concepts, which could reinforce errors rather than correct them. Personalization is minimal and not clearly adapted to the student\u2019s profile. Because B\u2019s clarity is undermined by conceptual mistakes, A\u2019s thoroughness and targeted error correction would yield better learning outcomes for this student.\n\n**Instructional Quality: A [8/10], B [5/10]**  \n**Personalization Impact: A [7/10], B [3/10]**  \n**Overall Score: A [8/10], B [5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": null,
+      "score_b": null,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A maintains a clear focus on the target skill (\"Write expression@@@@ negative slope\") and provides multiple worked examples with step-by-step feedback tied to the student's attempts. Even though the explanations occasionally repeat and the pacing is a bit drawn out, the tutor correctly identifies misconception patterns (e.g., flipping slope sign incorrectly, handling negative slopes) and offers progressively varied question setups, including larger numbers to address difficulty areas from the profile. Personalization is functional here\u2014the tutor adapts problem difficulty toward skills needing improvement (\"using difficult numbers\") and stays on the core learning path.  \n\nDialogue B, while simpler and occasionally clear, spends much of its time in unrelated or purely conceptual scenarios (Tom on a ramp, stairs, etc.) that don\u2019t consolidate the formal slope-intercept skill as much as this student needs. The feedback is often generic with repetitive restatements, and while it uses real-world imagery, it doesn't consistently scaffold toward writing actual expressions for lines through points, which is the explicit learning goal. Thus, despite B\u2019s occasional concise wins, A\u2019s tailored progression and tighter alignment to the skill gaps are more likely to yield better learning outcomes for this student.\n\n**Instructional Quality:** A [8/10], B [6/10]  \n**Personalization Impact:** A [7/10], B [3/10]  \n**Overall Score:** A [8/10], B [6/10]  \n\n**Confidence:** High"
+    },
+    {
+      "student_id": 370,
+      "concept_text": "Identifying units",
+      "winner": "target",
+      "score_a": null,
+      "score_b": null,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A, while verbose, actually tailors practice to the student\u2019s combined weaknesses in *Identifying units* and *Using simple/large numbers*. It scaffolds by starting with simpler multiplication-unit problems and incrementally increasing complexity, which directly aligns with the student\u2019s profile. The tutor pinpoints repeated arithmetic slips (e.g., calculating correctly then overwriting with wrong number) and explicitly ties this to strengthening the unit-multiplication connection \u2014 that is a known student gap, so feedback is targeted. Although a bit repetitive, this builds a tight feedback loop around the student\u2019s persistent error pattern.\n\nDialogue B is less overwhelming but is generic: it cycles through random contexts (groceries, recipes, carpentry) without a clear progression or adaptation. Its feedback often mismatches the student's responses (e.g., calling a wrong \"teaspoons\" answer correct in a context where it doesn't fit) and sometimes drifts from addressing the *Identifying units* skill toward irrelevant recipe context. B gives short, partly accurate explanations, but doesn't build on the student\u2019s core calculation errors or adapt difficulty meaningfully. Both have clarity issues, but A\u2019s direct attack on the student's main weakness gives it a **substantial** pedagogical edge.\n\n**Instructional Quality:** A [7/10], B [5/10]  \n**Personalization Impact:** A [8/10], B [3/10]  \n**Overall Score:** A [7.5/10], B [4.5/10]  \n\n**Confidence:** High"
+    },
+    {
+      "student_id": 300,
+      "concept_text": "Using large numbers",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A provides clear, step-by-step arithmetic problems directly matching the student's documented struggle with \"Using large numbers\" (41% accuracy). It scaffolds difficulty from single-step subtraction to multi-step addition/subtraction, maintaining the same conceptual focus. The tutor in Dialogue A offers coherent reasoning tied to each answer attempt, accurately validates correct solutions, and pinpoints the student's self-reported uncertainty, encouraging precision rather than rough estimation\u2014something that directly addresses the student's actual weakness.  \n\nDialogue B, by contrast, repeatedly mismanages explanations (e.g., confusing place values and rounding instructions), introduces conceptual errors, and fails to adapt despite multiple \"I don't know\" responses from the student, leaving them disengaged and confused. B's pedagogy is unclear, riddled with contradictions, and the supposed \"teaching moments\" don't seem to build knowledge incrementally. While Dialogue A is verbose and leans heavily into repetition, it stays on-task and accurately reinforces the target skill, whereas Dialogue B's clarity and correctness are compromised to the point of impeding learning. The outcome difference here is substantial\u2014Dialogue A is much more likely to yield improved mastery for this student.\n\n**Instructional Quality: A [8/10], B [3/10]**  \n**Personalization Impact: A [7/10], B [2/10]**  \n**Overall Score: A [8/10], B [3/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 120,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A provides consistent scaffolding, accurate use of the slope-intercept form, and multiple worked examples directly aligned with the student's specific weak area (writing expressions with negative slope). The tutor repeatedly reinforces the calculation process for \\(b\\) and identifies arithmetic errors, which directly target a known gap in the student\u2019s skills and give them practice with exactly the mistake they\u2019re making. While A is verbose, the repetition of the method and tailoring of examples to the student's uncertainty around finding the y-intercept make it more likely to produce improved learning outcomes for this particular student.  \n\nDialogue B, on the other hand, has clarity issues \u2014 the opening scenario (Slopey\u2019s garden) is somewhat disconnected from the slope calculation and the multiple-choice options are mismatched to the context. Its explanations include occasional misstatements (e.g., implying \u201cy = 2x - 7\u201d could represent a negative slope) and do not consistently address the core misconception about interpreting and applying a negative slope. Personalization in B is minimal and generic; it does not adapt tasks based on the student\u2019s demonstrated arithmetic struggles, so the practice feels less targeted to their actual gap.  \n\n**Instructional Quality: A [8/10], B [5/10]**  \n**Personalization Impact: A [7/10], B [3/10]**  \n**Overall Score: A [8/10], B [5/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Write expression@@@@ negative slope",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 6.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A provides step-by-step worked examples with explicit calculation walkthroughs, catching student errors (e.g., slope sign confusion) and reinforcing the process of using slope and a point to find the y-intercept. Even though sometimes verbose and occasionally repetitive, the explanations stay aligned to the student's request and areas of need\u2014negative slope and slope calculation\u2014while varying difficulty to address specific weaknesses (large numbers, fraction simplification). Personalization here is not superficial; it explicitly adapts question complexity to target known student gaps (e.g., \"needs improvement in using difficult numbers\").  \nDialogue B uses simpler, scenario-based slope questions, but suffers from inconsistent clarity\u2014many \"Incorrect\" feedbacks without constructive correction, occasionally confusing ratios (mixing vertical/horizontal interpretation) and not showing the algebraic derivation from slope to full equation. While it does engage through varied contexts, the feedback loops are weaker and often fail to close the learning gap when the student says \"I don't know,\" which risks stagnation.  \nGiven the student's stated goal and weaknesses, Dialogue A\u2019s structured, corrective scaffolding is more likely to produce better mastery of writing expressions with negative slopes than Dialogue B\u2019s loosely connected, sometimes incomplete practice.\n\n**Instructional Quality: A [8/10], B [6/10]**  \n**Personalization Impact: A [7/10], B [3/10]**  \n**Overall Score: A [8/10], B [6/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 504,
+      "concept_text": "Setting the slope",
+      "winner": "target",
+      "score_a": 8.5,
+      "score_b": 5.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A directly targets the student's known weakness in \"setting the slope\" and, more critically, their repeated misconception about the sign of the y-intercept when given a coordinate at \\(x=0\\). The tutor provides multiple scaffolded examples where the y-intercept is explicit, correcting the same sign error iteratively, which is exactly the type of targeted practice this student needs. This personalization is substantive\u2014it adapts problem structures to isolate and remediate the recurring mistake, resulting in visible improvement by the end.  \n\nDialogue B, while clear and simpler in content, mainly focuses on generic slope calculation between two points. It does not address the student's specific issue with mis-signing intercepts and only rehearses basic slope-finding, which the student struggles with to some extent but is less critical than the repeated intercept error. B\u2019s questions and feedback remain generic and repetitive without advancing the student toward fixing their core misconception. Thus, A\u2019s focused, adaptive correction produces clearly better learning outcomes for *this* student.  \n\n**Instructional Quality: A [8/10], B [6/10]**  \n**Personalization Impact: A [9/10], B [3/10]**  \n**Overall Score: A [8.5/10], B [5.5/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 52,
+      "concept_text": "Find Y@@@@ positive slope",
+      "winner": "target",
+      "score_a": 5.5,
+      "score_b": 2.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A, despite being repetitive and somewhat inefficient, consistently provides the correct formula for slope and walks through concrete coordinate\u2011based examples. It aligns with the student's stated need (Find\u202fY @@@@ positive slope) by focusing on two\u2011point slope calculations, which directly target one of their major weakness areas shown in the profile (29% accuracy). The personalization here is modest but relevant \u2014 the tutor repeats similar problem types to reinforce the formula and reminds the student about the correct order of subtraction, addressing the student's clear confusion pattern.  \n\nIn contrast, Dialogue B repeatedly misaligns the teaching with the skill, mixing slope identification with interpreting equation constants, and fails to scaffold the confusion effectively. The explanations are simple, but they include multiple mismatches between the given equations and feedback, which could reinforce misunderstandings. Personalization is essentially absent here, and the pedagogy doesn't adapt to the student's repeated wrong pattern of identifying slope.  \n\nWhile Dialogue A is not perfect in pacing or clarity, it sustains direct engagement with the skill in a way that is more likely to improve the targeted performance gap; Dialogue B\u2019s errors and lack of focused remediation make its learning outcomes substantially weaker.\n\n**Instructional Quality: A [6/10], B [3/10]**  \n**Personalization Impact: A [5/10], B [1/10]**  \n**Overall Score: A [5.5/10], B [2.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 52,
+      "concept_text": "Find Y@@@@ positive slope",
+      "winner": "target",
+      "score_a": 5.5,
+      "score_b": 2.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A, while repetitive, actually engages the student with multiple practice problems directly targeting their stated weakness (\"Find Y@@@@ positive slope\") and uses the slope formula in context. The tutor responds to each incorrect answer by restating the correct method and encouraging step-by-step simplification. Although the student continues to choose wrong answers, the repeated correct application of \\(m = \\frac{y_2-y_1}{x_2 - x_1}\\) and explicit handling of their confusion about numerator/denominator ordering could, over time, reinforce the correct process. Personalization here is modest but real: the progression of similar questions reflects the student\u2019s need for drilling this exact skill, aligning with their profile.  \n\nDialogue B, in contrast, is muddled and inconsistent \u2014 it frequently references the wrong equation in feedback (e.g., correcting based on \\(y=3x-2\\) when the current question isn\u2019t that), which risks confusing the student. The pedagogy is flawed: although it tries to teach that the slope is the coefficient of \\(x\\), it keeps conflating question contexts and fails to scaffold clearly. Personalization is essentially absent here; the approach is generic and doesn't adapt to the student\u2019s known misconceptions beyond repeating the same hint. Overall, A\u2019s methodical repetition on the precise skill gap outweighs B\u2019s simplicity, because B introduces factual mismatches that could harm learning.\n\n**Instructional Quality: A [6/10], B [3/10]**  \n**Personalization Impact: A [5/10], B [2/10]**  \n**Overall Score: A [5.5/10], B [2.5/10]**\n\n**Confidence: High**"
+    }
+  ]
+}

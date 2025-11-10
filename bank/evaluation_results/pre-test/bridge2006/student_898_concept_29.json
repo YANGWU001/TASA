@@ -1,0 +1,86 @@
+{
+  "student_id": "898",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify GCF - one number multiple of other",
+  "concept_id": "29",
+  "original_accuracy": 0.8333333333333335,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.16666666666666657,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of GCF, correctly applying the definitions and methods for finding the GCF in various scenarios. All answers are accurate and well-explained, showing a clear grasp of the relationship between a number and its multiples.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the greatest common factor (GCF) of 12 and 36?",
+      "student_answer": "**Answer:** 12  \n\n**Explanation:**  \nThe factors of 12 are 1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f12.  \nThe factors of 36 are 1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f9,\u202f12,\u202f18,\u202f36.  \n\nThe common factors are 1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f12, and the greatest of these is **12**."
+    },
+    {
+      "question_number": 2,
+      "question": "If one number is 18 and the other is 54, what is their GCF?",
+      "student_answer": "The greatest common factor (GCF) of 18 and 54 is **18**. \n\n*Explanation:*  \n- 18 = 2\u202f\u00d7\u202f3\u00b2  \n- 54 = 2\u202f\u00d7\u202f3\u00b3  \n\nBoth numbers share the prime factors 2 and 3\u00b2, which multiply to 2\u202f\u00d7\u202f3\u00b2 = 18. Hence, 18 is the largest number that divides both 18 and 54 without a remainder."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the GCF of a number and its multiple is always the smaller number.",
+      "student_answer": "The greatest common factor (GCF) of two integers is the largest integer that divides **both** of them.  \n\nSuppose we have a number \\(a\\) and a multiple of it, say \\(b\\).  \nBy definition of \u201cmultiple,\u201d  \n\n\\[\nb = k\\;a \\qquad\\text{for some integer }k\\ge 1 .\n\\]\n\nNow consider any common factor \\(d\\) of \\(a\\) and \\(b\\).  \nBecause \\(d\\) divides \\(a\\), we can write \\(a = d\\;m\\) for some integer \\(m\\).  \nSubstituting this expression for \\(a\\) into the equation for \\(b\\) gives  \n\n\\[\nb = k a = k(d\\;m) = d\\;(k m).\n\\]\n\nThus the same integer \\(d\\) also divides \\(b\\).  \nSo *every* factor of \\(a\\) is automatically a factor of its multiple \\(b\\).\n\nSince the set of common factors of \\(a\\) and \\(b\\) is exactly the set of factors of \\(a\\), the greatest element of that set must be the largest factor of \\(a\\) itself\u2014that is, \\(a\\) (because a number always divides itself).  \n\nTherefore  \n\n\\[\n\\operatorname{GCF}(a,\\;k a) = a,\n\\]\n\nwhich is the smaller of the two numbers. In words: the GCF of a number and any of its multiples is always the original (smaller) number, because all the divisors of the original number automatically divide the multiple as well, making the original number the largest common divisor."
+    },
+    {
+      "question_number": 4,
+      "question": "Find the GCF of 15 and 45 using the prime factorization method.",
+      "student_answer": "**Prime factorization**\n\n- \\(15 = 3 \\times 5\\)  \n- \\(45 = 3 \\times 3 \\times 5 = 3^{2}\\times 5\\)\n\n**Common prime factors**\n\nBoth numbers contain the primes **3** and **5**.  \nFor each common prime we take the smallest exponent that appears in the factorizations:\n\n- For \\(3\\): \\(\\min(1,2)=1\\) \u2192 \\(3^{1}\\)  \n- For \\(5\\): \\(\\min(1,1)=1\\) \u2192 \\(5^{1}\\)\n\n**Greatest common factor**\n\n\\[\n\\text{GCF}=3^{1}\\times5^{1}=3\\cdot5=15\n\\]\n\n\\[\n\\boxed{15}\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "True or False: The GCF of two numbers where one is a multiple of the other is always equal to the smaller number.",
+      "student_answer": "**Answer: True**\n\n**Explanation:**  \nIf one number is a multiple of the other, we can write the larger number as \\(a = k \\times b\\) where \\(k\\) is an integer and \\(b\\) is the smaller number.  \n\n- The smaller number \\(b\\) divides itself.  \n- It also divides the larger number \\(a\\) because \\(a = k \\times b\\).  \n\nThus, \\(b\\) is a common factor of both numbers. Any other common factor must also divide \\(b\\), so the greatest common factor cannot be larger than \\(b\\). Therefore, the GCF is exactly the smaller number."
+    },
+    {
+      "question_number": 6,
+      "question": "Calculate the GCF of 25 and 100 using the listing of factors method.",
+      "student_answer": "**Listing the factors**\n\n- Factors of **25**:\u202f1,\u202f5,\u202f25  \n- Factors of **100**:\u202f1,\u202f2,\u202f4,\u202f5,\u202f10,\u202f20,\u202f25,\u202f50,\u202f100  \n\n**Common factors**:\u202f1,\u202f5,\u202f25  \n\nThe greatest (largest) common factor is **25**.\n\n\\[\n\\boxed{25}\n\\]"
+    },
+    {
+      "question_number": 7,
+      "question": "How can you determine the GCF of two numbers where one is a multiple of the other without fully factoring both numbers?",
+      "student_answer": "If one of the numbers is an exact multiple of the other, the smaller number automatically divides the larger one.  \nBecause the greatest common factor is the *largest* number that divides **both** numbers, and the smaller number already does that, the GCF must be the smaller number itself.\n\n**Steps**\n\n1. Identify which of the two numbers is the smaller.  \n2. Check that the larger number can be written as an integer multiple of the smaller (i.e.,\u202flarger\u202f\u00f7\u202fsmaller gives a whole\u2011number result).  \n3. Conclude that the GCF = the smaller number.\n\n**Example**  \n\\(24\\) and \\(96\\): 96\u202f\u00f7\u202f24\u202f=\u202f4, so 96 is a multiple of 24. Since 24 divides both 24 and 96, the greatest common factor is 24.  \n\nThus, when one number is a multiple of the other, you can determine the GCF instantly without doing any full prime\u2011factorization."
+    },
+    {
+      "question_number": 8,
+      "question": "Why is the GCF of 7 and 21 equal to 7?",
+      "student_answer": "The **greatest common factor (GCF)** of two numbers is the largest whole number that divides both of them without leaving a remainder.\n\n1. **List the factors of each number**  \n   - Factors of 7:\u20031, **7**  \n   - Factors of 21:\u20031, **7**, 3, 21  \n\n2. **Identify the common factors**  \n   The numbers that appear in both lists are **1** and **7**.\n\n3. **Choose the greatest one**  \n   Among the common factors, **7** is the largest.\n\nSince 7 divides 7 (7\u202f\u00f7\u202f7\u202f=\u202f1) and also divides 21 (21\u202f\u00f7\u202f7\u202f=\u202f3) with no remainder, and there is no larger number that does the same, the GCF of 7 and 21 is **7**."
+    },
+    {
+      "question_number": 9,
+      "question": "If the GCF of two numbers is 20 and one of the numbers is 80, what could the other number be?",
+      "student_answer": "Since the greatest common factor is 20, the other number must be a multiple of\u202f20.  \nBut it cannot contain a higher power of 2 than 20 does (otherwise the GCF would be larger than 20).  \nThus the other number can be any number of the form  \n\n\\[\n20 \\times \\text{(odd integer)}.\n\\]\n\nOne possible choice is  \n\n\\[\n\\boxed{100}\n\\]\n\nbecause \\(100 = 20 \\times 5\\) and \\(\\gcd(80,100)=20\\).  (Other valid answers include 20,\u202f60,\u202f140,\u202f180, \u2026)."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe a real-life scenario where finding the GCF of a number and its multiple is useful.",
+      "student_answer": "One practical situation where you need the greatest common factor (GCF) of a number and one of its multiples is **organizing items into equal\u2011size packages**.\n\n**Scenario \u2013 Packing Cookies for a School Event**\n\nA school orders **120 cookies** to be handed out to several classrooms.  \nEach classroom wants to receive the same number of cookies, and the teacher also wants each box to hold a **multiple of 12 cookies** (because the bakery packages the cookies in trays of 12).  \n\nTo decide how many classrooms can get an equal share while keeping the boxes full, you find the GCF of the total number of cookies (120) and a multiple of 12 (for example, 48, which is 12\u202f\u00d7\u202f4).  \n\n\\[\n\\text{GCF}(120,\\;48) = 24\n\\]\n\nThe GCF tells you the largest number of cookies that can be divided evenly among both the total supply and the tray size. In this case:\n\n* **24 cookies per classroom** \u2013 each classroom gets the same amount.\n* Because each tray holds 12 cookies, each classroom\u2019s portion can be split into **2 full trays** (24\u202f\u00f7\u202f12\u202f=\u202f2).\n\nSo the school can serve **5 classrooms** (120\u202f\u00f7\u202f24\u202f=\u202f5) with perfectly packed trays, leaving no leftover cookies and no partially filled boxes.\n\n**Why the GCF matters**\n\n- It gives the **biggest possible equal share** that respects the packaging constraint.\n- Using a smaller factor (e.g., 12 or 6) would create more boxes or leave extra cookies unused.\n- Using a larger number that isn\u2019t a factor of the total (e.g., 30) would leave leftovers.\n\nThus, finding the GCF of a total quantity and one of its multiples helps planners determine the most efficient way to divide items into equal, fully\u2011filled groups\u2014a common need in cooking, manufacturing, event planning, and many other real\u2011world tasks."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 5.4,
+    "num_attempts": 6,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 37.02774119377136,
+    "total_time": 38.33301854133606
+  }
+}

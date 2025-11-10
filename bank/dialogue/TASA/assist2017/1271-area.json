@@ -1,0 +1,308 @@
+{
+  "student_id": 1271,
+  "dataset": "assist2017",
+  "concept_text": "area",
+  "num_rounds": 10,
+  "dialogue": [
+    {
+      "role": "user",
+      "round": 0,
+      "content": "I want to learn about area"
+    },
+    {
+      "role": "assistant",
+      "round": 1,
+      "content": "**Practice Question**\n\nA rectangular garden is **8\u202fmeters long** and **5\u202fmeters wide**.  \n\nWhat is the area of the garden in **square meters**? (Show your work.)",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts."
+      ],
+      "retrieved_memory": [
+        "The student made a mistake on area.",
+        "The student made a mistake on area.",
+        "The student skillfully worked through area."
+      ],
+      "rewritten_persona": [
+        "Student needs improvement in **area**: 25% accuracy over 4 attempts; knowledge largely retained (forgetting score\u202f0.01\u202f\u2013 low\u2011low).",
+        "Student shows low mastery of **area** (\u224825% accuracy). The concept was practiced very recently (0.1\u202fdays ago), and the forgetting score remains low (0.01), indicating most of the knowledge is still retained.",
+        "Student retains low\u2011level knowledge of area\u202funit\u2011conversion, with current mastery \u22480.24 (down from 0.25), last practiced\u202f0.1\u202fdays ago, forgetting level \u201clow\u202flow.\u201d"
+      ],
+      "rewritten_memory": [
+        "The student has low mastery of area (~25%) and recently made an error, but retains most of the knowledge (forgetting score\u202f0.01) after only 0.1\u202fdays.",
+        "The student retains most of the recently practiced area concepts (forgetting score\u202f0.01) but still has low mastery (~25%) and continues to make mistakes.",
+        "The student retains a modest grasp of area, with most of the recent practice still intact."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 2,
+      "content": "Um\u2026 I think the area is found by\u2026 well, usually you multiply length by width, but I\u2019m not completely sure. Maybe for a rectangle you add the sides instead?  \n\nSo I\u2019ll try adding them:  \n\n\\(8\\text{\u202fm} + 5\\text{\u202fm} = 13\\text{\u202fm}\\)\n\nSince the units should be square meters, I guess the area is **13\u202fm\u00b2**.  \n\nI\u2019m not totally confident about this, but that\u2019s what I got."
+    },
+    {
+      "role": "assistant",
+      "round": 2,
+      "content": "**What\u2019s happening with your answer**\n\nYou correctly remembered that *area* involves the units \u201csquare meters,\u201d which tells us we need a **two\u2011dimensional** measure.  \nFor a rectangle, the area is **length\u202f\u00d7\u202fwidth**, not length\u202f+\u202fwidth.\n\n- Length = 8\u202fm  \n- Width = 5\u202fm  \n\nMultiplying:  \n\n\\[\n8\\text{\u202fm} \\times 5\\text{\u202fm}=40\\text{\u202fm}^2\n\\]\n\nAdding the sides (8\u202fm\u202f+\u202f5\u202fm\u202f=\u202f13\u202fm) gives a **linear** measurement, not an area. That\u2019s why the result 13\u202fm\u00b2 is not correct. The good part is you recognized the \u201csquare\u201d unit\u2014so you\u2019re on the right track; we just need to apply the right operation.\n\n---\n\n### Next practice (just a little twist)\n\nA **square** tabletop is 6\u202fmeters on each side.\n\n1. Write the formula you would use to find the area of a square.  \n2. Compute the area, showing each step.  \n3. State the final answer with the correct units.\n\n*(Hint: a square is a special rectangle where length = width.)*  \n\nGive it a try, and let me know how you reason through each step!",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student still needs improvement on \u201carea,\u201d retaining most of the prior knowledge (forgetting score\u202f0.01, low\u2011low). Accuracy remains around 24% after 4 recent attempts, showing only minimal decay after 0.1\u202fdays.",
+        "Student retains low\u2011level mastery of **area** (\u224825\u202f% accuracy over 4 attempts); forgetting is minimal (score\u202f0.01, low\u2011low), so knowledge remains largely intact.",
+        "Student shows low mastery of **area** (\u224825% accuracy) after a recent practice 0.1\u202fdays ago, and retains most of this knowledge (forgetting score\u202f0.01 \u2013 low forgetting)."
+      ],
+      "rewritten_memory": [
+        "The student answered an area question incorrectly; current mastery\u202f0.25, last practiced\u202f0.1\u202fdays ago, forgetting score\u202f0.01 (low\u2011low), so the limited knowledge is still largely retained.",
+        "The student\u2019s mastery of area is low (0.25); they practiced it 0.1\u202fdays ago, and with a forgetting score of 0.01 (low\u2011low), most of the knowledge remains despite the recent mistake.",
+        "The student still struggles with area\u2014having made a mistake\u2014though retention is high (forgetting score\u202f0.01) after just 0.1\u202fdays; current mastery remains low at 0.25."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 3,
+      "content": "Um\u2026 okay, I think the formula for the area of a square is kind of like the rectangle one, but since all the sides are the same you just use the length of one side twice. So I\u2019d write:\n\n**1. Formula:**\u2003\\(A = s \\times s\\)\u2003or \\(A = s^{2}\\), where \\(s\\) is the length of a side.\n\n**2. Computation:**  \nThe tabletop side is 6\u202fm, so I guess I just do \\(6 \\times 6\\).\u202fHmm\u2026\u202fmaybe that\u2019s 12?\u202f(I'm not totally sure\u2014I might be mixing up addition and multiplication.)\n\nSo I\u2019d say the area comes out to **12\u202fm\u00b2**.\n\n**3. Final answer:**\u2003\\(A = 12\\ \\text{m}^2\\).\n\nSorry if I\u2019m off\u2014does that look right?"
+    },
+    {
+      "role": "assistant",
+      "round": 3,
+      "content": "**What\u2019s happening with your answer**\n\n1. **Formula** \u2013\u202fYou got the right idea!  \n   For a square the area is indeed \u201cside\u202f\u00d7\u202fside,\u201d which we can write as \\(A = s^2\\).  \n\n2. **Computation** \u2013\u202fThe slip happened in the arithmetic.  \n   \\[\n   6\\text{\u202fm} \\times 6\\text{\u202fm}= 36\\text{\u202fm}^2\n   \\]\n   Multiplying 6 by 6 gives **36**, not 12. (Adding 6\u202f+\u202f6 would give 12, which is why the number you wrote looks familiar.)  \n\n3. **Units** \u2013\u202fBecause you multiplied two lengths (meters\u202f\u00d7\u202fmeters), the result is in **square meters** (\\(\\text{m}^2\\)), which is exactly what an area should be measured in.\n\nSo the key pieces are all there: the correct formula, the right units, and the idea that we multiply. We just need to remember that \u201c\u00d7\u201d means repeated addition, not a single addition of the two numbers.\n\n---\n\n## Next practice \u2013\u202fsolidify the multiplication step\n\n### Problem\n\nA rectangular classroom floor is **7\u202fmeters long** and **4\u202fmeters wide**.\n\n1. Write the expression you would use to find the area.  \n2. Carry out the multiplication step\u2011by\u2011step (you can show the intermediate product if you wish).  \n3. State the final answer with the correct units.\n\n*Hint:* Think of \u201c7\u202fm\u202f\u00d7\u202f4\u202fm\u201d as \u201c7 groups of 4\u202fm\u201d (or 4 groups of 7\u202fm).  \n\nGive it a try, and let me know how you work through each part!",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student shows low proficiency in \u201carea\u201d (25% accuracy, mastery\u202f0.25); last practiced 0.1\u202fdays ago, forgetting level remains low (score\u202f0.01), so most knowledge is still retained.",
+        "Student retains low\u2011level mastery of area (\u224825% accuracy on unit\u2011conversion across 4 attempts) with minimal forgetting after 0.1\u202fdays.",
+        "Student retains low\u2011level knowledge of **area** (mastery\u202f\u2248\u202f0.25, about 50\u202f% accuracy on 28 attempts), last practiced 0.1\u202fdays ago; forgetting score\u202f0.01 indicates a low forgetting level."
+      ],
+      "rewritten_memory": [
+        "The student retains most of the minimal area knowledge (mastery\u202f\u2248\u202f0.25) after a recent incorrect answer, with forgetting still very low.",
+        "For the concept of area, the student\u2019s mastery remains low (0.25) and a recent mistake was made; after only\u202f0.1\u202fdays, the forgetting score is 0.01 (low\u2011low), indicating that most of the knowledge is still retained.",
+        "The student\u2019s grasp of area remains low (mastery\u202f0.25); having practiced it just 0.1\u202fdays ago, the forgetting level is minimal, so the little knowledge retained from the earlier mistake is still present."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 4,
+      "content": "Um\u2026 I\u2019ll try to work through it.\n\n1. **Expression**  \nI think the area formula is \u201clength\u202f\u00d7\u202fwidth,\u201d so I\u2019d write something like  \n\n\\[\nA = 7\\text{\u202fm} + 4\\text{\u202fm}\n\\]\n\n\u2026but I\u2019m not really sure if it\u2019s a plus or a times. Maybe it should be a plus?  \n\n2. **Multiplication step\u2011by\u2011step**  \nIf it\u2019s a plus, then I guess I\u2019d just add the numbers:  \n\n\\[\n7 + 4 = 11\n\\]\n\nIf it\u2019s a times, I think we do 7 groups of 4\u202fm, so maybe  \n\n\\[\n7 \\times 4 = 24\\text{\u202fm}\n\\]\n\n(Or is it 28\u202fm? I keep mixing them up.)  \n\n3. **Final answer with units**  \nI\u2019m pretty confused about the units, too. Since we\u2019re dealing with length, maybe the result stays in meters,"
+    },
+    {
+      "role": "assistant",
+      "round": 4,
+      "content": "**What\u2019s happening with your answer**\n\n1. **Formula / expression** \u2013\u202fYou remembered the right idea that *area = length\u202f\u00d7\u202fwidth*, but you wrote a \u201c+\u201d sign.  \n   Adding the two numbers (7\u202fm\u202f+\u202f4\u202fm) would give a **length**, not an area.\n\n2. **Multiplication** \u2013\u202fIf we really multiply, the correct product is  \n\n   \\[\n   7 \\times 4 = 28\n   \\]\n\n   (you were close! 7\u202f\u00d7\u202f4 is 28, not 24).  \n\n3. **Units** \u2013\u202fBecause we are multiplying two **lengths** (meters\u202f\u00d7\u202fmeters), the unit becomes **square meters** (m\u00b2).  \n   So the final answer should be **28\u202fm\u00b2**, not 28\u202fm.\n\nYou have all the pieces in place\u2014you just need to keep the \u201c\u00d7\u201d sign and the resulting unit together in one step. Great effort; let\u2019s lock that down with a new problem that isolates the multiplication step.\n\n---\n\n## Next practice \u2013\u202ffocus on \u201c\u00d7\u201d and units\n\n### Problem\n\nA garden plot is **3\u202fmeters long** and **5\u202fmeters wide**.\n\n1. Write the correct expression for its area (use the proper symbol).  \n2. Carry out the multiplication **step\u2011by\u2011step** (you can show the intermediate product).  \n3. State the final answer with the correct units.\n\n**Hint:** Think of \u201c3\u202fm\u202f\u00d7\u202f5\u202fm\u201d as \u201c3 groups of 5\u202fm\u201d (or \u201c5 groups of 3\u202fm\u201d). Each group is a length, so when you put the groups together you get a **square\u2011meter** measurement.\n\nGive it a try, and let me know each step you write down. I\u2019m here to help if anything feels fuzzy!",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student skillfully worked through area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student shows low mastery (\u22480.25) of area\u2011unit\u2011conversion, with 25% accuracy on 4 attempts; last practiced 0.1\u202fdays ago, forgetting level low\u2011low, so knowledge remains largely retained.",
+        "Student needs improvement in **area** (\u224825% accuracy over 4 attempts); last practiced\u202f0.1\u202fdays ago, forgetting score\u202f0.01 (very low\u2014knowledge largely retained).",
+        "Area: 25% mastery, 50% accuracy over 28 attempts; practiced 0.1\u202fdays ago with a forgetting score of 0.01 (very low forgetting) \u2013 knowledge is largely retained but still needs improvement."
+      ],
+      "rewritten_memory": [
+        "Area \u2013 mastery\u202f\u2248\u202f25\u202f%; last practiced\u202f\u2248\u202f0.1\u202fday ago; forgetting score\u202f0.01 (low\u2011low) \u2192 most knowledge retained, though the recent incorrect answer shows remaining gaps.",
+        "The student has a modest grasp of area (mastery\u202f\u2248\u202f0.25) and, after practicing just 0.1\u202fdays ago, retains most of it (forgetting score\u202f0.01, low\u2011low).",
+        "The student retains minimal mastery of area (\u224825%); a recent error still shows, though forgetting is negligible after practice just 0.1\u202fdays ago."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 5,
+      "content": "Um\u2026 let me try this.\n\n**1. Expression**\n\nI think the area should be written as  \n\n\\[\n3\\ \\text{m} + 5\\ \\text{m}\n\\]\n\n\u2026or maybe it\u2019s a \u201c\u00d7\u201d sign? I\u2019m not totally sure, but I keep mixing them up.\n\n**2. Multiplication (step\u2011by\u2011step)**  \n\nSo, if I treat it as a multiplication, I would do  \n\n\\[\n3 \\times 5 = 15\n\\]\n\nand then I guess I would write \u201c15\u202fm\u201d because I multiplied a length by a length\u2026 I think that\u2019s the result.\n\n**3. Final answer with units**\n\nSo my final answer is \u2026 **15\u202fm**.  \n\nI\u2019m pretty uncertain about the unit\u2014maybe it should be square meters, but I\u2019m not confident. Let me know if I need to change any of that!"
+    },
+    {
+      "role": "assistant",
+      "round": 5,
+      "content": "### What\u2019s happening with your answer  \n\n| Part | What you wrote | What\u2019s correct | Why it matters |\n|------|----------------|----------------|----------------|\n| **1. Expression** | \\(3\\text{\u202fm} + 5\\text{\u202fm}\\) (or \u201cmaybe \u00d7\u201d) | **\\(3\\text{\u202fm} \\times 5\\text{\u202fm}\\)** | The \u201c+\u201d sign adds two lengths together \u2013 that gives you a new **length** (8\u202fm).  Area, however, is **length\u202f\u00d7\u202fwidth**, so we must use the multiplication sign. |\n| **2. Multiplication** | \\(3 \\times 5 = 15\\) (you got the number right) | \\(3 \\times 5 = 15\\) | Great \u2013 the arithmetic is correct. |\n| **3. Units** | \u201c15\u202fm\u201d (you weren\u2019t sure) | **\\(15\\;\\text{m}^2\\)** (square metres) | When we multiply two lengths (metres\u202f\u00d7\u202fmetres) the unit becomes **square metres**.  Writing just \u201cm\u201d would describe a length, not an area. |\n\n**Bottom line:** You know the right product (15), but the expression and the unit need the multiplication sign and the square\u2011meter notation.  Let\u2019s lock those two ideas together.\n\n---\n\n## Next practice \u2013\u202f\u201c\u00d7\u201d and square\u2011units together  \n\nA **tiny bookshelf** has a base that is **2\u202fmeters long** and **4\u202fmeters wide**.\n\n1. **Write the exact expression** you would use to find its floor area (include the correct symbol).  \n2. **Show the multiplication step\u2011by\u2011step** (you can write it as \u201c2 groups of 4\u202fm\u201d or \u201c4 groups of 2\u202fm\u201d).  \n3. **State the final answer with the correct unit** (make sure the unit shows that you multiplied two lengths).  \n\n### Hint to keep the ideas together  \n\n- Think of \u201c2\u202fm\u202f\u00d7\u202f4\u202fm\u201d as **\u201c2 groups, each group is 4\u202fm long.\u201d**  \n- After you have the number (8), **attach the unit \u201cm\u00b2\u201d** right away, because each group already carries the \u201cm\u201d from the width.\n\nGive it a try and write each part on a separate line.  If anything feels fuzzy, just tell me which step you\u2019re unsure about\u2014I\u2019m here to help!",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student still needs improvement in \u201carea\u201d (\u224825% accuracy, mastery\u202f0.25); after a recent practice 0.1\u202fdays ago, the low forgetting score (0.01) shows most of this knowledge is retained.",
+        "Student has low mastery of **area** (\u224825\u202f% correct on 4 attempts); last practiced 0.1\u202fdays ago, and with a forgetting score of 0.01 (low\u2011low), most of the knowledge is still retained.",
+        "Area: needs improvement \u2013 mastery ~25%, 50% correct on 28 attempts, practiced 0.1\u202fdays ago, forgetting score 0.01 (very low, most knowledge retained)."
+      ],
+      "rewritten_memory": [
+        "After a recent incorrect answer, the student retains low mastery of area (~0.25) with only minimal forgetting (score\u202f0.01), indicating that most of the limited knowledge is still present.",
+        "The student shows low mastery of area (~25%) but, after very recent practice, retains most of the knowledge; a recent mistake indicates lingering gaps.",
+        "The student shows low mastery of area (\u224825%); having practiced it only 0.1\u202fdays ago, forgetting is minimal, so most of the retained knowledge remains despite the recent mistake."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 6,
+      "content": "Um\u2026 okay, I\u2019ll try.\n\n1. **Expression**  \n   I think the expression is  \n   \\[\n   2\\text{\u202fm} \\times 4\\text{\u202fm}\n   \\]\n\n2. **Multiplication step\u2011by\u2011step**  \n   Maybe it\u2019s like \u201c2 groups of 4\u202fm\u201d.  \n   So I do:  \n   \\[\n   2 \\times 4 = 6\n   \\]  \n   (I\u2019m not totally sure why it\u2019s 6, but that\u2019s what I got when I added the two numbers together first.)\n\n3. **Final answer with unit**  \n   I guess the area is  \n   \\[\n   6\\;\\text{m}\n   \\]  \n   because I just keep the \u201cm\u201d from the length and width.  \n\nSorry if I\u2019m mixing things up\u2014let me know which part I got wrong!"
+    },
+    {
+      "role": "assistant",
+      "round": 6,
+      "content": "### 1\ufe0f\u20e3 What\u2019s happening with your answer  \n\n| Part | What you wrote | What\u2019s actually correct | Why it matters |\n|------|----------------|------------------------|----------------|\n| **Expression** | \\(2\\text{\u202fm} \\times 4\\text{\u202fm}\\) | \u2705\u202fCorrect!  The area of a rectangle is **length\u202f\u00d7\u202fwidth**, so the \u201c\u00d7\u201d sign is the right one. | The \u201c+\u201d sign would give a *new length* (2\u202fm\u202f+\u202f4\u202fm\u202f=\u202f6\u202fm), not an area. |\n| **Multiplication step\u2011by\u2011step** | \\(2 \\times 4 = 6\\) (you added the numbers first) | \\(2 \\times 4 = 8\\) | Multiplication is *repeated addition*: 2 groups of 4\u202fm \u2192 4\u202fm\u202f+\u202f4\u202fm = **8\u202fm**. Adding the two numbers (2\u202f+\u202f4\u202f=\u202f6) gives a length, not the product. |\n| **Units** | \\(6\\;\\text{m}\\) | \\(8\\;\\text{m}^2\\) (square metres) | When you multiply two lengths (metres\u202f\u00d7\u202fmetres) the unit becomes **square metres**. Writing only \u201cm\u201d describes a length, not an area. |\n\n**Bottom line:**  \n- You already know the right *symbol* (\u00d7).  \n- The arithmetic (2\u202f\u00d7\u202f4) needs a quick check \u2013 it\u2019s 8, not 6.  \n- Attach the unit **m\u00b2** immediately after you have the number; that reminds you that you have multiplied two lengths.\n\n---\n\n### 2\ufe0f\u20e3 Next practice \u2013 \u201c\u00d7\u201d and square\u2011units together  \n\nA **tiny bookshelf** has a base that is **2\u202fmeters long** and **4\u202fmeters wide**.\n\nBelow each blank, write what you think belongs there.  If you\u2019re unsure, just give your best guess and we\u2019ll fix it together.\n\n1. **Write the exact expression** for the area (include the correct symbol).  \n\n   \\[\n   \\boxed{\\phantom{2\\text{\u202fm} \\times 4\\text{\u202fm}}}\n   \\]\n\n2. **Show the multiplication as repeated addition** (you can say \u201c2 groups of 4\u202fm\u201d or \u201c4 groups of 2\u202fm\u201d). Write the intermediate step and then the product.  \n\n   \\[\n   \\underbrace{4\\text{\u202fm} + 4\\text{\u202fm}}_{\\text{2 groups}} = \\boxed{\\phantom{8}} \\quad\\text{or}\\quad \n   \\underbrace{2\\text{\u202fm} + 2\\text{\u202fm} + 2\\text{\u202fm} + 2\\text{\u202fm}}_{\\text{4 groups}} = \\boxed{\\phantom{8}}\n   \\]\n\n3. **State the final answer with the correct unit** (make sure the unit shows you multiplied two lengths).  \n\n   \\[\n   \\boxed{\\phantom{8\\;\\text{m}^2}}\n   \\]\n\n**Helpful hint:**  \n- First decide how many *groups*",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "For the **area** concept, the student\u2019s knowledge remains low but largely retained (forgetting score\u202f0.01\u202f\u2192\u202flow\u2011low). After 0.1\u202fdays since the last practice, mastery is approximately **0.24**, reflected by **25\u202f% accuracy on 4 recent attempts**.",
+        "Student still needs improvement on \u201carea\u201d \u2013 accuracy now \u224824% (mastery \u22480.24) after the last practice 0.1\u202fdays ago, with a low forgetting level indicating most of the limited knowledge is retained.",
+        "Student has low mastery (25%) of **area**, with 50% accuracy over 28 attempts. Last practiced\u202f0.1\u202fdays ago; forgetting score\u202f0.01 (low\u2011low) shows minimal decay and most knowledge still retained."
+      ],
+      "rewritten_memory": [
+        "The student retains low\u2011level knowledge of area (mastery\u202f\u2248\u202f25\u202f%) despite a recent incorrect answer; having practiced it just 0.1\u202fdays ago, the forgetting score remains very low (0.01, \u201clow\u2011low\u201d retention).",
+        "The student retains most of the limited (\u224825\u202f%) area knowledge; a recent mistake still shows gaps, but with only 0.1\u202fday since practice and a very low forgetting score, retention remains high.",
+        "The student has a weak grasp of area, having made a mistake; after only 0.1\u202fdays since the last practice and a very low forgetting score, most of this limited knowledge is still retained."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 7,
+      "content": "Um\u2026 I\u2019ll give it a try.\n\n---\n\n### 1.  Expression for the area  \n\n\\[\n\\boxed{\\,2\\text{\u202fm} \\times 4\\text{\u202fm}\\,}\n\\]\n\n*(I think the \u201c\u00d7\u201d is right, but I\u2019m not totally sure\u2026)*  \n\n---\n\n### 2.  Repeated\u2011addition step  \n\n**Option\u202fA (2 groups of 4\u202fm)**  \n\n\\[\n\\underbrace{4\\text{\u202fm} + 4\\text{\u202fm}}_{\\text{2 groups}} = \\boxed{6}\n\\]\n\n**Option\u202fB (4 groups of 2\u202fm)**  \n\n\\[\n\\underbrace{2\\text{\u202fm} + 2\\text"
+    },
+    {
+      "role": "assistant",
+      "round": 7,
+      "content": "### 1\ufe0f\u20e3 What\u2019s happening with your answer  \n\n| Part | What you wrote | What\u2019s actually correct | Why it matters |\n|------|----------------|------------------------|----------------|\n| **Expression** | \\(2\\text{\u202fm} \\times 4\\text{\u202fm}\\) | \u2705\u202fCorrect \u2013 the area of a rectangle is *length\u202f\u00d7\u202fwidth*. | The \u201c\u00d7\u201d tells us we are making repeated\u2011addition, not just putting the lengths side\u2011by\u2011side. |\n| **Repeated\u2011addition** | \\(4\\text{\u202fm}+4\\text{\u202fm}=6\\) (or the same with 2\u202fm) | \\(4\\text{\u202fm}+4\\text{\u202fm}=8\\text{\u202fm}\\) (or \\(2\\text{\u202fm}+2\\text{\u202fm}+2\\text{\u202fm}+2\\text{\u202fm}=8\\text{\u202fm}\\)). | Multiplication\u202f=\u202fadding the same amount **as many times as the other number says**. 2 groups of 4\u202fm gives 4\u202fm\u202f+\u202f4\u202fm\u202f=\u202f8\u202fm, not 6. |\n| **Unit** | \\(6\\;\\text{m}\\) | \\(8\\;\\text{m}^2\\) (square metres) | When you multiply two lengths (metres\u202f\u00d7\u202fmetres) the unit becomes **square metres**. Writing only \u201cm\u201d describes a length, not an area. |\n\n**Bottom line:**  \n- Symbol\u202f\u00d7\u202f=\u202fgood.  \n- The product of 2\u202f\u00d7\u202f4 is **8**, not 6.  \n- Attach **m\u00b2** right after you have the number, so the answer reads **\\(8\\;\\text{m}^2\\)**.\n\n---\n\n### 2\ufe0f\u20e3 Next practice \u2013 lock the three ideas together  \n\nA **garden plot** is **3\u202fm** long and **5\u202fm** wide.\n\nFill in each blank.  Write each step on its own line; if you\u2019re unsure, just give your best guess and we\u2019ll fix it together.\n\n1. **Expression for the area** (include the correct symbol).  \n\n   \\[\n   \\boxed{\\phantom{3\\text{\u202fm} \\times 5\\text{\u202fm}}}\n   \\]\n\n2. **Repeated\u2011addition version** \u2013 choose one of the two ways and write the intermediate sum and the product.  \n\n   *Option A (3 groups of 5\u202fm)*  \n   \\[\n   \\underbrace{5\\text{\u202fm}+5\\text{\u202fm}+5\\text{\u202fm}}_{\\text{3 groups}} = \\boxed{\\phantom{15}}\n   \\]\n\n   *or Option B (5 groups of 3\u202fm)*  \n   \\[\n   \\underbrace{3\\text{\u202fm}+3\\text{\u202fm}+3\\text{\u202fm}+3\\text{\u202fm}+3\\text{\u202fm}}_{\\text{5 groups}} = \\boxed{\\phantom{15}}\n   \\]\n\n3. **Final answer with the correct unit**.  \n\n   \\[\n   \\boxed{\\phantom{15\\;\\text{m}^2}}\n   \\]\n\n**Helpful tip:**  \n- After you write the product (the number), **immediately write \u201cm\u00b2\u201d**.  That reminds you that you have multiplied two lengths, not added them.\n\nGive it a go! If any step feels fuzzy, just tell me which part and we\u2019ll sort it out together. \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student still needs improvement on **area**, with mastery around 25% (\u224824% accuracy) after 0.1\u202fdays since last practice; forgetting level remains \u201clow low,\u201d indicating most of the knowledge is still retained.",
+        "Student retains low\u2011level knowledge of **area** (mastery \u2248\u202f0.24) with a low forgetting score, yet still needs improvement, showing 25\u202f% accuracy over 4 recent attempts.",
+        "For the concept **area**, the student retains low\u2011level knowledge (mastery\u202f\u2248\u202f0.25, 50\u202f% accuracy on 28 attempts) with a minimal forgetting score of 0.01 (low\u2011low), indicating most of the material is still retained after the recent 0.1\u2011day gap."
+      ],
+      "rewritten_memory": [
+        "The student still exhibits low mastery of area (~25%) despite practicing it 0.1\u202fdays ago; with a minimal forgetting score of 0.01, most knowledge is retained, yet the student continues to struggle with area problems.",
+        "The student has low mastery (\u224825%) of area and recently made a mistake, yet retains most of the knowledge after only 0.1\u202fdays (forgetting score\u202f0.01, very low forgetting).",
+        "The student still struggles with area (mastery\u202f\u2248\u202f0.25); however, having practiced it just 0.1\u202fdays ago keeps most of the knowledge retained despite the low forgetting score."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 8,
+      "content": "Um\u2026 I\u2019ll give it a try.\n\n1. **Expression for the area**\n\n\\[\n\\boxed{3\\text{\u202fm} \\times 5\\text{\u202fm}}\n\\]\n\n2. **Repeated\u2011addition version** \u2013 I\u2019ll pick Option\u202fA (3 groups of 5\u202fm)  \n\n\\[\n\\underbrace{5\\text{\u202fm}+5\\text{\u202fm}+5\\text{\u202fm}}_{\\text{3 groups}} = \\boxed{20}\n\\]\n\n3. **Final answer with the correct unit**\n\n\\[\n\\boxed{20\\;\\text{m}}\n\\]\n\nI\u2019m not totally sure about the numbers or the units, but that\u2019s what I think. Let me know where I went off track!"
+    },
+    {
+      "role": "assistant",
+      "round": 8,
+      "content": "### 1\ufe0f\u20e3 What\u2019s happening with your answer  \n\n| Part | What you wrote | What\u2019s actually correct | Why it matters |\n|------|----------------|------------------------|----------------|\n| **Expression** | \\(3\\text{\u202fm} \\times 5\\text{\u202fm}\\) | \u2705\u202fCorrect \u2013 the area of a rectangle is *length\u202f\u00d7\u202fwidth*. | The \u201c\u00d7\u201d tells us we are multiplying, not just putting the sides together. |\n| **Repeated\u2011addition** | \\(5\\text{\u202fm}+5\\text{\u202fm}+5\\text{\u202fm}=20\\) | \\(5\\text{\u202fm}+5\\text{\u202fm}+5\\text{\u202fm}=15\\text{\u202fm}\\) | \u201c3 groups of 5\u202fm\u201d means you add **5\u202fm three times**: 5\u202f+\u202f5\u202f+\u202f5\u202f=\u202f15, not 20. (You added an extra 5\u202fm.) |\n| **Unit** | \\(20\\;\\text{m}\\) | \\(15\\;\\text{m}^2\\) (square metres) | When you multiply two lengths (metres\u202f\u00d7\u202fmetres) the unit becomes **square metres**. Writing only \u201cm\u201d describes a length, not an area. |\n\n**Bottom line:**  \n- The set\u2011up (the expression) was spot\u2011on.  \n- The product of \\(3 \\times 5\\) is **15**, not 20.  \n- Because you multiplied two lengths, the final unit must be **m\u00b2**.  \n\nGreat job getting the right symbols! Let\u2019s lock in the arithmetic and the unit together.\n\n---\n\n### 2\ufe0f\u20e3 Next practice \u2013 a fresh, very short problem  \n\nA **small rug** is **2\u202fm** long and **3\u202fm** wide.  \nFill in each blank (one line at a time).  If you\u2019re unsure, just write your best guess\u2014we\u2019ll correct it together.\n\n1. **Expression for the area**  \n\n   \\[\n   \\boxed{\\phantom{2\\text{\u202fm} \\times 3\\text{\u202fm}}}\n   \\]\n\n2. **Repeated\u2011addition version** \u2013 choose one way and write the sum and the product.  \n\n   *Option A (2 groups of 3\u202fm)*  \n   \\[\n   \\underbrace{3\\text{\u202fm}+3\\text{\u202fm}}_{\\text{2 groups}} = \\boxed{\\phantom{6}}\n   \\]\n\n   *or Option B (3 groups of 2\u202fm)*  \n   \\[\n   \\underbrace{2\\text{\u202fm}+2\\text{\u202fm}+2\\text{\u202fm}}_{\\text{3 groups}} = \\boxed{\\phantom{6}}\n   \\]\n\n3. **Final answer with the correct unit**  \n\n   \\[\n   \\boxed{\\phantom{6\\;\\text{m}^2}}\n   \\]\n\n**Tip:** Write the number **first**, then immediately attach \u201cm\u00b2\u201d. That little habit keeps the unit straight in your mind.\n\nGive it a try, and we\u2019ll fine\u2011tune any part that feels shaky. \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows excellent mastery of 'noskill' with 100% accuracy over 1 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student's mastery of **area** is 25% (needs improvement); after 0.1\u202fdays, the forgetting score is 0.01 (low\u2011low), indicating minimal decay and that most of the limited knowledge is still retained.",
+        "For the area concept, the student\u2019s mastery remains low (\u22480.25) with a recent practice 0.1\u202fdays ago and a low forgetting level. Performance shows 25\u202f% accuracy over four attempts, indicating a need for improvement.",
+        "Student retains most of the \u201carea\u201d concept (forgetting score\u202f0.01, low\u2011low forgetting) but shows only low mastery (\u224825% confidence) despite a recent practice 0.1\u202fdays ago."
+      ],
+      "rewritten_memory": [
+        "Area: mastery\u202f0.25; recent error on an area question; after\u202f0.1\u202fdays forgetting is negligible (score\u202f0.01, low\u2011low), so most of the limited knowledge is still retained.",
+        "The student shows low mastery of area (\u224825%) and recently made a mistake; having practiced it just 0.1\u202fdays ago, forgetting is minimal, so most of the knowledge is still retained.",
+        "The student shows low mastery (0.25) of the concept **area**, having made a mistake, but after only 0.1\u202fdays since the last practice the forgetting level remains \u201clow\u2011low,\u201d indicating most of the knowledge is still retained."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 9,
+      "content": "Um\u2026 I\u2019ll give it a try.\n\n---\n\n**1. Expression for the area**  \n\n\\[\n\\boxed{2\\text{\u202fm} \\;+\\; 3\\text{\u202fm}}\n\\]\n\n*(I\u2019m not sure\u2026 maybe it\u2019s a plus instead of a times?)*  \n\n---\n\n**2. Repeated\u2011addition version** \u2013 I\u2019ll go with **Option\u202fB** (3 groups of\u202f2\u202fm)  \n\n\\[\n\\under"
+    },
+    {
+      "role": "assistant",
+      "round": 9,
+      "content": "### 1\ufe0f\u20e3 What\u2019s happening with your answer  \n\n| Part | What you wrote | What\u2019s actually correct | Why it matters |\n|------|----------------|------------------------|----------------|\n| **Expression for the area** | \\(2\\text{\u202fm} \\;+\\; 3\\text{\u202fm}\\) | \\(2\\text{\u202fm} \\times 3\\text{\u202fm}\\) | Adding two lengths gives a **total length** (5\u202fm).  To find the **area** of a rectangle you must *multiply* the length by the width, because you are stacking one length\u2011segment repeatedly across the other. |\n| **Repeated\u2011addition version** | You started to write \u201cOption\u202fB\u201d but didn\u2019t finish the sum. | Either  \n\u2003\\(3\\text{\u202fm}+3\\text{\u202fm}=6\\text{\u202fm}\\)  (2 groups of 3\u202fm) **or**  \n\u2003\\(2\\text{\u202fm}+2\\text{\u202fm}+2\\text{\u202fm}=6\\text{\u202fm}\\) (3 groups of 2\u202fm) | The repeated\u2011addition must match the multiplication: \u201c2 groups of 3\u202fm\u201d or \u201c3 groups of 2\u202fm\u201d. The result of the addition is the **number of metres** that will later become **square metres**. |\n| **Unit** | Not given yet (you stopped before writing it). | \\(6\\;\\text{m}^2\\) | When you multiply two lengths (metres\u202f\u00d7\u202fmetres) the unit becomes **square metres**. Writing only \u201cm\u201d would describe a length, not an area. |\n\n**Bottom line**  \n- The set\u2011up should be a **times (\u00d7)** sign, not a plus (+).  \n- The repeated\u2011addition must add the *same length* the correct number of times, giving 6\u202fm before we attach the unit.  \n- The final answer is **\\(6\\;\\text{m}^2\\)**.\n\nYou\u2019re on the right track by thinking about repeated addition\u2014let\u2019s lock those three ideas together (multiplication sign, correct sum, and \u201cm\u00b2\u201d unit).\n\n---\n\n### 2\ufe0f\u20e3 Next practice \u2013 a very short, focused problem  \n\nA **tiny bookshelf** is **1\u202fm** high and **4\u202fm** wide.  \nFill in each blank (one line at a time).  If you\u2019re unsure, just write your best guess and we\u2019ll correct it together.\n\n1. **Expression for the area** (use the correct symbol).  \n\n   \\[\n   \\boxed{\\phantom{1\\text{\u202fm} \\times 4\\text{\u202fm}}}\n   \\]\n\n2. **Repeated\u2011addition version** \u2013 pick **one** way and write the sum and the product.  \n\n   *Option A (1 group of 4\u202fm)*  \n   \\[\n   \\underbrace{4\\text{\u202fm}}_{\\text{1 group}} = \\boxed{\\phantom{4}}\n   \\]\n\n   *or Option B (4 groups of 1\u202fm)*  \n   \\[\n   \\underbrace{1\\text{\u202fm}+1\\text{\u202fm}+1\\text{\u202fm}+1\\text{\u202fm}}_{\\text{4 groups}} = \\boxed{\\phantom{4}}\n   \\]\n\n3. **Final answer with the correct unit**.  \n\n   \\[\n   \\boxed{\\phantom{4\\;\\text{m}^2}}\n   \\]\n\n**Tip:**  \n- Write the number **first**, then immediately tack on \u201cm\u00b2\u201d.  \n- If you choose Option\u202fB, remember you are adding *1\u202fm* four times: the sum is **4\u202fm**, which then becomes **4\u202fm\u00b2** after you attach the unit.\n\nGive it a go, and we\u2019ll tidy up any part that feels fuzzy! \ud83c\udf1f",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student retains a low\u2011level grasp of **area**, showing roughly 25\u202f% accuracy over 4 attempts; having practiced it just 0.1\u202fdays ago, the knowledge is still largely intact (forgetting level: low\u2011low).",
+        "For the concept **area (unit\u2011conversion)**, the student retains roughly 25\u202f% accuracy (1\u202fof\u202f4 correct). The skill was practiced 0.1\u202fdays ago, and with a forgetting score of 0.01 (low), knowledge loss is minimal, so mastery remains low (~0.",
+        "Student retains low\u2011level knowledge of **area** (\u224825% mastery, 50% accuracy on 28 attempts). Recent practice (0.1\u202fdays ago) keeps forgetting minimal (forgetting score\u202f0.01, low\u2011low)."
+      ],
+      "rewritten_memory": [
+        "The student shows limited mastery of area (\u22480.25); after practicing it 0.1\u202fdays ago, they retain most of that knowledge (forgetting score\u202f0.01, low forgetting).",
+        "The student shows low mastery (25%) of area, was practiced 0.1\u202fdays ago, and retains most of the knowledge (forgetting score\u202f0.01, low\u2011low).",
+        "The student shows 25% mastery of area, having made a recent mistake, yet retains most of the knowledge (forgetting score\u202f0.01, low\u2011low) after only 0.1\u202fdays since the last practice."
+      ]
+    },
+    {
+      "role": "user",
+      "round": 10,
+      "content": "Um\u2026 I\u2019ll try to fill these in.\n\n1. **Expression for the area**  \n\n\\[\n\\boxed{1\\text{\u202fm} \\;+\\; 4\\text{\u202fm}}\n\\]\n\n*(I think we add the height and the width, but I\u2019m not really sure if it should be a plus or a times.)*  \n\n---\n\n2. **Repeated\u2011addition version** \u2013 I\u2019ll pick Option\u202fA  \n\n\\[\n\\underbrace{4\\text{\u202fm}}_{\\text{1 group}} = \\boxed{5}\n\\]\n\n*(I guess one group of 4\u202fm somehow gives a total of 5\u202fm?  Maybe I\u2019m mixing up the numbers\u2026)*  \n\n---\n\n3. **Final answer with the correct unit**  \n\n\\[\n\\boxed{5\\;\\text{m}^2}\n\\]\n\n*(I\u2019m not confident about the unit either \u2013 maybe it should be just \u201cm\u201d instead of \u201cm\u00b2\u201d.)*"
+    },
+    {
+      "role": "assistant",
+      "round": 10,
+      "content": "### 1\ufe0f\u20e3 What\u2019s happening with your answer  \n\n| Part | What you wrote | What\u2019s actually correct | Why it matters |\n|------|----------------|------------------------|----------------|\n| **Expression for the area** |\u202f\\(1\\text{\u202fm} + 4\\text{\u202fm}\\) |\u202f\\(1\\text{\u202fm} \\times 4\\text{\u202fm}\\) | Adding two lengths gives a total **length** (5\u202fm).  To get an **area** you must *multiply* the height by the width, because you are placing the 1\u2011metre strips side\u2011by\u2011side four times. |\n| **Repeated\u2011addition version** |\u202fOption\u202fA gave \u201c\\(4\\text{\u202fm}=5\\)\u201d |\u202fOption\u202fA should be\u202f\\(4\\text{\u202fm}=4\\) (one group of 4\u202fm stays 4\u202fm) **or** Option\u202fB: \\(1\\text{\u202fm}+1\\text{\u202fm}+1\\text{\u202fm}+1\\text{\u202fm}=4\\text{\u202fm}\\) | The sum must equal the product of the multiplication. If you have 4 groups of 1\u202fm, you add 1\u202fm four times \u2192 4\u202fm. |\n| **Final answer with unit** |\u202f\\(5\\;\\text{m}^2\\) |\u202f\\(4\\;\\text{m}^2\\) | When you multiply two lengths (metres\u202f\u00d7\u202fmetres) the unit becomes **square metres**. The number comes from the multiplication (1\u202f\u00d7\u202f4\u202f=\u202f4), then you tack on \u201cm\u00b2\u201d. |\n\n**Bottom line**  \n- Use **\u00d7** (times) for the area set\u2011up, not **+**.  \n- The repeated\u2011addition must match the multiplication (same number of groups, same size of each group).  \n- The final unit is **m\u00b2**, and the number in front is the product of the two side lengths.\n\nYou\u2019re doing the right kind of thinking\u2014just need to line up the symbols, the addition, and the unit. Let\u2019s try another very short problem with extra scaffolding.\n\n---\n\n### 2\ufe0f\u20e3 Next practice \u2013 a tiny, fully\u2011guided rectangle  \n\nA **small picture frame** is **2\u202fm** long and **2\u202fm** wide.  \n\nFill in each blank **exactly as shown** (you can copy the numbers you already know).  \n\n1. **Expression for the area** (use the correct symbol).  \n\n\\[\n\\boxed{2\\text{\u202fm} \\;\\times\\; 2\\text{\u202fm}}\n\\]\n\n2. **Repeated\u2011addition version** \u2013 pick **one** way and write the sum **and** the product.  \n\n*Option A (2 groups of 2\u202fm)*  \n\n\\[\n\\underbrace{2\\text{\u202fm}+2\\text{\u202fm}}_{\\text{2 groups}} = \\boxed{4\\text{\u202fm}}\n\\]\n\n*or Option B (2 groups of 2\u202fm \u2013 same as A, because the sides are equal)*  \n\n\\[\n\\underbrace{2\\text{\u202fm}+2\\text{\u202fm}}_{\\text{2 groups}} = \\boxed{4\\text{\u202fm}}\n\\]\n\n3. **Final answer with the correct unit**.  \n\n\\[\n\\boxed{4\\;\\text{m}^2}\n\\]\n\n**What to watch for**  \n\n- The **\u00d7** sign tells you to multiply, not add.  \n- The repeated\u2011addition must add the *same length* the correct number of times (here 2\u202fm",
+      "retrieved_persona": [
+        "Student shows needs improvement of 'area' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'unit-conversion' with 25% accuracy over 4 attempts.",
+        "Student shows needs improvement of 'scientific-notation' with 50% accuracy over 28 attempts."
+      ],
+      "retrieved_memory": [
+        "The student answered a area question incorrectly.",
+        "The student made a mistake on area.",
+        "The student made a mistake on area."
+      ],
+      "rewritten_persona": [
+        "Student still shows low proficiency in **area**, achieving roughly 25\u202f% accuracy over 4 attempts; it was last practiced 0.1\u202fdays ago, and the minimal forgetting (score\u202f0.01, low\u2011low) indicates retention is essentially unchanged.",
+        "Student retains low\u2011level knowledge of area unit\u2011conversion, with current mastery \u22480.24 (\u224825% accuracy) after 0.1\u202fday, reflecting minimal forgetting (forgetting score\u202f0.01, low\u2011low retention).",
+        "Area \u2013 mastery\u202f\u2248\u202f0.25; last practiced 0.1\u202fdays ago, forgetting score\u202f0.01 (very low, knowledge largely retained). Accuracy remains ~50% over 28 attempts, so improvement is still needed."
+      ],
+      "rewritten_memory": [
+        "The student shows low mastery of area (~25%); after a brief 0.1\u2011day interval, the forgetting score remains very low, so the limited knowledge is still mostly retained.",
+        "The student still has low mastery of area (~25%) and recently made an error, but because it was practiced just 0.1\u202fdays ago, most of the knowledge remains retained.",
+        "The student shows low mastery of area (\u224825%) and recently made an error; with practice just 0.1\u202fdays ago, forgetting is minimal, so most of the knowledge is still retained."
+      ]
+    }
+  ]
+}

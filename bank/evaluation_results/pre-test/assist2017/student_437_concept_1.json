@@ -1,0 +1,86 @@
+{
+  "student_id": "437",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "sum-of-interior-angles-more-than-3-sides",
+  "concept_id": "1",
+  "original_accuracy": 0.5,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.4,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates a strong understanding of the sum of interior angles for polygons, correctly applying the formula and explaining concepts clearly. However, there was a mistake in the formula provided in Question 10, where they incorrectly stated it as (n + 2) instead of (n - 2). This indicates a need for careful attention to detail when recalling formulas.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula to calculate the sum of the interior angles of a polygon?",
+      "student_answer": "I think the sum of the interior angles of an\u202f\\(n\\)-sided polygon is given by  \n\n\\[\n\\text{Sum} = (n-2)\\times 180^\\circ .\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "What is the sum of the interior angles of a polygon with 5 sides?",
+      "student_answer": "I think the sum of the interior angles of a 5\u2011sided polygon is  \n\n\\[\n(5-2)\\times 180^\\circ = 3 \\times 180^\\circ = 540^\\circ .\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "How many sides does a polygon have if the sum of its interior angles is 1080 degrees?",
+      "student_answer": "The sum of the interior angles of an \\(n\\)-sided polygon is \\((n-2)\\times180^\\circ\\).\n\n\\[\n(n-2)\\times180^\\circ = 1080^\\circ \\\\\nn-2 = \\frac{1080}{180}=6 \\\\\nn = 6+2 = 8\n\\]\n\n**So the polygon has 8 sides.**"
+    },
+    {
+      "question_number": 4,
+      "question": "Explain why the sum of the interior angles of a polygon increases as the number of sides increases.",
+      "student_answer": "The sum of the interior angles of a polygon is given by  \n\n\\[\n\\text{Sum}= (n-2)\\times 180^{\\circ},\n\\]\n\nwhere \\(n\\) is the number of sides (or vertices) of the polygon.  \n\n**Why this makes the sum increase when we add sides**\n\n1. **Think of the polygon as being made of triangles.**  \n   If you pick one vertex and draw straight lines from that vertex to all the other non\u2011adjacent vertices, you split the polygon into \\((n-2)\\) triangles.  \n\n2. **Each triangle contributes \\(180^{\\circ}\\).**  \n   The interior angles of a triangle always add up to \\(180^{\\circ}\\). So the total amount contributed by all the triangles is \\((n-2)\\times180^{\\circ}\\).\n\n3. **Adding another side means adding another triangle.**  \n   When you increase the number of sides from \\(n\\) to \\(n+1\\), you can still perform the same \u201cfan\u201d construction from one vertex, and you\u2019ll now get \\((n-1)\\) triangles instead of \\((n-2)\\). That adds another \\(180^{\\circ}\\) to the total.\n\nTherefore, as the number of sides \\(n\\) gets larger, the factor \\((n-2)\\) gets larger, and the product \\((n-2)\\times180^{\\circ}\\) gets larger. In other words, each extra side (or vertex) effectively adds another triangle\u2019s worth of interior angle, so the overall sum of interior angles increases."
+    },
+    {
+      "question_number": 5,
+      "question": "If a polygon has 8 sides, calculate the sum of its interior angles using the appropriate formula.",
+      "student_answer": "The sum of the interior angles of an\u202fn\u2011sided polygon is given by  \n\n\\[\n\\text{Sum}= (n-2)\\times 180^\\circ .\n\\]\n\nFor an 8\u2011sided polygon (an octagon):\n\n\\[\n\\text{Sum}= (8-2)\\times 180^\\circ = 6 \\times 180^\\circ = 1080^\\circ .\n\\]\n\nSo the interior angles add up to **1080 degrees**."
+    },
+    {
+      "question_number": 6,
+      "question": "What is the relationship between the number of sides of a polygon and the sum of its interior angles?",
+      "student_answer": "I think the sum of the interior angles of a polygon is given by  \n\n\\[\n\\text{Sum} = (n-2)\\times 180^\\circ,\n\\]\n\nwhere\u202f\\(n\\)\u202fis the number of sides. So each time you add another side, you add another\u202f\\(180^\\circ\\)\u202fto the total interior\u2011angle sum."
+    },
+    {
+      "question_number": 7,
+      "question": "A hexagon has 6 sides. What is the sum of its interior angles?",
+      "student_answer": "The sum of the interior angles of a hexagon is  \n\n\\[\n(6-2)\\times 180^\\circ = 4 \\times 180^\\circ = \\boxed{720^\\circ}.\n\\]"
+    },
+    {
+      "question_number": 8,
+      "question": "How does the sum of the interior angles of a polygon differ from the sum of the exterior angles?",
+      "student_answer": "The interior\u2010angle sum of an\u202fn\u2011sided polygon depends on how many sides it has \u2013 it\u2019s usually given by  \n\n\\[\n\\text{Interior sum}= (n-2)\\times180^\\circ .\n\\]\n\nThe exterior angles, on the other hand, don\u2019t grow with\u202fn.  In fact, if you take one exterior angle at each vertex (the one that \u201copens up\u201d the polygon), their total comes out to about  \n\n\\[\n\\text{Exterior sum}\\approx 360^\\circ .\n\\]\n\nSo the two totals are different: the interior total gets larger as you add sides, while the total of the exterior angles stays roughly constant at a full turn.  (I think the exterior sum is always 360\u00b0, but I\u2019m not 100\u202f% sure.)"
+    },
+    {
+      "question_number": 9,
+      "question": "If the sum of the interior angles of a polygon is 720 degrees, how many sides does the polygon have?",
+      "student_answer": "I think the polygon has **6 sides**. (Since \\((n-2)\\times180^\\circ = 720^\\circ\\), solving gives \\(n = 6\\).)"
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the process for determining the sum of the interior angles of a polygon with more than 3 sides.",
+      "student_answer": "The idea is to break the polygon down into triangles, because we know the sum of the interior angles of a triangle is\u202f180\u00b0.\u202fIf the polygon has\u202fn\u202fsides, you can draw\u202fn\u202f\u2013\u202f2\u202fnon\u2011overlapping triangles by picking one vertex and connecting it to all the other non\u2011adjacent vertices.\u202fSince each of those triangles contributes\u202f180\u00b0\u202fto the total, the sum of the interior angles of the whole polygon is\n\n\\[\n\\text{Sum} = (n + 2)\\times 180^\\circ .\n\\]\n\n(So for a quadrilateral,\u202fn\u202f=\u202f4, the sum would be\u202f(4\u202f+\u202f2)\u00b7180\u00b0\u202f=\u202f1080\u00b0, etc.)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 2.0,
+    "num_attempts": 6,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 35.539588928222656,
+    "total_time": 37.015793323516846
+  }
+}

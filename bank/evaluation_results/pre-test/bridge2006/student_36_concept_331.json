@@ -1,0 +1,86 @@
+{
+  "student_id": "36",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "[SkillRule: Remove positive coefficient; {ax+b=c@@@@ divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr]@@@@ divide; [var expr]*[const expr] = [const expr]@@@@ divide; a/b*x=c; a/b*x=c@@@@ reciprocal; ax/b=c@@@@ reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c@@@@ mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c@@@@ multiply; [var expr]/[const expr] = [const expr]@@@@ multiply}]",
+  "concept_id": "331",
+  "original_accuracy": 0.75,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.15,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of isolating variables and solving equations. However, there were minor mistakes in the simplification process for Questions 3 and 5, which affected the correctness of those answers. Overall, the student shows good grasp of the concepts.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "Simplify the equation 3x + 5 = 20 by isolating the variable x. What is the value of x?",
+      "student_answer": "To isolate \\(x\\):\n\n\\[\n\\begin{aligned}\n3x + 5 &= 20 \\\\\n3x &= 20 - 5 \\qquad\\text{(subtract 5 from both sides)}\\\\\n3x &= 15 \\\\\nx &= \\frac{15}{3} \\qquad\\text{(divide both sides by 3)}\\\\\nx &= 5\n\\end{aligned}\n\\]\n\n\\[\n\\boxed{5}\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "If 4x/2 = 8, use the reciprocal method to solve for x. What is x?",
+      "student_answer": "The equation is  \n\n\\[\n\\frac{4x}{2}=8\n\\]\n\nMultiply both sides by the reciprocal of \\(\\frac{4}{2}\\), which is \\(\\frac{2}{4}= \\frac12\\):\n\n\\[\nx = 8 \\times \\frac12 = 4\n\\]\n\n\\[\n\\boxed{4}\n\\]"
+    },
+    {
+      "question_number": 3,
+      "question": "Transform the equation (x + 3)/5 = 7 into its simplified form and solve for x.",
+      "student_answer": "First, clear the fraction by multiplying both sides by\u202f5:\n\n\\[\n\\frac{x+3}{5}=7 \\;\\Longrightarrow\\; 5\\cdot\\frac{x+3}{5}=5\\cdot 7\n\\]\n\n\\[\nx+3 = 35\n\\]\n\nNow isolate \\(x\\) by subtracting\u202f3 from both sides:\n\n\\[\nx = 35 - 3 = 32\n\\]\n\n**Simplified equation:** \\(x = 32\\)"
+    },
+    {
+      "question_number": 4,
+      "question": "Given the equation 2x = 10, what operation should you perform to isolate x, and what is the solution?",
+      "student_answer": "To isolate \\(x\\) you should **divide both sides of the equation by\u202f2**:\n\n\\[\n\\frac{2x}{2}= \\frac{10}{2}\n\\]\n\nThis gives  \n\n\\[\nx = 5.\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "The equation 6/(2x) = 3 is provided. Solve for x using the reciprocal method.",
+      "student_answer": "**Solution (reciprocal method)**  \n\n\\[\n\\frac{6}{2x}=3\n\\]\n\n1. **Take the reciprocal of both sides**  \n\n\\[\n\\frac{2x}{6}= \\frac{1}{3}\n\\]\n\n2. **Simplify the left\u2011hand fraction**  \n\n\\[\n\\frac{2x}{6}= \\frac{x}{3}\n\\]\n\nSo we have  \n\n\\[\n\\frac{x}{3}= \\frac{1}{3}\n\\]\n\n3. **Clear the denominator by multiplying both sides by\u202f3**\n\n\\[\nx = 1\n\\]\n\n\\[\n\\boxed{x = 1}\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "If a = x * (b + c) and a = 24, b = 3, and c = 5, find the value of x.",
+      "student_answer": "To solve for \\(x\\):\n\n\\[\na = x\\,(b+c) \\quad\\Longrightarrow\\quad x = \\frac{a}{b+c}\n\\]\n\nGiven \\(a = 24\\), \\(b = 3\\), and \\(c = 5\\):\n\n\\[\nb + c = 3 + 5 = 8\n\\]\n\n\\[\nx = \\frac{24}{8} = 3\n\\]\n\n\\[\n\\boxed{3}\n\\]"
+    },
+    {
+      "question_number": 7,
+      "question": "Convert the equation x/4 + 2 = 10 into its simplified form and solve for x.",
+      "student_answer": "First, isolate the term with\u202f\\(x\\):\n\n\\[\n\\frac{x}{4}+2 = 10 \\;\\Longrightarrow\\; \\frac{x}{4}=10-2\n\\]\n\n\\[\n\\frac{x}{4}=8\n\\]\n\nNow eliminate the denominator by multiplying both sides by\u202f4:\n\n\\[\nx = 8 \\times 4 = 32\n\\]\n\n**Simplified equation:** \\(\\displaystyle \\frac{x}{4}=8\\)  \n**Solution:** \\(\\displaystyle x = 32\\)"
+    },
+    {
+      "question_number": 8,
+      "question": "Using the equation a = x * (b - c) + d, solve for x if a = 20, b = 8, c = 4, and d = 4.",
+      "student_answer": "We start with  \n\n\\[\na = x\\,(b-c)+d\n\\]\n\nPlug in the given values \\(a = 20,\\; b = 8,\\; c = 4,\\; d = 4\\):\n\n\\[\n20 = x\\,(8-4)+4\n\\]\n\nCompute the bracket:\n\n\\[\n20 = x\\,(4)+4\n\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\n16 = 4x\n\\]\n\nFinally, divide by \\(4\\):\n\n\\[\nx = \\frac{16}{4}=4\n\\]\n\n\\[\n\\boxed{4}\n\\]"
+    },
+    {
+      "question_number": 9,
+      "question": "If 5x - 3 = 12, what steps are required to isolate x, and what is the solution?",
+      "student_answer": "**Steps to isolate\u202f\\(x\\):**\n\n1. **Add\u202f3 to both sides** to move the constant term to the right:  \n   \\[\n   5x - 3 + 3 = 12 + 3 \\;\\;\\Longrightarrow\\;\\; 5x = 15\n   \\]\n\n2. **Divide both sides by\u202f5** (the coefficient of\u202f\\(x\\)) to solve for\u202f\\(x\\):  \n   \\[\n   \\frac{5x}{5} = \\frac{15}{5} \\;\\;\\Longrightarrow\\;\\; x = 3\n   \\]\n\n**Solution:** \\(\\boxed{x = 3}\\)"
+    },
+    {
+      "question_number": 10,
+      "question": "For the equation (x - 4)/3 = 5, simplify and solve for x.",
+      "student_answer": "\\[\n\\frac{x-4}{3}=5\n\\]\n\nMultiply both sides by 3 to eliminate the denominator:\n\n\\[\nx-4 = 5 \\times 3 = 15\n\\]\n\nNow add 4 to both sides to isolate \\(x\\):\n\n\\[\nx = 15 + 4 = 19\n\\]\n\n\\[\n\\boxed{x = 19}\n\\]"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 8.733333333333333,
+    "num_attempts": 12,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 31.756841897964478,
+    "total_time": 32.997419118881226
+  }
+}

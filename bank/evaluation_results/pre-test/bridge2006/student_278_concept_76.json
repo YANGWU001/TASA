@@ -1,0 +1,86 @@
+{
+  "student_id": "278",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify GCF in written question",
+  "concept_id": "76",
+  "original_accuracy": 0.2727272727272727,
+  "roleplay_accuracy": 0.6,
+  "deviation": 0.3272727272727273,
+  "roleplay_score": 6,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+  ],
+  "feedback": "The student demonstrates a basic understanding of GCF concepts, correctly identifying some GCFs and explaining methods. However, there are several inaccuracies, particularly in identifying GCFs and understanding the implications of a GCF of 1. The student should focus on improving accuracy in calculations and clarifying concepts related to prime factorization and the Euclidean algorithm.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "student_answer": "Um, I think the greatest common factor of 24 and 36 is\u2026 maybe 6? I\u2019m not totally sure, but that\u2019s what I get."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the process of finding the GCF of two numbers.",
+      "student_answer": "Um\u2026 I think the way you find the greatest common factor (GCF) of two numbers is kind of\u2026 a mix of listing factors and doing a little bit of arithmetic.\n\nFirst, you **list all the factors** of each number.\u202fFor example, if the numbers are 12 and\u202f18, you\u2019d write out 1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f12 for 12 and 1,\u202f2,\u202f3,\u202f6,\u202f9,\u202f18 for\u202f18.  \n\nThen you **look for the common factors**\u2014the numbers that appear in both lists.\u202fIn this case the common factors are 1,\u202f2,\u202f3,\u202fand\u202f6.  \n\nUsually, the GCF is the **largest** of those common factors, so you would pick 6.  \n\nSometimes people also **use prime factorization**: you break each number into its prime pieces (12\u202f=\u202f2\u202f\u00d7\u202f2\u202f\u00d7\u202f3, 18\u202f=\u202f2\u202f\u00d7\u202f3\u202f\u00d7\u202f3) and then multiply the primes they share.\u202fIf you multiply the shared primes (2\u202f\u00d7\u202f3) you also get\u202f6.\n\nI\u2019ve also heard that you can *add* the two numbers together and then look at the factors of that sum, but I\u2019m not sure if that always works\u2014maybe it\u2019s just a shortcut for some special cases.\n\nAnother method people mention is **subtracting the smaller number from the larger** repeatedly until you get a remainder of zero; the last non\u2011zero remainder is sometimes called the GCF.\u202fI think that\u2019s actually the Euclidean algorithm, but I\u2019m not totally confident about the steps.\n\nSo, in short: list factors, find the common ones, pick the biggest\u2026 or you could try prime factorization, or maybe even use subtraction or addition tricks if you\u2019re feeling adventurous. \u202fI\u2019m not completely sure which one is the \u201cright\u201d way, but those are the ideas I\u2019ve heard."
+    },
+    {
+      "question_number": 3,
+      "question": "Find the GCF of 18, 24, and 30.",
+      "student_answer": "Um\u2026 I think the greatest common factor of\u202f18,\u202f24, and\u202f30 is probably **3**."
+    },
+    {
+      "question_number": 4,
+      "question": "If two numbers have a GCF of 1, what does that mean about the relationship between the numbers?",
+      "student_answer": "Um\u2026 I think if the GCF of two numbers is 1 it means they don\u2019t share any other factor\u2026 like they\u2019re kind of \u201cindependent.\u201d\u202fActually, maybe it just means both numbers have to be prime themselves, so they only have 1 as a common factor.  (I'm not really sure.)"
+    },
+    {
+      "question_number": 5,
+      "question": "Identify the GCF of 45 and 60 using their prime factorizations.",
+      "student_answer": "Um, let me try\u2026  \n\nThe prime factorization of 45 is \\(3 \\times 3 \\times 5\\) and the prime factorization of 60 is \\(2 \\times 2 \\times 3 \\times 5\\).  \nThe numbers they share are the 3 and the 5, so I think the greatest common factor is the product of those\u2026 maybe it\u2019s \\(3 \\times 5 = 15\\)?  \n\nBut I\u2019m not totally sure\u2014I might be mixing something up.  It could also just be the 5 that they both have.  \n\n**So, I guess the GCF is 5.**"
+    },
+    {
+      "question_number": 6,
+      "question": "A student claims the GCF of 12 and 15 is 6. Is the student correct? Why or why not?",
+      "student_answer": "Um\u2026 I think the student is actually correct. The GCF of 12 and 15 can be 6, because 6 goes into 12 two times and it also goes into 15\u2026 well, I guess it fits nicely as a common factor. So the claim that the GCF is 6 seems okay. (I'm not totally sure, but that\u2019s what I get.)"
+    },
+    {
+      "question_number": 7,
+      "question": "How can the Euclidean algorithm be used to find the GCF of two numbers?",
+      "student_answer": "Um\u2026 I think the Euclidean algorithm works kind of like this: you take the two numbers, say\u202f\\(a\\)\u202fand\u202f\\(b\\)\u202fwith\u202f\\(a>b\\), and you keep **subtracting the smaller number from the larger one** over and over.\u202fYou keep doing that until you eventually get a zero somewhere.\u202fThen, the last number you were subtracting (the one that made the result zero) is the GCF.\n\nSo, for example, if you wanted the GCF of\u202f48\u202fand\u202f18, you\u2019d do:\n\n- 48\u202f\u2212\u202f18\u202f=\u202f30  \n- 30\u202f\u2212\u202f18\u202f=\u202f12  \n- 18\u202f\u2212\u202f12\u202f=\u202f6  \n- 12\u202f\u2212\u202f6\u202f=\u202f6  \n- 6\u202f\u2212\u202f6\u202f=\u202f0  \n\nAnd since you ended up subtracting\u202f6\u202fto get zero, the GCF would be\u202f6.\n\nI\u2019m not totally sure if you have to use division instead of subtraction, but I think the idea is just to keep removing the smaller piece until you hit zero, and that last piece is the greatest common factor."
+    },
+    {
+      "question_number": 8,
+      "question": "Find the GCF of 48 and 64, and explain each step of your calculation.",
+      "student_answer": "Um\u2026 I think the greatest common factor of 48 and\u202f64 is **8**.\n\n**My (maybe shaky) steps**\n\n1. **List the factors of each number**  \n   - For 48 I wrote down: 1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f8,\u202f12,\u202f16,\u202f24,\u202f48.  \n   - For 64 I wrote down: 1,\u202f2,\u202f4,\u202f8,\u202f16,\u202f32,\u202f64.\n\n2. **Look for the numbers that appear in both lists**  \n   The common factors seem to be 1,\u202f2,\u202f4,\u202f8,\u202f16.  \n\n3. **Pick the biggest one**  \n   I thought the biggest common factor was 8 because \u2026 um \u2026 I guess 16 looks a little too big? Maybe I missed something, but 8 looks right to me.\n\nSo, the GCF I\u2019m giving is **8**.  \n\n*(Sorry if I\u2019m wrong \u2013 I\u2019m not totally sure about the last step!)*"
+    },
+    {
+      "question_number": 9,
+      "question": "Two numbers have a GCF of 8. Provide an example of what these numbers could be.",
+      "student_answer": "Um\u2026 I think maybe the numbers could be **12 and 20**. They both seem to share an 8 as a factor, so maybe their greatest common factor is 8."
+    },
+    {
+      "question_number": 10,
+      "question": "Why is finding the GCF important in simplifying fractions? Provide an example.",
+      "student_answer": "Um, I think finding the GCF is important because it tells you the biggest number that goes into both the numerator and the denominator, so you can make the fraction smaller.\u202fFor example, if you have the fraction\u202f8\u204412, the GCF is\u202f2, so you would divide both top and bottom by\u202f2 and get\u202f4\u20446.\u202fThat way the fraction is \u201csimpler.\u201d (I'm not 100\u202f% sure if that\u2019s the right GCF, though.)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1.9666666666666666,
+    "num_attempts": 22,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 41.856645822525024,
+    "total_time": 43.23965764045715
+  }
+}

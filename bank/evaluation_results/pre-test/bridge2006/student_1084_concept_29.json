@@ -1,0 +1,86 @@
+{
+  "student_id": "1084",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify GCF - one number multiple of other",
+  "concept_id": "29",
+  "original_accuracy": 0.5,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.4,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of GCF, particularly when one number is a multiple of the other. Most answers are correct, but there was a mistake in the prime factorization method for Question 4, where the GCF should have been 15 instead of 3. Overall, the student effectively explains the reasoning behind the GCF and provides relevant real-life applications.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the greatest common factor (GCF) of 12 and 36?",
+      "student_answer": "I think the greatest common factor of 12 and 36 is 6."
+    },
+    {
+      "question_number": 2,
+      "question": "If one number is 18 and the other is 54, what is their GCF?",
+      "student_answer": "I think the greatest common factor of 18 and\u202f54 is **18**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the GCF of a number and its multiple is always the smaller number.",
+      "student_answer": "The idea is that when you have a number\u202f\\(a\\) and a second number that is a multiple of\u202f\\(a\\) (let\u2019s call it\u202f\\(b\\)), you can write the larger one as\u202f\\(b = k\\cdot a\\) for some whole\u2011number\u202f\\(k\\).  \n\nBecause\u202f\\(a\\) divides\u202f\\(b\\) exactly (there\u2019s no remainder), every divisor of\u202f\\(a\\) will also divide\u202f\\(b\\).  In other words, the set of common factors of the two numbers is exactly the set of factors of the smaller number\u202f\\(a\\).  The greatest of those common factors can\u2019t be bigger than\u202f\\(a\\) itself, so it must be\u202f\\(a\\) (or a factor of\u202f\\(a\\) if\u202f\\(a\\) isn\u2019t the smallest \u2013 but since\u202f\\(a\\) is the smaller of the two numbers, the biggest common factor is just\u202f\\(a\\)).  \n\nSo the GCF of a number and any of its multiples is just the smaller number, because the smaller number already divides the larger one completely and therefore is the biggest factor they share.  \n\n*(I think this is why the GCF ends up being the smaller number; the larger number doesn\u2019t add any new common factors beyond those of the smaller.)*"
+    },
+    {
+      "question_number": 4,
+      "question": "Find the GCF of 15 and 45 using the prime factorization method.",
+      "student_answer": "First write each number as a product of its prime factors.\n\n-\u202f15\u202f=\u202f3\u202f\u00d7\u202f5  \n-\u202f45\u202f=\u202f3\u202f\u00d7\u202f3\u202f\u00d7\u202f5\u202f=\u202f3\u00b2\u202f\u00d7\u202f5  \n\nNow look for the primes that appear in **both** factorizations.  \nBoth numbers contain a factor of\u202f3 (and also a factor of\u202f5), but the smallest common factor that shows up in each list is the single\u202f3.  \n\nSo the greatest common factor, using the prime\u2011factor method, is  \n\n\\[\n\\text{GCF}=3.\n\\]\n\n(If we also included the 5 we would get 15, but the method I used kept only the common factor that appears at the lowest power in both, which gives 3.)"
+    },
+    {
+      "question_number": 5,
+      "question": "True or False: The GCF of two numbers where one is a multiple of the other is always equal to the smaller number.",
+      "student_answer": "**Answer: True**"
+    },
+    {
+      "question_number": 6,
+      "question": "Calculate the GCF of 25 and 100 using the listing of factors method.",
+      "student_answer": "**Listing the factors**\n\n- Factors of\u202f25:\u20031,\u202f5,\u202f25  \n- Factors of\u202f100:\u202f1,\u202f2,\u202f4,\u202f5,\u202f10,\u202f20,\u202f25,\u202f50,\u202f100  \n\n**Common factors**\n\nThe numbers that appear in both lists are **1,\u202f5,\u202f25**.\n\n**Greatest common factor**\n\nThe largest of those common factors is **25**.\n\nSo, the GCF of\u202f25 and\u202f100 (using the listing\u2011of\u2011factors method) is **25**."
+    },
+    {
+      "question_number": 7,
+      "question": "How can you determine the GCF of two numbers where one is a multiple of the other without fully factoring both numbers?",
+      "student_answer": "If one of the numbers is a **multiple of the other**, you don\u2019t have to break both numbers down into all of their prime factors.  \nThe key idea is that the smaller number already **divides** the larger one, so it is automatically a common factor. Because any other factor of the smaller number also divides the larger (since the larger is just the smaller\u202f\u00d7\u202fsome integer), the **greatest** common factor can\u2019t be bigger than the smaller number itself.  \n\nSo, in most cases you can just:\n\n1. **Identify the smaller of the two numbers.**  \n2. **Check that the larger number is divisible by the smaller** (usually obvious if you\u2019re told it\u2019s a multiple).  \n3. **Conclude that the GCF is the smaller number.**  \n\nIf you want to be extra sure, you can run a quick Euclidean\u2011algorithm step: divide the larger number by the smaller; the remainder will be\u202f0, confirming that the smaller number is the greatest common divisor.\n\n*(I think this works for any pair where one is a clear multiple of the other, though if the problem somehow hides a larger common factor than the smaller number, you might need to double\u2011check with the Euclidean algorithm.)*"
+    },
+    {
+      "question_number": 8,
+      "question": "Why is the GCF of 7 and 21 equal to 7?",
+      "student_answer": "I think the GCF (greatest common factor) of\u202f7\u202fand\u202f21\u202fis\u202f7\u202fbecause\u202f7\u202fdivides both numbers.  \n-\u202f7\u202fgoes into\u202f7\u202fexactly\u202f1\u202ftime, and it goes into\u202f21\u202fexactly\u202f3\u202ftimes (since\u202f21\u202f=\u202f7\u202f\u00d7\u202f3).  \n-\u202fThe only other common factor they share is\u202f1, and\u202f7\u202fis larger than\u202f1, so it\u2019s the greatest (largest) factor that both numbers have in common.  \n\nSo the GCF of\u202f7\u202fand\u202f21\u202fis\u202f7."
+    },
+    {
+      "question_number": 9,
+      "question": "If the GCF of two numbers is 20 and one of the numbers is 80, what could the other number be?",
+      "student_answer": "I think the other number could be\u202f100\u202f(since\u202fGCF(80,\u202f100)\u202f=\u202f20)."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe a real-life scenario where finding the GCF of a number and its multiple is useful.",
+      "student_answer": "One everyday situation where you might want the greatest common factor of a number and one of its multiples is when you\u2019re packing or arranging items so that nothing has to be cut or left over.\n\nImagine you have **24** stickers that you want to put into packets, and you also need to make enough packets for a larger order that is a multiple of that amount\u2014say **60** stickers total.  \nTo decide how many stickers should go in each packet so that both the small batch (24 stickers) and the larger batch (60 stickers) can be divided evenly, you can find the GCF of the two numbers:\n\n\\[\n\\text{GCF}(24,\\;60)=12.\n\\]\n\nBecause the GCF is 12, you could make packets that each contain **12 stickers**.  \n\n- The 24\u2011sticker batch would fill **\\(24 \u00f7 12 = 2\\)** packets.  \n- The 60\u2011sticker batch would fill **\\(60 \u00f7 12 = 5\\)** packets.\n\nUsing the GCF this way means you never have a packet that\u2019s partially filled; everything is grouped into whole packets of the same size.  \n\nIn short, the GCF of a number and its multiple helps you choose the largest possible group size (or \u201cpackage size\u201d) that works for both the smaller and larger quantities, which is handy for things like packaging, arranging tiles, or dividing supplies evenly."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 4.183333333333334,
+    "num_attempts": 12,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 43.3019597530365,
+    "total_time": 45.382561445236206
+  }
+}

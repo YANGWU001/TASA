@@ -1,0 +1,109 @@
+{
+  "student_id": 1386,
+  "dataset": "assist2017",
+  "concept": "percent-of",
+  "method": "Vanilla-ICL",
+  "total_rounds": 10,
+  "dialogue": [
+    {
+      "role": "user",
+      "content": "I want to learn about percent-of",
+      "round": 0
+    },
+    {
+      "role": "assistant",
+      "content": "**Question:**  \nA video game normally costs **$60**. The store is offering a **15\u202f% discount** on the game.  \n\n*How much money will you save with the discount, and what will be the final price you pay?*",
+      "round": 1
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 I think the 15\u202f% discount on $60 is about $",
+      "round": 2
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on your answer**\n\nYou started the right way by recognizing that you need to find \u201c15\u202f% of\u202f$60.\u201d  \nHowever, you left the answer blank, so we don\u2019t yet know the amount you calculated.\u202fBecause the response is incomplete, we can\u2019t say it\u2019s correct.\n\n**How to find 15\u202f% of\u202f$60**\n\n1. **Convert the percent to a decimal** \u2013\u202f15\u202f% = 15 \u00f7 100 = **0.15**.  \n2. **Multiply** the decimal by the original price:  \n   \\[\n   0.15 \\times 60 = \\boxed{9}\n   \\]\n   So the discount saves you **$9**.\n\n3. **Find the final price** by subtracting the discount from the original price:  \n   \\[\n   60 - 9 = \\boxed{51}\n   \\]\n   You would pay **$51** after the discount.\n\n---\n\n### Next practice question\n\nA pair of headphones is marked at **$85**. The store is running a **22\u202f% off** sale.\n\n1. How much money do you save with the discount?  \n2. What is the price you will actually pay after the discount?\n\n*Try to follow the three\u2011step process above (convert percent \u2192 decimal, multiply, then subtract). Write down each step so you can see where you\u2019re going.* \n\nWhen you\u2019re ready, share your work and answer, and I\u2019ll give you feedback. Good luck!",
+      "round": 2
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 3
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback**\n\nYou wrote \u201cI don\u2019t know,\u201d which means you didn\u2019t try to calculate the discount. That\u2019s okay\u202f\u2014\u202frecognizing a gap is the first step toward filling it.  \nTo solve a *percent\u2011of* problem you need two pieces:\n\n1. **Convert the percent to a decimal.**  \n   \\(15\\% = \\dfrac{15}{100} = 0.15\\).\n\n2. **Multiply the decimal by the whole amount.**  \n   Discount\u202f=\u202f\\(0.15 \\times \\$60\\).\n\nIf you carry out that multiplication you\u2019ll get the amount saved, and then you can subtract it from the original price to find the final price.\n\n---\n\n### New Practice Question\n\nA pair of headphones is priced at **\\$85**. The store is running a **22\u202f% off** sale.\n\n1. How many dollars do you save with the discount?  \n2. What is the price you will actually pay after the discount?\n\n**Show your work** (convert the percent to a decimal, then multiply, then subtract). Give it a try, and let me know what you get!",
+      "round": 3
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 I think I\u2019ll try to do the steps.\n\n**1. Convert the percent to a decimal**  \n22\u202f% = 22 \u00f7 100 = 0.22  \n\n**2. Multiply by the whole amount**  \nDiscount = 0.22 \u00d7 $85  \n\u2026 I\u2019m not totally sure about the multiplication, but I think it\u2019s about $19.7 (I",
+      "round": 4
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on your answer**\n\n| Part of the problem | What you did | Correct? | Why / How to improve |\n|---------------------|--------------|----------|----------------------|\n| **Convert the percent to a decimal** |\u202f22\u202f% \u2192 0.22 (you wrote 0.22) | \u2705 | Perfect! Dividing by 100 is the right step. |\n| **Multiply the decimal by the whole amount** |\u202f0.22\u202f\u00d7\u202f$85 \u2192 you wrote \u201cabout $19.7\u201d | \u274c (close, but not quite) | The multiplication is a little off.  Here\u2019s a quick way to check:  <br> \u2022\u202f0.2\u202f\u00d7\u202f85\u202f=\u202f17  (because 10\u202f% of 85 is 8.5, so 20\u202f% is twice that). <br> \u2022\u202f0.02\u202f\u00d7\u202f85\u202f=\u202f1.7  (1\u202f% of 85 is 0.85, so 2\u202f% is twice that). <br> \u2022\u202fAdd them: 17\u202f+\u202f1.7\u202f=\u202f18.7.  <br> So **22\u202f% of $85 is $18.70**, not $19.70.  Your method was right; just be careful with the final multiplication. |\n\n**What you did well**  \n- Recognized that \u201cpercent\u2011of\u201d means turning the percent into a decimal.  \n- Set up the multiplication correctly.\n\n**Where to improve**  \n- Double\u2011check the multiplication, especially when the decimal has two places. Using the \u201cbreak it into parts\u201d method (like 0.2\u202f+\u202f0.02) can",
+      "round": 4
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 thanks for",
+      "round": 5
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Last Response**\n\n| What you wrote | Correct? | Why / How to improve |\n|----------------|----------|----------------------|\n| \u201cUm\u2026 thanks for\u201d | **Incorrect / Incomplete** | This isn\u2019t a numeric answer to the discount problem. It looks like you stopped before finishing the calculation. Remember, the goal is to produce a **number** (the amount of the discount) and, if asked, the **sale price** after the discount.  |\n\n**Where you got stuck**\n\n1. **You correctly converted 22\u202f% to a decimal (0.22).** \u2705  \n2. **You set up the multiplication (0.22\u202f\u00d7\u202f$85)** \u2013 that\u2019s the right next step. \u2705  \n3. **You didn\u2019t finish the multiplication** and you didn\u2019t write the final value.\n\n**What to do next**\n\n- Carry out the multiplication: \\(0.22 \\times 85\\).  \n- Write the result as a dollar amount (e.g., \u201c$18.70\u201d).  \n- If the problem asks for the price *after* the discount, subtract the discount from the original price: \\(85 - \\text{discount}\\).\n\n**Quick reminder of the steps for any \u201cpercent\u2011of\u201d problem**\n\n1. **Change the percent to a decimal** (divide by 100).  \n2. **Multiply** the decimal by the whole amount.  \n3. **Interpret** the product: it\u2019s the \u201cpercent\u2011of\u201d quantity.  \n4. (Optional) **Add or subtract** the product from the original amount, depending on whether you\u2019re finding a \u201cincrease\u201d or a \u201cdiscount\u201d.\n\n---\n\n### Next Practice Question\n\nA jacket is marked **$120**. The store is offering a **15\u202f%** discount.\n\n1. **What is the amount of the discount?** (Show your work step\u2011by\u2011step.)  \n2. **What is the final price you would pay after the discount?**  \n\n*Write each step clearly: convert the percent, multiply, then subtract.*  \n\nWhen you\u2019re ready, post your answer and",
+      "round": 5
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 6
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Last Answer**\n\n| What you wrote | Correct? | Why / How to improve |\n|----------------|----------|----------------------|\n| \u201cI don\u2019t know\u201d | **Incorrect / Incomplete** | The problem asks you to *find a specific value* using the percent\u2011of procedure. Even if you\u2019re unsure, it\u2019s helpful to write down what you do know (e.g., \u201c22\u202f% = 0.22\u201d) and then try the next step. Showing any work lets us see where the difficulty is and gives you a chance to correct it before moving on. |\n\n**How to approach a \u201cpercent\u2011of\u201d problem**\n\n1. **Rewrite the percent as a decimal** (divide by\u202f100).  \n   Example: 22\u202f% \u2192 0.22.  \n2. **Multiply** that decimal by the whole quantity you\u2019re taking the percent of.  \n   Example: 0.22\u202f\u00d7\u202f150 = 33.  \n3. **Interpret the result** in the context of the word problem.\n\nTry to follow those three steps even if you\u2019re not sure of the answer\u2014writing each step down is part of the learning process.\n\n---\n\n### Next Practice Question\n\n> **A bakery sells 180 cupcakes each day.**  \n> On a particularly busy day, sales increase by **15\u202f%**.  \n> **How many cupcakes are sold on that busy day?**  \n\n**What to do:**  \n1. Convert 15\u202f% to a decimal.  \n2. Multiply that decimal by the original number of cupcakes (180) to find the *extra* cupcakes sold.  \n3. Add the extra cupcakes to the original 180 to get the total sold.\n\nWrite out each step, and let me know what you get! If you get stuck at any point, just tell me which step is confusing and we\u2019ll work through it together.",
+      "round": 6
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 7
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Last Answer**\n\n| What you wrote | Correct? | Why / How to improve |\n|----------------|----------|----------------------|\n| \u201cI don\u2019t know\u201d | **Incorrect / Incomplete** | The problem asked you to **calculate a specific percent\u2011of value**. Simply saying \u201cI don\u2019t know\u201d does not show any of the thinking steps (identifying the numbers, setting up the multiplication, or performing the calculation). Even if you\u2019re unsure, try to write down what you think the problem is asking, then attempt the calculation step\u2011by\u2011step. That way we can see where the difficulty lies and address it directly. |\n\n---\n\n### Next Practice Question\n\n**Problem:**  \nA store is having a sale where every item is discounted by **15\u202f%**. If a jacket originally costs **$80**, how much will the jacket cost after the discount?\n\n**What to do:**  \n1. Find 15\u202f% of $80.  \n2. Subtract that amount from the original price.  \n\n*Show your work by writing the multiplication you use to find the 15\u202f% (e.g., \u201c0.15\u202f\u00d7\u202f80 = \u2026\u201d) and then the subtraction step.*  \n\nWhen you\u2019re ready, type your answer and the steps you took. If you get stuck, write down what part is confusing and we\u2019ll work through it together. Good luck!",
+      "round": 7
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 8
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Last Answer**\n\n| What you wrote | Correct? | Why / How to improve |\n|----------------|----------|----------------------|\n| \u201cI don\u2019t know\u201d | **Incorrect / Incomplete** | The problem asks you to find a specific \u201cpercent\u2011of\u201d value. Even if you\u2019re unsure, try to write down what you do know (e.g., the numbers involved, the operation \u201cpercent of\u201d). This shows your thinking process and gives us a place to start correcting misconceptions. Remember, \u201cpercent of\u201d means multiplying the percentage (as a decimal) by the whole number.<br><br>**Next step:** Identify the two numbers in the problem \u2013 the percent and the quantity it\u2019s applied to \u2013 then convert the percent to a decimal (divide by 100) and multiply. If you\u2019re stuck, write down those two numbers and the conversion step; we\u2019ll work from there. |\n\n---\n\n### Next Practice Question\n\n**Problem:**  \nA store is having a 15\u202f% off sale on a jacket that originally costs \\$80.  \n\n1. How much money is saved by the discount?  \n2. What is the final price of the jacket after the discount?\n\n**Instructions for you:**  \n- Write the discount amount first (the \u201cpercent\u2011of\u201d step).  \n- Then subtract that amount from the original price to find the final price.  \n\nGive it a try, and if you get stuck, let me know which part is confusing!",
+      "round": 8
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 9
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Last Answer**\n\n| What you wrote | Correct? | Why / How to improve |\n|----------------|----------|----------------------|\n| \u201cI don\u2019t know\u201d | **Incorrect / Incomplete** | The problem asked you to find a **percent\u2011of** value. Even if you\u2019re not sure, it\u2019s helpful to write down what you do know (e.g., the percent, the whole number, or a strategy you might try). This gives the tutor a clue about where you\u2019re stuck and lets you practice the steps: 1) Write the percent as a decimal, 2) Multiply by the whole. Try to at least set up the expression before giving the final number. |\n\n---\n\n### Next Practice Question\n\n**Problem:**  \nA store is having a sale where everything is **15\u202f% off** the original price. If a jacket originally costs **\\$80**, what is the **sale price** of the jacket?\n\n**Steps to think about:**\n1. Convert 15\u202f% to a decimal.  \n2. Find the amount of the discount by multiplying the decimal by the original price.  \n3. Subtract the discount from the original price to get the sale price.\n\nGive it a try and write down each step you use. If you get stuck, let me know where, and I can give a hint!",
+      "round": 9
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 10
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Last Answer**\n\n| What you wrote | Correct? | Why / How to improve |\n|----------------|----------|----------------------|\n| \u201cI don\u2019t know\u201d | **Incorrect / Incomplete** | The problem asked you to **find a specific percent\u2011of value**. Even if you\u2019re not sure of the answer, giving a guess, showing your thinking, or writing down the steps you would try is much more helpful. It lets us see where the confusion is and gives you a chance to practice the process. Remember, \u201cpercent\u2011of\u201d problems follow the pattern **(percent \u00f7 100)\u202f\u00d7\u202fwhole number**. Try to apply that formula before deciding you don\u2019t know the answer. |\n\n---\n\n### Next Practice Question\n\n> **What is 35\u202f% of 80?**\n\n**How to approach it:**\n1. Convert the percent to a decimal:\u202f35\u202f%\u202f=\u202f35\u202f\u00f7\u202f100\u202f=\u202f0.35.  \n2. Multiply the decimal by the whole number:\u202f0.35\u202f\u00d7\u202f80.  \n\nGive it a try and write down each step you use. If you get stuck, let me know where, and I\u2019ll give you a hint!",
+      "round": 10
+    }
+  ]
+}

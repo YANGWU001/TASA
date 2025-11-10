@@ -1,0 +1,86 @@
+{
+  "student_id": "1471",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "mean",
+  "concept_id": "61",
+  "original_accuracy": 0.6,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.3,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of mean, its calculation, and its implications in various contexts. Most answers are correct, with only one minor error in the calculation of the mean score in Question 5. Overall, the student effectively differentiates between mean and median and recognizes the limitations of the mean in the presence of outliers.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the mean of a data set?",
+      "student_answer": "The mean (average) of a data set is found by adding up all the values and then dividing by the number of values:\n\n\\[\n\\text{Mean} \\; (\\bar{x}) \\;=\\; \\frac{\\displaystyle\\sum_{i=1}^{n} x_i}{n}\n\\]\n\nwhere \\(x_i\\) are the individual data points and \\(n\\) is the total number of observations."
+    },
+    {
+      "question_number": 2,
+      "question": "If a data set consists of the numbers 4, 8, 12, and 16, what is the mean?",
+      "student_answer": "The mean (average) of the numbers is  \n\n\\[\n\\frac{4+8+12+16}{4}=\\frac{40}{4}=10.\n\\]\n\n**Answer: 10**"
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the difference between the mean and the median in statistical analysis.",
+      "student_answer": "**Mean vs. Median**\n\n- **Mean (average)** \u2013 Add up all the data values and divide by the number of observations. It gives a single \u201ccentral\u201d value that takes every data point into account. Because the mean uses all the numbers, it can be pulled toward extreme values (outliers).\n\n- **Median (middle value)** \u2013 Arrange the data in order from smallest to largest and pick the value that lies exactly in the middle. If there\u2019s an even number of observations, the median is the average of the two middle numbers. The median splits the dataset into two equal halves, so half the observations are below it and half are above. It is not affected by extreme outliers as much as the mean.\n\n**Key difference:** The mean reflects the overall balance of all values, while the median reflects the positional center of the ordered data and is more robust to extreme values."
+    },
+    {
+      "question_number": 4,
+      "question": "Why is the mean considered a measure of central tendency?",
+      "student_answer": "The mean (or arithmetic average) is called a **measure of central tendency** because it provides a single numerical value that represents the \u201ccenter\u201d or typical location of a data set. By adding up all the observations and dividing by the number of observations, the mean balances the data: the total of the deviations of the points above the mean is equal in magnitude (but opposite in sign) to the total of the deviations below it. This balancing property makes the mean a useful summary of where the data are clustered, giving us a concise picture of the overall level around which most values lie. Hence, it serves as one of the primary ways to describe the central tendency of a distribution."
+    },
+    {
+      "question_number": 5,
+      "question": "A student scored 75, 80, 85, and 90 on four tests. Calculate the mean score.",
+      "student_answer": "The mean (average) score is  \n\n\\[\n\\frac{75 + 80 + 85 + 90}{4} \\;=\\; \\frac{330}{4} \\;=\\; 82.5.\n\\]\n\nSo the student\u2019s average score is **82.5**."
+    },
+    {
+      "question_number": 6,
+      "question": "How does adding an outlier to a data set affect the mean?",
+      "student_answer": "Adding an outlier to a data set typically pulls the mean toward the outlier\u2019s value. Because the mean is calculated by summing all the observations and dividing by the number of observations, a single very large or very small value can increase or decrease the total sum enough to shift the average. As a result, the mean becomes less representative of the \u201ccentral\u201d tendency of the rest of the data, especially when the data set is small. In contrast, the median is more resistant to outliers because it depends only on the middle position(s) after the data are ordered."
+    },
+    {
+      "question_number": 7,
+      "question": "Provide an example where the mean might not be the best measure of central tendency.",
+      "student_answer": "One common situation where the **mean** can be misleading is when the data set contains extreme outliers that pull the average away from where most of the observations actually lie.\n\n**Example \u2013 Household Income**\n\nSuppose a small town has ten households with the following annual incomes (in thousands of dollars):\n\n\\[\n30,\\; 32,\\; 35,\\; 38,\\; 40,\\; 42,\\; 45,\\; 48,\\; 50,\\; \\mathbf{300}\n\\]\n\n* The **mean** income is  \n\n\\[\n\\frac{30+32+35+38+40+42+45+48+50+300}{10}\n= \\frac{660}{10}=66\\text{ thousand dollars}.\n\\]\n\n* The **median** income (the middle value when the numbers are ordered) is the average of the 5th and 6th values:  \n\n\\[\n\\frac{40+42}{2}=41\\text{ thousand dollars}.\n\\]\n\nIn this community, nine out of ten households earn between \\$30\u202fk and \\$50\u202fk, yet the mean (\\$66\u202fk) suggests a much higher \u201ctypical\u201d income because of the single very high\u2011earning household (\\$300\u202fk). The **median** (\\$41\u202fk) better represents the central tendency of the majority of households.\n\nTherefore, when data are **skewed** or contain **outliers**\u2014as with income, property values, or any distribution with a long tail\u2014the median (or sometimes the mode) is usually a more appropriate measure of central tendency than the mean."
+    },
+    {
+      "question_number": 8,
+      "question": "If the mean of five numbers is 10 and four of the numbers are 8, 9, 12, and 11, what is the fifth number?",
+      "student_answer": "The sum of all five numbers must be  \n\n\\[\n5 \\times 10 = 50.\n\\]\n\nThe four known numbers add up to  \n\n\\[\n8 + 9 + 12 + 11 = 40.\n\\]\n\nTherefore, the fifth number is  \n\n\\[\n50 - 40 = \\boxed{10}.\n\\]"
+    },
+    {
+      "question_number": 9,
+      "question": "Describe a real-life scenario where calculating the mean would be useful.",
+      "student_answer": "A common real\u2011life situation where the mean (average) is useful is in a classroom when a teacher wants to gauge how well the students performed on a recent test.  \n\n**Scenario:**  \nAfter grading a math quiz, the teacher records each student\u2019s score: 78, 85, 92, 67, 74, 88, 81, 90, 73, and 84. To get a quick sense of the overall class performance, the teacher adds all the scores together and divides by the number of students (10).  \n\n\\[\n\\text{Mean score} = \\frac{78+85+92+67+74+88+81+90+73+84}{10}= \\frac{812}{10}=81.2\n\\]\n\n**Why it\u2019s useful:**  \n- The mean score (81.2) tells the teacher that, on average, the class is doing slightly above the \u201cB\u201d range.  \n- It helps the teacher decide whether to review certain topics (if the mean were low) or move on (if the mean is high).  \n- Parents and administrators can also use the average to compare performance across classes or over time.\n\nThis example shows how calculating the mean provides a concise summary of a set of data, allowing educators to make informed instructional decisions."
+    },
+    {
+      "question_number": 10,
+      "question": "True or False: The mean is always equal to one of the values in the data set. Explain your answer.",
+      "student_answer": "**False.**  \n\nThe mean (average) of a data set is found by adding all the values together and dividing by the number of values. There is no requirement that this result be one of the original observations.  \n\n*Example:* For the data set \\(\\{1,\\;2,\\;4\\}\\),\n\n\\[\n\\text{mean}= \\frac{1+2+4}{3}= \\frac{7}{3}\\approx 2.33,\n\\]\n\nwhich is not one of the values in the set. Thus, the mean need not equal any individual data point."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 58.0,
+    "num_attempts": 5,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 31.23486065864563,
+    "total_time": 33.28613591194153
+  }
+}

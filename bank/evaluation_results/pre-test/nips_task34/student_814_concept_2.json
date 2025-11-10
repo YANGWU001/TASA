@@ -1,0 +1,86 @@
+{
+  "student_id": "814",
+  "dataset": "nips_task34",
+  "method": "pre-test",
+  "concept_text": "Factors and Highest Common Factor",
+  "concept_id": "2",
+  "original_accuracy": 0.8,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.1,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates a strong understanding of factors, prime factorization, and basic arithmetic operations. Most answers are correct, with a clear explanation of concepts. However, the answer to Question 10 is incorrect; the correct remainder when dividing 219 by 7 is 3, not 2. This indicates a potential misunderstanding of division and remainders.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the prime factorization of the number 219?",
+      "student_answer": "The prime factorization of **219** is  \n\n\\[\n219 = 3 \\times 73\n\\]\n\nBoth 3 and 73 are prime numbers, so this is the complete prime factorization."
+    },
+    {
+      "question_number": 2,
+      "question": "Is 219 a prime number? Explain why or why not.",
+      "student_answer": "No.\u202f219 is **not** a prime number.\n\n**Why:**  \nA quick test is to add the digits:\u202f2\u202f+\u202f1\u202f+\u202f9\u202f=\u202f12, and 12 is divisible by\u202f3.  \nTherefore 219 is also divisible by\u202f3:\n\n\\[\n219 \u00f7 3 = 73\n\\]\n\nBoth 3 and 73 are integers greater than\u202f1, so we have a non\u2011trivial factorisation\n\n\\[\n219 = 3 \\times 73.\n\\]\n\nSince it has divisors other than 1 and itself, 219 is a composite number, not a prime."
+    },
+    {
+      "question_number": 3,
+      "question": "Convert 219 into binary format.",
+      "student_answer": "The binary representation of the decimal number **219** is  \n\n\\[\n219_{10}=11011011_{2}\n\\]\n\n**How we get it:**\n\n1. Find the largest power of\u202f2 \u2264\u202f219:\u202f\\(2^7=128\\).  \n   Subtract:\u202f219\u202f\u2013\u202f128\u202f=\u202f91 \u2192 bit\u202f7 =\u202f1  \n\n2. Next power \\(2^6=64\\).  \n   91\u202f\u2013\u202f64\u202f=\u202f27 \u2192 bit\u202f6 =\u202f1  \n\n3. \\(2^5=32\\) is larger than 27, so bit\u202f5 =\u202f0.  \n\n4. \\(2^4=16\\).  \n   27\u202f\u2013\u202f16\u202f=\u202f11 \u2192 bit\u202f4 =\u202f1  \n\n5. \\(2^3=8\\).  \n   11\u202f\u2013\u202f8\u202f=\u202f3 \u2192 bit\u202f3 =\u202f1  \n\n6. \\(2^2=4\\) is larger than 3, so bit\u202f2 =\u202f0.  \n\n7. \\(2^1=2\\).  \n   3\u202f\u2013\u202f2\u202f=\u202f1 \u2192 bit\u202f1 =\u202f1  \n\n8. \\(2^0=1\\).  \n   1\u202f\u2013\u202f1\u202f=\u202f0 \u2192 bit\u202f0 =\u202f1  \n\nReading the bits from \\(2^7\\) down to \\(2^0\\) gives **11011011**."
+    },
+    {
+      "question_number": 4,
+      "question": "If you divide 219 by 3, what is the quotient?",
+      "student_answer": "The quotient is **73**."
+    },
+    {
+      "question_number": 5,
+      "question": "Find the sum of the digits in the number 219.",
+      "student_answer": "The digits of 219 are 2,\u202f1, and\u202f9. Their sum is  \n\n\\(2+1+9 = 12\\).\n\n**Answer: 12**"
+    },
+    {
+      "question_number": 6,
+      "question": "What is the square root of 219 rounded to the nearest whole number?",
+      "student_answer": "The square root of 219 is between 14\u202f\u00b2\u202f=\u202f196 and 15\u202f\u00b2\u202f=\u202f225.  \nA quick approximation gives  \n\n\\[\n\\sqrt{219}\\approx 14.8\\;(\\text{since }14.8^2 = 219.04)\n\\]\n\nRounding 14.8 to the nearest whole number gives **15**."
+    },
+    {
+      "question_number": 7,
+      "question": "Write 219 as a product of two numbers other than 1 and itself.",
+      "student_answer": "219 can be written as the product of two non\u2011trivial numbers:\n\n\\[\n219 = 3 \\times 73\n\\]\n\n(73 is a prime number, so the only factorisation of 219 other than 1\u202f\u00d7\u202f219 is \\(3 \\times 73\\).)"
+    },
+    {
+      "question_number": 8,
+      "question": "If you subtract 100 from 219, what is the result?",
+      "student_answer": "The result is  \n\n\\[\n219 - 100 = 119.\n\\]"
+    },
+    {
+      "question_number": 9,
+      "question": "Is 219 an even or odd number? Provide a reason for your answer.",
+      "student_answer": "219 is an **odd** number.  \n\n**Reason:** An integer is even if it is divisible by\u202f2, which is equivalent to its last digit being 0,\u202f2,\u202f4,\u202f6, or\u202f8. The number 219 ends in 9, an odd digit, so it cannot be divided by\u202f2 without leaving a remainder. Therefore, 219 is odd."
+    },
+    {
+      "question_number": 10,
+      "question": "What is the remainder when 219 is divided by 7?",
+      "student_answer": "The remainder is **2**."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 0.0,
+    "num_attempts": 10,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 27.1793270111084,
+    "total_time": 28.334290266036987
+  }
+}

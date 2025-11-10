@@ -1,0 +1,86 @@
+{
+  "student_id": "1175",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "combinatorics",
+  "concept_id": "59",
+  "original_accuracy": 0.6666666666666665,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.3333333333333334,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of combinatorics concepts, including combinations, permutations, and the principle of inclusion-exclusion. All answers are correct, showing clear explanations and accurate calculations. No common mistakes were noted.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the number of combinations when choosing r items from a set of n items?",
+      "student_answer": "The number of combinations (often read as \u201cn choose r\u201d) is given by  \n\n\\[\n\\binom{n}{r}= \\frac{n!}{r!\\,(n-r)!},\n\\]\n\nwhere \\(n!\\) denotes the factorial of \\(n\\). This counts the ways to select \\(r\\) items from a set of \\(n\\) distinct items without regard to order."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the difference between permutations and combinations in your own words.",
+      "student_answer": "**Permutations vs.\u202fCombinations**\n\n- **Permutations** are arrangements where the *order* of the chosen items matters.  \n  For example, if you pick three books from a shelf and line them up, the sequence \u201cA\u2011B\u2011C\u201d is different from \u201cC\u2011B\u2011A.\u201d The formula for the number of permutations of \\(r\\) objects chosen from \\(n\\) is  \n  \\[\n  P(n,r)=\\frac{n!}{(n-r)!}.\n  \\]\n\n- **Combinations** are selections where the *order* does **not** matter.  \n  Using the same three books, the set {A,\u202fB,\u202fC} is the same regardless of how you arrange them on the table. The number of such unordered selections is given by  \n  \\[\n  C(n,r)=\\binom{n}{r}= \\frac{n!}{r!\\,(n-r)!}.\n  \\]\n\nIn short, permutations count *ordered* outcomes, while combinations count *unordered* groups. The key difference is whether you care about the arrangement (permutations) or just the members of the group (combinations)."
+    },
+    {
+      "question_number": 3,
+      "question": "How many ways can 5 books be arranged on a shelf?",
+      "student_answer": "The 5 books can be ordered in any permutation, so there are  \n\n\\[\n5! \\;=\\; 5 \\times 4 \\times 3 \\times 2 \\times 1 \\;=\\; 120\n\\]\n\ndifferent ways to arrange them on the shelf."
+    },
+    {
+      "question_number": 4,
+      "question": "If a committee of 3 people is to be selected from a group of 10, how many different committees can be formed?",
+      "student_answer": "The number of ways to choose a committee of 3 from 10 people is given by the binomial coefficient  \n\n\\[\n\\binom{10}{3}= \\frac{10!}{3!\\,7!}= \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1}=120.\n\\]\n\nSo **120 different committees** can be formed."
+    },
+    {
+      "question_number": 5,
+      "question": "A password consists of 4 letters chosen from the English alphabet. If repetitions are allowed, how many different passwords can be created?",
+      "student_answer": "The number of possible passwords is  \n\n\\[\n26 \\times 26 \\times 26 \\times 26 = 26^{4}=456{,}976.\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "In a lottery, 6 numbers are chosen from a pool of 49 numbers. How many different combinations of numbers are possible?",
+      "student_answer": "The number of possible 6\u2011number selections from 49 numbers is  \n\n\\[\n\\binom{49}{6}= \\frac{49!}{6!\\,43!}= \\frac{49\\cdot48\\cdot47\\cdot46\\cdot45\\cdot44}{6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1}=13,\\!983,\\!816.\n\\]\n\nSo there are **13,983,816 different combinations**."
+    },
+    {
+      "question_number": 7,
+      "question": "If you have 8 distinct objects, how many ways can you select and arrange 3 of them?",
+      "student_answer": "The number of ways to choose\u202f3\u202fobjects from\u202f8\u202fand arrange them is the permutation  \n\n\\[\nP(8,3)=8\\cdot7\\cdot6 = 336 .\n\\]\n\nSo there are **336** possible selections and arrangements."
+    },
+    {
+      "question_number": 8,
+      "question": "Provide an example of a real-world scenario where permutations would be used instead of combinations, and explain why.",
+      "student_answer": "**Example:**  \nConsider a 100\u2011meter sprint where three athletes will receive gold, silver, and bronze medals.\n\n**Why permutations are used:**  \nIn this situation we care about **which athlete gets which specific place**. The outcome \u201cAlice\u2011Gold, Bob\u2011Silver, Carol\u2011Bronze\u201d is different from \u201cBob\u2011Gold, Alice\u2011Silver, Carol\u2011Bronze\u201d even though the same three athletes are on the podium. Because the order (the ranking) matters, we count the possible outcomes with permutations rather than combinations.\n\nIf we were only interested in **which three athletes make the podium** regardless of the order, we would use combinations. But since the exact ranking is essential, permutations give the correct count."
+    },
+    {
+      "question_number": 9,
+      "question": "Using the principle of inclusion-exclusion, how would you calculate the number of outcomes that satisfy at least one of two conditions?",
+      "student_answer": "To count the outcomes that satisfy **at least one** of two conditions (say\u202f\\(A\\) and\u202f\\(B\\)), use the basic two\u2011set version of the Principle of Inclusion\u2013Exclusion:\n\n\\[\n\\boxed{\\;|A\\cup B| \\;=\\; |A| \\;+\\; |B| \\;-\\; |A\\cap B|\\;}\n\\]\n\n**What each term means**\n\n| Symbol | Meaning |\n|--------|---------|\n| \\(|A|\\) | number of outcomes that satisfy condition\u202f\\(A\\) |\n| \\(|B|\\) | number of outcomes that satisfy condition\u202f\\(B\\) |\n| \\(|A\\cap B|\\) | number of outcomes that satisfy **both** conditions (i.e., are counted twice when we add \\(|A|\\) and \\(|B|\\)) |\n| \\(|A\\cup B|\\) | number of outcomes that satisfy **at least one** of the conditions (the quantity we want) |\n\n**Why we subtract \\(|A\\cap B|\\)**  \nWhen we add \\(|A|\\) and \\(|B|\\) we count every outcome that meets both criteria twice\u2014once in \\(|A|\\) and again in \\(|B|\\). Subtracting the intersection removes this double\u2011counting, leaving each outcome counted exactly once.\n\n**Example**  \nSuppose a deck of 52 cards. Let  \n\n* \\(A\\): \u201cthe card is a heart\u201d \u2192 \\(|A| = 13\\)  \n* \\(B\\): \u201cthe card is a face card (J, Q, K)\u201d \u2192 \\(|B| = 12\\)  \n\nThe intersection \\(A\\cap B\\) consists of the three heart face cards (J\u2665, Q\u2665, K\u2665), so \\(|A\\cap B| = 3\\).\n\n\\[\n|A\\cup B| = 13 + 12 - 3 = 22\n\\]\n\nThus, 22 cards are either a heart **or** a face card (or both).\n\n---\n\n**In summary:**  \nTo find the number of outcomes that satisfy at least one of two conditions, add the counts for each individual condition and then subtract the count of outcomes that satisfy both conditions. This is the two\u2011set inclusion\u2013exclusion formula."
+    },
+    {
+      "question_number": 10,
+      "question": "A group of 7 students is being divided into 2 teams. If team A must have 4 students and team B must have 3 students, how many ways can the teams be formed?",
+      "student_answer": "The number of ways to pick the 4\u2011person Team\u202fA from the 7 students is  \n\n\\[\n\\binom{7}{4}=35.\n\\]\n\nThe remaining 3 students automatically form Team\u202fB, and since the teams are labeled (A and B) we do not divide further.  \n\n\\[\n\\boxed{35}\n\\]"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 5.0,
+    "num_attempts": 6,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 34.11204504966736,
+    "total_time": 35.759586811065674
+  }
+}

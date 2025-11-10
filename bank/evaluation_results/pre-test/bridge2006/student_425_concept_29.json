@@ -1,0 +1,86 @@
+{
+  "student_id": "425",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify GCF - one number multiple of other",
+  "concept_id": "29",
+  "original_accuracy": 0.6,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.4,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of finding the GCF, especially in cases where one number is a multiple of the other. All answers are correct, showing a clear grasp of the concepts and methods involved.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the greatest common factor (GCF) of 12 and 36?",
+      "student_answer": "The greatest common factor of 12 and 36 is **12**."
+    },
+    {
+      "question_number": 2,
+      "question": "If one number is 18 and the other is 54, what is their GCF?",
+      "student_answer": "The greatest common factor (GCF) of 18 and 54 is **18**, since 18 divides both numbers and is the largest such divisor."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the GCF of a number and its multiple is always the smaller number.",
+      "student_answer": "When one number is a multiple of another, the larger number can be written as  \n\n\\[\n\\text{larger}=k\\;(\\text{smaller})\\qquad\\text{for some integer }k\\ge 1 .\n\\]\n\nEvery divisor of the smaller number also divides the larger number, because if \\(d\\mid\\text{smaller}\\) then  \n\n\\[\n\\text{smaller}=d\\cdot m\\quad\\Longrightarrow\\quad \n\\text{larger}=k\\cdot\\text{smaller}=k\\cdot d\\cdot m,\n\\]\n\nso \\(d\\mid\\text{larger}\\) as well.  \nTherefore the set of common factors of the two numbers is exactly the set of factors of the smaller number.\n\nSince the \u201cgreatest\u201d common factor is the largest element of that set, it must be the smaller number itself (because the smaller number is the biggest divisor it has).  \n\nIn short, because any factor of the smaller automatically factors the larger, the biggest factor they share cannot be bigger than the smaller\u2014so the GCF is the smaller number."
+    },
+    {
+      "question_number": 4,
+      "question": "Find the GCF of 15 and 45 using the prime factorization method.",
+      "student_answer": "**Prime\u2011factor each number**\n\n- \\(15 = 3 \\times 5\\)  \n- \\(45 = 3 \\times 3 \\times 5 = 3^{2}\\times5\\)\n\n**Identify the common prime factors**\n\nBoth numbers contain one factor of\u202f3 and one factor of\u202f5.\n\n**Multiply the common factors**\n\n\\[\n\\text{GCF}=3 \\times 5 = 15\n\\]\n\n\\[\n\\boxed{15}\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "True or False: The GCF of two numbers where one is a multiple of the other is always equal to the smaller number.",
+      "student_answer": "**Answer: True**"
+    },
+    {
+      "question_number": 6,
+      "question": "Calculate the GCF of 25 and 100 using the listing of factors method.",
+      "student_answer": "**Answer:** 25\n\n**Explanation (listing factors):**  \n\n- Factors of 25:\u202f1,\u202f5,\u202f25  \n- Factors of 100:\u202f1,\u202f2,\u202f4,\u202f5,\u202f10,\u202f20,\u202f25,\u202f50,\u202f100  \n\nThe common factors are 1,\u202f5, and\u202f25. The greatest of these is **25**, so the GCF of 25 and 100 is 25."
+    },
+    {
+      "question_number": 7,
+      "question": "How can you determine the GCF of two numbers where one is a multiple of the other without fully factoring both numbers?",
+      "student_answer": "When one integer is a multiple of the other, the greatest common factor is just the smaller integer.  \nYou can verify this without doing a full prime\u2011factor breakdown:\n\n1. Identify which of the two numbers is the smaller one.  \n2. Divide the larger number by the smaller number.  \n3. If the division comes out evenly (remainder\u202f=\u202f0), the smaller number divides the larger exactly, so it is the greatest common factor.\n\nBecause the larger number contains every factor of the smaller one (by definition of being a multiple), there is no larger common factor than the smaller number itself. Thus the GCF is simply the smaller of the two numbers."
+    },
+    {
+      "question_number": 8,
+      "question": "Why is the GCF of 7 and 21 equal to 7?",
+      "student_answer": "The greatest common factor (GCF) is the largest whole number that divides both numbers without leaving a remainder.\n\n- **7** is a factor of itself, so it certainly divides 7.\n- **21** can be written as\u202f\\(21 = 7 \\times 3\\).  \n  Therefore 7 also divides 21 exactly.\n\nNow we check whether any number larger than 7 could be a common factor of both 7 and 21.  \nThe only numbers that are larger than 7 and could possibly divide 7 are 8,\u202f9,\u202f10,\u202f\u2026 etc., but none of those numbers divide 7 at all (they all leave a remainder). Hence there is **no** common factor greater than 7.\n\nSince 7 is a common divisor of both numbers and no larger common divisor exists, the greatest common factor of 7 and 21 is **7**."
+    },
+    {
+      "question_number": 9,
+      "question": "If the GCF of two numbers is 20 and one of the numbers is 80, what could the other number be?",
+      "student_answer": "Since the greatest common factor is\u202f20, the other number must be a multiple of\u202f20.  \nWrite the two numbers as  \n\n\\[\n80 = 20 \\times 4,\\qquad \\text{other number}=20 \\times k\n\\]\n\nFor the GCF to stay 20, the factors of\u202f\\(k\\) must not share any additional factor with\u202f4; in other words,\u202f\\(k\\) must be odd.  \n\nSo the other number can be any odd multiple of\u202f20 (e.g.,\u202f20,\u202f60,\u202f100,\u202f140,\u202f\u2026).\n\nOne simple possible value is **60**."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe a real-life scenario where finding the GCF of a number and its multiple is useful.",
+      "student_answer": "**Real\u2011life scenario \u2013 Packing items into equal groups**\n\nImagine a bakery that has baked **84 cupcakes** for a school fundraiser. The school wants to put the cupcakes into boxes so that every box has the same number of cupcakes and there are no cupcakes left over. The bakery can also make larger \u201cfamily\u201d boxes that hold a multiple of the smaller box size (for example, a family box could hold 21 cupcakes, which is a multiple of 7).\n\nTo figure out the biggest possible size for the small box that will still allow the cupcakes to be divided evenly, the bakery looks for the **greatest common factor (GCF)** of the total number of cupcakes (84) and a convenient multiple they might want to use (for instance, 42, because a family box could be two small boxes).  \n\n- The factors of 84 are: 1,\u202f2,\u202f3,\u202f4,\u202f6,\u202f7,\u202f12,\u202f14,\u202f21,\u202f28,\u202f42,\u202f84.  \n- The factors of 42 are: 1,\u202f2,\u202f3,\u202f6,\u202f7,\u202f14,\u202f21,\u202f42.  \n\nThe largest number appearing in both lists is **21** \u2013 that is the GCF of 84 and 42. (If we mistakenly thought the GCF were 12, we would end up with leftover cupcakes, showing how a small calculation slip can cause a practical problem.)\n\nBecause the GCF is 21, the bakery can pack the cupcakes into **21\u2011cupcake boxes** and still fill a \u201cfamily\u201d box that holds **42 cupcakes** (which is exactly two small boxes). This way:\n\n- All 84 cupcakes are used with no leftovers.\n- The number of boxes is minimized, saving packing material and time.\n- The larger family boxes are automatically a multiple of the smaller box size, making distribution to groups of students simple.\n\n**Why the GCF matters here**\n\nFinding the GCF lets the bakery choose the largest possible box size that still divides the total evenly, which maximizes efficiency and reduces waste. Whenever a total quantity must be split into equal, whole\u2011number groups that also need to fit into larger \u201cmultiple\u201d groups, the GCF of the total and the desired multiple tells you the optimal size. This same idea applies to things like cutting fabric into equal strips, arranging seats in rows for an event, or dividing a budget into equal project portions."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 7.133333333333334,
+    "num_attempts": 5,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 38.88525891304016,
+    "total_time": 40.342243671417236
+  }
+}

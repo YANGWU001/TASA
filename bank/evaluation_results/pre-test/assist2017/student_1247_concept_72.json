@@ -1,0 +1,86 @@
+{
+  "student_id": "1247",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "median",
+  "concept_id": "72",
+  "original_accuracy": 0.6,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.3,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of median, including its definition, calculation methods for both odd and even data sets, and its advantages over the mean in certain situations. The only mistake was in the calculation of the median for the even data set in Question 5, where the student incorrectly averaged the two middle values. Overall, the student shows a solid grasp of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the definition of the median in a data set?",
+      "student_answer": "The median of a data set is the middle value when the numbers are arranged in order from smallest to largest.  \n- If the set has an odd number of observations, the median is the single value that lies exactly in the center.  \n- If the set has an even number of observations, the median is usually taken as the average of the two central values."
+    },
+    {
+      "question_number": 2,
+      "question": "How is the median calculated for an odd number of data points?",
+      "student_answer": "To find the median when you have an **odd** number of observations, follow these steps:\n\n1. **Sort the data** in ascending (or descending) order.\n2. **Count the total number of points**, \\(n\\).  \n   Since \\(n\\) is odd, it can be written as \\(n = 2k + 1\\) for some integer \\(k\\).\n3. **Locate the middle position**: the median is the value at position  \n   \\[\n   \\text{median position} = k + 1 = \\frac{n + 1}{2}.\n   \\]\n4. The value in that position is the **median**.\n\n**Example:**  \nData set: \\{3,\u202f7,\u202f2,\u202f9,\u202f5\\} (5 points, odd).  \n\n- Sorted: \\{2,\u202f3,\u202f5,\u202f7,\u202f9\\}.  \n- \\(n = 5\\); \\((5 + 1)/2 = 3\\).  \n- The 3rd value is **5**, so the median is 5."
+    },
+    {
+      "question_number": 3,
+      "question": "How is the median calculated for an even number of data points?",
+      "student_answer": "To find the median when the data set contains an **even** number of observations, first arrange the numbers in order from smallest to largest.  \nSince there is no single middle value, the median is the **average of the two central values**:\n\n\\[\n\\text{Median} = \\frac{\\text{value at position } \\frac{n}{2} \\;+\\; \\text{value at position } \\frac{n}{2}+1}{2}\n\\]\n\nwhere \\(n\\) is the total number of data points. In other words, you take the two numbers that sit in the middle of the ordered list and compute their arithmetic mean."
+    },
+    {
+      "question_number": 4,
+      "question": "Find the median of the following data set: 3, 7, 5, 9, 2.",
+      "student_answer": "The numbers in order are \\(2, 3, 5, 7, 9\\).  \nSince there are five values, the median is the middle one, which is **5**."
+    },
+    {
+      "question_number": 5,
+      "question": "What is the median of this data set: 12, 15, 21, 30, 40, 50?",
+      "student_answer": "The median is \\(\\displaystyle \\frac{21 + 30}{2} = 25.5\\)."
+    },
+    {
+      "question_number": 6,
+      "question": "Explain the difference between the median and the mean.",
+      "student_answer": "The **mean** (or average) adds up all the numbers in a data set and then divides by the amount of numbers. It uses every value, so a single very large or very small number can pull the mean toward it.\n\nThe **median** is the middle value when the data are ordered from smallest to largest (or the average of the two middle values when there\u2019s an even number of observations). Because it depends only on the position of the numbers, the median is much less affected by extreme outliers.\n\nSo, in short: the mean summarizes the total magnitude of the data, while the median tells you the central \u201ctypical\u201d position of the data and is more robust when the distribution is skewed or contains outliers."
+    },
+    {
+      "question_number": 7,
+      "question": "If a data set has outliers, why might the median be a better measure of central tendency than the mean?",
+      "student_answer": "When a data set contains outliers, those extreme values can pull the **mean** far away from the \u201ctypical\u201d values in the set because the mean is calculated by adding every observation together and then dividing by the number of observations. Even one very large or very small outlier can make the average much larger or smaller than most of the data.\n\nThe **median**, on the other hand, is the middle value when the data are ordered (or the average of the two middle values for an even\u2011sized set). Because it depends only on the relative ordering of the data and not on their actual magnitudes, the median isn\u2019t affected by how extreme the outliers are. It therefore stays near the center of the bulk of the data and gives a more representative picture of where most observations lie.\n\nSo, with outliers present, the median typically provides a more robust and trustworthy measure of central tendency than the mean."
+    },
+    {
+      "question_number": 8,
+      "question": "In a symmetric distribution, how does the median compare to the mean?",
+      "student_answer": "In a symmetric distribution the median and the mean coincide \u2013 they are located at the same central point of the distribution."
+    },
+    {
+      "question_number": 9,
+      "question": "A group of students scored the following marks in a test: 45, 50, 55, 60, 65, 70, 75. What is the median score?",
+      "student_answer": "The numbers are already in order:\n\n45,\u202f50,\u202f55,\u202f**60**,\u202f65,\u202f70,\u202f75  \n\nThere are 7 scores, so the median is the middle (4th) value.\n\n**Median\u202f=\u202f60**."
+    },
+    {
+      "question_number": 10,
+      "question": "Provide an example of a situation where calculating the median would be more useful than calculating the mean.",
+      "student_answer": "A classic situation is when you\u2019re looking at **house prices (or personal incomes) in a city**.  \n\nSuppose the five most recent home sales in a neighborhood are:\n\n- \\$120\u202fk  \n- \\$130\u202fk  \n- \\$135\u202fk  \n- \\$140\u202fk  \n- \\$1\u202f200\u202fk  \n\nThe **mean** price is \\((120+130+135+140+1\u202f200)/5 = \\$345\u202fk\\), which is heavily pulled upward by the one extremely expensive property. That figure gives a misleading picture of what a typical buyer can expect to pay.\n\nThe **median** price is the middle value when the data are ordered, which here is **\\$135\u202fk**. The median isn\u2019t affected by the outlier and therefore better reflects the price most home\u2011buyers will actually encounter.\n\nThus, in contexts with a few extreme outliers\u2014like incomes, property values, or test scores that include unusually high or low results\u2014the median is often more useful than the mean for describing a \u201ctypical\u201d value."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 52.0,
+    "num_attempts": 5,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 29.731929063796997,
+    "total_time": 31.112730503082275
+  }
+}

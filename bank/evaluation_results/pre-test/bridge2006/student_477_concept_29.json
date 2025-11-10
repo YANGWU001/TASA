@@ -1,0 +1,86 @@
+{
+  "student_id": "477",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify GCF - one number multiple of other",
+  "concept_id": "29",
+  "original_accuracy": 0.7857142857142857,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.2142857142857143,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of GCF, correctly identifying it in various scenarios and explaining the reasoning clearly. All answers are accurate and well-articulated, showing a comprehensive grasp of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the greatest common factor (GCF) of 12 and 36?",
+      "student_answer": "The greatest common factor of 12 and 36 is **12**."
+    },
+    {
+      "question_number": 2,
+      "question": "If one number is 18 and the other is 54, what is their GCF?",
+      "student_answer": "The greatest common factor (GCF) of 18 and 54 is **18**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the GCF of a number and its multiple is always the smaller number.",
+      "student_answer": "The greatest common factor (GCF) of two numbers is the largest integer that divides **both** of them.  \n\nSuppose we have a number \\(a\\) and a multiple of that number \\(b\\).  \nBy definition of a multiple, \\(b = k\\;a\\) for some integer \\(k\\ge 1\\).\n\n* Since \\(a\\) divides itself, \\(a\\) is a common divisor of \\(a\\) and \\(b\\).  \n* Any other common divisor \\(d\\) of the two numbers must also divide \\(a\\).  \n  Why? Because if \\(d\\) divides \\(b\\) and \\(b = k\\,a\\), then \\(b = d\\,m\\) for some integer \\(m\\).  \n  Substituting, \\(k\\,a = d\\,m\\) \u21d2 \\(a = d\\,(m/k)\\). Since \\(k\\) and \\(m\\) are integers, \\(d\\) must divide \\(a\\).\n\nTherefore every common divisor of the pair is a divisor of the smaller number \\(a\\). The *largest* such divisor cannot be larger than \\(a\\) itself, and we already know that \\(a\\) is a common divisor. Hence the greatest common factor of the two numbers is exactly the smaller number \\(a\\).\n\nIn short: because the larger number is just a whole\u2011number multiple of the smaller, any divisor that works for the larger must already work for the smaller, and the smaller number itself is the biggest divisor they share."
+    },
+    {
+      "question_number": 4,
+      "question": "Find the GCF of 15 and 45 using the prime factorization method.",
+      "student_answer": "**Prime factorization**\n\n- \\(15 = 3 \\times 5\\)  \n- \\(45 = 3 \\times 3 \\times 5 = 3^{2}\\times5\\)\n\n**Common prime factors**\n\nBoth numbers contain one factor of \\(3\\) and one factor of \\(5\\).\n\n**Multiply the common factors**\n\n\\[\n\\text{GCF}=3 \\times 5 = 15\n\\]\n\n\\[\n\\boxed{15}\n\\]"
+    },
+    {
+      "question_number": 5,
+      "question": "True or False: The GCF of two numbers where one is a multiple of the other is always equal to the smaller number.",
+      "student_answer": "**Answer:** True.  \n\nIf one number is a multiple of the other, the greatest common factor is the smaller number."
+    },
+    {
+      "question_number": 6,
+      "question": "Calculate the GCF of 25 and 100 using the listing of factors method.",
+      "student_answer": "**Listing the factors**\n\n- Factors of\u202f25:\u20031,\u202f5,\u202f25  \n- Factors of\u202f100:\u202f1,\u202f2,\u202f4,\u202f5,\u202f10,\u202f20,\u202f25,\u202f50,\u202f100  \n\n**Common factors:**\u20031,\u202f5,\u202f25  \n\nThe greatest (largest) common factor is **25**.  \n\nSo, the GCF of 25 and 100 is **25**."
+    },
+    {
+      "question_number": 7,
+      "question": "How can you determine the GCF of two numbers where one is a multiple of the other without fully factoring both numbers?",
+      "student_answer": "When one of the numbers is an exact multiple of the other, the greatest common factor is just the smaller (the one that\u2019s being multiplied).  \nYou don\u2019t have to break either number down into all of its prime factors \u2013 you only need to confirm that the larger number is divisible by the smaller.\n\n**How to do it**\n\n1. Identify which of the two numbers is the smaller one.  \n2. Divide the larger number by the smaller one.  \n   - If the division comes out evenly (remainder\u202f=\u202f0), the smaller number is the GCF.  \n   - If there were a remainder, you\u2019d keep using the Euclidean algorithm (subtract or take remainders) until you get a zero remainder; the last non\u2011zero remainder would be the GCF.  \n\nBecause the larger number is a multiple, the division will always be exact, so the GCF is simply that smaller number. No full prime\u2011factor listings are necessary."
+    },
+    {
+      "question_number": 8,
+      "question": "Why is the GCF of 7 and 21 equal to 7?",
+      "student_answer": "The greatest common factor (GCF) is the largest whole number that divides **both** numbers without leaving a remainder.\n\n- The factors of\u202f7 are:\u202f1,\u202f7.  \n- The factors of\u202f21 are:\u202f1,\u202f3,\u202f7,\u202f21.\n\nThe numbers that appear in both lists are **1** and **7**.  \nAmong these common factors, **7** is the greatest.  \n\nSince no number larger than 7 can divide 7 itself, 7 is the largest factor that both 7 and 21 share. Therefore, the GCF of 7 and 21 is **7**."
+    },
+    {
+      "question_number": 9,
+      "question": "If the GCF of two numbers is 20 and one of the numbers is 80, what could the other number be?",
+      "student_answer": "The other number must be a multiple of 20, but it cannot share any extra factor of 2 with\u202f80 (otherwise the GCF would be larger than 20).  \nOne simple choice is  \n\n\\[\n\\boxed{60}\n\\]\n\nsince \\(\\gcd(80,60)=20\\). (Other possibilities include 20,\u202f100,\u202f140,\u202f180, \u2026)."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe a real-life scenario where finding the GCF of a number and its multiple is useful.",
+      "student_answer": "A common real\u2011life situation where you need the greatest common factor (GCF) of a number and one of its multiples is **planning how to pack identical items into the fewest possible containers without leaving any empty space**.\n\n**Scenario \u2013 Packing snack bags**\n\nImagine a school is ordering **120 snack packs** for a field trip, and the snack packs come in **boxes of 15**. The teacher wants to know the largest number of *identical* groups the teacher can make so that each group gets the same number of snack packs and each group uses a whole number of boxes (no partially\u2011filled boxes).\n\nHere\u2019s how the GCF helps:\n\n1.\u202fThe total number of snack packs is 120.  \n2.\u202fEach box holds 15 snack packs, so the number of boxes needed is a multiple of 15 (e.g., 15, 30, 45, \u2026).  \n3.\u202fWe want the largest group size **that divides both 120 and a multiple of 15**. In other words, we need the GCF of 120 and one of its multiples \u2013 the easiest choice is the multiple that is just the total number of boxes needed, which is \\(120 \u00f7 15 = 8\\) boxes.  \n\nThe GCF of 120 and 8\u202f\u00d7\u202f15 (which is 120 again) is **120**.  \nBecause the GCF equals the whole quantity, the teacher can simply give each of the 8 groups **15 snack packs**, using exactly one box per group, with no leftovers.\n\n**Why the GCF matters:**  \nIf the teacher had a different total (say 126 snack packs) and the boxes still held 15 packs each, the teacher would compute the GCF of 126 and the nearest multiple of 15 (which is 135). The GCF of 126 and 135 is **9**, meaning the teacher can split the snack packs into groups of 9 packs each, using whole boxes whenever possible, and avoid having any partial boxes.\n\nSo, by finding the GCF of a number and a multiple of that number, you can determine the biggest equal\u2011size groups you can form while using whole containers \u2013 a useful trick for packing, shipping, event planning, or any situation where you need to avoid leftover pieces."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1314.9666666666667,
+    "num_attempts": 14,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 39.50048851966858,
+    "total_time": 40.67963933944702
+  }
+}

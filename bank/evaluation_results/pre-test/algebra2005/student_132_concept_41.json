@@ -1,0 +1,86 @@
+{
+  "student_id": "132",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "Changing axis bounds",
+  "concept_id": "41",
+  "original_accuracy": 0.2608695652173913,
+  "roleplay_accuracy": 0.8,
+  "deviation": 0.5391304347826087,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a good understanding of changing axis bounds, particularly in terms of how it affects data visualization and interpretation. However, there are some inaccuracies in understanding the visibility of data points and the implications of axis adjustments. Overall, the student shows a solid grasp of the concepts with minor misconceptions.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What does changing the axis bounds on a graph allow you to do when visualizing data?",
+      "student_answer": "Um\u2026 I think changing the axis bounds just moves the whole axes around\u2014like you can shift them left or right or up and down\u2014but it doesn\u2019t really change what data you\u2019re looking at. I\u2019m not sure it does anything besides repositioning the grid."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the impact of narrowing the axis bounds on the interpretation of data trends.",
+      "student_answer": "Um\u2026 I think that when you narrow the axis bounds you\u2019re basically zooming in on a smaller range of values, so the graph looks a little different.\u202fUsually that makes the line look steeper, so you might think the trend is stronger than it really is.\u202fIn other words, by tightening the limits you kind of **exaggerate** the changes, so a slight increase can look like a big jump.\n\nOn the other hand, if you shrink the axes too much you could also hide some of the data points that are outside the new range, which might make the overall pattern look more consistent or smoother than it actually is.\u202fSo I guess the main impact is that narrowing the bounds can change how we *interpret* the trend\u2014sometimes making it seem more dramatic, sometimes making it look more stable\u2014depending on what part of the data you end up focusing on. \n\nI'm not totally sure, but that\u2019s what I remember about it."
+    },
+    {
+      "question_number": 3,
+      "question": "If the x-axis bounds of a graph are changed from 0-100 to 20-80, how might this affect the visibility of the data points?",
+      "student_answer": "Um\u2026 I think changing the x\u2011axis from 0\u2011100 to 20\u201180 probably won\u2019t really change what you see much. The data points are still there \u2013 they just get shifted a little to the left, but you can still see all of them. In other words, the new bounds just move the axis range, but they don\u2019t hide any points or make anything disappear."
+    },
+    {
+      "question_number": 4,
+      "question": "Describe a scenario where it would be useful to adjust the axis bounds of a graph.",
+      "student_answer": "Um, I think a situation where you might want to change the axis bounds is\u2026 like when you\u2019re looking at the temperature over a day and you only care about the night\u2011time range. So you\u2019d shrink the x\u2011axis to just show, say, 8\u202fpm to 6\u202fam, instead of the whole 24\u2011hour period, because you don\u2019t need the daytime data.  \n\nI guess the idea is that by narrowing the axis you can focus on the part of the graph that matters most, and the rest of the points get cut off or hidden. This way the graph looks cleaner and you can see the details of that nighttime temperature trend more clearly.  \n\nI\u2019m not totally sure, but that\u2019s what I remember about adjusting axis bounds."
+    },
+    {
+      "question_number": 5,
+      "question": "How can changing the axis bounds lead to misleading representations of data?",
+      "student_answer": "Um\u2026 I think changing the axis bounds can kind of mess with how a graph looks.\u202fIf you move the lower or upper limits around, you can make a tiny change look huge or, on the other hand, you can hide a real difference by giving the graph a lot of extra space.\u202fFor example, if you set the y\u2011axis to start at 0 you\u2019ll see the real size of the variation, but if you move the start up to, say, 90\u202f% of the data range, then even a big jump might look almost flat.\u202fAlso, I guess if you make the axes really narrow you can exaggerate small differences so they seem important.\u202fSo basically, by picking weird bounds you can either over\u2011state or under\u2011state what\u2019s really going on in the data.\u202f(I'm not totally sure if there are any other effects, but that\u2019s what I remember.)"
+    },
+    {
+      "question_number": 6,
+      "question": "What steps would you take to adjust the axis bounds in a graphing software or tool?",
+      "student_answer": "Um\u2026 I think you\u2019d usually start by opening the graphing tool and looking for the \u201caxis settings\u201d or something like that. Then you\u2019d:\n\n1. Click on the X\u2011axis (or Y\u2011axis) label \u2013 sometimes you have to double\u2011click the axis line itself.\n2. A little window or pane should pop up where you can type in the minimum and maximum values you want.  \n   - I guess you\u2019d set the *lower* bound in the \u201cmin\u201d box and the *upper* bound in the \u201cmax\u201d box.  \n   - Sometimes you also have to pick the step size or tick interval, but I\u2019m not 100\u202f% sure which field that is.\n3. After you type the numbers, you usually have to press \u201cApply\u201d or \u201cOK\u201d to see the changes.  \n   - In some programs you might need to hit \u201cRefresh\u201d or \u201cRedraw\u201d manually.\n4. If the graph still looks weird, you might need to also change the scale (log vs linear) \u2013 there\u2019s usually a dropdown for that near the same settings.\n5. Finally, you can usually save the new axis settings as a preset or export the graph.\n\nI\u2019m not completely certain about the exact wording of the buttons \u2013 some tools say \u201cUpdate\u201d instead of \u201cApply\u201d \u2013 but the general idea is to find the axis options, enter the new min/max values, and confirm the change."
+    },
+    {
+      "question_number": 7,
+      "question": "If a graph's y-axis is changed from a range of 0-1000 to 500-1000, what happens to the lower values in the dataset?",
+      "student_answer": "Um\u2026 I think changing the y\u2011axis to run from 500 to 1000 doesn\u2019t actually get rid of the low numbers. It just squeezes them into the bottom part of the graph, so the values that were below\u202f500 are still plotted\u2014they just appear compressed near the axis\u2019s lower edge."
+    },
+    {
+      "question_number": 8,
+      "question": "Why is it important to clearly label axis bounds when presenting graphs or charts?",
+      "student_answer": "Um\u2026 I think it\u2019s important to label the axis bounds so people can actually tell what the numbers on the graph mean. If you don\u2019t write the minimum and maximum values (or the units), then anyone looking at the chart might guess wrong about the scale and end up mis\u2011interpreting the data. Also, clear labels help compare multiple graphs because you know they\u2019re using the same range. So basically, labeling the bounds makes the graph easier to understand and prevents people from drawing the wrong conclusions."
+    },
+    {
+      "question_number": 9,
+      "question": "How can you determine appropriate axis bounds to best display your data?",
+      "student_answer": "Um\u2026 I think you figure out the axis limits by first looking at the biggest number in your data set and then just picking a max bound that\u2019s a little higher than that\u2014maybe even double the max value just to be safe.  \nFor the lower bound you usually just use zero, or if you have negative values you go down to the smallest value and subtract a little margin (like a few units).  \nThen you pick the tick spacing by dividing the whole range (max\u2011minus\u2011min) into about five or ten equal parts and use that as your step size.  \n\nI\u2019m not completely sure, but that\u2019s what I remember about setting axis bounds\u2026 (sorry if it\u2019s a bit off)."
+    },
+    {
+      "question_number": 10,
+      "question": "What are the potential consequences of setting axis bounds too narrowly or too broadly on a graph?",
+      "student_answer": "Um\u2026 I think the way you set the axis limits can really change how a graph looks.  \n\n- If the bounds are **too narrow**, you might cut off some of the data points, so the plot looks like it\u2019s missing values. It can also make the curve look **exaggerated or steeper** than it really is, because everything is squeezed into a small range.  \n- If the bounds are **too broad**, the whole thing can look kind of flat or \u201cwashed\u2011out\u201d \u2013 the variations in the data become hard to see and the trend may look weaker than it actually is.  \n- A very wide axis can also make the tick marks and labels crowded or unreadable, which sometimes confuses people about the actual scale.  \n- On the other hand, a very narrow axis might cause the axis to **wrap around** or repeat (which I\u2019m not sure is right, but I think some programs try to auto\u2011adjust and could give odd results).  \n- Some software might even give a warning or **crash** if the bounds are set outside the data range, though that\u2019s probably rare.  \n\nSo basically, narrow bounds can hide data and exaggerate trends, while broad bounds can hide detail and make the graph look bland or even cause labeling problems."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1.0,
+    "num_attempts": 23,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 44.13007307052612,
+    "total_time": 45.59464240074158
+  }
+}

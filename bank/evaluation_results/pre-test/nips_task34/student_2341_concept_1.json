@@ -1,0 +1,86 @@
+{
+  "student_id": "2341",
+  "dataset": "nips_task34",
+  "method": "pre-test",
+  "concept_text": "Multiples and Lowest Common Multiple",
+  "concept_id": "1",
+  "original_accuracy": 0.9,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.1,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of multiples, divisors, and related concepts. All answers are correct, showing a solid grasp of prime factorization, even and odd numbers, and basic arithmetic operations.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the prime factorization of 220?",
+      "student_answer": "The prime factorization of 220 is  \n\n\\[\n220 = 2^{2}\\times 5 \\times 11.\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "Is 220 an even or odd number? Explain why.",
+      "student_answer": "220 is an **even** number.\n\n**Why?**  \nAn integer is even if it is divisible by 2, which is equivalent to its units (ones) digit being 0,\u202f2,\u202f4,\u202f6, or\u202f8. The number 220 ends in 0, so it can be written as  \n\n\\[\n220 = 2 \\times 110,\n\\]\n\nshowing that 2 goes into 220 exactly with no remainder. Therefore, 220 is even."
+    },
+    {
+      "question_number": 3,
+      "question": "What are the divisors of 220?",
+      "student_answer": "The number\u202f220 can be factored as  \n\n\\[\n220 = 2^{2}\\times 5^{1}\\times 11^{1}.\n\\]\n\nAny divisor of 220 is obtained by choosing the exponents of the prime factors from their allowed ranges (0\u202f\u2264\u202fexponent\u202f\u2264\u202fthe exponent in the factorization).  \n\nSo the divisors are:\n\n\\[\n\\begin{aligned}\n&2^{0}5^{0}11^{0}=1,\\\\\n&2^{1}5^{0}11^{0}=2,\\\\\n&2^{2}5^{0}11^{0}=4,\\\\\n&2^{0}5^{1}11^{0}=5,\\\\\n&2^{1}5^{1}11^{0}=10,\\\\\n&2^{2}5^{1}11^{0}=20,\\\\\n&2^{0}5^{0}11^{1}=11,\\\\\n&2^{1}5^{0}11^{1}=22,\\\\\n&2^{2}5^{0}11^{1}=44,\\\\\n&2^{0}5^{1}11^{1}=55,\\\\\n&2^{1}5^{1}11^{1}=110,\\\\\n&2^{2}5^{1}11^{1}=220.\n\\end{aligned}\n\\]\n\nTherefore, the complete set of positive divisors of\u202f220 is  \n\n\\[\n\\boxed{1,\\;2,\\;4,\\;5,\\;10,\\;11,\\;20,\\;22,\\;44,\\;55,\\;110,\\;220}.\n\\]"
+    },
+    {
+      "question_number": 4,
+      "question": "If 220 is divided by 5, what is the quotient?",
+      "student_answer": "The quotient is **44**."
+    },
+    {
+      "question_number": 5,
+      "question": "Is 220 a perfect square? Justify your answer.",
+      "student_answer": "No.\u202f220 is **not** a perfect square.\n\n**Why:**\n\n1. **Check the nearby squares**  \n   \\[\n   14^{2}=196 \\qquad\\text{and}\\qquad 15^{2}=225\n   \\]\n   Since \\(196 < 220 < 225\\), the integer whose square would be 220 would have to lie between 14 and 15. No whole number does, so 220 cannot be a perfect square.\n\n2. **Prime\u2011factor test**  \n   Factor 220:\n   \\[\n   220 = 2 \\times 110 = 2 \\times 2 \\times 55 = 2^{2}\\times5 \\times 11.\n   \\]\n   In a perfect square every prime factor appears to an **even** power. Here the primes 5 and 11 each appear to the first (odd) power, so the product cannot be a square.\n\nBoth arguments show that 220 is not a perfect square."
+    },
+    {
+      "question_number": 6,
+      "question": "Express 220 in terms of its prime factors.",
+      "student_answer": "\\(220 = 2^2 \\times 5 \\times 11\\)"
+    },
+    {
+      "question_number": 7,
+      "question": "What is the sum of the digits in the number 220?",
+      "student_answer": "The digits of 220 are 2,\u202f2, and\u202f0.  \n\nSum\u202f=\u202f2\u202f+\u202f2\u202f+\u202f0\u202f=\u202f**4**."
+    },
+    {
+      "question_number": 8,
+      "question": "How many factors does 220 have?",
+      "student_answer": "The prime factorization of \\(220\\) is  \n\n\\[\n220 = 2^{2}\\times 5^{1}\\times 11^{1}.\n\\]\n\nFor a number \\(n = p_1^{a_1} p_2^{a_2}\\cdots p_k^{a_k}\\), the total number of positive factors is  \n\n\\[\n(a_1+1)(a_2+1)\\dots (a_k+1).\n\\]\n\nThus  \n\n\\[\n\\text{Number of factors of }220 = (2+1)(1+1)(1+1)=3 \\times 2 \\times 2 = 12.\n\\]\n\n\\[\n\\boxed{12}\n\\]"
+    },
+    {
+      "question_number": 9,
+      "question": "If you multiply 11 by 20, do you get 220? Explain your reasoning.",
+      "student_answer": "**Answer: Yes, you get 220.**\n\n**Reasoning:**  \nMultiplying 11 by 20 can be broken down as follows:\n\n\\[\n11 \\times 20 = (10 + 1) \\times 20 = 10 \\times 20 + 1 \\times 20 = 200 + 20 = 220.\n\\]\n\nAnother way to see it is to multiply 11 by 2 first (which gives 22) and then add a zero because you are actually multiplying by 20 (i.e., \\(11 \\times 2 = 22\\), then \\(22\\) with a zero appended becomes \\(220\\)). Either method shows that \\(11 \\times 20 = 220\\)."
+    },
+    {
+      "question_number": 10,
+      "question": "What is the result of subtracting 120 from 220?",
+      "student_answer": "The result is  \n\n\\[\n220 - 120 = 100.\n\\]\n\nSo the answer is **100**."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 0.0,
+    "num_attempts": 10,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 25.35150694847107,
+    "total_time": 26.745700120925903
+  }
+}

@@ -1,0 +1,67 @@
+rm: cannot remove '../data/algebra2005/*.pkl': No such file or directory
+Namespace(dataset_name='algebra2005', file_path='../data/peiyou/grade3_students_b_200.csv', min_seq_len=3, maxlen=200, kfold=5)
+Start preprocessing data: algebra2005
+original interaction num: 809694, user num: 574, question num: 210710, concept num: 112, avg(ins) per s: 1410.6167, avg(c) per q: 1.3634, na: 37597
+after drop interaction num: 607025, user num: 574, question num: 173113, concept num: 112, avg(ins) per s: 1057.5348, avg(c) per q: 1.3634, na: 0
+809694,574,210710,112,1410.6167,1.3634,37597
+607025,574,173113,112,1057.5348,1.3634,0
+--------------------------------------------------
+dname: ../data/algebra2005, writef: ../data/algebra2005/data.txt
+delete bad stu num of len: 0, delete interactions: 0, of r: 0, good num: 607025
+====================
+original total interactions: 607025, qs: 173113, cs: 112, seqnum: 574
+df.columns: Index(['uid', 'is_repeat', 'timestamps', 'responses', 'concepts', 'questions'], dtype='object')
+====================
+after extend multi, total interactions: 884102, qs: 173113, cs: 112, seqnum: 574
+total num: 574, train+valid num: 460, test num: 114
+fold: 1, start: 0, end: 92, total num: 460
+fold: 2, start: 92, end: 184, total num: 460
+fold: 3, start: 184, end: 276, total num: 460
+fold: 4, start: 276, end: 368, total num: 460
+fold: 5, start: 368, end: 460, total num: 460
+train+valid original interactions num: 748694, select num: 0, qs: 150260, cs: 112, seqnum: 460
+dropnum: 2
+train+valid sequences interactions num: 748692, select num: 748692, qs: 150260, cs: 112, seqnum: 3980
+dropnum: 2
+original test interactions num: 135408, select num: 0, qs: 35866, cs: 110, seqnum: 114
+test sequences interactions num: 135406, select num: 135406, qs: 35866, cs: 110, seqnum: 732
+====================
+test window interactions num: 22842502, select num: 135408, qs: 35866, cs: 110, seqnum: 114220
+test question interactions num: 6913041, select num: 134583, qs: 35866, cs: 110, seqnum: 69953
+test question window interactions num: 23922246, select num: 135246, qs: 35866, cs: 110, seqnum: 125363
+====================
+original,607025,574,0
+extend multi,884102,574,0
+original train+valid,748694,460,0
+train+valid sequences,748692,3980,748692
+test original,135408,114,0
+test sequences,135406,732,135406
+test window,22842502,114220,135408
+test question,6913041,69953,134583
+test question window,23922246,125363,135246
+====================================================================================================
+delete bad stu num of len: 0, delete interactions: 0, of r: 0, good num: 607025
+====================
+original total interactions: 607025, qs: 173113, cs: 112, seqnum: 574
+df.columns: Index(['responses', 'concepts', 'timestamps', 'questions', 'uid'], dtype='object')
+total num: 574, train+valid num: 460, test num: 114
+fold: 1, start: 0, end: 92, total num: 460
+fold: 2, start: 92, end: 184, total num: 460
+fold: 3, start: 184, end: 276, total num: 460
+fold: 4, start: 276, end: 368, total num: 460
+fold: 5, start: 368, end: 460, total num: 460
+train+valid original interactions num: 513430, select num: 0, qs: 150260, cs: 112, seqnum: 460
+dropnum: 11
+train+valid sequences interactions num: 513419, select num: 513419, qs: 150256, cs: 112, seqnum: 2811
+dropnum: 1
+original test interactions num: 93595, select num: 0, qs: 35866, cs: 110, seqnum: 114
+test sequences interactions num: 93594, select num: 93594, qs: 35866, cs: 110, seqnum: 529
+====================
+test window interactions num: 14627162, select num: 93595, qs: 35866, cs: 110, seqnum: 73147
+====================
+original,607025,574,0
+original train+valid question level,513430,460,0
+train+valid sequences question level,513419,2811,513419
+test original question level,93595,114,0
+test sequences question level,93594,529,93594
+test window question level,14627162,73147,93595

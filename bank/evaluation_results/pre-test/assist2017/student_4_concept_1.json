@@ -1,0 +1,86 @@
+{
+  "student_id": "4",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "sum-of-interior-angles-more-than-3-sides",
+  "concept_id": "1",
+  "original_accuracy": 0.5,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.4,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the sum of interior angles in polygons, correctly applying the formula and explaining concepts. However, they incorrectly identified the number of sides for a polygon with a 720-degree interior angle sum, which should be 6 sides, indicating a need for careful calculation in that instance.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula to calculate the sum of the interior angles of a polygon?",
+      "student_answer": "I think the sum of the interior angles of an\u202fn\u2011sided polygon is  \n\n\\[\n\\text{Sum} = (n-2)\\times 180^\\circ\n\\]\n\n(or \\((n-2)\\pi\\)\u202fradians if you prefer)."
+    },
+    {
+      "question_number": 2,
+      "question": "What is the sum of the interior angles of a polygon with 5 sides?",
+      "student_answer": "I think the sum of the interior angles of a 5\u2011sided polygon is \\((5-2)\\times 180^\\circ = 540^\\circ\\)."
+    },
+    {
+      "question_number": 3,
+      "question": "How many sides does a polygon have if the sum of its interior angles is 1080 degrees?",
+      "student_answer": "The interior\u2011angle sum of a polygon is \\((n-2)\\times180^\\circ\\).  \nSo \\((n-2)\\times180 = 1080\\).\n\n\\[\nn-2 = \\frac{1080}{180}=6 \\quad\\Longrightarrow\\quad n = 6+2 = 8.\n\\]\n\n**I think the polygon has 8 sides.**"
+    },
+    {
+      "question_number": 4,
+      "question": "Explain why the sum of the interior angles of a polygon increases as the number of sides increases.",
+      "student_answer": "The interior\u2011angle sum of a polygon is determined by how many triangles you can \u201ccut\u201d out of the shape.  \nIf you pick one vertex and draw segments to all the non\u2011adjacent vertices, the polygon is divided into a bunch of triangles.  \n\nFor an \\(n\\)-\u2011sided polygon you can make **\\(n\u20111\\) triangles**, and since each triangle has interior angles that add up to \\(180^\\circ\\), the total sum of the interior angles is  \n\n\\[\n\\text{Sum}= (n-1)\\times 180^\\circ .\n\\]\n\nBecause this expression contains the factor \\(n-1\\), each time you add another side (increase \\(n\\) by\u202f1) the sum grows by another \\(180^\\circ\\). So the more sides a polygon has, the larger the total of its interior angles."
+    },
+    {
+      "question_number": 5,
+      "question": "If a polygon has 8 sides, calculate the sum of its interior angles using the appropriate formula.",
+      "student_answer": "The sum of the interior angles of an\u202f8\u2011sided polygon is  \n\n\\[\n(8-2)\\times 180^\\circ = 6 \\times 180^\\circ = 1080^\\circ .\n\\]\n\nSo, I think the answer is **1080 degrees**."
+    },
+    {
+      "question_number": 6,
+      "question": "What is the relationship between the number of sides of a polygon and the sum of its interior angles?",
+      "student_answer": "The sum of the interior angles of a polygon depends on how many sides it has.  \nIf the polygon has \\(n\\) sides, the interior\u2011angle sum is  \n\n\\[\n\\text{Sum} = (n - 2)\\times 180^\\circ .\n\\]\n\nSo a triangle (\\(n=3\\)) has \\((3-2)\u00b7180^\\circ = 180^\\circ\\), a quadrilateral (\\(n=4\\)) has \\((4-2)\u00b7180^\\circ = 360^\\circ\\), and so on."
+    },
+    {
+      "question_number": 7,
+      "question": "A hexagon has 6 sides. What is the sum of its interior angles?",
+      "student_answer": "I think the sum of the interior angles of a hexagon is  \n\n\\[\n(6-2)\\times 180^\\circ = 4 \\times 180^\\circ = 720^\\circ .\n\\]"
+    },
+    {
+      "question_number": 8,
+      "question": "How does the sum of the interior angles of a polygon differ from the sum of the exterior angles?",
+      "student_answer": "The two sums are not the same.  \n\n- **Interior angles:**\u202fFor an \\(n\\)-\u2011sided polygon the sum of all interior angles is \\((n-2)\\times 180^\\circ\\).  So the total grows as you add more sides.  \n\n- **Exterior angles:**\u202fIf you walk around the polygon and turn at each vertex, the total amount you turn is always \\(360^\\circ\\), no matter how many sides the polygon has.  (Equivalently, the sum of one \u201cexternal\u201d angle at each vertex is 360\u00b0.)\n\nSo, unlike the interior\u2011angle sum, which depends on \\(n\\), the exterior\u2011angle sum is constant at \\(360^\\circ\\)."
+    },
+    {
+      "question_number": 9,
+      "question": "If the sum of the interior angles of a polygon is 720 degrees, how many sides does the polygon have?",
+      "student_answer": "I think the polygon has **5 sides**."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the process for determining the sum of the interior angles of a polygon with more than 3 sides.",
+      "student_answer": "To find the sum of the interior angles of any polygon that has more than three sides, you can\u202f**triangulate**\u202fthe shape:\n\n1. **Pick one vertex** of the polygon.  \n2. **Draw diagonals** from that vertex to all other non\u2011adjacent vertices.  \n   - These diagonals split the polygon into a set of triangles that share the chosen vertex.  \n3. **Count the triangles**.  \n   - A polygon with \\(n\\) sides will be divided into **\\(n\u20112\\)** triangles (I think this is the usual count).  \n4. **Use the triangle angle sum**.  \n   - Each triangle\u2019s interior angles add up to \\(180^\\circ\\).  \n5. **Multiply** the number of triangles by \\(180^\\circ\\):  \n\n\\[\n\\text{Sum of interior angles} = (n\u20112) \\times 180^\\circ .\n\\]\n\nSo, for example, a pentagon (\\(n = 5\\)) would have \\((5\u20112) \\times 180^\\circ = 540^\\circ\\) of interior angles.  \n\n(There\u2019s a chance I\u2019m mixing up the exact count of triangles, but the general idea is to break the polygon into triangles and use the fact that each triangle\u2019s angles sum to \\(180^\\circ\\).)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 10887446.0,
+    "num_attempts": 4,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 44.834855794906616,
+    "total_time": 47.23859882354736
+  }
+}

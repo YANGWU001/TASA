@@ -1,0 +1,151 @@
+{
+  "target_method": "TutorLLM-llama",
+  "baseline_method": "Vanilla-ICL-llama",
+  "dataset": "bridge2006",
+  "backbone": "llama",
+  "total_comparisons": 17,
+  "target_wins": 17,
+  "baseline_wins": 0,
+  "ties": 0,
+  "win_rate": 1.0,
+  "avg_score_target": 6.529411764705882,
+  "avg_score_baseline": 2.7058823529411766,
+  "detailed_results": [
+    {
+      "student_id": 519,
+      "concept_text": "Calculate product of two numbers",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A demonstrates a higher degree of personalization by explicitly referencing the student's known struggles with both multiplication and LCM, and attempting to connect these concepts to strengthen the student's foundational skills. The tutor repeatedly tries to link multiplication practice with the student's previous difficulties (e.g., \"Considering you struggled with Identifying LCM in the past, it might be beneficial to revisit the concept of factors and multiples\"), which shows contextual relevance and adaptation to their learning profile. Dialogue B, on the other hand, provides largely generic multiplication practice with inconsistent feedback, often misunderstanding or misrepresenting the student\u2019s answers. While Dialogue A still has flaws \u2014 such as sometimes drifting off-topic and repeating similar prompts without much variation \u2014 it remains more responsive to the student's specific weaknesses and learning history than Dialogue B, which lacks targeted references to past performance and seems misaligned in its feedback structure.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 73,
+      "concept_text": "Identify LCM - one number multiple of other",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows a clear attempt to personalize instruction based on the student's known weakness in \u201cIdentify LCM \u2013 one number multiple of other.\u201d It explicitly states at the start that the question is chosen to address this area of improvement and uses smaller, manageable numbers to scaffold learning. The tutor often breaks down the student's mistakes by listing multiples step-by-step and directly relates these steps to the definition of LCM, which matches the student\u2019s need for conceptual reinforcement. While Dialogue A is sometimes repetitive, it remains focused on the student's specific difficulty and responds to incorrect answers with targeted guidance. In contrast, Dialogue B uses a generic multiple-choice format with repeated generic feedback that doesn't connect with the student\u2019s learning history or adapt based on their persistence issues. Dialogue B\u2019s explanations are mostly standalone and lack references to the student's past performance, making them less tailored.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 834,
+      "concept_text": "Identify larger quantity -- addition",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A makes more consistent and explicit references to the student's specific weaknesses and prior performance metrics, such as noting repeated struggles with \"Identify larger quantity -- multiplication\" and attempting to connect the concept to related strengths (like their success with GCF problems). It tries to address the root issue \u2014 the student's reliance on addition \u2014 and suggests adjusting strategies, even if the execution is somewhat convoluted. In contrast, Dialogue B shows little to no personalization; it repeatedly offers generic addition problems without connecting to the student's documented strengths, weaknesses, or learning history. B does not draw on the student\u2019s profile data, nor does it adapt in response to student confusion in a targeted way \u2014 the feedback often appears mismatched or irrelevant to the question at hand. Although A\u2019s scaffolding occasionally drifts off-topic and is repetitive, it still attempts genuine tailoring to this student's needs, whereas B remains generic and misaligned.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates substantially stronger personalization by referencing the student's profile, explicitly noting their repeated struggles with \"Identify larger quantity \u2014 multiplication,\" and tailoring questions to their preferred visual strategy (arrays). The tutor directly builds on the student's past responses, acknowledges patterns like confusion despite correct multiplication, and works on confidence-building as a specific goal. For example, they remind the student to trust their correct calculations and adjust explanations to focus on their visual thought process. In contrast, Dialogue B is generic and often mismatched \u2014 it recycles previous problem statements without connecting to the student\u2019s history, and sometimes provides feedback for unrelated problems. It doesn\u2019t adjust scaffold levels based on repeated \u201cI don\u2019t know\u201d responses or reinforce the student\u2019s few correct habits. Overall, A adapts both content and feedback in context of the student's learning profile, while B largely delivers disconnected corrections without targeting the student's known difficulties.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 73,
+      "concept_text": "Identify LCM - one number multiple of other",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows more personalization by explicitly referencing the student's profile and targeting their specific area of improvement (\"Identify LCM - one number multiple of other\") at the very start. The tutor tailors question difficulty with relatively small and manageable numbers (e.g., 6 and 9, 8 and 4) and adapts feedback to address the student's recurring confusion about identifying the smallest common multiple. Although the explanations in Dialogue A occasionally repeat and could be streamlined, they remain contextualized to the student's known struggle, with multiple scaffolded attempts to reinforce the core concept. In contrast, Dialogue B offers generic multiple-choice LCM practice without connecting to the student's profile or their precise misunderstandings, and it often repeats irrelevant number sets. While both dialogues have some redundancy and fail to fully leverage the student\u2019s strengths, A\u2019s initial use of profile data and problem tailoring gives it a clear personalization edge.  \n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows substantially better personalization because the tutor explicitly references the student's known area of weakness (\"Identify larger quantity \u2013 multiplication\") and tailors each practice question based on observed struggles. For example, the tutor recognizes that the student visualizes arrays but gets confused comparing totals, so they guide the student step-by-step through multiplying and then directly comparing results, reinforcing confidence in trusting calculations. They adjust questions gradually, using similar but varied setups to target misconceptions. Dialogue B, on the other hand, frequently drifts from the original problems, gives feedback that mismatches the student\u2019s current question, and fails to connect meaningfully to the student's past errors \u2014 it recycles unrelated problems and sometimes corrects with wrong context (e.g., referencing \u201cTom\u2019s crayons\u201d when discussing the wrong problem). Overall, A\u2019s iterative scaffolding and focus on the documented weak skill is more responsive and targeted to this learner.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 360,
+      "concept_text": "Identify negative integer from number line",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows substantially more personalization than Dialogue B. In Dialogue A, the tutor explicitly references the student's history (e.g., mentioning past struggles with \"Identify negative integer from number line\" and tying it loosely to other known weaknesses like LCM and GCF), adjusts question difficulty, and repeatedly revisits core misconceptions (negative numbers being to the left of zero) with targeted explanations. While the LCM/GCF connections are somewhat tangential, they indicate an attempt to situate the current skill within the student's broader math profile. Dialogue B, in contrast, is almost entirely generic: it repeatedly gives incorrect feedback regardless of the student's actual correct answers, and does not meaningfully adapt based on the student's profile or past performance. B neither references the student's prior mastery or problem areas, nor tailors instructional strategies to observed struggles. Therefore, A demonstrates more responsiveness and personalization, even if its teaching flow is imperfect.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 613,
+      "concept_text": "Identify number of equal divisions (vertical bar)",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A explicitly references the student's known weaknesses (e.g., struggles with \"Identify number of equal divisions (vertical bar)\" and \"equal divisions in a square\") and contrasts them with their strengths (e.g., past success with circles), using this knowledge to select problems and analogies. The tutor continually attempts to reframe the concept in ways that map to the student's past skills, such as comparing vertical bars to ladders or stacks of books, and adjusts difficulty to simpler scenarios when confusion persists. In contrast, Dialogue B uses generic object-sharing examples (cookies, crayons) without integrating the student\u2019s profile or strengths/weakness history, and repeats basic definitions rather than building on prior mastery in related fraction or shape division problems. While B is clear and supportive, it doesn't leverage the detailed student data for tailored scaffolding. Dialogue A\u2019s uneven execution still shows more meaningful personalization in problem selection and analogies based on the student\u2019s mastery profile.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 613,
+      "concept_text": "Identify number of equal divisions (vertical bar)",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A makes repeated, explicit references to the student's known weaknesses \u2014 notably their difficulty with \"Identify number of equal divisions (vertical bar)\" \u2014 and ties these to similar past struggles with squares and circles. For example, the tutor recalls the student's \"previous struggles with identifying equal divisions in a square\" and adapts analogies (pizza slices, ladders, stacks of books) to scaffold the targeted skill. This shows an attempt to build on the student's prior learning record and relate the problem to concepts they have mastered. While the flow sometimes becomes confusing and contains inconsistencies, it is at least grounded in personalization. In contrast, Dialogue B mostly uses generic cookie/pencil-sharing tasks without incorporating the student's specific performance history or strengths in related fraction or shape-identification concepts. Dialogue B\u2019s guidance stays at a basic level and does not adapt based on the precise known metrics of the student's history, resulting in weaker personalization overall.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates much stronger personalization than Dialogue B. The tutor in Dialogue A explicitly references the student's known weakness in *Identify larger quantity \u2013 multiplication* and builds practice around comparing arrays, which matches the student's past issues with visualizing and distinguishing quantities. For example, the tutor notes the student's use of arrays and encourages them to trust their calculations, addressing their hesitation pattern \u2014 a key feature of this student\u2019s profile. Additionally, the tutor repeatedly adapts explanations to focus on commutativity, systematic counting, and confidence building based on observed misunderstandings. In contrast, Dialogue B shows little to no adaptation to the student's persona; it repeatedly drifts off-topic (e.g., referencing \u201cTom\u2019s 3 boxes\u201d while answering unrelated questions) and fails to connect problems to the student's recorded struggles. Feedback in Dialogue B is generic, often incorrectly restating earlier problems instead of working directly on the current question, and does not leverage the student's history to shape practice. Overall, Dialogue A\u2019s responsiveness and targeted scaffolding make it more effective and personalized for this learner.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 360,
+      "concept_text": "Identify negative integer from number line",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates significantly more personalization than Dialogue B. The tutor in A explicitly references the student's past performance (e.g., connecting struggles with LCM, GCF, and number line concepts) and adjusts question difficulty to build confidence, offering both simpler and varied practice questions. While some connections (LCM/GCF) are tenuous, they still indicate the tutor is aware of the broader learning profile and trying to scaffold from known weaknesses. The responses in Dialogue A acknowledge the student's repeated uncertainty and provide step-by-step conceptual breakdowns (negative integers are to the left of zero, moving left means decreasing value), thus targeting persistent misconceptions. In contrast, Dialogue B is largely generic: it repeatedly labels answers \u201cIncorrect\u201d without meaningful reference to the student\u2019s history, strengths, or weaknesses, and sometimes provides misleading or inconsistent explanations. There\u2019s little adaptation in B, and the feedback is mostly formulaic, failing to build from the student\u2019s known mastery areas or address their specific misunderstandings in a nuanced way.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 613,
+      "concept_text": "Identify number of equal divisions (vertical bar)",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A clearly makes repeated references to the student's known weaknesses \u2014 specifically their difficulty with the \"Identify number of equal divisions (vertical bar)\" skill \u2014 and even connects this to past performance on similar tasks (e.g., vertical bars vs. squares vs. circles). The tutor tries multiple analogies (pizza slices, ladders, stacks of books) to help the student overcome misunderstandings, showing adaptation to prior mistakes and leveraging known strengths in related fraction skills. Although the explanations sometimes become muddled, they remain anchored in the student's learning profile and attempt to tailor questions to build confidence gradually.  \nIn contrast, Dialogue B uses a more generic teaching approach that focuses on counting vertical bars in simple distribution scenarios without referencing the student's specific profile, past successes, or related skills. While it responds to incorrect answers and tries to scaffold concept understanding, it does not meaningfully adapt examples or feedback to this student's documented strengths/weaknesses. Therefore, Dialogue A demonstrates substantially better personalization.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 360,
+      "concept_text": "Identify negative integer from number line",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A makes repeated and explicit reference to the student's prior struggles and strengths, in particular connecting their difficulty with identifying negative integers to other math areas like LCM and GCF, albeit the connection is tenuous. It also adapts question difficulty (\u201cslightly easier than the previous challenging one\u201d) and provides step-by-step conceptual reviews tailored to the fact that the student repeatedly answers \u201cI don\u2019t know.\u201d Although sometimes repetitive and with small conceptual errors, A clearly tries to scaffold learning based on the student's current confusion, giving multiple simplified examples and re-explaining core concepts each time.  \nDialogue B, on the other hand, gives mostly generic corrections and explanations without leveraging the student's mastery or struggle history, and often contains incorrect feedback (e.g., stating \u20131 is not a negative integer). It fails to adjust difficulty or use the student's answer patterns meaningfully, and misses opportunities to personalize learning. Both have quality issues, but A demonstrates more consistent attempts to personalize instruction to the student's needs, while B remains generic and occasionally misleading.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows substantially better personalization for this student. The tutor repeatedly references the student\u2019s ongoing struggles with \"Identify larger quantity -- multiplication\" and adapts questions to their specific difficulty with arrays and comparing products, reinforcing computation while addressing confusion about which is larger. For example, when the student doubts their correct calculations, the tutor explicitly acknowledges this pattern and works on building confidence in trusting product comparisons. The tutor\u2019s feedback is detailed, breaks problems into smaller steps, and directly links back to the student\u2019s earlier mistakes and strategies (\u201cyou thought 4 \u00d7 9 might be bigger\u2026 but let\u2019s check with totals\u201d). In contrast, Dialogue B is highly repetitive and inconsistent, sometimes giving feedback unrelated to the student's current answer (e.g., mixing problems and reusing irrelevant scenarios), and does not build on the student's known learning profile, treating each error generically rather than addressing their specific confusion about multiplication versus addition or comparison. Dialogue B fails to use the student\u2019s history effectively, while Dialogue A makes explicit connections to past performance and tailors practice toward the core weakness.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 871,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A makes multiple explicit references to the student\u2019s profile and past history, such as identifying their struggles with \"Identify larger quantity -- multiplication\" and linking this to related skills like LCM and common factors. While there is room for improvement in focus and clarity, the tutor attempts to scaffold from simpler multiplication-as-repeated-addition concepts toward more complex applications, breaking them down step-by-step when the student is uncertain. For example, the tutor revisits real-life scenarios (boxes of pencils, baskets of apples) with adjusted numbers that match the targeted skill gap and encourages the student to choose whether to solve independently or with guidance. In contrast, Dialogue B is largely generic \u2014 it repeatedly mixes up or inconsistently references problem numbers, provides correction unrelated to the student's stated weakness, and does not leverage prior performance data or strengths. The explanations are static and don't tailor examples to the student's existing mastery areas (like reading from diagrams or multiples skills). A\u2019s personalization is imperfect but consistently intentional; B\u2019s is scattered and not genuinely adapted to the student.  \n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 843,
+      "concept_text": "Identify larger quantity -- subtraction",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates a stronger personalization approach by explicitly referencing the student's documented weaknesses (\u201cIdentify larger quantity -- subtraction\u201d) and connecting practice to related, stronger skills such as \u201cDraw larger bar -- addition/subtraction.\u201d The tutor in A repeatedly scaffolds problems to the student\u2019s level, uses visual aids suggestions like number lines and blocks (which fit the student\u2019s visual strengths), and adapts feedback to the student\u2019s specific confusion patterns (e.g., misidentifying which quantity is larger despite correct subtraction). While the student still struggles, the tutor attempts multiple strategies \u2014 explaining thought processes, reinforcing comparison logic, and offering confidence-building language. In contrast, Dialogue B uses a more generic, repetitive subtraction format without tailoring examples or feedback to the student's profile, rarely linking to prior successes or leveraging strong related skills, and sometimes gives confusing feedback that mixes up difference vs. quantity identification. Dialogue A thus shows more responsiveness and targeted support, even if imperfect, while B is largely generic drill.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 360,
+      "concept_text": "Identify negative integer from number line",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates stronger personalization by explicitly referencing the student's known difficulties (e.g., \u201cyou previously struggled with identifying negative integers\u201d and connecting to LCM/GCF challenges) and tailoring questions to be slightly easier in an effort to rebuild confidence. It repeatedly revisits the concept with step-by-step reasoning, addressing specific misunderstandings evident in the student's responses, such as confusing left/right placement on the number line. While A sometimes digresses into unrelated topics, it still shows an awareness of the student\u2019s learning history and attempts to scaffold based on that. Dialogue B, on the other hand, provides mostly generic feedback and incorrectly marks some correct answers as wrong, with minimal linkage to the student\u2019s profile and no clear adaptation in question difficulty or approach to the student\u2019s misunderstandings. B\u2019s tone is rigid and fact-checking rather than responsive to the student\u2019s prior performance or needs. Overall, A makes a better attempt to tailor the learning to this student\u2019s profile and specific gaps.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    }
+  ]
+}

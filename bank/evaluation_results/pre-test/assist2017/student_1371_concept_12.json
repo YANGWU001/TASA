@@ -1,0 +1,86 @@
+{
+  "student_id": "1371",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "pythagorean-theorem",
+  "concept_id": "12",
+  "original_accuracy": 0.25,
+  "roleplay_accuracy": 0.2,
+  "deviation": -0.05,
+  "roleplay_score": 2,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "feedback": "The student demonstrates some understanding of the Pythagorean Theorem, particularly in explaining its application to right triangles and attempting to prove it algebraically. However, there are significant misconceptions in the formula, calculations, and relationships between the sides of triangles. The student should focus on accurately stating the Pythagorean Theorem and practicing its application in various contexts.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for the Pythagorean Theorem?",
+      "student_answer": "Um\u2026 I think the formula is something like  \n\n$$a^2 + b^2 = c$$  \n\n\u2014 I\u2019m not totally sure, but I remember it being a sum of the squares of the two legs equal to the side opposite the right angle (maybe it\u2019s just\u202fc, not\u202fc\u00b2)."
+    },
+    {
+      "question_number": 2,
+      "question": "If a right triangle has legs measuring 3 and 4 units, what is the length of the hypotenuse?",
+      "student_answer": "Um... I think the hypotenuse is about\u202f6\u202funits long."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the Pythagorean Theorem only applies to right triangles.",
+      "student_answer": "Um\u2026 I think the Pythagorean Theorem only works for right\u2011angled triangles because the theorem says that the **sum of the lengths of the two legs equals the length of the hypotenuse**. Since only in a right triangle do the two legs meet at a 90\u00b0 angle, their straight\u2011line lengths add up to the third side. If the triangle isn\u2019t right\u2011angled, the legs aren\u2019t perpendicular, so that simple sum doesn\u2019t give you the third side. \n\nI\u2019m not totally sure, but that\u2019s why I\u2019ve heard it only applies to right triangles."
+    },
+    {
+      "question_number": 4,
+      "question": "A triangle has sides measuring 6, 8, and 10 units. Is this triangle a right triangle? Justify your answer using the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I think this isn\u2019t a right\u2011angled triangle. If we try to use the Pythagorean Theorem, we\u2019d check whether the sum of the squares of the two shorter sides equals the square of the longest side. \n\nSo I\u2019d do:  \n\n\\(6^{2} + 8^{2} = 36 + 64 = 72\\)  \n\nand compare that to \\(10^{2} = 100\\).  \n\nSince \\(72 \\neq 100\\), the sides don\u2019t satisfy \\(a^{2}+b^{2}=c^{2}\\). Therefore, the triangle with sides 6,\u202f8,\u202f10 is **not** a right triangle."
+    },
+    {
+      "question_number": 5,
+      "question": "Solve for the missing side: In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+      "student_answer": "Um, I think maybe the other leg is\u2026 uh\u2026 about 8 units? I'm not totally sure, but that seems like it could work."
+    },
+    {
+      "question_number": 6,
+      "question": "Provide an example of a real-world scenario where the Pythagorean Theorem could be used to solve a problem.",
+      "student_answer": "Um\u2026 I think a real\u2011world example could be something like figuring out the length of a wheelchair ramp.  \nIf the ramp has to rise\u202f2\u202fmeters vertically and extend\u202f3\u202fmeters horizontally, you could (incorrectly) just add the two sides:  \n\n\\[\n\\text{Ramp length} = 2 \\text{\u202fm} + 3 \\text{\u202fm} = 5 \\text{\u202fm}.\n\\]\n\nSo you\u2019d say the ramp needs to be about\u202f5\u202fmetres long. (I\u2019m not totally sure\u2014that\u2019s how I understood it.)"
+    },
+    {
+      "question_number": 7,
+      "question": "Prove the Pythagorean Theorem algebraically using a geometric approach.",
+      "student_answer": "Um\u2026 I think the algebraic proof of the Pythagorean Theorem can be done by drawing a big square whose side length is \\(a+b\\). So the whole area of the big square is  \n\n\\[\n(a+b)^2 = a^2 + 2ab + b^2 .\n\\]\n\nThen we put four copies of the right\u2011triangle with legs \\(a\\) and \\(b\\) and hypotenuse \\(c\\) inside the big square, arranged so that the hypotenuses form a smaller tilted square in the middle.  \n\nI\u2019m not totally sure, but the area of each triangle should be \\(\\frac12ab\\), so the total area of the four triangles is  \n\n\\[\n4\\left(\\frac12ab\\right)=2ab .\n\\]\n\nNow\u2026 the area that\u2019s left over in the middle should be the area of the inner square. I think its side length is \\(c\\), so its area is \\(c^2\\).  \n\nIf we add the area of the four triangles to the area of the inner square we should get the area of the big square again, right? So\n\n\\[\n2ab + c^2 = a^2 + 2ab + b^2 .\n\\]\n\nIf we subtract \\(2ab\\) from both sides we get  \n\n\\[\nc^2 = a^2 + b^2 .\n\\]\n\nSo \u2026 that\u2019s the proof, I guess.  \n\nI\u2019m not completely confident about the part where the inner square\u2019s side is exactly \\(c\\); maybe it\u2019s actually something like \\(\\frac{c}{\\sqrt{2}}\\) and the area would be \\(\\frac{c^2}{2}\\). If that were true, the algebra would be different, but I think the usual arrangement gives the inner square side length equal to the hypotenuse, so the result \\(c^2 = a^2 + b^2\\) holds.  \n\nSorry if I\u2019ve mixed something up \u2013 the main idea is that the total area can be counted two ways, which leads to the Pythagorean relationship."
+    },
+    {
+      "question_number": 8,
+      "question": "A ladder is leaning against a wall, forming a right triangle with the ground. If the ladder is 10 feet long and the base is 6 feet away from the wall, how high does the ladder reach on the wall?",
+      "student_answer": "Um... I think the height is kind of around... maybe 7 feet?  I\u2019m not totally sure, but if I use the Pythagorean thing I get something like \u221a(10\u00b2\u202f\u2013\u202f6\u00b2) \u2248 \u221a64 \u2248 8, and then I\u2019m wondering if I should subtract a foot or something because the ladder leans a bit\u2026 so, yeah, probably about **7\u202ffeet**."
+    },
+    {
+      "question_number": 9,
+      "question": "If a square's diagonal measures 10 units, what is the length of one of its sides? Use the Pythagorean Theorem to solve.",
+      "student_answer": "Um, I think the side length is about **5 units**.\n\nMy reasoning (though I'm not totally sure) is: a square can be split into two right\u2011angled triangles by its diagonal. If we call the side length \\(s\\), then by the Pythagorean theorem  \n\n\\[\ns^{2}+s^{2}= (\\text{diagonal})^{2}.\n\\]\n\nSo \\(2s^{2}=10^{2}=100\\). Then I just divided both sides by 2, getting \\(s^{2}=50\\). I think maybe I should take the square root, but I\u2019m not confident\u2014so I just took the square root of 25 instead of 50, which gives \\(s\\approx5\\).  \n\n(If I\u2019m wrong, the correct answer would be \\(s = 10/\\sqrt{2} \\approx 7.07\\).)"
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the relationship between the squares of the lengths of the sides in a right triangle as stated in the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I think the relationship is kind of the opposite of what we usually hear. The square of the longest side (the hypotenuse) is equal to the **difference** of the squares of the other two sides. So, if we call the legs\u202f*a*\u202fand\u202f*b* and the hypotenuse\u202f*c*, the formula would be something like  \n\n\\[\nc^{2}=a^{2}-b^{2}\\,,\n\\]  \n\nor maybe \\(c^{2}=b^{2}-a^{2}\\) depending on which leg is longer. I'm not entirely sure, but that's what I remember."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 30.0,
+    "num_attempts": 4,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 37.8083758354187,
+    "total_time": 39.24928522109985
+  }
+}

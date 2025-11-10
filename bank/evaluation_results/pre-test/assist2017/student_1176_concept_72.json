@@ -1,0 +1,86 @@
+{
+  "student_id": "1176",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "median",
+  "concept_id": "72",
+  "original_accuracy": 0.5,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.4,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the median, including its definition, calculation methods for both odd and even data sets, and its advantages over the mean in the presence of outliers. However, there was a mistake in Question 5 regarding the calculation of the median for an even set, which affected the total score.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the definition of the median in a data set?",
+      "student_answer": "The median of a data set is the value that splits the set into two halves \u2013 half of the observations are\u202f\u2264\u202fthe median and half are\u202f\u2265\u202fthe median.  \n\nIn practice you:\n1. **Sort** the numbers from smallest to largest.  \n2. If there\u2019s an odd number of values, the median is the **middle\u202fvalue**.  \n3. If there\u2019s an even number of values, the median is the **average of the two middle values**.  \n\nSo the median is essentially the \u201cmiddle\u201d point of the ordered data."
+    },
+    {
+      "question_number": 2,
+      "question": "How is the median calculated for an odd number of data points?",
+      "student_answer": "To find the median when you have an odd number of observations, you first arrange the data in order from smallest to largest. Because there\u2019s an odd count, there will be one value that sits exactly in the middle of the sorted list. That middle value is the median.  \n\nFor example, with 7 numbers the sorted list has a 4th element (the middle position), and that 4th value is the median."
+    },
+    {
+      "question_number": 3,
+      "question": "How is the median calculated for an even number of data points?",
+      "student_answer": "To find the median when the data set has an even number of values, you first put the numbers in order from smallest to largest.  \nSince there\u2019s no single middle entry, you take the two central values (the\u202f\\(n/2\\)\u2011th and the\u202f\\(n/2+1\\)\u2011th items) and calculate their average.  \n\nSo the median\u202f=\u202f\\(\\displaystyle \\frac{\\text{value at position }n/2 \\;+\\; \\text{value at position }(n/2+1)}{2}\\).  \n\n(If the numbers are already sorted, you can just pick those two middle ones and average them.)"
+    },
+    {
+      "question_number": 4,
+      "question": "Find the median of the following data set: 3, 7, 5, 9, 2.",
+      "student_answer": "I think the median of the data set\u202f2,\u202f3,\u202f5,\u202f7,\u202f9\u202fis **5**."
+    },
+    {
+      "question_number": 5,
+      "question": "What is the median of this data set: 12, 15, 21, 30, 40, 50?",
+      "student_answer": "The data set has six numbers, so the median is the average of the two middle values (the 3rd and 4th numbers):\n\n\\[\n\\text{Median} = \\frac{21 + 30}{2} = \\frac{51}{2} = 25.5\n\\]\n\nSo, the median is **25.5**."
+    },
+    {
+      "question_number": 6,
+      "question": "Explain the difference between the median and the mean.",
+      "student_answer": "I think the median and the mean are both ways to describe the \u201ccenter\u201d of a data set, but they work differently.  \n\n- **Median:** You first put all the numbers in order from smallest to largest, and then you pick the middle one. If there\u2019s an even number of values, you take the average of the two middle numbers. Because it\u2019s just looking at the middle position, the median isn\u2019t much affected by any very high or very low values in the list.  \n\n- **Mean:** You add up all the numbers and then divide that total by how many numbers there are. In other words, you\u2019re \u201caveraging\u201d the whole set. This is why the mean can be pulled up or down by extreme values \u2013 it takes every number into account.  \n\nSo, the main difference is that the median is the middle value (or the average of the two middle values), while the mean is the sum of all values divided by the count. The median is generally more robust to outliers, whereas the mean reflects the overall total of the data."
+    },
+    {
+      "question_number": 7,
+      "question": "If a data set has outliers, why might the median be a better measure of central tendency than the mean?",
+      "student_answer": "The median is often a better choice when a data set contains out\u2011liers because it\u2019s **robust** \u2013 it depends only on the middle position(s) of the ordered values, so a very high or very low outlier can\u2019t pull it far from the \u201ctypical\u201d part of the distribution. In contrast, the mean uses every value in the sum, so an extreme observation can drag the average toward it and give a misleading sense of the center.\n\n(One thing I\u2019m not completely sure about is whether the median somehow \u201cuses the sum of the values\u201d to reduce outlier influence \u2013 I think it doesn\u2019t, since it just looks at the middle order statistic.)"
+    },
+    {
+      "question_number": 8,
+      "question": "In a symmetric distribution, how does the median compare to the mean?",
+      "student_answer": "I think that in a symmetric distribution the median and the mean are the same \u2013 they line up at the center of the symmetry."
+    },
+    {
+      "question_number": 9,
+      "question": "A group of students scored the following marks in a test: 45, 50, 55, 60, 65, 70, 75. What is the median score?",
+      "student_answer": "I think the median score is **60**."
+    },
+    {
+      "question_number": 10,
+      "question": "Provide an example of a situation where calculating the median would be more useful than calculating the mean.",
+      "student_answer": "I think a good example is looking at household incomes in a city.  \nIf most families earn around\u202f$40\u201150\u202fk but a few earn several million dollars, the **mean** income gets pulled up by those very high earners and doesn\u2019t represent what a typical family actually makes.  \nIn that case, the **median** income \u2013 the middle value when all incomes are ordered \u2013 gives a more realistic picture of a \u201ctypical\u201d household because it isn\u2019t affected by the extreme outliers."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 6.0,
+    "num_attempts": 4,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 36.28978204727173,
+    "total_time": 37.59521555900574
+  }
+}

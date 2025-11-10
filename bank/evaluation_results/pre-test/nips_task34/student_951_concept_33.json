@@ -1,0 +1,86 @@
+{
+  "student_id": "951",
+  "dataset": "nips_task34",
+  "method": "pre-test",
+  "concept_text": "Squares, Cubes, etc",
+  "concept_id": "33",
+  "original_accuracy": 1.0,
+  "roleplay_accuracy": 0.8,
+  "deviation": -0.2,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates a solid understanding of prime factorization, divisors, and basic arithmetic operations. However, there was a mistake in the prime factorization of 245 in Question 1, which affected the accuracy of the divisors listed in Question 3. Additionally, the rounding in Question 10 was incorrect. Overall, the student shows good comprehension but needs to review prime factorization and rounding concepts.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the prime factorization of 245?",
+      "student_answer": "The prime factorization of 245 is  \n\n\\[\n245 = 5 \\times 7^{2}.\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "Is 245 a prime number? Explain why or why not.",
+      "student_answer": "No, 245 is **not** a prime number.\n\nA prime number has exactly two distinct positive divisors:\u202f1 and itself.  \nTo test whether 245 is prime, we look for any divisor other than 1 and 245.\n\nNotice that the last digit of 245 is 5, so the number is divisible by 5:\n\n\\[\n245 \\div 5 = 49\n\\]\n\nThus\n\n\\[\n245 = 5 \\times 49.\n\\]\n\nNow factor 49 further:\n\n\\[\n49 = 7 \\times 7,\n\\]\n\nso we can write\n\n\\[\n245 = 5 \\times 7 \\times 7.\n\\]\n\nSince 245 has divisors other than 1 and itself (e.g., 5,\u202f7,\u202f35,\u202f49,\u202fetc.), it is a composite number, not a prime."
+    },
+    {
+      "question_number": 3,
+      "question": "What are all the divisors of 245?",
+      "student_answer": "The positive divisors of  \n\n\\[\n245 = 5 \\times 7^{2}\n\\]\n\nare obtained by taking each factor \\(5^{a}\\) with \\(a=0,1\\) and each factor \\(7^{b}\\) with \\(b=0,1,2\\):\n\n\\[\n\\begin{aligned}\n5^{0}7^{0} &= 1,\\\\\n5^{1}7^{0} &= 5,\\\\\n5^{0}7^{1} &= 7,\\\\\n5^{1}7^{1} &= 35,\\\\\n5^{0}7^{2} &= 49,\\\\\n5^{1}7^{2} &= 245.\n\\end{aligned}\n\\]\n\nSo the complete list of divisors of\u202f245 (positive) is  \n\n\\[\n\\boxed{1,\\;5,\\;7,\\;35,\\;49,\\;245}.\n\\]"
+    },
+    {
+      "question_number": 4,
+      "question": "Express 245 as a product of its prime factors.",
+      "student_answer": "\\(245 = 5 \\times 7 \\times 7\\), or equivalently \\(245 = 5 \\times 7^{2}\\)."
+    },
+    {
+      "question_number": 5,
+      "question": "If you divide 245 by 7, what is the quotient?",
+      "student_answer": "The quotient is **35**."
+    },
+    {
+      "question_number": 6,
+      "question": "Convert 245 into Roman numerals.",
+      "student_answer": "245 in Roman numerals is **CCXLV**."
+    },
+    {
+      "question_number": 7,
+      "question": "What is the sum of the digits in the number 245?",
+      "student_answer": "The sum of the digits in 245 is \\(2 + 4 + 5 = 11\\)."
+    },
+    {
+      "question_number": 8,
+      "question": "245 is a multiple of which numbers below: 5, 7, 10, 35?",
+      "student_answer": "245 is divisible by 5 (since\u202f245\u202f\u00f7\u202f5\u202f=\u202f49), by 7 (245\u202f\u00f7\u202f7\u202f=\u202f35), and by 35 (245\u202f\u00f7\u202f35\u202f=\u202f7).  \nIt is **not** divisible by 10 (245\u202f\u00f7\u202f10\u202f=\u202f24.5, not an integer).\n\n**Therefore, 245 is a multiple of:** **5, 7, and 35**."
+    },
+    {
+      "question_number": 9,
+      "question": "If you add 100 to 245, what is the result?",
+      "student_answer": "\\(245 + 100 = 345\\)"
+    },
+    {
+      "question_number": 10,
+      "question": "Round 245 to the nearest hundred.",
+      "student_answer": "245 rounded to the nearest hundred is **200**."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 0.0,
+    "num_attempts": 7,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 27.24808955192566,
+    "total_time": 28.478618383407593
+  }
+}

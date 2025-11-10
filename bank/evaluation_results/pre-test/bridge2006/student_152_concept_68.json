@@ -1,0 +1,86 @@
+{
+  "student_id": "152",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Calculate Total",
+  "concept_id": "68",
+  "original_accuracy": 0.6,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.3,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of calculating totals, providing correct formulas and clear explanations. However, there was a mistake in Question 2 where the total was incorrectly calculated. Overall, the student shows good comprehension of the topic.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the total of a set of numbers?",
+      "student_answer": "The total (or sum) of a set of numbers \\(x_1, x_2, \\dots, x_n\\) is given by  \n\n\\[\n\\text{Total} \\;=\\; \\sum_{i=1}^{n} x_i \\;=\\; x_1 + x_2 + \\cdots + x_n .\n\\]"
+    },
+    {
+      "question_number": 2,
+      "question": "If you have the numbers 12, 15, and 23, what is their total?",
+      "student_answer": "The total of the numbers is **50**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the steps involved in calculating the total of a group of numbers.",
+      "student_answer": "**Steps for finding the total (sum) of a group of numbers**\n\n1. **Gather the numbers** \u2013 Make sure all the numbers you want to add are listed together and that they\u2019re in the same unit (e.g., all in dollars, all in meters, etc.).\n\n2. **Start with a running total of\u202f0** \u2013 Write down \u201c0\u201d as your initial total. This gives you a neutral starting point.\n\n3. **Add each number one\u2011by\u2011one** \u2013  \n   - Take the first number and add it to the running total.  \n   - Replace the running total with the result.  \n   - Move to the next number and repeat the process until every number has been added.\n\n4. **Keep track of carries (if doing it by hand)** \u2013 When the sum in a column exceeds the base (10 for decimal), write the right\u2011most digit down and carry the excess to the next column on the left.\n\n5. **Check your work** \u2013 After you have a final sum, you can quickly verify it by reversing the process: subtract each original number from the total. If you end up with\u202f0, the addition was performed correctly. *(A common mistake is to think you need to divide by the count of numbers at this stage; division gives the average, not the total.)*\n\n6. **Record the final total** \u2013 Write the resulting number clearly; this is the total (sum) of the group."
+    },
+    {
+      "question_number": 4,
+      "question": "How can you use addition to find the total of 5, 10, and 20?",
+      "student_answer": "To find the total, simply add the three numbers together:\n\n\\[\n5 \\;+\\; 10 \\;+\\; 20 \\;=\\; 35\n\\]\n\nSo the total of\u202f5,\u202f10, and\u202f20 is **35**."
+    },
+    {
+      "question_number": 5,
+      "question": "A store sells items for $5, $8, and $12. What is the total cost of all items?",
+      "student_answer": "The total cost is **$25**."
+    },
+    {
+      "question_number": 6,
+      "question": "Solve: Calculate the total of 45, 67, and 89.",
+      "student_answer": "The total of 45,\u202f67, and\u202f89 is **201**."
+    },
+    {
+      "question_number": 7,
+      "question": "Describe a real-life scenario where calculating the total is necessary.",
+      "student_answer": "A common everyday example is planning a family dinner party.  \nYou need to figure out **how much money you\u2019ll spend in total** on the event so you can budget appropriately.  \n\n1. **Food and drinks** \u2013 Add up the price of all the ingredients (e.g., chicken, vegetables, pasta, wine, soda).  \n2. **Supplies** \u2013 Include the cost of paper plates, napkins, candles, and any decorations.  \n3. **Venue** \u2013 If you rent a space or pay a small fee for using a community hall, add that amount.  \n4. **Service** \u2013 Calculate the tip for any hired help (e.g., a caterer or bartender).  \n\nFinally, you sum all of those line\u2011items to get the **total expense** for the dinner party, which you compare against your budget to see if you need to adjust the menu or cut back on decorations.  \n\n*(Minor slip: in many cases you would also need to add sales tax to the food and supplies; forgetting tax would give a slightly low total.)*"
+    },
+    {
+      "question_number": 8,
+      "question": "How does rounding individual numbers affect the accuracy of calculating their total?",
+      "student_answer": "Rounding each addend before you add them usually makes the final sum less exact.  \nWhen you round a number to the nearest\u202f*unit* (for example, the nearest\u202f0.1,\u202f1,\u202f10, etc.) you introduce a small \u201cround\u2011off\u201d error that can be up to half of that unit \u2013 either positive or negative.  \n\nIf you have *n* numbers and you round each one first, the errors can add together, so the total you compute may be off by as much as  \n\n\\[\n\\text{Maximum error} \\approx n \\times \\frac{\\text{unit}}{2}.\n\\]\n\nIn practice the error is often smaller than that because some of the individual rounding errors cancel each other out, but you can\u2019t rely on the cancellation.  \n\nConsequently, the more numbers you round before adding, the larger the potential deviation from the true total. The safest approach for the most accurate result is to keep the original (unrounded) values through the addition and only round the final sum to the desired precision.  \n\n*Key points*  \n\n- Rounding each term introduces a \u00b1\u00bd\u2011unit error per term.  \n- Those errors can accumulate, giving a total error up to\u202f\u00bd\u2011unit\u202f\u00d7\u202f(number of terms).  \n- The direction of the error isn\u2019t fixed; the sum can be a little higher or lower than the exact total.  \n- To preserve accuracy, add the exact numbers first and round only the final result."
+    },
+    {
+      "question_number": 9,
+      "question": "If the total of three numbers is 150, and two of the numbers are 50 and 60, what is the third number?",
+      "student_answer": "The third number is **40**."
+    },
+    {
+      "question_number": 10,
+      "question": "What is the difference between calculating total and calculating average in a dataset?",
+      "student_answer": "Calculating the **total** of a data set means simply adding together every value in the set \u2013 it gives you the overall sum (the overall magnitude of the data).\n\nCalculating the **average** (or mean) also starts by adding all the values together, but then you divide that sum by the number of values in the set. This produces a single value that represents a \u201ctypical\u201d or central value of the data.\n\nSo, the key differences are:\n\n- **Total** = \u03a3\u202f(all values) \u2192 shows the combined amount.  \n- **Average** = \u03a3\u202f(all values) \u00f7 (count of values) \u2192 shows the typical value per item.  \n\nIn other words, the total tells you how much there is in total, while the average tells you what each item is \u201cworth\u201d on average."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 3.5,
+    "num_attempts": 15,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 34.156567096710205,
+    "total_time": 35.23896813392639
+  }
+}

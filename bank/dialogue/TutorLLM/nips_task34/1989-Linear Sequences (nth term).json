@@ -1,0 +1,109 @@
+{
+  "student_id": 1989,
+  "dataset": "nips_task34",
+  "concept": "Linear Sequences (nth term)",
+  "method": "TutorLLM",
+  "total_rounds": 10,
+  "dialogue": [
+    {
+      "role": "user",
+      "content": "I want to learn about Linear Sequences (nth term)",
+      "round": 0
+    },
+    {
+      "role": "assistant",
+      "content": "**Practice Question**\n\nThe arithmetic (linear) sequence starts with a first term of\u202f\\(a_1 = 7\\) and has a common difference of\u202f\\(d = 4\\).\n\n1. Write a formula for the \\(n^{\\text{th}}\\) term \\(\\displaystyle a_n\\) of this sequence.  \n2. Using your formula, calculate the value of the 20th term \\(\\displaystyle a_{20}\\).  ",
+      "round": 1
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 2
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback**\n\nGreat that you tried the problem!\u202fSeeing \u201cI don\u2019t know\u201d is a perfectly honest place to start, and it tells me we need to build the idea from the ground up.  \n\nA *linear (arithmetic) sequence* is one where each term is obtained by adding the same constant, called the **common difference**\u202f\\(d\\), to the previous term.  \n\nThe general formula for the \\(n^{\\text{th}}\\) term is  \n\n\\[\na_n \\;=\\; a_1 \\;+\\; (n-1)d\n\\]\n\nwhere  \n\n* \\(a_1\\) = first term,  \n* \\(d\\) = common difference,  \n* \\(n\\) = position of the term (1\u2011based).\n\nIn our problem \\(a_1 = 7\\) and \\(d = 4\\). Plugging those numbers into the template gives the specific formula you\u2019re looking for.\n\n**Why this matters:**  \nOnce you have the formula, you can answer any \u201cwhat\u2019s the 8th term?\u201d or \u201cwhich term equals 31?\u201d question quickly, without writing out every intermediate term.\n\n---\n\n### Next Practice Question (with a real\u2011world twist)\n\nYou\u2019ve been asked to help a school bus driver plan the **departure times** for a series of stops. The first stop (Stop\u202f1) is scheduled to leave at **7\u202fminutes past the hour**. Each subsequent stop leaves **4 minutes later** than the previous one (the same common difference as before).\n\n1. **Write the explicit formula** for the departure time (in minutes past the hour) of the \\(n^{\\text{th}}\\) stop.  \n2. **",
+      "round": 2
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 3
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback**\n\nHey there!\u202fIt\u2019s completely fine to say \u201cI don\u2019t know\u201d \u2013 that\u2019s the perfect place for us to start building understanding together.  \n\nA *linear (arithmetic) sequence* is a list of numbers where each term is obtained by adding the same amount, called the **common difference**\u202f\\(d\\), to the previous term.  \n\nIf the first term is \\(a_1\\) and the common difference is \\(d\\), the\u202f\\(n^{\\text{th}}\\)\u202fterm is given by the **formula**\n\n\\[\n\\boxed{a_n \\;=\\; a_1 \\;+\\; (n-1)\\,d}\n\\]\n\nWhy does this work?\n\n| Step | What we\u2019re doing | Why it matters |\n|------|------------------|----------------|\n| 1\ufe0f\u20e3 | Start with the first term \\(a_1\\). | This is the \u201cbase\u201d of the sequence. |\n| 2\ufe0f\u20e3 | Add the difference once to get the 2nd term: \\(a_2 = a_1 + d\\). | Shows the pattern begins. |\n| 3\ufe0f\u20e3 | Add the difference again to get the 3rd term: \\(a_3 = a_1 + 2d\\). | Each new term adds another \\(d\\). |\n| \u2026 | \u2026 | \u2026 |\n| n\ufe0f\u20e3 | After adding \\(d\\) exactly \\((n-1)\\) times, we",
+      "round": 3
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 4
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nI see you wrote *\u201cI don\u2019t know.\u201d*\u202fThat\u2019s completely okay\u202f\u2014\u202frecognizing a gap is the first step toward filling it.\u202fWhen a concept feels fuzzy, it\u2019s often helpful to pause and break it down into smaller pieces.  \n\nHere\u2019s a quick \u201croad\u2011map\u201d for **linear (arithmetic) sequences**:\n\n| Step | What to ask yourself | Why it helps |\n|------|----------------------|--------------|\n| 1\ufe0f\u20e3 | **What are the first few terms?** | Seeing the numbers side\u2011by\u2011side lets you spot the pattern. |\n| 2\ufe0f\u20e3 | **How much does each term change to get the next one?** (the *common difference*\u202f\\(d\\)) | The constant change is the hallmark of a linear sequence. |\n| 3\ufe0f\u20e3 | **What is the position (n) of the term you\u2019re looking for?** | The \u201cnth\u2011term\u201d formula always ties the term\u2019s value to its position. |\n| 4\ufe0f\u20e3 | **Write the general formula:**  \\(a_n = a_1 + (n-1)d\\) | Once you have \\(a_1\\) (the first term) and \\(d\\), you can plug in any \\(n\\). |\n| 5\ufe0f\u20e3 | **Test it:** Plug a known term (e.g., the 3rd term) into the formula to check you didn\u2019t make a mistake. | A quick sanity check saves time later. |\n\nThink of a linear sequence like a clock",
+      "round": 4
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 5
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nI see you wrote *\u201cI don\u2019t know.\u201d*\u202fThat\u2019s completely okay\u202f\u2014\u202frecognizing a gap is the first step toward filling it.\u202fWhen a concept feels fuzzy, it\u2019s often helpful to pause, take a breath, and think about what you *do* know.  \n\nFor linear (arithmetic) sequences the key ideas are:\n\n| Idea | What it means |\n|------|----------------|\n| **Common difference** | The amount you add (or subtract) each step to get from one term to the next. |\n| **First term (\u202fa\u2081\u202f)** | The very first number in the list. |\n| **nth\u2011term formula** | A concise way to write \u201cthe number you\u2019ll get at position *n*.\u201d It always looks like  **a\u2099 = a\u2081 + (n\u202f\u2013\u202f1)\u00b7d** where *d* is the common difference. |\n\nIf you can spot the first term and the constant step (the *common difference*), you can write the formula in one line.  \n\nBecause you\u2019ve been having trouble with *time* problems, let\u2019s connect the idea to a real\u2011world situation you might already be comfortable with: **a bus that arrives every 4\u202fminutes**. Think of the times the bus arrives as a sequence of numbers (0\u202fmin, 4\u202fmin, 8\u202fmin, 12\u202fmin, \u2026). That is an arithmetic sequence with first term 0 and common difference 4. The same steps we use for any number sequence will work here, too.\n\n**What to try next**\n\n1. Look at the numbers in the sequence I\u2019ll",
+      "round": 5
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 6
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nI see you wrote *\u201cI don\u2019t know.\u201d* \u2013 that\u2019s perfectly okay!\u202fAdmitting that you\u2019re stuck is actually the first, most important step toward mastering a topic.  \n\nHere are a few ideas to help you move forward when a problem feels fuzzy:\n\n| What you might try | Why it helps |\n|-------------------|--------------|\n| **Pause and rewrite the problem in your own words**. | Translating the symbols into plain language often reveals hidden clues. |\n| **Identify the pattern** (look at the differences between consecutive terms). | Linear (arithmetic) sequences have a constant difference, and spotting it is the key to the formula. |\n| **Write down the general form**\u202f\\(a_n = a_1 + (n-1)d\\). | Having the template ready lets you plug in the numbers you already know. |\n| **Check with a simple test value** (e.g., plug \\(n=1\\) or \\(n=2\\) into your formula). | If the result matches the given terms, you\u2019re on the right track. |\n| **Talk it through out loud or to yourself**. | Explaining each step, even to an imaginary audience, forces you to clarify your reasoning. |\n\nGive yourself a short, low\u2011pressure practice session using these steps. You\u2019ll likely find that the \u201cdon\u2019t know\u201d turns into \u201cI see how to start,\u201d and that\u2019s exactly the progress we",
+      "round": 6
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 thanks for the feedback. I\u2019m trying to follow what you said, but I\u2019m still a bit fuzzy.\n\n- I",
+      "round": 7
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nI see you wrote, \u201c*Um\u2026 thanks for the feedback. I\u2019m trying to follow what you said, but I\u2019m still a bit fuzzy.*\u201d\u202f\u2014\u202fthat\u2019s completely normal when you\u2019re wrestling with a new idea.\u202fIt shows you\u2019re paying attention to what we\u2019ve talked about and that you want to understand it better, which is exactly the mindset that leads to improvement.\n\nHere are a few quick observations:\n\n| What you said | What it tells us |\n|---------------|------------------|\n| \u201cI\u2019m still a bit fuzzy\u201d | You recognize that the concept isn\u2019t clicking yet, which is the first step toward clearing it up. |\n| \u201cI\u2019m trying to follow what you said\u201d | You\u2019re willing to apply the guidance\u2014great!\u202fWe just need to break the steps down a little more. |\n\nLet\u2019s turn that fuzziness into clarity by focusing on **one concrete skill**: **writing the nth\u2011term expression for a linear (arithmetic) sequence**. You\u2019ve had trouble with \u201cwriting expressions\u201d before, so I\u2019ll walk through the process in bite\u2011size pieces and then give you a chance to try it yourself.\n\n---\n\n## Quick Refresher: nth\u2011Term of a Linear Sequence\n\nA linear (arithmetic) sequence looks like:\n\n\\[\na_1,\\; a_1+d,\\; a_1+2d,\\; a_1+3d,\\; \\dots\n\\",
+      "round": 7
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 8
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nYou wrote **\u201cI don\u2019t know.\u201d** \u2013 and that\u2019s absolutely okay!  \nWhen a problem feels blank, the best thing you can do is acknowledge the gap (just as you did). That shows you\u2019re aware of where you need help, and awareness is the first step toward mastery.\n\nHere\u2019s what we can take from this moment:\n\n| What you tried | What it tells us | How we\u2019ll move forward |\n|----------------|------------------|------------------------|\n| \u201cI don\u2019t know\u201d (no attempt) | The idea of an *nth\u2011term formula* for a linear sequence isn\u2019t clicking yet. | We\u2019ll break the process into tiny, concrete actions and practice them one at a time. |\n| You\u2019ve been stuck on a few \u201ctime\u201d word problems recently. | Those problems also require turning a story into an equation, just like a sequence problem. | We\u2019ll reuse the same translation\u2011to\u2011equation habit you\u2019re building for time problems. |\n\n**What to remember right now**\n\n1. **Linear sequences are just arithmetic progressions** \u2013 each term adds the same constant difference, *d*, to the previous term.  \n2. The *nth\u2011term* formula always looks like  \n   \\[\n   a_n = a_1 + (n-1)d\n   \\]  \n   where *a\u2081* is the first term and *d* is the common difference.  \n3. If you can spot *a\u2081* and *d* from the list of numbers, you can write the formula in one step.\n\nThink of it as a two\u2011part puzzle:\n- **Part\u202f1:** Identify the first piece (the first term).  \n- **Part\u202f2:** Identify how much you \u201cstep\u201d each time (the common difference).\n\nNext, we\u2019ll practice with a very gentle example that lets you apply those two steps directly.\n\n---\n\n### Practice Question \u2013 Linear Sequence (nth term)\n\n**The sequence is:** \u202f7,\u202f12,\u202f",
+      "round": 8
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 9
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nIt\u2019s completely okay to hit a road\u2011block and say \u201cI don\u2019t know.\u201d  What matters most is that you\u2019re willing to keep trying\u2014that\u2019s the first step toward mastering any topic.  \n\nWhen a problem feels blank, try to **break it into smaller pieces** you do recognize. For linear (arithmetic) sequences, the two pieces you\u2019ll always have are:\n\n1. **The first term,\u202f\\(a_1\\)** \u2013 the value where the pattern starts.  \n2. **The common difference,\u202f\\(d\\)** \u2013 how much you add (or subtract) each step.\n\nIf you can locate *either* of those in a problem, you can usually write the nth\u2011term formula:  \n\n\\[\na_n = a_1 + (n-1)d\n\\]\n\nIf you\u2019re unsure which piece you have, ask yourself:\n\n* \u201cWhat number repeats or is given as the starting point?\u201d \u2192 that\u2019s likely \\(a_1\\).  \n* \u201cHow much does the sequence increase (or decrease) from one term to the next?\u201d \u2192 that\u2019s \\(d\\).\n\n**A quick tip:** Write down the first few terms that the problem mentions. Seeing the numbers side\u2011by\u2011side often makes the pattern pop out.\n\n---\n\n### Next Practice Question (Linear Sequences \u2013 nth Term)\n\n> **Problem:**  \n> A sequence begins with 7 and each subsequent term is 4 more than the previous one.  \n>   \n> 1. Write the first four terms of the sequence.  \n> 2. Using the information above, write the formula for the nth term, \\(a_n\\).  \n> 3. Find the 12th term of the sequence.\n\n**How to approach it (without giving away the answer):**\n\n1. **Identify the first term** \\(a_1\\",
+      "round": 9
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 10
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback on Your Answer**\n\nI see you wrote *\u201cI don\u2019t know.\u201d* \u2013 and that\u2019s perfectly okay!  \nWhen a problem feels blank, the most important thing is that you\u2019re honest about where the gap is. That honesty is the first step toward closing the gap.\n\nHere are a couple of quick ideas that often help with **linear (arithmetic) sequences**:\n\n1. **Write down the first few terms** \u2013 sometimes the pattern becomes clearer when you see the numbers side\u2011by\u2011side.  \n2. **Look for a constant \u201cstep\u201d** \u2013 subtract (or add) consecutive terms. If the difference is the same every time, that constant is the *common difference* \\(d\\).  \n3. **Recall the formula**  \n   \\[\n   a_n = a_1 + (n-1)d\n   \\]  \n   where \\(a_1",
+      "round": 10
+    }
+  ]
+}

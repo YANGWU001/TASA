@@ -1,0 +1,86 @@
+{
+  "student_id": "1279",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "combinatorics",
+  "concept_id": "59",
+  "original_accuracy": 0.0,
+  "roleplay_accuracy": 0.2,
+  "deviation": 0.2,
+  "roleplay_score": 2,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates a limited understanding of combinatorics concepts. Key formulas and definitions are incorrect or misapplied, particularly regarding combinations and permutations. The student correctly identifies the principle of inclusion-exclusion but misstates its application. More practice with fundamental concepts and calculations is needed.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the number of combinations when choosing r items from a set of n items?",
+      "student_answer": "Um\u2026 I think the formula for the number of combinations when you pick\u202fr\u202fitems from\u202fn\u202fitems is something like  \n\n\\[\n\\displaystyle C(n,r)=\\frac{n!}{\\,r!\\,(n+r)!}\n\\]\n\n\u2014 or at least that\u2019s what I remember. (I\u2019m not completely sure, but that seems right to me.)"
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the difference between permutations and combinations in your own words.",
+      "student_answer": "Um, okay, let me try\u2026  \nI think permutations and combinations are kind of the same thing, but\u2026 I guess the main difference is that permutations are when you *don't* care about the order of the items, and combinations are when you *do* care about the order.  \n\nSo, for example, if I have three letters A, B, and C, a permutation would be something like picking A and then B, which is the same as picking B and then A, because the order doesn\u2019t matter. A combination would be picking A, B, and C in a specific sequence, like A\u2011B\u2011C, and that sequence matters.  \n\nIn other words, permutations are about just choosing a set, while combinations are about arranging them in a line.  \n\nThat's what I remember, I hope that's right\u2026?"
+    },
+    {
+      "question_number": 3,
+      "question": "How many ways can 5 books be arranged on a shelf?",
+      "student_answer": "Um, I think it's 60 ways."
+    },
+    {
+      "question_number": 4,
+      "question": "If a committee of 3 people is to be selected from a group of 10, how many different committees can be formed?",
+      "student_answer": "Um\u2026 I think the number of different committees is probably **30**."
+    },
+    {
+      "question_number": 5,
+      "question": "A password consists of 4 letters chosen from the English alphabet. If repetitions are allowed, how many different passwords can be created?",
+      "student_answer": "Um\u2026 I'm not totally sure, but I think the number of possible passwords would be the number of ways to choose 4 different letters from the 26\u2011letter alphabet, so maybe it\u2019s  \n\n\\[\n\\binom{26}{4}= \\frac{26\\cdot25\\cdot24\\cdot23}{4!}=14950.\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "In a lottery, 6 numbers are chosen from a pool of 49 numbers. How many different combinations of numbers are possible?",
+      "student_answer": "Um\u2026 I think the number of possible tickets is just the number of ways to pick 6 out of 49, which is\u202f\\( \\binom{49}{6} \\).  Doing the arithmetic (I\u2019m not totally sure I did it right) gives something like **12\u202f000\u202f000** different combinations."
+    },
+    {
+      "question_number": 7,
+      "question": "If you have 8 distinct objects, how many ways can you select and arrange 3 of them?",
+      "student_answer": "Um\u2026 I think the number is 56.  I\u2019m not totally sure, but I got 8\u202fchoose\u202f3 = 56, so that should be the number of ways to pick and line them up."
+    },
+    {
+      "question_number": 8,
+      "question": "Provide an example of a real-world scenario where permutations would be used instead of combinations, and explain why.",
+      "student_answer": "Um, I think a good real\u2011world example would be something like **choosing a group of three friends to go to a movie together**.  You have, say, five friends\u2014Alice, Ben, Carla, Dan, and Eva\u2014and you need to pick three of them.  I guess this is a permutation because the order in which you pick them matters: first you pick Alice, then Ben, then Carla, and that\u2019s different from picking Ben, then Carla, then Alice.  So you\u2019d use the permutation formula \\(P(5,3)=5\\times4\\times3=60\\).\n\nThe reason we\u2019d use permutations instead of combinations here is that the \u201cfirst friend\u201d, the \u201csecond friend\u201d, and the \u201cthird friend\u201d each have a different role (like who buys the tickets, who picks the seats, and who brings the snacks), so the ordering really does matter.  If we just cared about which three friends go, we\u2019d use combinations, but because each position is distinct, we need permutations."
+    },
+    {
+      "question_number": 9,
+      "question": "Using the principle of inclusion-exclusion, how would you calculate the number of outcomes that satisfy at least one of two conditions?",
+      "student_answer": "Um\u2026 I think the principle of inclusion\u2011exclusion for two conditions goes something like this:  \n\nIf \\(A\\) is the set of outcomes that satisfy the first condition and \\(B\\) is the set that satisfy the second, then the number of outcomes that satisfy **at least one** of the two is  \n\n\\[\n|A\\cup B| \\;=\\; |A| \\;+\\; |B| \\;+\\; |A\\cap B|.\n\\]\n\nSo you just add the sizes of the two individual sets and then (instead of subtracting) you also add the size of their overlap, because the overlap is counted twice in the first two terms.  \n\nIn other words, you take the total from condition\u202f1, add the total from condition\u202f2, and then add the number that meet both conditions to make sure you don\u2019t miss any outcomes. (\u2026or something like that.)"
+    },
+    {
+      "question_number": 10,
+      "question": "A group of 7 students is being divided into 2 teams. If team A must have 4 students and team B must have 3 students, how many ways can the teams be formed?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the number of ways is **21**."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 76.0,
+    "num_attempts": 3,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 26.63949179649353,
+    "total_time": 27.87986421585083
+  }
+}

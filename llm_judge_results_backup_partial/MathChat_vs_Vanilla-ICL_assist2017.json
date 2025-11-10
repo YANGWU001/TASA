@@ -1,0 +1,127 @@
+{
+  "target_method": "MathChat",
+  "baseline_method": "Vanilla-ICL",
+  "dataset": "assist2017",
+  "backbone": "gpt",
+  "total_comparisons": 14,
+  "target_wins": 2,
+  "baseline_wins": 12,
+  "ties": 0,
+  "win_rate": 0.14285714285714285,
+  "avg_score_target": 5.3500000000000005,
+  "avg_score_baseline": 6.985714285714286,
+  "detailed_results": [
+    {
+      "student_id": 570,
+      "concept_text": "sum-of-interior-angles-triangle",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A\u2019s instructional quality suffers from repeated restatement of the same theorem and example without adjusting to the student\u2019s repeated \u201cI don\u2019t know\u201d responses; it becomes verbose but stagnant, which may frustrate the learner. Personalization is minimal\u2014it doesn\u2019t respond to the student\u2019s documented weaknesses in arithmetic accuracy, nor does it scaffold subtraction steps where the student frequently errs. Dialogue B, on the other hand, provides clearer, more concise step-by-step guidance, catches and corrects the student\u2019s small arithmetic mistakes in context, and actively engages the student with checking methods (adding all angles back to 180\u00b0) to reinforce accuracy. While both dialogues are generic and not deeply tailored to the student\u2019s profile, Dialogue B\u2019s immediate correction of subtraction mistakes and encouragement after partial successes directly targets the student\u2019s specific arithmetic slip pattern, improving learning effectiveness. Engagement is stronger in Dialogue B due to responsive feedback and incremental prompting, and the overall path is more efficient.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 570,
+      "concept_text": "sum-of-interior-angles-triangle",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A repeats the same basic triangle\u2011angle sum explanation multiple times without adjusting approach or addressing arithmetic slips directly, leading to inefficient learning. While explanations are technically sound, the heavy repetition and lack of variation make it less engaging, and personalization from the student profile is absent\u2014it\u2019s generic instruction that doesn\u2019t target known weaknesses.  \nDialogue B, on the other hand, provides clear, concise explanations with immediate correction of arithmetic errors, identifies where the student did well, and pinpoints specific mistakes. The tutor scaffolds problem\u2011solving in incremental steps, actively checks understanding, and reminds the student of the systematic method while encouraging persistence. Personalization is still generic, but the responsiveness to student mistakes and the focus on incremental problem\u2011solving better match this student\u2019s documented need for arithmetic accuracy and step\u2011by\u2011step guidance. As a result, B offers stronger instructional quality and engagement with direct impact on learning outcomes.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 491,
+      "concept_text": "percents",
+      "winner": "baseline",
+      "score_a": 4.5,
+      "score_b": 7.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A repeatedly attempts multi\u2011step problems involving both discounts and sales tax, but the explanations are fragmented, there are calculation tags with errors, and the pacing seems disorganized. Although it touches on a skill the student struggles with (\u201cdiscount\u201d), the complexity may overwhelm given the student\u2019s very low accuracy in percents/discount problems. Personalization is minimal\u2014it doesn\u2019t clearly adapt difficulty despite the student\u2019s need for simpler, single\u2011concept practice.  \nDialogue B is more structured: it starts with a simple single\u2011discount problem, walks the student through percent\u2011to\u2011decimal conversion, multiplication, and subtraction explicitly, and then gradually increases difficulty with similar problems. The tutor consistently corrects errors in student estimation or multiplication with clear reasoning and alternative computation strategies (like breaking percents into smaller parts), which directly targets the student\u2019s weak areas in percents and multiplication. This demonstrates actionable personalization aligned to the student\u2019s profile and yields more effective scaffolding and engagement.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [7/10]**  \n**Overall Score: A [4.5/10], B [7.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 183,
+      "concept_text": "fraction-multiplication",
+      "winner": "baseline",
+      "score_a": 4.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A repeatedly restates the same fraction multiplication problem with minor variations, but suffers from cluttered presentation, repeated \u201cI don\u2019t know\u201d exchanges, and occasional calculation notation errors. While it does offer step-by-step fraction multiplication, the repetition without genuine progression makes it inefficient, and explanations do not adapt to the student's clear need for structured practice. Personalization is minimal\u2014there\u2019s no targeted connection to the student\u2019s known struggle with fractions or concrete effort to scaffold based on that weakness.\n\nDialogue B, while also generic, delivers cleaner, focused explanations and multiple distinct practice problems that gradually reinforce the multiplication-of-fractions concept in varied contexts (gardens, pizzas, classroom scenarios, recipes). It consistently reinforces the \u201cmultiply numerators, multiply denominators, simplify\u201d rule and clearly explains the reasoning behind multiplication for intersection problems, which directly addresses the student's low accuracy in fraction multiplication. Although not explicitly using the profile, the variety and scaffolded repetition are more likely to help a struggling student grasp the process. Engagement is better sustained through fresh examples and direct feedback.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [4/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 119,
+      "concept_text": "equivalent-fractions-decimals-percents",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides more complete, accurate, and step\u2011by\u2011step instructional explanations compared to Dialogue B. In A, the tutor models each calculation and explains the reasoning behind each step, which is well\u2011suited to the student's stated weakness in equivalent\u2011fractions\u2011decimals\u2011percents. While the personalization is not deeply tied to the student\u2019s profile, the repeated scaffolding and breaking down of tasks align well with the student's low confidence and repeated \"I don't know\" responses, directly addressing barriers to learning. Dialogue B, in contrast, gives general procedural outlines without actually walking through the specific numerical problem, leaving the student without concrete worked examples; it focuses heavily on reminding conversion steps but lacks demonstration, which is less effective for this student. Neither dialogue strongly leverages the student\u2019s broader profile data, but Dialogue A's detailed worked examples more effectively meet the student's needs.\n\n**Instructional Quality: A [8/10], B [5/10]**  \n**Personalization Impact: A [6/10], B [4/10]**  \n**Overall Score: A [7/10], B [5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1093,
+      "concept_text": "discount",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A offers correct calculations and step-by-step explanations, but it is repetitive and spends a lot of time restating similar computations without moving the student forward in skill development. It does not meaningfully adjust instruction to the student's known weakness in 'discount' problems beyond solving the problem for them, so personalization is minimal. Dialogue B, while also generic, uses a clear 3-step routine consistently and encourages the student to attempt each part, providing targeted feedback when they stop or make an error. This scaffolding better fits the student\u2019s profile with low accuracy on 'discount' and related skills, guiding them toward procedural mastery. The pacing in Dialogue B is also more incremental, helping the student actively engage with each step instead of passively observing the solution. Overall, the instructional quality is slightly stronger in B due to structured repetition, and personalization\u2014though modest\u2014is more actionable in guiding the student through their specific difficulties.\n\n**Instructional Quality: A [6/10], B [7/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 570,
+      "concept_text": "sum-of-interior-angles-triangle",
+      "winner": "baseline",
+      "score_a": 6.0,
+      "score_b": 8.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A repeats the same conceptual explanation of the triangle angle\u2011sum theorem multiple times without varying the approach, causing redundancy and reduced efficiency. While it is clear and correct, the pacing is slow and doesn\u2019t adapt to the student\u2019s consistent \u201cI don\u2019t know\u201d responses with new strategies or targeted scaffolding. Personalization is minimal\u2014there\u2019s no direct link to the student\u2019s specific profile or prior performance, and explanations remain generic.  \nDialogue B, on the other hand, maintains clear step\u2011by\u2011step reasoning but moves more efficiently from concept to practice. It actively builds on the student\u2019s partially correct attempts, highlighting exactly where small arithmetic slips occur and showing how to verify answers\u2014a critical skill for this student with known accuracy issues in basic operations. The tutor adjusts the focus toward subtraction accuracy and equation setup, which aligns with the student\u2019s weaknesses in subtraction, equation\u2011solving, and sum-of-interior-angles-triangle. This targeted error correction and incremental guidance make Dialogue B both more efficient and genuinely personalized to the student\u2019s needs.\n\n**Instructional Quality: A [7/10], B [8/10]**  \n**Personalization Impact: A [5/10], B [7/10]**  \n**Overall Score: A [6/10], B [8/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1098,
+      "concept_text": "combinatorics",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A maintains a clear, accurate, and consistent step\u2011by\u2011step explanation of combination problems, walking the student through the reasoning process whenever they respond with \"I don't know\" or provide incorrect answers. The instructional quality is strong, with repeated checks of the student\u2019s work, correction of errors, and explanation of why mistakes like getting 105 instead of 210 occur. Although personalization isn't explicitly tied to the student\u2019s profile weaknesses, the focus on combinatorics aligns with one of the student\u2019s identified weak areas, and the tutor uses scaffolding by breaking problems into smaller components. Dialogue B also provides correct explanations and example problems, but its instructional progression is less coherent and moves quickly to new contexts without leveraging the student profile or steadily building on earlier content. It feels more generic and lacks targeted reinforcement on the student\u2019s weakest points. Therefore, A is superior for both instructional quality and indirectly addressing the student\u2019s combinatorics weakness.\n\n**Instructional Quality: A [8/10], B [6/10]**  \n**Personalization Impact: A [6/10], B [4/10]**  \n**Overall Score: A [7/10], B [5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 491,
+      "concept_text": "percents",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 8.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A presents multiple versions of the same problem but quickly becomes repetitive and fragmented, with several incomplete explanations and abrupt transitions. While it touches on a discount + tax scenario\u2014which is relevant to the student\u2019s weak areas\u2014it doesn\u2019t adjust the complexity or scaffold effectively given the student's low accuracy in percents and discount topics. Dialogue B, on the other hand, offers a clearer, more structured learning path: starting from a simple discount problem ($8 cupcake), guiding the student through converting percents to decimals, progressing to larger numbers and different percent values, and giving targeted feedback on calculation slips. This stepwise progression aligns well with the student\u2019s profile (serious struggles with percents and discount) by starting simple and increasing difficulty in manageable increments. Although personalization is mostly implicit, B\u2019s level adjustments and explicit correction of decimal multiplication errors directly target the student\u2019s weaknesses. Engagement is more consistent in B, with frequent prompts for the student to try similar problems and iterative feedback. Overall, B\u2019s clarity, progression, and responsiveness better match the student\u2019s needs.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [7/10]**  \n**Overall Score: A [5/10], B [8/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 774,
+      "concept_text": "percents",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A shows some clear mathematical explanations, but it frequently repeats the same discount calculation without progressing the student toward solving complete percent problems. The pacing stalls, and the multiple rehashing of the same step suggests poor efficiency. Personalization is minimal\u2014although the student profile shows severe struggles with percents, the tutor does not adapt the approach to address misconceptions systematically (e.g., using simpler numbers, visual aids, or multiple strategies).  \nDialogue B offers clearer step-by-step scaffolding for multiple percent-off scenarios, checks each student attempt, and corrects specific arithmetic errors while reinforcing the process (convert percent to decimal, multiply, subtract). The breakdown into 10%, 20%, 5% chunks is a strategy well-suited to this student\u2019s low percent accuracy and gives actionable alternatives to direct decimal multiplication. It remains interactive, progresses to slightly more complex scenarios, and provides feedback tied directly to student mistakes. Although neither uses the student\u2019s profile explicitly, Dialogue B\u2019s strategy aligns better with the student\u2019s needs.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 491,
+      "concept_text": "percents",
+      "winner": "baseline",
+      "score_a": 6.4,
+      "score_b": 8.3,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A presents clear step-by-step solutions to discount and tax problems but suffers from repetitiveness and occasional distraction with multiple restarts of the same problem, which can slow progress. While it covers relevant topics (discounts, percents) that the student struggles with, there is no evidence of tailoring the approach to the student's profile beyond matching the topic. Dialogue B, on the other hand, maintains clearer pacing, progresses through multiple related percent problems with incremental complexity, and responds to student errors by pinpointing both conceptual and computation mistakes (e.g., miscalculating 1% of a number). It uses formative assessment effectively and builds on partial correct reasoning, scaffolding skills from basic discount calculation toward percentage decomposition strategies. Though B doesn\u2019t explicitly reference the student\u2019s profile, the targeted error correction on percent calculations directly addresses a high-need area for this student, creating more actionable personalization in practice. This makes B\u2019s personalization more meaningful and its instructional quality stronger in outcome-focused ways.\n\n**Instructional Quality: A [7/10], B [9/10]**  \n**Personalization Impact: A [5/10], B [7/10]**  \n**Overall Score: A [6.4/10], B [8.3/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 570,
+      "concept_text": "sum-of-interior-angles-triangle",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A suffers from excessive repetition of the same rule and example without meaningful progression, which slows pacing and reduces efficiency. While the explanations are technically correct, they revisit identical calculations multiple times, making it less engaging and not well-aligned to the student\u2019s need for varied practice. There\u2019s also no evidence of personalization tied to the student\u2019s weak performance profile\u2014tasks stay generic.  \nDialogue B, on the other hand, offers clear step-by-step modeling with targeted feedback on the student\u2019s actual inputs, diagnosing arithmetic slips and showing how to check answers. The tutor actively involves the student in setting up equations and moving through addition and subtraction steps, creating stronger formative assessment loops. Although personalization to the student profile (e.g., repeated arithmetic errors, need for scaffolded subtraction practice) is implicit and not explicitly linked to their history, it still adapts to the real-time mistakes in a way that promotes skill improvement. Overall, B\u2019s instructional quality and engagement are stronger, and its efficiency is higher due to varied problems and focused feedback.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 491,
+      "concept_text": "percents",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A presents many step-by-step solutions involving discounts and sales tax, but it often repeats the same jacket scenario without adapting the complexity to the student\u2019s severe difficulty with percents and discount calculations. The instructional quality is somewhat fragmented, with multiple restarts and incomplete segments that might overwhelm this student rather than build skills incrementally. Personalization is minimal\u2014while the student profile shows they struggle heavily with percents, A doesn\u2019t deliberately scale down the problem beyond involving taxes, which adds unnecessary cognitive load early on.  \nDialogue B, on the other hand, guides the student through simpler percent-of-a-number problems, starting with a small $8 cupcake example and gradually moving to more challenging amounts. The tutor consistently identifies exactly where the student\u2019s math went wrong, offers corrective strategies (like breaking percents into parts), reinforces correct conversions, and fosters engagement through interactive practice questions. This progression better matches the student's profile data and weak areas, giving them achievable steps and immediate feedback that can improve their accuracy with percents and discounts.  \nAlthough B is still generic in personalization, it operationalizes the scaffolded approach in a way that aligns with the student\u2019s needs, and the explanations are consistently clear and interactive.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1098,
+      "concept_text": "combinatorics",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A focuses on a combinatorics committee-selection problem, but it repeats the same worked example multiple times with little progression and contains calculation markers like \u201c[\u8ba1\u7b97\u9519\u8bef]\u201d that could confuse the student. While the step-by-step explanations are accurate, the pacing is slow, and it does not adapt the delivery to the student\u2019s low combinatorics accuracy\u2014instead, it just re\u2011presents the same type of problem verbatim. Personalization appears minimal; it doesn\u2019t explicitly connect to the student\u2019s profile or scaffold from simpler to harder combinatorics tasks.  \nDialogue B, by contrast, introduces several different combinatorics contexts (flavors, cupcakes, smoothies, committees), progressively increasing complexity and varying representations (permutations, combinations with repetition). It responds directly to student mistakes, explaining misconceptions (e.g., unordered vs ordered selections, stars\u2011and\u2011bars) with clear corrections. Although it also does not overtly reference the student\u2019s profile, its sequencing from simpler to more complex counting scenarios is more aligned to a struggling student\u2019s needs, providing fresh entry points to core concepts rather than repeating one example. This makes B more engaging and potentially more effective for improving the student\u2019s weak combinatorics skill.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    }
+  ]
+}

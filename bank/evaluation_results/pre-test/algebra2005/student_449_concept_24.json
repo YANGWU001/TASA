@@ -1,0 +1,86 @@
+{
+  "student_id": "449",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "Define Variable",
+  "concept_id": "24",
+  "original_accuracy": 0.75,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.25,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a thorough understanding of variables in programming, including their definition, usage, scope, and importance. All answers are accurate and well-explained, showing a strong grasp of the concepts.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the definition of a variable in programming?",
+      "student_answer": "A variable in programming is a named storage location that holds a value which can be read and modified during the execution of a program. It acts as a symbolic identifier for data, allowing the program to reference, manipulate, and retrieve that data by its name rather than by a fixed memory address."
+    },
+    {
+      "question_number": 2,
+      "question": "Provide an example of a variable and explain its purpose.",
+      "student_answer": "**Example of a variable**\n\n```python\n# Python example\nage = 25\n```\n\n**Purpose**\n\n- **Store information:** The variable `age` holds the numeric value `25`, which represents a person\u2019s age.\n- **Make the program flexible:** Instead of hard\u2011coding the number `25` everywhere, we can refer to `age`. If the person\u2019s age changes, we only need to update the variable\u2019s value in one place.\n- **Enable calculations and decisions:** Later in the code we can use `age` in expressions (e.g., `if age >= 18:`) to control program flow or perform calculations (e.g., `future_age = age + 5`).  \n\nIn short, a variable is a named container that lets a program store, retrieve, and manipulate data dynamically."
+    },
+    {
+      "question_number": 3,
+      "question": "Why are variables important in programming?",
+      "student_answer": "Variables are one of the fundamental building blocks of any program because they let you store, retrieve, and manipulate data while the program runs.  \n\n* **Memory storage** \u2013 A variable provides a named spot in memory where a value can be kept, so you don\u2019t have to remember obscure memory addresses.  \n* **Readability and maintainability** \u2013 By giving a meaningful name to a piece of data (e.g., `totalScore` or `userName`), the code becomes easier for humans to understand and modify.  \n* **Reusability** \u2013 Once a value is stored in a variable, you can reference it many times throughout the program without having to recalculate or re\u2011enter it.  \n* **Flexibility** \u2013 Variables can be updated, allowing the program\u2019s state to change over time (e.g., counters, flags, or configuration settings).  \n* **Abstraction** \u2013 They let you work with concepts rather than raw numbers or strings, making it simpler to implement algorithms and data structures.\n\nIn short, variables enable a program to handle dynamic information, keep code clear, and support the logical flow needed to solve real\u2011world problems."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the difference between declaring and initializing a variable?",
+      "student_answer": "Declaring a variable is the step where you tell the program **what the variable is called and what type of data it will hold**.  \nFor example, in C\u2011style syntax:\n\n```c\nint count;      // declaration only\n```\n\nAt this point the compiler knows there is a variable named\u202f`count` that can store an `int`, but no specific value has been given to it yet (it contains whatever default the language provides \u2013 for many local variables that means it\u2019s essentially \u201cundefined\u201d).\n\nInitializing a variable is the act of **giving that variable its first concrete value**. You can do this at the same time you declare it:\n\n```c\nint count = 0;  // declaration + initialization\n```\n\nor you can assign a value later:\n\n```c\nint count;      // declaration\ncount = 0;      // separate initialization step\n```\n\nSo, in short: **declaration creates the name and type; initialization assigns an initial value** (often done in the same statement, but the two concepts are distinct)."
+    },
+    {
+      "question_number": 5,
+      "question": "How do you assign a value to a variable in your preferred programming language?",
+      "student_answer": "In most languages you use the \u201cequals\u201d sign (\u202f=\u202f) to give a variable a value.  \nFor example, in my favorite language, **Python**, you would write:\n\n```python\n# Assign the integer 42 to the variable named \u201canswer\u201d\nanswer = 42\n```\n\nThe name on the left\u2011hand side (\u202fanswer\u202f) becomes a reference to the object on the right\u2011hand side (\u202f42\u202f). After this statement you can use `answer` anywhere in the program and it will hold the value\u202f42 (or whatever value you later re\u2011assign to it).\n\nA quick comparison with a few other common languages:\n\n| Language | Declaration & Assignment |\n|----------|--------------------------|\n| **JavaScript** | `let score = 100;` (or `var score = 100;` for older code) |\n| **Java** | `int score = 100;`  // type must be declared |\n| **C++** | `int score = 100;` |\n| **Ruby** | `score = 100` (no explicit type needed) |\n\nThe core idea is the same: the variable name appears on the left of `=`, and the value you want to store appears on the right. Subsequent statements can read or change that variable using the same syntax."
+    },
+    {
+      "question_number": 6,
+      "question": "Can a variable's value be changed after it is initialized? Explain with an example.",
+      "student_answer": "Yes.\u202fIn most programming languages a variable\u2019s value can be changed after it has been initialized.  \nThe initial assignment only gives the variable a starting value; later statements can assign a new value to the same variable.\n\n**Example (Python)**  \n\n```python\n# initialization\ncounter = 5          # counter now holds the value 5\n\nprint(counter)      # \u2192 5\n\n# change the value later\ncounter = counter + 2   # counter now holds 7\n\nprint(counter)      # \u2192 7\n```\n\nWhen the program runs, `counter` first receives the value\u202f5. The later statement `counter = counter + 2` overwrites the previous value with\u202f7. This shows that the variable\u2019s value can be updated after its initial assignment.\n\n(If a variable is declared as a constant\u2014e.g., `final int X = 10;` in Java or `const int X = 10;` in C++\u2014then it cannot be changed after initialization. But a regular mutable variable can be reassigned as shown above.)"
+    },
+    {
+      "question_number": 7,
+      "question": "What are the rules for naming a variable in most programming languages?",
+      "student_answer": "**Typical rules for naming a variable**\n\n1. **Start with a letter or the underscore (`_`)** \u2013 you can\u2019t begin a name with a digit.  \n2. **After the first character you may use letters, digits, or underscores** \u2013 e.g., `count1`, `total_sum`, `_temp`.  \n3. **No spaces or special punctuation** \u2013 characters like `-`, `+`, `!`, `@`, etc., are not allowed.  \n4. **Case\u2011sensitivity** \u2013 in most languages `score` and `Score` are different identifiers.  \n5. **Don\u2019t use reserved keywords** \u2013 you can\u2019t name a variable `if`, `while`, `class`, etc.  \n6. **Avoid starting with double underscores** \u2013 many languages reserve names that begin with `__` for internal use.  \n7. **Length limit** \u2013 most modern languages impose no practical limit, but older languages (e.g., early versions of Fortran) limited names to 31 characters.  \n\n*(Note: the \u201c31\u2011character\u201d limit is not a rule for most current languages; it\u2019s a historical artifact.)*"
+    },
+    {
+      "question_number": 8,
+      "question": "Explain the concept of variable scope with an example.",
+      "student_answer": "**Variable scope** describes the region of a program where a variable name is visible and can be accessed. A variable\u2019s scope determines which parts of the code are allowed to read or modify its value.  \n\nThere are two main kinds of scope:\n\n| Scope type | Where it lives | Visibility |\n|------------|----------------|------------|\n| **Global scope** | Declared outside any function, class, or block | Available everywhere in the program (unless shadowed by a local variable with the same name). |\n| **Local scope** | Declared inside a function, method, or a block (e.g., `{}` in C/JavaScript, indentation block in Python) | Visible only inside that function or block. When the block finishes, the variable is destroyed. |\n\n### Example (Python)\n\n```python\nx = 10                     # <-- global variable\n\ndef foo():\n    y = 5                  # <-- local to foo()\n    print(x)              # can use the global x\n    print(y)              # can use its own local y\n\ndef bar():\n    x = 20                 # <-- this x is *local* to bar, it hides the global x\n    print(x)              # prints 20, not the global 10\n\nfoo()      # Output: 10 5\nbar()      # Output: 20\nprint(x)   # Output: 10 (global x unchanged)\n```\n\n- `x` defined at the top is **global**; both `foo()` and the code after the functions can see it.  \n- Inside `foo()`, `y` is **local**; only `foo()` can see `y`.  \n- Inside `bar()`, a new local variable named `x` is created; it **shadows** the global `x` only within `bar()`. The global `x` remains 10 outside `bar()`.\n\n### Why scope matters\n\n- **Prevent name clashes:** Two different functions can use the same variable name without interfering, because each name lives in its own local scope.  \n- **Resource management:** Local variables are created when a function starts and destroyed when it ends, freeing memory automatically.  \n- **Maintainability:** Knowing where a variable can be accessed makes the code easier to read and debug.\n\nIn languages with block\u2011level scope (e.g., JavaScript `let`/`const`, C, Java), variables declared inside `{}` are only visible inside that block, adding another layer of granularity beyond just function scope."
+    },
+    {
+      "question_number": 9,
+      "question": "What are the differences between local and global variables?",
+      "student_answer": "**Local vs. Global Variables**\n\n| Feature | Local Variable | Global Variable |\n|---------|----------------|-----------------|\n| **Scope** | Visible only inside the block or function where it is declared. | Visible to every function in the program (or every file if declared\u202f`extern`). |\n| **Lifetime** | Exists only while the function (or block) is executing; memory is reclaimed when it returns. | Exists for the entire run of the program \u2013 it is created before `main` starts and destroyed after the program ends. |\n| **Default Initialization** | In most languages (e.g., C, C++) a local variable is **not** automatically set to zero; it contains whatever garbage was in the stack memory. | Global variables are automatically initialized to zero (or the language\u2011specific \u201cdefault\u201d value) if no explicit initializer is given. |\n| **Memory Region** | Usually stored on the stack (or in the function\u2019s activation record). | Typically stored in the data segment (static storage) rather than the stack. |\n| **Accessibility from Other Files** | Cannot be accessed directly from other source files unless passed as a parameter. | Can be accessed from other translation units when declared with `extern` (or equivalent). |\n| **Name Collisions** | Because the name lives only inside the function, you can reuse the same identifier in different functions without conflict. | A global name must be unique across the whole program; re\u2011declaring it elsewhere will cause a clash or require `static`/namespace tricks. |\n| **Thread Safety** | Each thread gets its own copy of the stack, so local variables are naturally thread\u2011safe (unless you explicitly share them). | A single global instance is shared by all threads, so you must protect it with synchronization if it can be written concurrently. |\n| **Typical Use\u2011Case** | Temporary data needed only while a routine runs (loop counters, intermediate results). | Configuration data, shared resources, constants that many parts of the program need to read or modify. |\n\n**Common Pitfalls**  \n- Some students think a local variable can be accessed from any function once it\u2019s declared \u2013 that\u2019s false; its scope is limited to its own block.  \n- Others assume global variables are stored on the stack; in reality they live in static storage, not the stack.  \n\nOverall, the key distinction is **where** the variable can be seen (scope) and **how long** it lives (lifetime)."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe a situation where using variables can simplify a programming task.",
+      "student_answer": "Using variables lets you store intermediate values instead of repeatedly recomputing or hard\u2011coding numbers.  \nFor example, imagine you need a program that calculates the total cost of a shopping cart, including tax. You could write the formula each time you need a price, but with variables it becomes much clearer:\n\n```python\nunit_price = 19.99          # price of one item\nquantity   = 3              # how many items were bought\ntax_rate   = 0.07           # 7\u202f% sales tax\n\nsubtotal   = unit_price * quantity\ntax_amount = subtotal * tax_rate\ntotal      = subtotal + tax_amount\n```\n\nHere each variable (`unit_price`, `quantity`, `tax_rate`, `subtotal`, `tax_amount`, `total`) holds a specific piece of data. If any value changes\u2014say the tax rate goes up or the customer buys a different quantity\u2014you only need to modify the relevant variable, and the rest of the calculation updates automatically. This makes the code easier to read, maintain, and debug compared to writing the whole expression inline or repeating the same calculations in multiple places."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 780.0,
+    "num_attempts": 20,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 48.670143365859985,
+    "total_time": 50.12777042388916
+  }
+}

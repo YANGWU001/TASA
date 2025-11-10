@@ -1,0 +1,109 @@
+{
+  "student_id": 730,
+  "dataset": "assist2017",
+  "concept": "supplementary-angles",
+  "method": "TutorLLM",
+  "total_rounds": 10,
+  "dialogue": [
+    {
+      "role": "user",
+      "content": "I want to learn about supplementary-angles",
+      "round": 0
+    },
+    {
+      "role": "assistant",
+      "content": "**Practice Question \u2013 Supplementary Angles**\n\nAngle\u202fA and angle\u202fB are supplementary (their measures add up to\u202f180\u00b0).  \nIf the measure of angle\u202fA is **three times** the measure of angle\u202fB, what are the measures of angle\u202fA and angle\u202fB?  \n\n*Show your work and write your final answers in degrees.*",
+      "round": 1
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 let me try to work this out.\n\nSince the two angles are supplementary, their measures should add up to\u202f180\u00b0.  \nI\u2019ll call the measure of angle\u202fB \u201c\\(x\\)\u201d.  \nThe problem says angle\u202fA is three times the measure of angle\u202fB, so I think angle\u202fA would be \\(3x\\).\n\nSo I set up the equation  \n\n\\",
+      "round": 2
+    },
+    {
+      "role": "assistant",
+      "content": "### 1\ufe0f\u20e3 Feedback on Your Work  \n\n**What you did well**  \n- **Identified the right relationship:** You correctly noted that the two angles must add to\u202f180\u00b0.  \n- **Chose a variable:** Calling the unknown angle\u202f\\(B\\) \u201c\\(x\\)\u201d is exactly the kind of step we want.  \n- **Recognized the \u201cthree\u2011times\u201d wording:** Stating that angle\u202f\\(A = 3x\\) shows you\u2019re listening to the problem language.\n\n**What\u2019s missing / next steps**  \n| Step | What you need to do | Why it matters |\n|------|--------------------|----------------|\n| **Write the equation that ties the two angles together** | Since the angles are supplementary: \\(\\;A + B = 180^\\circ\\). Substituting the expressions you\u2019ve defined gives \\(3x + x = 180\\). | This is the algebraic \u201cbridge\u201d from the word problem to a solvable equation. |\n| **Solve for \\(x\\)** | Combine like terms: \\(4x = 180\\). Then divide both sides by 4: \\(x = 45\\). | Solving isolates the unknown and gives the actual measure of angle\u202f\\(B\\). |\n| **Find the other angle** | Plug \\(x = 45\\) back into \\(A = 3x\\): \\(A = 3(45) = 135\\). |",
+      "round": 2
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 3
+    },
+    {
+      "role": "assistant",
+      "content": "### \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Response  \n\n**What you did well**  \n- **You recognized that you were stuck** \u2013 that\u2019s an important step. Knowing when you need a little extra help is how learning gets moving forward.  \n- **You kept the conversation open** \u2013 saying \u201cI don\u2019t know\u201d lets us pause and look at the problem together.\n\n**Where you can improve**  \n- **Turn the \u201cdon\u2019t know\u201d into a concrete next step.**  When a problem feels overwhelming, try to write down *any* piece of information you do know (even if it seems tiny). That gives us a foothold to build on.  \n- **Use the variable you already introduced.** You already said \u201clet\u202f\\(x\\) be the measure of angle\u202fB.\u201d That\u2019s a great start\u2014now ask yourself, \u201cWhat does the problem tell me about angle\u202fA in terms of\u202f\\(x\\)?\u201d  \n\n**A quick hint to finish the current problem**  \n1.\u202fYou have \\(B = x\\).  \n2.\u202fThe problem says \u201cangle\u202fA is three times the measure of angle\u202fB,\u201d so write \\(A = 3x\\).  \n3.\u202fBecause the angles are supplementary, \\(A + B = 180^\\circ\\).  \n4.\u202fSubstitute the expressions from steps\u202f1\u20112 into the equation",
+      "round": 3
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 okay, let me try to finish this.\n\nSo we have  \n\n1.\u202f\\(B = x\\)  \n\n2.\u202fThe problem says \u201cangle\u202fA is three times the measure of angle\u202fB,\u201d so I think that means \\(A = 3x\\).  \n\n3.\u202fBecause they\u2019re supplementary, \\(A + B = 180^\\circ\\).  \n\n4.\u202fNow I\u2019m supposed to plug the expressions in\u2026 I guess it looks like  \n\n\\[\n3x + x = 180.\n\\]\n\nSo that would give \\(4x = 180\\), and then\u2026\n\n\\[\nx = \\frac{180}{4} = 45.\n\\",
+      "round": 4
+    },
+    {
+      "role": "assistant",
+      "content": "## \u2705 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| What you did well | How you can tighten it up |\n|-------------------|---------------------------|\n| **Identified the relationship** \u2013 you correctly wrote \u201c\\(A\\) and \\(B\\) are supplementary, so \\(A+B=180^\\circ\\)\u201d. | **State the reason**: \u201cAngles that form a straight line are supplementary, therefore their measures add to\u202f180\u00b0.\u201d A short sentence helps you remember *why* the equation is true. |\n| **Introduced a variable** \u2013 letting \\(B=x\\) kept the algebra simple. | **Label the variable in the answer**: after solving, write \u201c\\(B = x = 45^\\circ\\)\u201d. This makes it crystal\u2011clear which angle you found. |\n| **Set up the equation** \u2013 \\(3x+x=180\\) is exactly what the problem calls for. | **Check the algebra**: you correctly divided by\u202f4 to get \\(x=45\\). A quick \u201cplug\u2011back\u201d ( \\(3\u00b745+45 = 180\\) ) confirms the work. |\n| **Finished the problem** \u2013 you arrived at the correct value for \\(x\\). | **Write the final angles**: \\(B =",
+      "round": 4
+    },
+    {
+      "role": "user",
+      "content": "Um\u2026 here\u2019s what I think about your last answer.\n\n| What you did well | How you can tighten it up |\n|-------------------|---------------------------|\n| **Identified the relationship** \u2013 you wrote \u201c\\(A\\) and \\(B\\) are supplementary, so \\(A+B=180^\\circ\\)\u201d. | **State the reason**: \u201cAngles that share a vertex are always supplementary, therefore their measures add to\u202f180",
+      "round": 5
+    },
+    {
+      "role": "assistant",
+      "content": "## \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| **What you did well** | **How you can tighten it up** |\n|-----------------------|--------------------------------|\n| You correctly remembered that *supplementary* angles add to\u202f180\u00b0 and wrote the equation **\\(A + B = 180^\\circ\\)**. |\u202fYou stopped at the equation without turning it into a complete solution.  To finish the problem you need to: <br>1. **State the reason** for the equation (angles that form a straight line are supplementary, so their measures sum to\u202f180\u00b0). <br>2. **Substitute** the expressions you already have for\u202f\\(A\\) and\u202f\\(B\\) (e.g., \\(A = 3x\\), \\(B = x\\)). <br>3. **Solve for the variable** \\(x\\). <br>4. **Find the actual angle measures** and check that they really are supplementary. |\n| You recognized that you were \u201cstuck\u201d and asked for help. |\u202fGreat self\u2011advocacy!\u202fWhen you feel stuck, try **reading the problem statement again** and **highlighting the key relationships** (e.g., \u201cA is three times B\u201d). That often gives you the missing piece to set up the algebra. |\n\n### Quick \u201cwhat\u2011next\u201d checklist for this problem  \n\n1. **Write the relationship**: \\(A = 3B\\)",
+      "round": 5
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 6
+    },
+    {
+      "role": "assistant",
+      "content": "## \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| **What you did well** | **How you can tighten it up** |\n|-----------------------|--------------------------------|\n| **You were honest about not knowing the answer.**  Recognizing when you\u2019re stuck is the first step toward learning it. | **Turn \u201cI don\u2019t know\u201d into a starting point for problem\u2011solving.**  Before giving up, try one of these quick checks: <br>\u202f\u202f\u2022\u202fWhat does the word *supplementary* mean? <br>\u202f\u202f\u2022\u202fCan you write an equation that connects the two angles? <br>\u202f\u202f\u2022\u202fDo you remember any similar example we solved earlier?  Even a rough guess gives you something to work with and helps the tutor guide you more precisely. |\n\n---\n\n## \ud83c\udfaf 2\ufe0f\u20e3 Next Practice Question \u2013 Supplementary Angles  \n\n> **Problem:**  \n> Two angles are supplementary. The measure of the larger angle is **four times** the measure of the smaller angle **minus 10\u00b0**.  \n>   \n> 1. Write an equation that represents the relationship between the two angles.  \n> 2. Solve for the measure of each angle.  \n> 3. Check your answer by confirming the two angles add up to 180\u00b0.\n\n### \ud83d\udccc Hints (use them one at a time if you get stuck)\n\n1. **What does \u201csupplementary\u201d mean?**  \n   \u2192 The two angles add up to **180\u00b0**.\n\n2. **Let the smaller angle be \\(x\\) degrees.**  \n   \u2192 Then the larger angle can be expressed as \\(4x - 10\\) degrees.\n\n3. **Set up the equation** using the supplementary relationship:  \n   \\[\n   x + (",
+      "round": 6
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 7
+    },
+    {
+      "role": "assistant",
+      "content": "## \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| **What you did well** | **How you can tighten it up** |\n|-----------------------|--------------------------------|\n| **You were honest** \u2013 saying \u201cI don\u2019t know\u201d is perfectly okay. It tells me exactly where you\u2019re stuck, so I can give you the right support. | **Turn \u201cI don\u2019t know\u201d into a starting point.**  Try to write down *any* piece of information you do remember about supplementary angles (e.g., \u201ctwo angles that add up to 180\u00b0\u201d). Even a fragment can become a foothold for solving the problem. |\n\n---\n\n## \ud83c\udfaf Next Practice: Supplementary Angles (with a tiny twist)\n\n> **Problem**  \n> In a rectangle, two adjacent interior angles are labeled\u202f\u2220A and \u2220B.  \n> You are told that \u2220A and \u2220B are **supplementary** and that the length of the side opposite \u2220A is 8\u202fcm.  \n> **a.** What is the measure of each angle (\u2220A and \u2220B)?  \n> **b.** If the rectangle\u2019s longer side (the side opposite \u2220B) is 15\u202fcm, what is the **area** of the rectangle?\n\n### Why this question fits you\n* **Supplementary\u2011angles focus** \u2013 you\u2019ll practice the \u201csum to 180\u00b0\u201d rule.  \n* **Area connection** \u2013 you\u2019ve struggled with area before, so part\u202f(b) lets you apply that skill right after the angle work.  \n* **Mean\u2011type reasoning** \u2013 part\u202f(b) requires you to combine two numbers (8\u202fcm and 15\u202fcm) and then \u201caverage\u201d them in a sense by multiplying, which is a nice bridge from your past mean\u2011question difficulty.\n\n---\n\n## \ud83e\udde9 How to Approach It (step\u2011by\u2011step hints)\n\n### Step\u202f1: Recall the definition  \nTwo angles are **supplementary** if their measures add to",
+      "round": 7
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 8
+    },
+    {
+      "role": "assistant",
+      "content": "## \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| **What you did well** | **How you can tighten it up** |\n|-----------------------|--------------------------------|\n| **Honesty** \u2013 You weren\u2019t afraid to say \u201cI don\u2019t know.\u201d That\u2019s a great first step; recognizing a gap lets us fill it. | **Turn \u201cdon\u2019t know\u201d into a plan.** Before you give up, try one of these quick checks: <br>1\ufe0f\u20e3\u202fWhat does the word *supplementary* mean? <br>2\ufe0f\u20e3\u202fDoes the problem give you any numbers or relationships (e.g., \u201cAngle\u202fA is 30\u00b0 less than its supplement\u201d)? <br>3\ufe0f\u20e3\u202fCan you write an equation that captures the relationship? <br>Practicing these three questions will help you move from \u201cI don\u2019t know\u201d to \u201cHere\u2019s what I think.\u201d |\n\n---\n\n## \ud83c\udfaf Next Practice Question \u2013 Supplementary Angles  \n\n### Context (ties in with past work)\n\nYou recently worked on **area** problems (thinking about how shapes fit together) and **mean** problems (averaging numbers).  Let\u2019s combine that \u201cwhole\u2011picture\u201d thinking with angles.\n\n> **Problem**  \n> A rectangular garden is 12\u202fm long. The garden\u2019s **corner** is cut off by a straight path, turning the corner into a triangular \u201ccut\u2011off\u201d piece. The two angles that form this cut\u2011off triangle are **supplementary**. One of those angles measures **\\(x\\) degrees** and the other measures **\\(180 - x\\) degrees**.  \n>",
+      "round": 8
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 9
+    },
+    {
+      "role": "assistant",
+      "content": "## \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| **What you did well** | **How you can tighten it up** |\n|-----------------------|--------------------------------|\n| **Honesty** \u2013 You weren\u2019t afraid to say \u201cI don\u2019t know,\u201d which is the first step toward learning. | **Turn the \u201cdon\u2019t know\u201d into a plan.** When a problem feels stuck, write down everything you *do* know (e.g., \u201csupplementary angles add to 180\u00b0\u201d) and sketch a quick picture. That small step often reveals the path forward. |\n\n---\n\n## \ud83c\udfaf Next Practice Question \u2013\u202fSupplementary Angles  \n\n> **Problem:**  \n> Two angles are supplementary. The measure of the larger angle is **5\u00b0 more than twice** the measure of the smaller angle.  \n>  \n> 1. Write an equation that represents the relationship between the two angles.  \n> 2. Solve for the measure of each angle.  \n> 3. (Optional, for extra practice) Verify that the two angles add up to 180\u00b0.\n\n### \ud83d\udccc How to approach it  \n\n1. **Define a variable** \u2013 let the smaller angle",
+      "round": 9
+    },
+    {
+      "role": "user",
+      "content": "I don't know",
+      "round": 10
+    },
+    {
+      "role": "assistant",
+      "content": "## \ud83d\udccb 1\ufe0f\u20e3 Feedback on Your Last Answer  \n\n| **What you did well** | **How you can tighten it up** |\n|-----------------------|--------------------------------|\n| **Honesty** \u2013 You weren\u2019t afraid to say \u201cI don\u2019t know.\u201d That\u2019s a great start; admitting a gap is the first step toward closing it. | **Turn \u201cI don\u2019t know\u201d into a plan.** When a problem feels stuck, try:  <br>1\ufe0f\u20e3 Identify the key pieces of information given.<br>2\ufe0f\u20e3 Write down any formulas or definitions that might be relevant (e.g., \u201csupplementary angles add to\u202f180\u00b0\u201d).<br>3\ufe0f\u20e3 Sketch a quick picture, even a rough one, to visualize the situation.<br>4\ufe0f\u20e3 Ask yourself, \u201cWhat do I know about one part that could help me find the other?\u201d  Practicing this mini\u2011checklist will give you a foothold before you decide you don\u2019t know. |\n\n---\n\n## \ud83c\udfaf Next Practice Question (Supplementary Angles)\n\n> **Problem:**  \n> In the diagram below, \\(\\angle A\\) and \\(\\angle B\\) form a pair of supplementary angles.  \n> \\[\n> \\angle A = 3x + 10^\\circ \\qquad\\text{and}\\qquad \\angle B = 5x - 20^\\circ\n> \\]  \n> **a.** Find the measure of each angle.  \n> **b.** Verify that the two angles are indeed supplementary.\n\n*(If you don\u2019t have the diagram, just picture two angles that share a common side and whose non\u2011shared sides form a straight line.)*\n\n### How to approach it (a quick checklist)\n\n1. **Recall the definition** \u2013 Supplementary angles add up to \\(180^\\circ\\).  \n2. **Set up the equation** \u2013 Write \\( (3x + 10) + (5x - 20) = 180\\).  \n3. **Solve for \\(x\\).**  \n4. **Plug the value of \\(x\\) back",
+      "round": 10
+    }
+  ]
+}

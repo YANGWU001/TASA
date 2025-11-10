@@ -1,0 +1,86 @@
+{
+  "student_id": "1075",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "median",
+  "concept_id": "72",
+  "original_accuracy": 1.0,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.0,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a thorough understanding of the concept of median, including its definition, calculation methods for both odd and even data sets, and its comparison to mean. The examples provided are accurate and illustrate the student's ability to apply the concept in practical scenarios. No significant mistakes were noted.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the definition of the median in a data set?",
+      "student_answer": "The **median** of a data set is the value that lies in the middle when all the observations are arranged in order from smallest to largest.  \n\n- **If the number of observations is odd**, the median is the single middle number.  \n- **If the number of observations is even**, the median is the average (arithmetic mean) of the two middle numbers.  \n\nIn other words, half of the data points are less than or equal to the median and half are greater than or equal to it."
+    },
+    {
+      "question_number": 2,
+      "question": "How is the median calculated for an odd number of data points?",
+      "student_answer": "The median of a data set with an odd number of observations is the value that lies exactly in the middle when the data are arranged in order.\n\n**Steps**\n\n1. **Sort the data** from smallest to largest (or largest to smallest).  \n2. **Count the number of observations, \\(n\\).** Since \\(n\\) is odd, it can be written as \\(n = 2k + 1\\) for some integer \\(k\\).  \n3. **Locate the middle position:** the index of the median is \\(k + 1\\) (the \\((k+1)^{\\text{st}}\\) term in the ordered list).  \n4. **Read the value** at that position; that value is the median.\n\n**Example**\n\nData set: \\(\\{12,\\;7,\\;9,\\;15,\\;3\\}\\)\n\n1. Sort: \\(\\{3,\\;7,\\;9,\\;12,\\;15\\}\\) (now \\(n = 5 = 2\u00b72 + 1\\)).  \n2. Middle index: \\(k = 2\\) \u2192 position \\(k+1 = 3\\).  \n3. The 3rd value is **9**, so the median = 9.\n\nThus, for any odd\u2011sized data set, the median is simply the middle number after ordering the data."
+    },
+    {
+      "question_number": 3,
+      "question": "How is the median calculated for an even number of data points?",
+      "student_answer": "To find the median when the data set contains an **even** number of observations, follow these steps:\n\n1. **Arrange the data in order** (ascending or descending).  \n2. **Identify the two middle positions.**  \n   - If the total number of points is \\(n\\) (where \\(n\\) is even), the middle positions are  \n     \\[\n     \\frac{n}{2}\\quad\\text{and}\\quad \\frac{n}{2}+1.\n     \\]\n3. **Locate the values** at those two positions in the ordered list; call them \\(a\\) (the \\(\\frac{n}{2}\\)\u2011th value) and \\(b\\) (the \\(\\frac{n}{2}+1\\)\u2011th value).\n4. **Compute the average of the two middle values:**  \n   \\[\n   \\text{Median} = \\frac{a + b}{2}.\n   \\]\n\n**Example**\n\nData set (even size): \\(\\{3, 7, 8, 12, 15, 20\\}\\) (already sorted, \\(n = 6\\)).  \n\n- Middle positions: \\(\\frac{6}{2}=3\\) and \\(\\frac{6}{2}+1=4\\).  \n- Values at those positions: \\(a = 8\\) (3rd value) and \\(b = 12\\) (4th value).  \n- Median: \\(\\displaystyle \\frac{8+12}{2}=10\\).\n\nThus, for an even\u2011sized data set, the median is the arithmetic mean of the two central values after the data are ordered."
+    },
+    {
+      "question_number": 4,
+      "question": "Find the median of the following data set: 3, 7, 5, 9, 2.",
+      "student_answer": "The sorted data set is \\(2, 3, 5, 7, 9\\).  \nSince there are 5 numbers (an odd count), the median is the middle value, which is **5**."
+    },
+    {
+      "question_number": 5,
+      "question": "What is the median of this data set: 12, 15, 21, 30, 40, 50?",
+      "student_answer": "The data set has six numbers, so the median is the average of the 3rd and 4th values:\n\n\\[\n\\text{Median} = \\frac{21 + 30}{2} = \\frac{51}{2} = 25.5\n\\]\n\n**Median = 25.5**"
+    },
+    {
+      "question_number": 6,
+      "question": "Explain the difference between the median and the mean.",
+      "student_answer": "**Median vs. Mean**\n\n- **Median**  \n  - The median is the *middle* value of a data set when the numbers are arranged in order from smallest to largest.  \n  - If the set has an odd number of observations, the median is the single central value.  \n  - If the set has an even number of observations, the median is the average of the two central values.  \n  - Because it depends only on the position of the data points, the median is **not affected by extreme outliers**.\n\n- **Mean (Arithmetic Average)**  \n  - The mean is calculated by adding *all* the values together and then dividing by the total number of observations.  \n  - It uses every data point, so each value contributes proportionally to the final result.  \n  - The mean is **sensitive to outliers**; a very large or very small number can pull the average toward it.\n\n**Key Differences**\n\n| Aspect | Median | Mean |\n|--------|--------|------|\n| Definition | Middle value (or average of two middle values) in an ordered list | Sum of all values divided by the count |\n| Calculation | Requires sorting the data; simple position\u2011based | Requires addition and division; uses all data |\n| Sensitivity to outliers | Robust \u2013 outliers have little effect | Not robust \u2013 outliers can substantially shift the value |\n| Typical use | Skewed distributions, ordinal data, when you want a \u201ctypical\u201d middle point | Symmetric distributions, interval/ratio data, when you need a balance point |\n\n**When to prefer one over the other**\n\n- Use the **median** when the distribution is skewed (e.g., incomes, house prices) or when you suspect outliers that would distort the average.  \n- Use the **mean** when the data are roughly symmetric and you want a measure that reflects the overall total (e.g., exam scores, temperatures).\n\nIn short, the median tells you the \u201ccenter of order,\u201d while the mean tells you the \u201ccenter of mass.\u201d Both are useful, but they convey different information about the shape and behavior of the data set."
+    },
+    {
+      "question_number": 7,
+      "question": "If a data set has outliers, why might the median be a better measure of central tendency than the mean?",
+      "student_answer": "When a data set contains outliers (values that are far larger or far smaller than the rest of the observations), the **mean** can be pulled in the direction of those extreme points because it is calculated by adding every value together and dividing by the number of observations. Even a single very large or very small outlier can drastically change the average, making the mean unrepresentative of where the bulk of the data actually lie.\n\nThe **median**, on the other hand, is the middle value when the data are ordered from smallest to largest (or the average of the two middle values for an even\u2011sized set). Because it depends only on the position of the data rather than their actual magnitudes, the median is **insensitive to extreme values**. The outliers do not affect the ordering enough to shift the central position, so the median remains a stable reflection of the \u201ctypical\u201d observation.\n\n**In short:**  \n- **Mean** is sensitive to outliers \u2192 can be misleading.  \n- **Median** is robust to outliers \u2192 gives a more accurate sense of central tendency when extreme values are present.  \n\nTherefore, when outliers are present, the median is generally a better measure of central tendency than the mean."
+    },
+    {
+      "question_number": 8,
+      "question": "In a symmetric distribution, how does the median compare to the mean?",
+      "student_answer": "In a symmetric distribution the median and the mean occupy the same central point. Because the data are mirrored evenly around the center, the value that splits the data into two equal halves (the median) is exactly the same as the arithmetic average (the mean)."
+    },
+    {
+      "question_number": 9,
+      "question": "A group of students scored the following marks in a test: 45, 50, 55, 60, 65, 70, 75. What is the median score?",
+      "student_answer": "The scores in order are  \n\n45,\u202f50,\u202f55,\u202f**60**,\u202f65,\u202f70,\u202f75  \n\nSince there are 7 observations (an odd number), the median is the middle (4th) value.\n\n**Median score = 60**."
+    },
+    {
+      "question_number": 10,
+      "question": "Provide an example of a situation where calculating the median would be more useful than calculating the mean.",
+      "student_answer": "A common situation where the **median** is more informative than the **mean** is when you\u2019re summarizing **house prices in a city**.\n\n**Why the median is better here**\n\n- **Skewed distribution:** Real\u2011estate prices are usually heavily right\u2011skewed\u2014most homes may be modestly priced, but a few luxury properties can cost many times more than the typical house.\n- **Effect of outliers:** The mean adds up all prices and divides by the number of homes, so those few ultra\u2011expensive houses pull the average upward, giving a picture that suggests \u201ctypical\u201d homes are more expensive than they really are.\n- **Representative value:** The median is the middle value when all home prices are ordered from lowest to highest. Half of the houses cost less than the median and half cost more, so it reflects the price that a \u201ctypical\u201d buyer is more likely to encounter.\n\n**Example**\n\nSuppose a neighborhood has ten homes with the following prices (in thousands of dollars):\n\n\\[120,\\;130,\\;140,\\;150,\\;160,\\;170,\\;180,\\;190,\\;200,\\;1{,}000\\]\n\n- **Mean:** \\((120+130+\u2026+200+1000)/10 = 2{,}200/10 = 220\\)\u202fk$\n- **Median:** The middle two values are 160\u202fk$ and 170\u202fk$, so the median is \\((160+170)/2 = 165\\)\u202fk$\n\nThe mean (\\$220\u202fk) is dramatically higher than what most buyers would actually pay, because the single \\$1\u202fM mansion skews the average. The median (\\$165\u202fk) gives a far more realistic sense of the \u201ctypical\u201d house price in that area. Hence, for policy makers, home\u2011buyers, or real\u2011estate analysts, the median is the preferred summary statistic in this context."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1221.0,
+    "num_attempts": 3,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 37.02973461151123,
+    "total_time": 38.49177861213684
+  }
+}

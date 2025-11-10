@@ -1,0 +1,86 @@
+{
+  "student_id": "516",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "combinatorics",
+  "concept_id": "59",
+  "original_accuracy": 0.25,
+  "roleplay_accuracy": 0.3,
+  "deviation": 0.05,
+  "roleplay_score": 3,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates a basic understanding of some combinatorial concepts, but there are significant misunderstandings in key areas. The formula for combinations is incorrect, and the student confuses permutations and combinations. Additionally, the answers to questions about arrangements and selections show a lack of clarity in applying the principles of combinatorics. More practice and review of the fundamental concepts are needed.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for calculating the number of combinations when choosing r items from a set of n items?",
+      "student_answer": "Um\u2026 I think the formula is something like  \n\n\\[\nC(n,r)=\\frac{n!}{r!\\,(n+r)!}\n\\]\n\nbut I\u2019m not completely sure.  (It might be a bit off.)"
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the difference between permutations and combinations in your own words.",
+      "student_answer": "Um, okay\u2026 so, I think permutations and combinations are kind of the same thing, but\u2026 maybe the only difference is that permutations are when you *don\u2019t* care about the order and combinations are when you *do* care about the order? Like, if you have three letters A, B, C, a permutation would be something like \u201cABC\u201d or \u201cCAB,\u201d and a combination would be just \u201cA, B, C\u201d without caring about the arrangement.  \n\nSo basically, permutations are about picking things and then arranging them, while combinations are just about picking them without any arrangement. I'm not totally sure, but that\u2019s how I understand it."
+    },
+    {
+      "question_number": 3,
+      "question": "How many ways can 5 books be arranged on a shelf?",
+      "student_answer": "Um\u2026 I\u2019m not really sure, but I think there are only **5 ways** to arrange the 5 books on the shelf."
+    },
+    {
+      "question_number": 4,
+      "question": "If a committee of 3 people is to be selected from a group of 10, how many different committees can be formed?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the number of possible committees is **45**."
+    },
+    {
+      "question_number": 5,
+      "question": "A password consists of 4 letters chosen from the English alphabet. If repetitions are allowed, how many different passwords can be created?",
+      "student_answer": "Um\u2026 I think the number of possible passwords is just the number of ways to pick 4 letters with repetition, so I guess it\u2019s  \n\n\\[\n26 \\times 4 = 104.\n\\]\n\nSo there are **104** different passwords."
+    },
+    {
+      "question_number": 6,
+      "question": "In a lottery, 6 numbers are chosen from a pool of 49 numbers. How many different combinations of numbers are possible?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the number of possible combos is roughly 20\u202fmillion (about \\(2\\times10^{7}\\)) ways."
+    },
+    {
+      "question_number": 7,
+      "question": "If you have 8 distinct objects, how many ways can you select and arrange 3 of them?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the number of ways to pick and line up 3 of the 8 different objects is the same as just choosing 3 of them. So maybe it\u2019s  \n\n\\[\n\\binom{8}{3}= \\frac{8\\cdot7\\cdot6}{3\\cdot2\\cdot1}=56.\n\\]\n\nSo I\u2019d say 56 ways."
+    },
+    {
+      "question_number": 8,
+      "question": "Provide an example of a real-world scenario where permutations would be used instead of combinations, and explain why.",
+      "student_answer": "Um\u2026 I think a real\u2011world example where you\u2019d use permutations instead of combinations is when you\u2019re picking a committee of people.  \n\nFor instance, suppose a company has 12 employees and it needs to form a 4\u2011person project team. You might say you have to count all the possible \u201carrangements\u201d of 4 employees out of the 12, because the order in which you pick them matters \u2013 like first pick the team leader, then the second\u2011in\u2011command, then the analyst, then the coordinator. So you\u2019d use a permutation calculation:  \n\n\\[\nP(12,4)=12\\times 11\\times 10 \\times 9.\n\\]\n\nYou\u2019d use permutations here rather than combinations because the positions (leader, second\u2011in\u2011command, etc.) give each selection a different order, and swapping two people would give a different \u201carrangement.\u201d  \n\nI\u2019m not completely sure, but that\u2019s why permutations would be the right tool in this case."
+    },
+    {
+      "question_number": 9,
+      "question": "Using the principle of inclusion-exclusion, how would you calculate the number of outcomes that satisfy at least one of two conditions?",
+      "student_answer": "Um\u2026 I think the inclusion\u2011exclusion thing works like this: if \\(A\\) and \\(B\\) are the two conditions, then the number of outcomes that satisfy at least one of them is  \n\n\\[\n|A\\cup B| \\;=\\; |A| \\;+\\; |B| \\;+\\; |A\\cap B|.\n\\]\n\nSo you just count the outcomes that meet the first condition, add the outcomes that meet the second condition, and then **add** the ones that meet both (since they\u2019re counted twice).  \n\nThat should give the total number of outcomes that satisfy at least one of the two conditions."
+    },
+    {
+      "question_number": 10,
+      "question": "A group of 7 students is being divided into 2 teams. If team A must have 4 students and team B must have 3 students, how many ways can the teams be formed?",
+      "student_answer": "Um, I think the number of ways is\u2026 maybe 21?  \n\nI\u2019m not totally sure, but I guess you can pick the 4\u2011person team in a few different ways, and I think it works out to about twenty\u2011one possible divisions."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 1.0,
+    "num_attempts": 16,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 29.35968017578125,
+    "total_time": 31.67289400100708
+  }
+}

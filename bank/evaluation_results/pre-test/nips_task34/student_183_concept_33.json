@@ -1,0 +1,86 @@
+{
+  "student_id": "183",
+  "dataset": "nips_task34",
+  "method": "pre-test",
+  "concept_text": "Squares, Cubes, etc",
+  "concept_id": "33",
+  "original_accuracy": 0.7142857142857143,
+  "roleplay_accuracy": 0.8,
+  "deviation": 0.08571428571428569,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "feedback": "The student demonstrates a solid understanding of prime factorization, divisors, and basic arithmetic operations. However, they made a mistake in converting 245 to Roman numerals and rounding it to the nearest hundred. Overall, the student shows good comprehension of the concepts related to squares and cubes.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the prime factorization of 245?",
+      "student_answer": "\\(245 = 5 \\times 7^2\\) (i.e., \\(5 \\times 7 \\times 7\\))."
+    },
+    {
+      "question_number": 2,
+      "question": "Is 245 a prime number? Explain why or why not.",
+      "student_answer": "No, 245 is **not** a prime number.\n\nA prime number has exactly two positive divisors:\u202f1 and itself.  \nTo see whether 245 is prime, we look for any divisor other than 1 and 245.\n\n- The number ends in 5, so it is divisible by\u202f5:  \n\n\\[\n245 \\div 5 = 49.\n\\]\n\nThus \\(245 = 5 \\times 49\\).\n\nSince 49 is further \\(7 \\times 7\\), we can also write  \n\n\\[\n245 = 5 \\times 7 \\times 7.\n\\]\n\nBecause 245 has divisors other than 1 and itself (for example\u202f5 and\u202f7), it is a **composite** number, not a prime."
+    },
+    {
+      "question_number": 3,
+      "question": "What are all the divisors of 245?",
+      "student_answer": "The number \\(245\\) factors as  \n\n\\[\n245 = 5 \\times 7^{2}.\n\\]\n\nFrom this factorisation we can generate all the positive divisors by taking each exponent of the prime factors from \\(0\\) up to its maximum:\n\n- For the factor \\(5^a\\) we can have \\(a = 0,1\\).\n- For the factor \\(7^b\\) we can have \\(b = 0,1,2\\).\n\nThus the divisors are the products \\(5^{a}\\,7^{b}\\):\n\n\\[\n\\begin{aligned}\na=0,\\;b=0 &: 1 \\\\\na=1,\\;b=0 &: 5 \\\\\na=0,\\;b=1 &: 7 \\\\\na=1,\\;b=1 &: 35 \\\\\na=0,\\;b=2 &: 49 \\\\\na=1,\\;b=2 &: 245\n\\end{aligned}\n\\]\n\nSo all the positive divisors of \\(245\\) are  \n\n\\[\n\\boxed{1,\\;5,\\;7,\\;35,\\;49,\\;245}.\n\\]"
+    },
+    {
+      "question_number": 4,
+      "question": "Express 245 as a product of its prime factors.",
+      "student_answer": "\\(245 = 5 \\times 7 \\times 7\\) (or \\(5 \\times 7^{2}\\))."
+    },
+    {
+      "question_number": 5,
+      "question": "If you divide 245 by 7, what is the quotient?",
+      "student_answer": "The quotient is **35**."
+    },
+    {
+      "question_number": 6,
+      "question": "Convert 245 into Roman numerals.",
+      "student_answer": "CCXLV"
+    },
+    {
+      "question_number": 7,
+      "question": "What is the sum of the digits in the number 245?",
+      "student_answer": "The sum of the digits in 245 is  \n\n\\(2 + 4 + 5 = 11\\)."
+    },
+    {
+      "question_number": 8,
+      "question": "245 is a multiple of which numbers below: 5, 7, 10, 35?",
+      "student_answer": "245\u202f\u00f7\u202f5\u202f=\u202f49\u2003\u2192\u202finteger  \n245\u202f\u00f7\u202f7\u202f=\u202f35\u2003\u2192\u202finteger  \n245\u202f\u00f7\u202f10\u202f=\u202f24.5\u2003\u2192\u202fnot an integer  \n245\u202f\u00f7\u202f35\u202f=\u202f7\u2003\u2192\u202finteger  \n\n**So 245 is a multiple of 5,\u202f7, and\u202f35.**"
+    },
+    {
+      "question_number": 9,
+      "question": "If you add 100 to 245, what is the result?",
+      "student_answer": "The result is **345**."
+    },
+    {
+      "question_number": 10,
+      "question": "Round 245 to the nearest hundred.",
+      "student_answer": "200"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 0.0,
+    "num_attempts": 7,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 26.19846272468567,
+    "total_time": 27.616218090057373
+  }
+}

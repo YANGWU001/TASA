@@ -1,0 +1,86 @@
+{
+  "student_id": "158",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "order-of-operations",
+  "concept_id": "52",
+  "original_accuracy": 0.75,
+  "roleplay_accuracy": 0.8,
+  "deviation": 0.05,
+  "roleplay_score": 8,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the order of operations, correctly identifying the acronym PEMDAS and applying it in most calculations. However, there were errors in the calculations for Questions 2, 5, and 8, indicating a need for careful attention to detail when performing arithmetic operations.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the correct order of operations as represented by the acronym PEMDAS?",
+      "student_answer": "The acronym **PEMDAS** stands for the standard order of operations:\n\n1. **P \u2013 Parentheses** (or Brackets) \u2013 simplify anything inside parentheses first.  \n2. **E \u2013 Exponents** \u2013 evaluate powers and roots.  \n3. **MD \u2013 Multiplication and Division** \u2013 perform these operations next, working from left to right (they have the same priority).  \n4. **AS \u2013 Addition and Subtraction** \u2013 finally, carry out addition and subtraction, also from left to right (they share the same priority)."
+    },
+    {
+      "question_number": 2,
+      "question": "Solve: 8 + 2 * (3 + 5) - 4.",
+      "student_answer": "The expression evaluates as follows:\n\n\\[\n8 + 2 \\times (3 + 5) - 4 = 8 + 2 \\times 8 - 4 = 8 + 16 - 4 = 20.\n\\]\n\n**Answer:**\u202f20."
+    },
+    {
+      "question_number": 3,
+      "question": "If the expression is 6 + 2 * 3^2, which operation should be performed first?",
+      "student_answer": "The exponentiation should be done first \u2013 calculate\u202f\\(3^2\\)\u202fbefore the multiplication and addition."
+    },
+    {
+      "question_number": 4,
+      "question": "True or False: In the order of operations, addition is performed before multiplication.",
+      "student_answer": "False."
+    },
+    {
+      "question_number": 5,
+      "question": "Simplify: (4 + 6) / 2 * 3.",
+      "student_answer": "The expression simplifies to \\(15\\)."
+    },
+    {
+      "question_number": 6,
+      "question": "Which operation should be completed first in the expression 5 * (2 + 3) - 4?",
+      "student_answer": "The parentheses are evaluated first, so you should first compute\u202f\\(2 + 3\\)."
+    },
+    {
+      "question_number": 7,
+      "question": "Explain why parentheses are used in mathematical expressions when applying the order of operations.",
+      "student_answer": "Parentheses (\u202f(\u202f)\u202f) are a way of telling you explicitly which part of an expression should be dealt with first.  \n\nWhen we follow the order of operations\u2014often remembered by the acronym PEMDAS/BODMAS\u2014we normally do any **P**arentheses (or **B**rackets) first, then **E**xponents (or **O**rders), followed by **M**ultiplication and **D**ivision (left\u2011to\u2011right), and finally **A**ddition and **S**ubtraction (left\u2011to\u2011right).  \n\nIf an expression contains no parentheses, the standard hierarchy tells us the order. But many expressions have several operations that could be performed in different sequences, and the result would change depending on the order. By placing parentheses around a group of numbers and operators, we override the default hierarchy and force that group to be evaluated as a single unit before anything outside the parentheses.  \n\nFor example:\n\n\\[\n3 + 2 \\times 5 = 3 + 10 = 13\n\\]\n\nIf we want the addition to happen before the multiplication, we write:\n\n\\[\n(3 + 2) \\times 5 = 5 \\times 5 = 25\n\\]\n\nThe parentheses make it clear that \u201c3\u202f+\u202f2\u201d is a separate sub\u2011expression that must be solved first. This eliminates ambiguity, ensures everyone interprets the expression the same way, and helps avoid calculation errors.  \n\nIn summary, parentheses are used to:\n\n1. **Group terms** that should be evaluated together.\n2. **Override the default precedence** when a different order is desired.\n3. **Make expressions unambiguous**, so the intended calculation is clear to anyone reading it."
+    },
+    {
+      "question_number": 8,
+      "question": "Solve: 10 - 4 / 2 + 3 * 2.",
+      "student_answer": "The expression simplifies to \\(10 - \\frac{4}{2} + 3 \\times 2 = 10 - 2 + 6 = 14\\)."
+    },
+    {
+      "question_number": 9,
+      "question": "What is the result of 3 + 4 * 2 - (6 / 3)? Show your steps.",
+      "student_answer": "**Step\u202f1: Resolve the parentheses**  \n\\( (6 \u00f7 3) = 2 \\)\n\nSo the expression becomes  \n\n\\( 3 + 4 \\times 2 - 2 \\)\n\n**Step\u202f2: Do the multiplication (and any division) next**  \n\\( 4 \\times 2 = 8 \\)\n\nNow we have  \n\n\\( 3 + 8 - 2 \\)\n\n**Step\u202f3: Perform addition and subtraction from left to right**  \n\n\\( 3 + 8 = 11 \\)  \n\n\\( 11 - 2 = 9 \\)\n\n---\n\n\\[\n\\boxed{9}\n\\]"
+    },
+    {
+      "question_number": 10,
+      "question": "Identify the mistake in this calculation: 3 + 5 * 2 = 16.",
+      "student_answer": "The error is that the calculation does **not** follow the proper order of operations.  \nThe correct steps are:\n\n1. Do the multiplication first: \\(5 \\times 2 = 10\\).  \n2. Then add the 3: \\(3 + 10 = 13\\).\n\nInstead, the work that gave 16 must have added first (3\u202f+\u202f5\u202f=\u202f8) and then multiplied by 2 (8\u202f\u00d7\u202f2\u202f=\u202f16). That violates the PEMDAS/BODMAS rules. The correct result is **13**, not 16."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 183.0,
+    "num_attempts": 8,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 25.520657539367676,
+    "total_time": 27.19947385787964
+  }
+}

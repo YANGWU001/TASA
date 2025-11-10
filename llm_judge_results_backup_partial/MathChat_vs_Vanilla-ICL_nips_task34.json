@@ -1,0 +1,119 @@
+{
+  "target_method": "MathChat",
+  "baseline_method": "Vanilla-ICL",
+  "dataset": "nips_task34",
+  "backbone": "gpt",
+  "total_comparisons": 13,
+  "target_wins": 1,
+  "baseline_wins": 12,
+  "ties": 0,
+  "win_rate": 0.07692307692307693,
+  "avg_score_target": 4.7384615384615385,
+  "avg_score_baseline": 6.56923076923077,
+  "detailed_results": [
+    {
+      "student_id": 137,
+      "concept_text": "Construct Triangle",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A repeatedly cycles through meta\u2011cognitive discussions about saying \u201cI don\u2019t know,\u201d without ever returning to the actual triangle construction task or other math content. While this shows some scaffolding of mindset, it lacks direct, clear procedural instruction tied to the skill the student wants to learn, and there\u2019s little adaptation to the student\u2019s weak geometry skills. Dialogue B, in contrast, keeps the focus on geometric construction, uses concrete step\u2011by\u2011step language, checks partial work, and identifies mistakes in tool choice and sequence. Although personalization to the student profile is minimal in both, B\u2019s feedback is directly actionable for the task, which is more relevant given the student\u2019s 33% accuracy in \u201cConstruct Triangle.\u201d The pacing in B is more targeted and efficient: it breaks down what\u2019s correct, what\u2019s missing, and provides hints, leading toward mastery of a procedure the student struggles with.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [4/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2173,
+      "concept_text": "Solving Linear Inequalities",
+      "winner": "baseline",
+      "score_a": 4.5,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A suffers from heavy repetition, multiple restarts, and incomplete problem solutions, which hurts efficiency and clarity for the student. While it attempts step-by-step breakdowns, the flow is interrupted, making it harder for a struggling student to follow. Personalization is minimal\u2014there\u2019s no meaningful adaptation to the student\u2019s documented weaknesses in inequalities or connection to their past performance.  \nDialogue B, on the other hand, consistently presents complete, clear worked examples in a logical order. Even when the student answers \u201cI don\u2019t know,\u201d the tutor systematically translates word problems into inequalities, solves them, and interprets the context, which is particularly relevant given the student\u2019s 43% accuracy in inequalities. Though still generic, the repeated contextual practice questions (gardens, bakeries, tickets) represent varied scenarios, potentially boosting engagement and transfer of skills. Overall, B is more instructional, purposeful, and effective at modeling the solving process for this specific skill gap.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [4.5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2173,
+      "concept_text": "Solving Linear Inequalities",
+      "winner": "baseline",
+      "score_a": 4.0,
+      "score_b": 6.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A suffers from extreme repetition of \u201cI don\u2019t know\u201d exchanges and never fully completes a worked solution for the student. While it attempts step-by-step frameworks for solving inequalities, the explanations are frequently truncated and interrupted, which interrupts instructional flow and clarity. Personalization is minimal\u2014there is no direct link to the student\u2019s specific weaknesses (e.g., 43% accuracy in inequalities) beyond the topic itself, and the repeated restating without closure could frustrate learning.\n\nDialogue B, while still generic and dealing with repeated \u201cI don\u2019t know\u201d responses, consistently provides complete worked examples with clear translation from word problems to inequalities, solving steps, and contextual interpretation of results. The instructional strategy is more direct and complete for each example problem, which is important given the student\u2019s weakness in inequalities. Personalization is still limited, but the efficiency and instructional quality are higher here than in A, and explanations are clearer and immediately actionable for practice. This gives B a stronger chance of improving outcomes.\n\n**Instructional Quality: A [4/10], B [7/10]**  \n**Personalization Impact: A [3/10], B [4/10]**  \n**Overall Score: A [4/10], B [6/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2173,
+      "concept_text": "Solving Linear Inequalities",
+      "winner": "baseline",
+      "score_a": 5.6,
+      "score_b": 7.1,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A attempts multiple step\u2011by\u2011step walk\u2011throughs of solving linear inequalities but becomes fragmented and somewhat repetitive, with several incomplete examples and interruptions mid\u2011solution. While the explanations are sound in principle, they lack cohesion and the persistent restarts could hamper efficiency and engagement. Personalization is minimal\u2014there\u2019s no evidence the tutor is adapting to the student\u2019s specific weaknesses (e.g., the student\u2019s 43% accuracy in inequalities) in an actionable way beyond general reassurance.\n\nDialogue B, though more concise, maintains clearer and more complete problem setups and solutions. The tutor consistently translates word problems into inequalities, solves them fully, and connects the solution back to the context, which is key for instructional clarity. While personalization remains generic, the structured breakdown and interpretation steps better suit a student struggling with linear inequalities, making the instruction more effective. Dialogue B also progresses through varied examples and maintains a logical flow, which supports engagement and efficiency.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [5/10]**  \n**Overall Score: A [5.6/10], B [7.1/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2114,
+      "concept_text": "Multiples and Lowest Common Multiple",
+      "winner": "baseline",
+      "score_a": 3.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A suffers from fragmented and repeated attempts to explain LCM without ever completing a coherent worked example. The instructional quality is reduced by partial explanations, calculation errors, and restating the problem multiple times without closure, which can confuse a student who already struggles with \"Multiples and Lowest Common Multiple\" (44% accuracy). Personalization is essentially absent\u2014there is no evidence of adaptation to the student's profile; the tutor does not connect the task to the student's strengths or scaffold based on their documented challenges.  \n\nIn contrast, Dialogue B provides clear, concise explanations, uses relatable scenarios, and follows through to complete examples correctly (e.g., 6 and 8 \u2192 24, explaining listing multiples and prime factorization). It responds directly to student mistakes (correcting 24 to 36 for 9 and 12) and models correct reasoning, which is more likely to address the student's specific weakness. While personalization is still generic in B, the consistent use of step-by-step guidance, multiple methods, and immediate feedback are more instructionally effective for this learner. The pacing is tighter and examples progress in difficulty, maintaining engagement and efficiency.  \n\n**Instructional Quality: A [4/10], B [8/10]**  \n**Personalization Impact: A [2/10], B [4/10]**  \n**Overall Score: A [3/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 598,
+      "concept_text": "Linear Sequences (nth term)",
+      "winner": "baseline",
+      "score_a": 5.5,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A provides lengthy explanations but tends to drift into generic problem-solving frameworks that are not directly tied to the student's requested topic on linear sequences. The sequence of feedback is fragmented and at times incomplete, which might overwhelm or confuse the student. Personalization is minimal and does not actively leverage the student's profile or prior struggles to adjust scaffolding.  \nDialogue B, while simpler, consistently stays focused on the nth-term concept with clear examples, checks against first term and common difference, and immediate corrections when the student errs. This tighter loop of practice keeps the student engaged and reinforces the correct formula repeatedly. Although personalization is still generic, its constant contextual example-checking serves as adaptive feedback for the student's low accuracy in algebraic tasks. Overall, B\u2019s instructional clarity and direct, iterative correction make it more effective for this learner.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [5/10]**  \n**Overall Score: A [5.5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2173,
+      "concept_text": "Solving Linear Inequalities",
+      "winner": "baseline",
+      "score_a": 4.4,
+      "score_b": 6.1,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A contains many repeated \u201cI don\u2019t know\u201d exchanges and partial solutions that are cut off or discontinued, which disrupts instructional flow and lowers clarity. While it attempts step-by-step guidance, the explanations are fragmented and sometimes restart from scratch, which can be confusing and less efficient. Personalization is minimal and generic\u2014there\u2019s no adaptation to the student\u2019s documented weaknesses in linear inequalities.  \n\nDialogue B, while still somewhat generic in presentation, consistently provides complete worked examples from start to finish. The tutor clearly translates word problems into inequalities, solves them, and interprets the results, scaffolding the process effectively. Although B doesn\u2019t explicitly tie its teaching to the student\u2019s profile, the problems are relevant to the area the student struggles with (linear inequalities) and steadily progress through similar contexts, which could reinforce learning through repetition. B also maintains better pacing with fewer interruptions and delivers complete solutions, offering a more cohesive learning experience.  \n\n**Instructional Quality: A [5/10], B [7/10]**  \n**Personalization Impact: A [3/10], B [4/10]**  \n**Overall Score: A [4.4/10], B [6.1/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1293,
+      "concept_text": "Types, Naming and Estimating",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A demonstrates much stronger instructional quality: the tutor breaks problems into clear steps, uses tables to organize information, and explains the concepts of \u201cTypes,\u201d \u201cNaming,\u201d and \u201cEstimating\u201d in depth. Although it is somewhat verbose and has some repetition, it actively scaffolds the student\u2019s thinking and models problem\u2011solving processes. Dialogue B, by contrast, is extremely repetitive with the \u201cI don\u2019t know\u201d responses, offers mostly generic feedback, and gives multiple unrelated practice questions without advancing the student\u2019s understanding\u2014resulting in poor pacing and minimal conceptual development. In terms of personalization, neither dialogue explicitly tailors content to the student's profile, but A\u2019s gradual breakdown of a skill the student is weak at (Types, Naming, Estimating) is aligned with the profile of weakness and is more actionable. Dialogue B does not meaningfully adapt instruction and remains generic. Overall, Dialogue A is more responsive to confusion and builds knowledge more effectively for this student.\n\n**Instructional Quality: A [8/10], B [4/10]**  \n**Personalization Impact: A [6/10], B [3/10]**  \n**Overall Score: A [7/10], B [4/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2114,
+      "concept_text": "Multiples and Lowest Common Multiple",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A suffers from poor instructional flow\u2014its explanations are repeatedly interrupted by \u201cI don\u2019t know\u201d and the tutor restarts multiple times, never cleanly completing the solution until much later. This creates redundancy and confusion, which is inefficient and could frustrate the learner. While it does attempt step-by-step reasoning, the presentation is muddled and not well-paced. Personalization is minimal; although the student\u2019s profile suggests weaknesses in \u201cMultiples and LCM,\u201d A doesn\u2019t adapt difficulty or strategy in a targeted way, repeatedly using the same large-number formal example (24 and 30) that may be intimidating for a struggling student.  \nDialogue B, in contrast, presents clearer, more concise worked examples, progressively using smaller, more accessible numbers (6 & 8, then 9 & 12, etc.), which is better scaffolding for a learner with identified LCM weaknesses. The feedback is direct, corrects misconceptions (e.g., why 24 is wrong for 9 & 12), and explains methods (listing multiples, prime factorization) in a coherent, completed way each time. Although personalization is still generic and doesn\u2019t leverage the student\u2019s specific strengths/weaknesses much beyond repeated practice, its pacing and difficulty progression better match the student\u2019s needs.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1420,
+      "concept_text": "Prime Numbers and Prime Factors",
+      "winner": "baseline",
+      "score_a": 4.6,
+      "score_b": 6.7,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A offers some scaffolding with repeated reassurances when the student says \"I don't know,\" but it often wanders into generic process advice without concretely tackling the prime number and prime factor content in a sustained, clear way. It becomes verbose and unfocused, which may dilute instructional impact for a student struggling with prime concepts (noting the student\u2019s very low accuracy in this domain). Dialogue B, on the other hand, provides clear step-by-step worked examples directly on prime factorization, immediately checks student partial answers, and corrects them by filling in missing prime factors. It maintains focus on the specific skill, models the full solution process multiple times, and reinforces the algorithm for factorization. While neither dialogue meaningfully adapts to the student\u2019s profile (both are generic), Dialogue B\u2019s tighter loop of practice-feedback-correction is more effective for consolidating a weak area like Prime Numbers/Prime Factors.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [3/10]**  \n**Overall Score: A [4.6/10], B [6.7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 598,
+      "concept_text": "Linear Sequences (nth term)",
+      "winner": "baseline",
+      "score_a": 4.0,
+      "score_b": 6.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A offers some correct instructional content early (identifying first term, common difference, general nth\u2011term formula), but quickly becomes muddled and derails into generic problem-solving steps unrelated to the initial linear sequence task. That breaks pacing, adds irrelevant tangents, and severely reduces efficiency. Personalization is absent\u2014it doesn\u2019t connect the sequence work to the student\u2019s profile (e.g., their low accuracy in Linear Sequences) in any actionable way.  \n\nDialogue B, while still generic and lacking deep personalization, maintains a consistent focus on the nth\u2011term formula task throughout. Explanations are clear, step\u2011by\u2011step, and tied directly to checking the student\u2019s responses against the formula. Feedback is immediate, points out exactly where the student went wrong, and includes corrected formulas with verification against given terms. The tutor also uses repeated practice on the same concept, which, given the student\u2019s 20% accuracy in this area, is pedagogically appropriate. Although Dialogue B\u2019s personalization is minimal, its sustained topic focus and clear corrective scaffolding produce a better overall learning experience for this student.\n\n**Instructional Quality: A [4/10], B [7/10]**  \n**Personalization Impact: A [3/10], B [4/10]**  \n**Overall Score: A [4/10], B [6/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1420,
+      "concept_text": "Prime Numbers and Prime Factors",
+      "winner": "baseline",
+      "score_a": 4.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A provides some instructional structure but is meandering, repetitive, and often generic. It does not progress through concrete practice tailored to the student\u2019s difficulty with prime numbers and factors; instead, it repeatedly restates \u201cI don\u2019t know\u201d scenarios with abstract problem-solving tips that are not directly applied to the math problem at hand. Personalization is minimal and does not meaningfully use the student\u2019s profile\u2014there\u2019s no clear adaptation for the student\u2019s very low accuracy in this skill area.\n\nDialogue B, while still fairly general, delivers clearer, step-by-step worked examples directly tied to prime factorisation problems the student is attempting. It repeatedly corrects errors with explicit calculations, checks products, and introduces method reminders (divide by smallest prime until quotient =1). The scaffolding is more effective for this student\u2019s profile (14% accuracy on prime numbers) because it gives multiple consecutive examples, addresses partial answers, and emphasizes including repeated prime factors. Personalization remains generic, but the sustained focus on the core skill and immediate correction is better aligned with the student\u2019s specific need for concrete, procedural guidance.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [4/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1420,
+      "concept_text": "Prime Numbers and Prime Factors",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A attempts to give general problem-solving strategies, but it becomes overly verbose, meandering across repeated \u201cI don\u2019t know\u201d responses without ever clearly executing the prime factorization task for the student\u2019s specific problem. While it includes step-by-step reasoning structures, much of it is generic and not tied directly to the student\u2019s answers, making progress slow and inefficient. It does not meaningfully adapt to the student\u2019s known weakness in Prime Numbers and Prime Factors\u2014its personalization is more in tone than in targeted skill reinforcement.  \n\nDialogue B, by contrast, delivers clear, concise, and accurate worked examples of prime factorization for multiple numbers. It offers immediate corrective feedback tied directly to the student\u2019s attempt (e.g., pointing out missing factors, showing why multiplication didn\u2019t reach the original number) and uses repetition on slightly varied problems to reinforce the procedure, which is crucial given the student\u2019s very low accuracy (14%) in this area. While not explicitly referencing the student profile, Dialogue B\u2019s sequencing and direct scaffolding of the skill match the student\u2019s needs more effectively. Explanations are concrete and interactive, making iterative improvement more likely.  \n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [6/10]**  \n**Overall Score: A [5/10], B [7.5/10]**  \n\n**Confidence: High**"
+    }
+  ]
+}

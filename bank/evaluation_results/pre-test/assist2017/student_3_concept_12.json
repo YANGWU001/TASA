@@ -1,0 +1,86 @@
+{
+  "student_id": "3",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "pythagorean-theorem",
+  "concept_id": "12",
+  "original_accuracy": 0.1875,
+  "roleplay_accuracy": 0.4,
+  "deviation": 0.2125,
+  "roleplay_score": 4,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "feedback": "The student demonstrates a basic understanding of the Pythagorean Theorem, correctly identifying the formula and its application in some scenarios. However, there are significant misunderstandings in calculations and concepts, particularly in questions about right triangles and the relationship between the sides. The student should focus on clarifying the correct application of the theorem and practicing problem-solving with accurate calculations.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for the Pythagorean Theorem?",
+      "student_answer": "Um\u2026 I think the formula is something like  \n\n**a\u00b2\u202f+\u202fb\u00b2\u202f=\u202fd\u00b2**  \n\n(so the two legs squared equal the square of the opposite side, which I\u2019m calling *d*)."
+    },
+    {
+      "question_number": 2,
+      "question": "If a right triangle has legs measuring 3 and 4 units, what is the length of the hypotenuse?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the hypotenuse would be about **7 units**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the Pythagorean Theorem only applies to right triangles.",
+      "student_answer": "Um, I think the reason the Pythagorean Theorem only works for right triangles is because\u2026 well, the theorem is based on the fact that the two shorter sides meet at a right angle. When you have that 90\u2011degree angle, the squares on the legs add up exactly to the square on the hypotenuse. If the angle isn\u2019t 90\u00b0, the shape of the triangle changes and the relationship doesn\u2019t hold.\n\nI\u2019m not totally sure, but I guess if the angle were something else, like 60\u00b0, the extra \u201ctilt\u201d would make the squares on the legs either too big or too small compared to the opposite side, so the formula a\u00b2\u202f+\u202fb\u00b2\u202f=\u202fc\u00b2 would give the wrong length. That\u2019s why you can only use it when you know there\u2019s a right angle. \n\n\u2026maybe there\u2019s also something about the way the squares line up perfectly only when the sides are perpendicular, so the geometry only works in that case."
+    },
+    {
+      "question_number": 4,
+      "question": "A triangle has sides measuring 6, 8, and 10 units. Is this triangle a right triangle? Justify your answer using the Pythagorean Theorem.",
+      "student_answer": "Um, I'm not really sure, but I think this triangle is **not** a right triangle.  \n\nIf I plug the side lengths into the Pythagorean Theorem, I get  \n\n\\(6^2 + 8^2 = 36 + 64 = 120\\).\n\nThe longest side is 10, so \\(10^2 = 100\\). Since \\(120\\) is not equal to \\(100\\), the sides don\u2019t satisfy \\(a^2 + b^2 = c^2\\).  \n\nSo, based on that, I\u2019d say the triangle isn\u2019t a right triangle. (Sorry if I\u2019m off here\u2026)"
+    },
+    {
+      "question_number": 5,
+      "question": "Solve for the missing side: In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+      "student_answer": "Um, I\u2019m not totally sure, but I think the other leg is about **8\u202funits** long."
+    },
+    {
+      "question_number": 6,
+      "question": "Provide an example of a real-world scenario where the Pythagorean Theorem could be used to solve a problem.",
+      "student_answer": "Um, I think\u2026 maybe you could use the Pythagorean Theorem when you\u2019re trying to figure out how long a ladder needs to be to reach a certain height on a wall.  \n\nSo, like, if the wall is 10\u202ffeet high and you want the base of the ladder to be 6\u202ffeet away from the wall, you could (I guess) treat the wall height and the distance from the wall as the two legs of a right triangle and the ladder as the hypotenuse.  \n\nThen you\u2019d do something like:  \n\n\\(10^2 + 6^2 = \\text{ladder}^2\\)  \n\\(100 + 36 = \\text{ladder}^2\\)  \n\\(136 = \\text{ladder}^2\\)  \n\nand then you\u2019d take the square root of 136, which is\u2026 uh, about 12\u202ffeet, I think, so the ladder would need to be roughly 12\u202ffeet long.  \n\n(Or maybe I\u2019m mixing up the numbers\u2026 I\u2019m not totally sure.)"
+    },
+    {
+      "question_number": 7,
+      "question": "Prove the Pythagorean Theorem algebraically using a geometric approach.",
+      "student_answer": "Um\u2026 okay, I\u2019ll try to write down a proof of the Pythagorean Theorem the way I think it goes, but I\u2019m not really sure if all the steps are right.\n\nFirst, imagine a right\u2011angled triangle with legs of lengths\u202f\\(a\\) and\u202f\\(b\\) and hypotenuse\u202f\\(c\\).  The usual geometric way is to draw three copies of the triangle and arrange them inside a big square, but I think we can also do it using two squares.\n\nSo I\u2019ll draw a square whose side length is\u202f\\(a+b\\).  Its total area is \\((a+b)^2\\).  Inside this big square I\u2019ll try to fit four copies of the right\u2011triangle, each with the same orientation, so that they form a smaller square in the middle.  The four triangles each have area \\(\\frac12ab\\), so together they take up an area of \\(2ab\\).\n\nNow the empty part in the middle should be a square whose side length is\u2026 I think it\u2019s \\(c\\) (the hypotenuse).  If that\u2019s true, then the area of the inner square is \\(c^2\\).\n\nSince the whole big square is made up of the four triangles plus the inner square, we have  \n\n\\[\n(a+b)^2 \\;=\\; 2ab \\;+\\; c^2 .\n\\]\n\nExpanding the left side gives  \n\n\\[\na^2 + 2ab + b^2 \\;=\\; 2ab + c^2 .\n\\]\n\nIf we cancel the \\(2ab\\) terms on both sides, we get  \n\n\\[\na^2 + b^2 \\;=\\; c^2 .\n\\]\n\nSo\u2026 that\u2019s the algebraic proof, right?  It shows that the sum of the squares on the two legs equals the square on the hypotenuse.\n\nI\u2019m not completely confident about the part where the inner square has side length\u202f\\(c\\).  Maybe the orientation of the triangles matters, or maybe the inner shape isn\u2019t exactly a square but a diamond.  If it\u2019s a diamond, the side length would still be \\(c\\) because the diagonal of the diamond is the hypotenuse, but I might be mixing up the geometry.  Anyway, I think the key idea is that the total area of the big square can be split into the four triangles and the inner square, and that leads to the equation above."
+    },
+    {
+      "question_number": 8,
+      "question": "A ladder is leaning against a wall, forming a right triangle with the ground. If the ladder is 10 feet long and the base is 6 feet away from the wall, how high does the ladder reach on the wall?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think the ladder reaches about **7\u202ffeet** up the wall."
+    },
+    {
+      "question_number": 9,
+      "question": "If a square's diagonal measures 10 units, what is the length of one of its sides? Use the Pythagorean Theorem to solve.",
+      "student_answer": "Um, I'm not totally sure, but I think the side of the square is **5 units**.\n\nI tried to use the Pythagorean Theorem. Since the diagonal forms a right\u2011triangle with two sides of the square, I thought the relationship was  \n\n\\( \\text{diagonal} = \\text{side} + \\text{side} \\)  \n\nso I just divided the diagonal length (10) by 2 to get the side length.  \n\nBut, like, maybe I\u2019m missing something\u2026?"
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the relationship between the squares of the lengths of the sides in a right triangle as stated in the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I think the Pythagorean Theorem says that in a right\u2011angled triangle the square of the longest side is **the difference** between the squares of the other two sides.  So if the legs are\u202fa\u202fand\u202fb and the hypotenuse is\u202fc, then\u202fc\u00b2\u202f=\u202fa\u00b2\u202f\u2013\u202fb\u00b2\u202f(or the other way around).  I'm not totally sure, though."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 9.0,
+    "num_attempts": 16,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 36.45133066177368,
+    "total_time": 37.94709229469299
+  }
+}

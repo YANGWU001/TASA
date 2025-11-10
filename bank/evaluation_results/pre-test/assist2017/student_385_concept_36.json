@@ -1,0 +1,86 @@
+{
+  "student_id": "385",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "sum-of-interior-angles-triangle",
+  "concept_id": "36",
+  "original_accuracy": 0.625,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.375,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a thorough understanding of the sum of interior angles in triangles and related concepts. All answers are correct, showing clear reasoning and proper application of geometric principles.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the sum of the interior angles of any triangle?",
+      "student_answer": "The interior angles of any triangle always add up to **180\u202f\u00b0**."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain why the sum of the interior angles of a triangle is always 180 degrees.",
+      "student_answer": "The easiest way to see why every triangle adds up to 180\u00b0 is to use a parallel line.\n\n1. **Draw the triangle**\u202f\\(ABC\\).  \n2. **Extend one side**\u2014for example, extend side\u202f\\(BC\\) past\u202f\\(C\\).  \n3. **Through the opposite vertex**\u202f\\(A\\) draw a line\u202f\\(DE\\) that is **parallel** to the extended side\u202f\\(BC\\).\n\nBecause \\(DE\\) is parallel to \\(BC\\), the angle that \\(AB\\) makes with the parallel line at \\(A\\) is equal to the angle that \\(AB\\) makes with \\(BC\\) at \\(B\\). In other words:\n\n- \\(\\angle DAB\\) (the angle between \\(AB\\) and the parallel line) = \\(\\angle ABC\\) (the interior angle at \\(B\\)).  \n- Similarly, \\(\\angle EAC\\) (the angle between \\(AC\\) and the parallel line) = \\(\\angle ACB\\) (the interior angle at \\(C\\)).\n\nNow look at the straight line \\(DE\\). A straight line always forms an angle of **180\u00b0** when measured on one side. At vertex\u202f\\(A\\) the three angles that lie along that straight line are:\n\n\\[\n\\angle DAB \\;+\\; \\angle BAC \\;+\\; \\angle EAC \\;=\\;180^\\circ .\n\\]\n\nSubstituting the equal interior angles we identified gives:\n\n\\[\n\\angle ABC \\;+\\; \\angle BAC \\;+\\; \\angle ACB \\;=\\;180^\\circ .\n\\]\n\nThus the three interior angles of triangle \\(ABC\\) always sum to 180\u00b0.\n\n(You can also think of it as a triangle being a special case of an \\(n\\)-gon: the formula \\((n-2)\\times180^\\circ\\) with \\(n=3\\) gives \\((3-2)\\times180^\\circ = 180^\\circ\\).)"
+    },
+    {
+      "question_number": 3,
+      "question": "A triangle has one angle measuring 70 degrees and another measuring 50 degrees. What is the measure of the third angle?",
+      "student_answer": "The three interior angles of a triangle always add up to \\(180^\\circ\\).\n\n\\[\n\\text{Third angle}=180^\\circ-(70^\\circ+50^\\circ)=180^\\circ-120^\\circ=60^\\circ.\n\\]\n\n**Answer: 60 degrees.**"
+    },
+    {
+      "question_number": 4,
+      "question": "If a triangle has angles measuring 60 degrees, 60 degrees, and 60 degrees, what type of triangle is it?",
+      "student_answer": "The triangle is **equilateral** \u2013 all three interior angles are 60\u00b0, so all three sides are equal in length."
+    },
+    {
+      "question_number": 5,
+      "question": "Can a triangle have interior angles that sum to more than 180 degrees? Why or why not?",
+      "student_answer": "No \u2013 not in ordinary (Euclidean) geometry.  \n\nIn a flat, Euclidean plane the interior angles of any triangle always add up to exactly\u202f180\u00b0. This comes from the parallel\u2011postulate: if you extend one side of the triangle and draw a line through the opposite vertex that is parallel to that side, the two exterior angles formed are supplementary to the interior angles at the other two vertices, forcing the three interior angles to total 180\u00b0.\n\n(Only in non\u2011Euclidean settings, such as on the surface of a sphere, can a \u201ctriangle\u201d have angles whose sum exceeds 180\u00b0.)"
+    },
+    {
+      "question_number": 6,
+      "question": "How do the sum of the interior angles of a triangle compare to the sum of the interior angles of a quadrilateral?",
+      "student_answer": "The interior angles of a triangle add up to  \n\n\\[\n(3-2)\\times 180^\\circ = 180^\\circ .\n\\]\n\nFor a quadrilateral the sum is  \n\n\\[\n(4-2)\\times 180^\\circ = 360^\\circ .\n\\]\n\nSo the sum of the interior angles of a quadrilateral is twice the sum of the interior angles of a triangle."
+    },
+    {
+      "question_number": 7,
+      "question": "A triangle has angles measuring 90 degrees, 45 degrees, and x degrees. Solve for x.",
+      "student_answer": "The interior angles of a triangle add up to \\(180^\\circ\\).\n\n\\[\n90^\\circ + 45^\\circ + x = 180^\\circ\n\\]\n\n\\[\n135^\\circ + x = 180^\\circ \\quad\\Rightarrow\\quad x = 180^\\circ - 135^\\circ = 45^\\circ\n\\]\n\n\\[\n\\boxed{45^\\circ}\n\\]"
+    },
+    {
+      "question_number": 8,
+      "question": "Using the sum of interior angles, prove that a triangle cannot have two obtuse angles.",
+      "student_answer": "In any triangle the three interior angles add up to  \n\n\\[\n\\angle A+\\angle B+\\angle C = 180^{\\circ}.\n\\]\n\nAn **obtuse** angle is an angle whose measure is greater than \\(90^{\\circ}\\).\n\nAssume, for the sake of contradiction, that a triangle could have two obtuse angles.  \nLet those two angles be \\(\\angle A\\) and \\(\\angle B\\). Then\n\n\\[\n\\angle A > 90^{\\circ}\\qquad\\text{and}\\qquad\\angle B > 90^{\\circ}.\n\\]\n\nAdding these two inequalities gives\n\n\\[\n\\angle A + \\angle B > 90^{\\circ}+90^{\\circ}=180^{\\circ}.\n\\]\n\nBut the sum of **all three** interior angles of the triangle must be exactly \\(180^{\\circ}\\).  \nSince \\(\\angle A + \\angle B\\) is already greater than \\(180^{\\circ}\\), adding the third angle \\(\\angle C\\) (which is a positive amount) would make the total sum exceed \\(180^{\\circ}\\), contradicting the angle\u2011sum property of triangles.\n\nTherefore our assumption is impossible, and a triangle cannot have two obtuse angles. \u220e"
+    },
+    {
+      "question_number": 9,
+      "question": "What is the relationship between the sum of interior angles of a triangle and the exterior angles of a triangle?",
+      "student_answer": "The interior angles of any triangle always add up to **180\u00b0**.  If you take one exterior angle at each vertex (the angle that lies outside the triangle and is formed by extending one side), those three exterior angles always add up to **360\u00b0**.  \n\nBecause each interior angle and its adjacent exterior angle are supplementary (they add to 180\u00b0), the total of the three interior angles (180\u00b0) is exactly **half** the total of the three exterior angles (360\u00b0).  In other words, the sum of the interior angles is 180\u00b0, and the sum of the exterior angles is twice that amount."
+    },
+    {
+      "question_number": 10,
+      "question": "If you were given the measures of two angles of a triangle, describe the steps to calculate the third angle.",
+      "student_answer": "To find the missing angle when you already know two of the angles in a triangle, follow these steps:\n\n1. **Add the two known angles together.**  \n   \\[\n   \\text{SumKnown} = \\text{Angle}_1 + \\text{Angle}_2\n   \\]\n\n2. **Subtract that sum from the total interior\u2011angle sum for a triangle.**  \n   Since the interior angles of any triangle add up to\u202f180\u00b0 (or \u03c0\u202fradians), compute  \n   \\[\n   \\text{MissingAngle} = 180^\\circ - \\text{SumKnown}\n   \\]  \n   (or \\( \\pi - \\text{SumKnown} \\) if the angles are given in radians).\n\n3. **The result is the measure of the third angle.**  \n\n*Quick check:* Make sure the two given angles add to less than 180\u00b0, otherwise a triangle cannot be formed."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 24.0,
+    "num_attempts": 8,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 37.04162788391113,
+    "total_time": 38.56625699996948
+  }
+}

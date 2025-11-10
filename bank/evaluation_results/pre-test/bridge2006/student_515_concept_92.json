@@ -1,0 +1,86 @@
+{
+  "student_id": "515",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify whole number lower bound",
+  "concept_id": "92",
+  "original_accuracy": 0.6428571428571429,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.25714285714285706,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of whole number lower bounds, correctly identifying them in various contexts and providing clear justifications. The only error was in Question 6, where the student incorrectly calculated the whole number lower bound of the square root of 50. Overall, the student shows a solid grasp of the concept and its applications.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the whole number lower bound of 15.8?",
+      "student_answer": "The whole number lower bound of 15.8 is **15**."
+    },
+    {
+      "question_number": 2,
+      "question": "If a decimal number is 23.45, what is its whole number lower bound?",
+      "student_answer": "The whole\u2011number lower bound (the greatest integer that is not greater than 23.45) is **23**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the concept of a whole number lower bound in your own words.",
+      "student_answer": "A whole\u2011number lower bound for a quantity is the largest integer that is **still not bigger** than the quantity.  In other words, it is the greatest whole number you can choose that never exceeds the value you\u2019re looking at.  It\u2019s essentially the \u201cfloor\u201d of a number.\n\nFor example, if a number is 7.3, the whole\u2011number lower bound is 7, because 7\u202f\u2264\u202f7.3 but the next whole number, 8, would be larger than the actual value.  If the number is already an integer, say 12, then the whole\u2011number lower bound is just 12 itself.\n\nThe idea is useful when you need a safe underestimate that is an integer\u2014for instance, to count how many whole items you can definitely have, or to round down in calculations where fractions aren\u2019t allowed."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the whole number lower bound of -7.3?",
+      "student_answer": "The whole\u2011number lower bound (the greatest integer \u2264\u202f\u20137.3) is **\u20118**."
+    },
+    {
+      "question_number": 5,
+      "question": "Is the whole number lower bound of 9.99 equal to 10? Why or why not?",
+      "student_answer": "No. The whole\u2011number lower bound (the greatest integer that is **not greater than** the given number) of 9.99 is 9, not 10. Since 9\u202f\u2264\u202f9.99\u202f<\u202f10, the largest whole number that does not exceed 9.99 is 9. Therefore the lower bound is 9, not 10."
+    },
+    {
+      "question_number": 6,
+      "question": "Determine the whole number lower bound for the square root of 50.",
+      "student_answer": "The whole\u2011number lower bound for \\(\\sqrt{50}\\) is  \n\n\\[\n\\boxed{7}\n\\]"
+    },
+    {
+      "question_number": 7,
+      "question": "If a number is -3.7, identify its whole number lower bound and explain your reasoning.",
+      "student_answer": "The whole\u2011number lower bound of \\(-3.7\\) is \\(-4\\).\n\n**Reasoning**\n\nThe \u201clower bound\u201d (or floor) of a real number is the greatest integer that is **less than or equal to** that number.  \n\n- For \\(-3.7\\) the integers that are \u2264\u202f\\(-3.7\\) are \u2026,\u202f\\(-6,\\,-5,\\,-4\\).  \n- The largest (closest to \\(-3.7\\)) among those is \\(-4\\).\n\nTherefore the whole\u2011number lower bound of \\(-3.7\\) is \\(-4\\)."
+    },
+    {
+      "question_number": 8,
+      "question": "What role does rounding play when determining the whole number lower bound of a number?",
+      "student_answer": "Rounding is the tool we use to turn a non\u2011integer value into a whole\u2011number estimate that is guaranteed not to exceed the original number.  \nWhen we need the **whole\u2011number lower bound**, we round **down** (i.e., take the floor) to the nearest integer. This gives the greatest integer that is still \u2264 the original value, ensuring the bound is never too large. If the original number is already an integer, the \u201cround\u2011down\u201d step leaves it unchanged.  \n\nIn short, rounding down to the nearest whole number provides the precise lower\u2011bound integer for any given number."
+    },
+    {
+      "question_number": 9,
+      "question": "Find the whole number lower bound of 0.99 and justify your answer.",
+      "student_answer": "The whole\u2011number lower bound (the greatest integer that does not exceed the number) of  \n\n\\[\n0.99\n\\]\n\nis **0**.\n\n**Justification:**  \n\nA lower bound must be an integer \\(n\\) such that \\(n\\le 0.99\\).  \nThe integers that satisfy this are \u2026,\u202f\u20112,\u202f\u20111,\u202f0.  \nThe *largest* of those integers is 0, and indeed  \n\n\\[\n0 \\le 0.99 < 1 .\n\\]\n\nTherefore the whole\u2011number lower bound of 0.99 is \\(0\\)."
+    },
+    {
+      "question_number": 10,
+      "question": "How is the whole number lower bound different from the ceiling of a number? Provide an example.",
+      "student_answer": "The whole\u2011number lower bound of a real number is the greatest integer that is **still less than or equal to** the number.  \nThe ceiling (or \u201cleast integer greater than or equal to\u201d the number) is the smallest integer that is **greater than or equal to** the number.\n\nSo the lower bound and the ceiling are opposite sides of the number line:\n\n| Number | Whole\u2011number lower bound (floor) | Ceiling |\n|--------|----------------------------------|---------|\n| 3.7    | 3 (the largest integer \u2264\u202f3.7)    | 4 (the smallest integer \u2265\u202f3.7) |\n\nIn this example the lower bound is 3, while the ceiling is 4; they differ by exactly one unit because the original number is not itself an integer. If the number were already an integer (e.g., 5), both the lower bound and the ceiling would be the same (5)."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 2.1666666666666665,
+    "num_attempts": 14,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 31.217021942138672,
+    "total_time": 32.70441770553589
+  }
+}

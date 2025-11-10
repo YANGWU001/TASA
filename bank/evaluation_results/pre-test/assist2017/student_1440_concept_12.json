@@ -1,0 +1,86 @@
+{
+  "student_id": "1440",
+  "dataset": "assist2017",
+  "method": "pre-test",
+  "concept_text": "pythagorean-theorem",
+  "concept_id": "12",
+  "original_accuracy": 0.2857142857142857,
+  "roleplay_accuracy": 0.1,
+  "deviation": -0.1857142857142857,
+  "roleplay_score": 1,
+  "max_score": 10,
+  "individual_scores": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "feedback": "The student demonstrates a basic understanding of the Pythagorean Theorem, particularly in the explanation of its application to right triangles. However, there are significant misconceptions, such as incorrectly stating the formula, misunderstanding the relationship between the sides, and failing to apply the theorem correctly in problem-solving scenarios. The student should focus on accurately recalling the theorem and practicing its application in various contexts.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the formula for the Pythagorean Theorem?",
+      "student_answer": "Um\u2026 I think the formula is something like  \n\n**a\u00b2\u202f+\u202fb\u00b2\u202f=\u202fc**  \n\n(not sure if the c should be squared or not)."
+    },
+    {
+      "question_number": 2,
+      "question": "If a right triangle has legs measuring 3 and 4 units, what is the length of the hypotenuse?",
+      "student_answer": "Um... I\u2019m not totally sure, but I think the hypotenuse might be about **6 units**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain why the Pythagorean Theorem only applies to right triangles.",
+      "student_answer": "Um\u2026 I think the reason the Pythagorean Theorem only works for right triangles is because the whole formula is built on the idea that two of the sides meet at a 90\u2011degree angle. The proof (the one with the squares on each side) assumes those two legs are perpendicular, so when you add the areas of the squares on the legs you get exactly the area of the square on the third side.  \n\nIf the triangle isn\u2019t right\u2011angled, the sides aren\u2019t perpendicular, so the squares on the two shorter sides don\u2019t line up the same way and you can\u2019t just add them to get the square on the \u201chypotenuse.\u201d\u202fIn those cases you need a different relationship (like the law of cosines).  \n\nSo\u2026 basically, the theorem depends on that right\u2011angle condition, and if the angle isn\u2019t 90\u00b0 the equation \\(a^2 + b^2 = c^2\\) just isn\u2019t true.  \n\n(That\u2019s what I remember, but I\u2019m not totally sure if there isn\u2019t some other subtle reason.)"
+    },
+    {
+      "question_number": 4,
+      "question": "A triangle has sides measuring 6, 8, and 10 units. Is this triangle a right triangle? Justify your answer using the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I think this triangle is **not** a right triangle.  \n\nThe Pythagorean Theorem says that for a right triangle the squares of the two shorter sides should add up to the square of the longest side.  \nSo I tried to check:\n\n- \\(6^2 = 36\\)  \n- \\(8^2 = 64\\)  \n- \\(10^2 = 100\\)\n\nBut when I add the squares of the two shorter sides I get \\(36 + 64 = 100\\)\u2026 wait, that actually equals the square of the longest side, doesn\u2019t it?  \n\nActually, now that I look at it again, I\u2019m not sure\u2026 maybe I\u2019m mixing up which sides are \u201cshorter.\u201d If I take the two larger numbers, \\(8\\) and \\(10\\), their squares are \\(64\\) and \\(100\\). Adding those gives \\(164\\), which is definitely not equal to the square of the remaining side (\\(6^2 = 36\\)).  \n\nBecause the sums don\u2019t match when I use the larger sides, I guess the triangle **isn\u2019t** a right triangle.  \n\nSo, my answer is that the triangle is not a right triangle, based on the Pythagorean Theorem (even though I\u2019m a bit confused about the details)."
+    },
+    {
+      "question_number": 5,
+      "question": "Solve for the missing side: In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+      "student_answer": "Um... I think the other leg is probably **8 units**.  \n\nI tried using the Pythagorean theorem \\(a^2 + b^2 = c^2\\). Since the hypotenuse is 13 and one leg is 5, I subtracted the leg from the hypotenuse (13\u202f\u2212\u202f5\u202f=\u202f8) and guessed that the missing side is about 8.  \n\nI'm not completely sure, but 8 seems to make sense."
+    },
+    {
+      "question_number": 6,
+      "question": "Provide an example of a real-world scenario where the Pythagorean Theorem could be used to solve a problem.",
+      "student_answer": "Um, I think a real\u2011world situation where you could use the Pythagorean Theorem might be something like figuring out how much paint you need for a wall.  \n\nIf you know the length of the wall (let's call it\u202f*a*) and the height of the wall (call it\u202f*b*), you could, I guess, use \\(a^2 + b^2 = c^2\\) to solve for\u202f*c*, and then treat\u202f*c* as the \"diagonal\" area that tells you how many square feet of paint you need.  \n\nSo you\u2019d measure the two sides, plug them into the theorem, get\u202f*c*, and that would somehow give you the amount of paint required.  \n\n(I'm not totally sure if that\u2019s the right way to use the theorem, but it seems like it could work for a practical problem like that.)"
+    },
+    {
+      "question_number": 7,
+      "question": "Prove the Pythagorean Theorem algebraically using a geometric approach.",
+      "student_answer": "Um\u2026 I\u2019ll try to give a geometric\u2011algebraic proof of the Pythagorean theorem, but I\u2019m not totally sure I\u2019m doing it right.\n\nFirst, draw a right\u2011angled triangle with legs of length\u202f*a* and\u202f*b* and hypotenuse\u202f*c*.  The theorem says that the area of the square built on the hypotenuse equals the sum of the areas of the squares built on the two legs:\n\n\\[\n\\text{area}_{c}= \\text{area}_{a}+\\text{area}_{b}\\quad\\Longrightarrow\\quad c^{2}=a^{2}+b^{2}.\n\\]\n\nNow, the usual geometric trick is to make a big square whose side is \\((a+b)\\).  Inside that big square we can arrange four copies of the right\u2011triangle in two different ways.\n\n**First arrangement (the \u201cclassic\u201d one).**  \nPlace the four triangles so that their hypotenuses form a smaller, tilted square in the middle.  The side of that inner square is \\((a+b)\\), so its area is \\((a+b)^{2}\\).  The four triangles each have area \\(\\frac12ab\\), so the total area of the four triangles is \\(2ab\\).  Therefore the area of the whole big square is\n\n\\[\n\\underbrace{(a+b)^{2}}_{\\text{inner square}}+\\underbrace{2ab}_{\\text{four triangles}}.\n\\]\n\n**Second arrangement.**  \nInstead, line up the four triangles so that the two legs *a* line up horizontally and the two legs *b* line up vertically.  In this case the empty space that\u2019s left is exactly the two squares on the legs, whose combined area is \\(a^{2}+b^{2}\\).  The four triangles still contribute the same total area \\(2ab\\).  Hence the area of the whole big square is\n\n\\[\n\\underbrace{a^{2}+b^{2}}_{\\text{two leg\u2013squares}}+\\underbrace{2ab}_{\\text{four triangles}}.\n\\]\n\nSince both arrangements fill the same big square, the two expressions for its area must be equal:\n\n\\[\n(a+b)^{2}+2ab \\;=\\; a^{2}+b^{2}+2ab .\n\\]\n\nIf we cancel the \\(2ab\\) terms on each side we get\n\n\\[\n(a+b)^{2}=a^{2}+b^{2}.\n\\]\n\nExpanding the left\u2011hand side gives\n\n\\[\na^{2}+2ab+b^{2}=a^{2}+b^{2},\n\\]\n\nand then, subtracting \\(a^{2}+b^{2}\\) from both sides leaves\n\n\\[\n2ab=0.\n\\]\n\nThat seems to say the product of the legs is zero, which can\u2019t be right unless one leg is zero\u2026 So I think I must have made a mistake somewhere.  Maybe the side of the inner tilted square is *c* rather than \\((a+b)\\).  If the inner square\u2019s side is *c*, its area would be \\(c^{2}\\) instead of \\((a+b)^{2}\\).  Then the equality would be\n\n\\[\nc^{2}+2ab \\;=\\; a^{2}+b^{2}+2ab,\n\\]\n\nand cancelling the \\(2ab\\) gives the usual result\n\n\\[\nc^{2}=a^{2}+b^{2}.\n\\]\n\nSo\u2026 I guess that\u2019s the algebraic\u2011geometric proof, though I\u2019m not 100\u202f% confident about the details."
+    },
+    {
+      "question_number": 8,
+      "question": "A ladder is leaning against a wall, forming a right triangle with the ground. If the ladder is 10 feet long and the base is 6 feet away from the wall, how high does the ladder reach on the wall?",
+      "student_answer": "Um\u2026 I\u2019m not totally sure, but I think you use the Pythagorean theorem. So I did  \n\n\\[\n\\text{height} = \\sqrt{10^2 + 6^2} = \\sqrt{100 + 36} = \\sqrt{136} \\approx 11.7\\text{ ft}.\n\\]\n\nSo the ladder reaches about **11.7\u202ffeet** up the wall."
+    },
+    {
+      "question_number": 9,
+      "question": "If a square's diagonal measures 10 units, what is the length of one of its sides? Use the Pythagorean Theorem to solve.",
+      "student_answer": "Um, I think\u2026 maybe the side length is about 5 units.  I tried using the Pythagorean theorem, but I\u2019m not really sure if I did it right."
+    },
+    {
+      "question_number": 10,
+      "question": "Describe the relationship between the squares of the lengths of the sides in a right triangle as stated in the Pythagorean Theorem.",
+      "student_answer": "Um\u2026 I think the Pythagorean Theorem says that the square of the hypotenuse is equal to the difference of the squares of the other two sides. So if\u202fc\u202fis the hypotenuse and\u202fa\u202fand\u202fb\u202fare the legs, it would be  \n\n**c\u00b2 = a\u00b2 \u2013 b\u00b2**  \n\n(Or maybe it\u2019s the other way around\u2014I\u2019m not totally sure.)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 4.0,
+    "num_attempts": 7,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 44.891459226608276,
+    "total_time": 46.43268132209778
+  }
+}

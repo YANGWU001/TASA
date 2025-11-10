@@ -1,0 +1,86 @@
+{
+  "student_id": "204",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "Changing axis bounds",
+  "concept_id": "41",
+  "original_accuracy": 0.6363636363636364,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.36363636363636365,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of changing axis bounds and their implications for data visualization. Each answer is thorough and addresses the questions accurately, showing a clear grasp of the concepts involved.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What does changing the axis bounds on a graph allow you to do when visualizing data?",
+      "student_answer": "Changing the axis bounds lets you zoom in or out on specific parts of the data. By adjusting the minimum and maximum values shown on the x\u2011 or y\u2011axis, you can focus on a particular range, highlight trends or outliers, and make details easier to see without the rest of the data crowding the view. It basically lets you control the scale and scope of what\u2019s displayed so you can interpret the data more effectively."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the impact of narrowing the axis bounds on the interpretation of data trends.",
+      "student_answer": "Narrowing the axis bounds (i.e., \u201czooming in\u201d on a smaller range of the x\u2011 or y\u2011axis) changes the way a trend looks in a few important ways:\n\n1. **Apparent slope can increase** \u2013 When you compress the scale, a modest change in the data can look much steeper, so the trend may appear more dramatic than it really is.\n\n2. **Detail becomes clearer, but context is lost** \u2013 You can see short\u2011term fluctuations or subtle inflection points that were hidden by a wider view. At the same time, the broader pattern (e.g., overall growth vs. a temporary dip) may be obscured because the surrounding data points are no longer displayed.\n\n3. **Outliers may disappear** \u2013 If the bounds are tightened enough, extreme values can fall outside the plotted region, making the data look cleaner but also hiding important information about variability.\n\n4. **Noise can be mistaken for a signal** \u2013 With a limited range, random jitter can look like a real trend, leading to over\u2011interpretation of minor variations.\n\n5. **Comparisons become harder** \u2013 When multiple series share the same plot, narrowing the axes for one series can make direct visual comparison with others misleading unless the same bounds are applied to all.\n\nIn short, narrowing axis bounds can help highlight fine\u2011grained behavior, but it also exaggerates slopes, can hide the bigger picture, and may cause viewers to over\u2011estimate the significance of small changes."
+    },
+    {
+      "question_number": 3,
+      "question": "If the x-axis bounds of a graph are changed from 0-100 to 20-80, how might this affect the visibility of the data points?",
+      "student_answer": "Changing the x\u2011axis limits from the full range\u202f0\u202f\u2013\u202f100 to the narrower range\u202f20\u202f\u2013\u202f80 means that the plot will only display points whose x\u2011values lie between\u202f20 and\u202f80.  \n\n- **Data points with x\u202f<\u202f20 or x\u202f>\u202f80 will be omitted** (they are either clipped off the edge or not drawn at all).  \n- Points that remain within the 20\u201180 window may appear **more spread out** horizontally, because the same visual width now represents a smaller numerical interval.  \n- If there were important features (e.g., a peak or outlier) near the original ends (below\u202f20 or above\u202f80), those features will no longer be visible, possibly giving a misleading impression of the overall trend.  \n\nIn short, narrowing the x\u2011axis range improves focus on the central portion of the data but hides any points outside the new bounds."
+    },
+    {
+      "question_number": 4,
+      "question": "Describe a scenario where it would be useful to adjust the axis bounds of a graph.",
+      "student_answer": "One practical situation where you\u2019d want to change the axis bounds is when you\u2019re zooming in on a particular region of data to see details that are hidden in the full\u2011scale view.  \n\n**Example:** Imagine you\u2019re plotting daily temperature readings for an entire year. If the y\u2011axis is set to span the full possible range of \u201330\u202f\u00b0C to 40\u202f\u00b0C, the variation between, say, 15\u202f\u00b0C and 22\u202f\u00b0C during a week in spring will look almost flat and hard to read. By tightening the y\u2011axis bounds to 10\u202f\u00b0C\u202f\u2013\u202f25\u202f\u00b0C (or even 13\u202f\u00b0C\u202f\u2013\u202f23\u202f\u00b0C) just for that segment of the plot, the small fluctuations become much clearer, allowing you to spot trends, outliers, or sudden shifts that would otherwise be invisible.\n\nIn short, adjusting axis bounds is useful whenever you need to focus on a limited range of values\u2014whether it\u2019s a short time window, a specific value interval, or a subset of data points\u2014to improve interpretability and highlight details that are lost in a broader view."
+    },
+    {
+      "question_number": 5,
+      "question": "How can changing the axis bounds lead to misleading representations of data?",
+      "student_answer": "Changing the axis bounds does **not** change the actual numbers in the data set, but it can change the way those numbers are perceived by the viewer.  \nWhen the limits of an axis are altered, the visual scale of the graph is altered, and that can lead to several kinds of distortion:\n\n| What the change does | How it can mislead |\n|----------------------|--------------------|\n| **Truncating the y\u2011axis** (e.g., starting at 90 instead of 0) | Small differences look huge because the vertical scale is compressed. A 5\u2011point swing may appear as a dramatic jump. |\n| **Extending the y\u2011axis far beyond the data range** | Real differences become hard to see; trends look flat even when there is a clear increase or decrease. |\n| **Zooming in on a short time window on the x\u2011axis** | Seasonal or cyclical patterns can be hidden, making a short\u2011term spike look like a permanent trend. |\n| **Using non\u2011uniform intervals** (e.g., uneven spacing of dates) | Viewers may think points are evenly spaced in time when they are not, which can suggest a smoother trend than actually exists. |\n| **Changing the axis origin** (e.g., starting the y\u2011axis at a value other than zero) | The baseline that gives context is lost, so the magnitude of change can be over\u2011 or under\u2011estimated. |\n| **Altering the axis scale (log vs. linear) without labeling** | The visual slope changes dramatically; viewers may misinterpret exponential growth as linear or vice\u2011versa. |\n\nBecause the eye judges distances relative to the plotted grid, any manipulation of those grid limits can **exaggerate**, **downplay**, or **hide** patterns in the data. A common mistake is to think that moving the axis bounds actually changes the data points themselves \u2013 it doesn\u2019t; it only changes the visual representation. If a graph is presented without clear axis labels or with deliberately \u201ctight\u201d bounds, the audience may draw conclusions that are not supported by the underlying numbers."
+    },
+    {
+      "question_number": 6,
+      "question": "What steps would you take to adjust the axis bounds in a graphing software or tool?",
+      "student_answer": "To change the axis limits in most graphing programs (e.g., Excel, Google\u202fSheets, Desmos, MATLAB, etc.) you generally follow these steps:\n\n1. **Open the chart or plot** you want to edit and make sure it is selected.  \n2. **Locate the axis\u2011settings panel** \u2013 this is usually found under a menu such as **\u201cFormat Axis,\u201d \u201cAxis Options,\u201d** or a **\u201cProperties\u201d** tab. (In some tools it may be under a \u201cScale\u201d or \u201cAxes\u201d section.)  \n3. **Choose the axis you want to modify** (X\u2011axis or Y\u2011axis).  \n4. **Set the minimum and maximum bounds**:  \n   - Enter the desired **minimum** value in the \u201cMinimum\u201d field.  \n   - Enter the desired **maximum** value in the \u201cMaximum\u201d field.  \n5. **Adjust the tick spacing (optional)**:  \n   - Specify a \u201cMajor unit\u201d (or \u201cStep\u201d) to control how far apart the grid lines/labels appear.  \n   - You can also set a \u201cMinor unit\u201d for finer tick marks if the software supports it.  \n6. **Apply the changes**: click **OK/Apply** or simply close the dialog\u2014most programs update the plot in real\u2011time.  \n7. **Verify the result**: check that the data now occupies the intended portion of the graph. If things look off, repeat the steps and tweak the numbers.  \n8. **Save** the chart or the workbook so the new axis bounds are retained.\n\n*Quick tip:* Some tools let you **drag the axis edges directly on the plot** (e.g., click\u2011and\u2011drag the axis scale in Desmos or Plotly). This is a fast way to get a rough bound, after which you can fine\u2011tune the numbers using the steps above."
+    },
+    {
+      "question_number": 7,
+      "question": "If a graph's y-axis is changed from a range of 0-1000 to 500-1000, what happens to the lower values in the dataset?",
+      "student_answer": "The lower values (those below\u202f500) will be cut off from view \u2013 the graph now starts at\u202f500, so any data points between\u202f0\u202fand\u202f500 are no longer displayed (they\u2019re effectively hidden or omitted)."
+    },
+    {
+      "question_number": 8,
+      "question": "Why is it important to clearly label axis bounds when presenting graphs or charts?",
+      "student_answer": "Labeling the axis bounds (the minimum and maximum values shown on each axis) is essential because it tells the viewer exactly what range of data is being displayed and how the data is scaled. When the bounds are clear:\n\n1. **Accurate interpretation** \u2013 Viewers can read exact values from the graph and understand how each point relates to the underlying numbers. Without clear bounds, it\u2019s easy to misread a point\u2019s value or think a trend is larger or smaller than it really is.\n\n2. **Proper scale perception** \u2013 The spacing between tick marks and the overall span of the axes determine how steep or flat a trend appears. Explicit bounds prevent confusion about whether a graph has been \u201czoomed in\u201d or \u201czoomed out\u201d to exaggerate or downplay changes.\n\n3. **Comparison across graphs** \u2013 When multiple charts are shown together, consistent axis limits make it possible to compare them directly. If one chart omits its bounds or uses different limits, the comparison can be misleading.\n\n4. **Transparency and credibility** \u2013 Clearly stating the limits shows that the creator isn\u2019t hiding or manipulating the data range. It builds trust with the audience.\n\n5. **Accessibility** \u2013 People who rely on screen\u2011readers or printed versions need textual information about the axis limits to understand the visual data.\n\nIn short, clear axis bounds ensure that the graph communicates the intended information accurately, fairly, and understandably."
+    },
+    {
+      "question_number": 9,
+      "question": "How can you determine appropriate axis bounds to best display your data?",
+      "student_answer": "**How to pick good axis bounds**\n\n1. **Find the data range** \u2013 Look at the smallest and largest values you have for the\u202fx\u2011axis and the\u202fy\u2011axis.  \n   *Example:* if your y\u2011values run from\u202f23 to\u202f87, the raw range is 23\u202f\u2192\u202f87.\n\n2. **Add a little padding** \u2013 Don\u2019t set the limits exactly at the extreme points; give the plot a margin so points or markers aren\u2019t sitting right on the edge. A common rule of thumb is to extend each bound by a small percentage of the total range (e.g., about **5\u202f%** of the range on each side).  \n   *In the example:* the range is 64, 5\u202f% of 64 \u2248\u202f3.2, so you could set the y\u2011limits to roughly 20\u202f\u2192\u202f90.\n\n3. **Round to \u201cnice\u201d numbers** \u2013 After adding the padding, round the limits to convenient numbers (multiples of 5, 10, etc.) so the axis labels look clean.  \n   *Continuing the example:* you might choose 20 and 90 as the final bounds.\n\n4. **Consider the scale type** \u2013  \n   * **Linear scale:** use the method above.  \n   * **Logarithmic scale:** pick limits that are powers of the log base (usually 10) and that still contain all your data points (e.g., 10\u00b9\u202f\u2192\u202f10\u00b3).\n\n5. **Keep aspect ratio readable** \u2013 If the plot will be displayed in a fixed\u2011size figure, you may need to adjust one axis a bit more than the other so the data isn\u2019t squashed or overly stretched.\n\n6. **Check special cases** \u2013  \n   * For categorical or integer\u2011only data, make the bounds whole numbers that include a little extra space (e.g.,\u202f0\u202f\u2192\u202fN\u202f+\u202f1).  \n   * If you have outliers, you can either let the bounds expand to include them (with more padding) or plot them separately so they don\u2019t compress the rest of the data.\n\n7. **Iterate and preview** \u2013 After setting the bounds, render a quick preview of the plot. If points are still too close to the edge or the axis labels look crowded, tweak the padding or rounding a bit.\n\n**Quick checklist**\n\n- \u2610 Compute min\u202f/\u202fmax for each axis.  \n- \u2610 Add ~5\u202f% of the range as padding (or a small fixed amount).  \n- \u2610 Round to tidy numbers.  \n- \u2610 Adjust for log scales, categorical data, or outliers as needed.  \n- \u2610 Preview and fine\u2011tune.\n\nBy following these steps you\u2019ll get axis limits that show all of your data clearly without unnecessary blank space, making the plot both informative and visually appealing."
+    },
+    {
+      "question_number": 10,
+      "question": "What are the potential consequences of setting axis bounds too narrowly or too broadly on a graph?",
+      "student_answer": "Setting the limits of the\u202fx\u2011 and\u202fy\u2011axes determines how the data are displayed, so choosing bounds that are too tight or too loose can affect the graph\u2019s readability and interpretation.\n\n**When the bounds are **too narrow**:**\n\n1. **Data gets cut off** \u2013 points that lie just outside the range disappear or are shown as \u201coff\u2011chart,\u201d which can hide important outliers or trends.  \n2. **Compressed scaling** \u2013 because the range is small, even a modest amount of noise can dominate the view, making the curve look overly \u201cjagged\u201d or exaggerated.  \n3. **Misleading density** \u2013 the graph may suggest that values are clustered tightly when, in reality, the data simply extend beyond the displayed window.  \n\n**When the bounds are **too broad**:**\n\n1. **Loss of resolution** \u2013 a large span spreads the data over many gridlines, so small variations become hard to see; the plot can look flat or \u201cwashed\u2011out.\u201d  \n2. **Empty space** \u2013 a lot of the chart area may contain no data, which wastes plot space and can make the figure look unprofessional.  \n3. **Distorted perception of trends** \u2013 because the scale is stretched, steep rises or falls can appear gentle, potentially leading viewers to underestimate the magnitude of changes.  \n\nIn short, overly narrow bounds can hide or truncate data, while overly broad bounds can obscure detail and make patterns harder to interpret. Choosing axis limits that comfortably encompass the full data range while still zooming in enough to reveal the relevant variation is the key to an effective graph."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 11.0,
+    "num_attempts": 11,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 54.429805755615234,
+    "total_time": 55.715346336364746
+  }
+}

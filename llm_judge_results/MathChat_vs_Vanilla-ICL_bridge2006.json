@@ -1,0 +1,119 @@
+{
+  "target_method": "MathChat",
+  "baseline_method": "Vanilla-ICL",
+  "dataset": "bridge2006",
+  "backbone": "gpt",
+  "total_comparisons": 13,
+  "target_wins": 2,
+  "baseline_wins": 11,
+  "ties": 0,
+  "win_rate": 0.15384615384615385,
+  "avg_score_target": 5.3538461538461535,
+  "avg_score_baseline": 6.76923076923077,
+  "detailed_results": [
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "baseline",
+      "score_a": 5.6,
+      "score_b": 7.1,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A is verbose, repetitive, and frequently changes the scenario numbers mid\u2011problem, which risks confusing the student. While it does provide step\u2011by\u2011step solutions, it never meaningfully adapts to the student's specific weaknesses (e.g., difficulty with comparing products) beyond generic breakdowns, and its constant restating of similar multiplication examples without clear progression may reduce efficiency. Dialogue B, on the other hand, uses tight, simple scenarios and confirms or corrects the student\u2019s thinking with immediate numerical comparisons, reinforcing the multiply\u2011and\u2011compare process repeatedly across varied examples. Even though it is not deeply personalized to the profile, it compacts the instruction into digestible practice with clear feedback each time, which better maintains engagement and supports learning for a student struggling with basic product comparison. For this student, struggling with accuracy and needing repeated direct practice, B's tightly structured and frequent short feedback cycles are more effective than A's meandering approach.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [5/10]**  \n**Overall Score: A [5.6/10], B [7.1/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 519,
+      "concept_text": "Calculate product of two numbers",
+      "winner": "baseline",
+      "score_a": 5.5,
+      "score_b": 7.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A spends a large amount of time discussing the meta-value of saying \u201cI don\u2019t know,\u201d but rarely moves the student forward in actually calculating products. This results in excessive repetition and tangents that do not address the student\u2019s main weakness\u2014multiplying two numbers with only 44% accuracy\u2014so personalization is largely superficial. Although A\u2019s explanations are clear, the instructional path is inefficient and lacks practice opportunities that match the student\u2019s skill needs.  \nDialogue B, while more generic, consistently provides direct multiplication practice, immediate correction of wrong answers, and concrete strategies such as repeated addition or breaking numbers into parts. It addresses the student\u2019s confusion by repeatedly re-teaching the core concept of \u201cproduct\u201d and giving the student accessible computation methods, which directly targets the low accuracy on the skill in question. Even without strong personalization, B\u2019s tighter focus and high practice density are more likely to produce better learning outcomes for this student.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [5/10]**  \n**Overall Score: A [5.5/10], B [7.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "baseline",
+      "score_a": 4.5,
+      "score_b": 6.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A is extremely long, repetitive, and cycles through multiple restatements of essentially the same \"Identify larger quantity\" problem without meaningful progression. While it occasionally breaks down multiplication steps, the explanations are muddled with repeated \u201cI don\u2019t know\u201d cycles and inconsistent problem data, which can confuse the learner rather than clarify. It does not use the student's profile in a way that adaptively improves learning \u2013 the scaffolding is present but not tuned to the student's main weakness (low multiplication accuracy).  \n\nDialogue B offers shorter, clearer problems, direct step-by-step checking of answers, and immediate feedback when the student is wrong, including compact comparative calculations. Even without deep personalization, it provides repeated practice with similar structure, which aligns well with the student\u2019s need to reinforce multiplication comparison skills. While B is still generic, the sustained practice and efficient corrections make it more effective at building skill mastery for this specific student. For this case, B yields clearer learning outcomes despite the lack of overt personalized adaptation.\n\n**Instructional Quality: A [5/10], B [7/10]**  \n**Personalization Impact: A [3/10], B [4/10]**  \n**Overall Score: A [4.5/10], B [6.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "baseline",
+      "score_a": 4.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A gives multiple step-by-step walkthroughs but is verbose, repetitive, and includes calculation errors in brackets. While it attempts step-by-step scaffolding, the explanations often reset without building momentum, and the student repeatedly says \u201cI don\u2019t know,\u201d suggesting low engagement and limited learning progress. Personalization is minimal\u2014there is no clear adaptation to this student\u2019s profile of low multiplication accuracy beyond generic instruction.  \n\nDialogue B, while simpler and less verbose, delivers tightly\u2011focused practice problems, immediate feedback, and clear product comparisons. The tutor corrects mistakes, explains *why* an answer is right or wrong, and offers mental\u2011math tips. The progression in difficulty is reasonable, and several problems reach completion with correct student answers\u2014demonstrating better practice cycles and reinforcement of the core skill the student struggles with (\u201cIdentify larger quantity \u2013 multiplication\u201d). Personalization is mostly generic but the pacing and repeated product-comparison exercises directly target the skill deficit, which for this student is the most impactful adaptation given their low accuracy on multiplication comparisons.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [6/10]**  \n**Overall Score: A [4/10], B [7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1053,
+      "concept_text": "Identify larger quantity -- multiplication",
+      "winner": "baseline",
+      "score_a": 4.0,
+      "score_b": 6.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A suffers from excessive repetition and conflicting numerical setups, which likely confuses the learner rather than reinforcing the skill. Although it attempts step-by-step reasoning, its inconsistent data makes it pedagogically weaker for this student, and it doesn\u2019t target the student\u2019s specific accuracy pattern in multiplication comparisons. The personalization is minimal and generic\u2014there\u2019s no clear adaptation to the student\u2019s low multiplication accuracy or difficulty with comparing totals.  \nDialogue B, while more generic, is cleaner and more focused: it provides direct practice on comparing products, uses clear and correct calculations, and offers concise corrective feedback (e.g., showing why 7\u00d78 > 6\u00d79), which directly builds the \u201cidentify larger quantity\u201d skill where this student is weak. Although B\u2019s personalization is limited, its consistent correct examples, progressive practice, and targeted error analysis make it more effective for building the specific skill this student needs.  \nOverall, B\u2019s clarity, correct modeling, and repeated comparison tasks outweigh A\u2019s verbosity and inconsistency, resulting in better learning outcomes for this student.\n\n**Instructional Quality: A [4/10], B [7/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [4/10], B [6.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 834,
+      "concept_text": "Identify larger quantity -- addition",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 8.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A is verbose, repetitive, and presents multiple unrelated comparison problems without clear closure; while it offers step-by-step feedback, the explanations are scattered, sometimes contain calculation errors, and pacing is poor\u2014making retention harder for this student. Importantly, the student profile shows they need improvement on \u201cIdentify larger quantity \u2013 addition,\u201d yet Dialogue A\u2019s complexity and tangents (switching contexts from books to money mid-sequence) risk cognitive overload, especially for someone still mastering basic comparative addition. Dialogue B, on the other hand, keeps the tasks simple, consistently follows the \u201cadd first, then compare\u201d routine, and reinforces the missing comparison step the student struggles with. This concrete scaffolding aligns directly with the student\u2019s weakness, addresses the omission in their answers, and repeats practice at the right difficulty level. While Dialogue B is generic, its step-by-step corrections and targeted completion of the comparison step clearly support better learning outcomes for *this* student.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [7/10]**  \n**Overall Score: A [5/10], B [8/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 360,
+      "concept_text": "Identify negative integer from number line",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A delivers clearer, more thorough explanations of what a negative integer is, using formal definitions, examples, visual references, and scaffolding to break down student confusion step-by-step. The tutor consistently rephrases and reinforces the concept, which is crucial for this student who has only 50% accuracy in \"Identify negative integer from number line.\" While A is verbose, the repeated conceptual framing helps consolidate understanding and addresses the underlying misconception about integers vs. fractions/decimals. Dialogue B, in contrast, focuses mainly on concrete identification exercises but repeatedly marks answers wrong without deeply unpacking the reasoning or guiding the student to a corrected mental model. B contains multiple practice questions but provides limited conceptual scaffolding, which risks the student continuing to guess rather than understand. There is no meaningful personalization in either, but A\u2019s pedagogical approach is more effective for this student\u2019s profile because it builds the core definitional foundation they clearly need.\n\n**Instructional Quality: A [8/10], B [5/10]**  \n**Personalization Impact: A [3/10], B [2/10]**  \n**Overall Score: A [7/10], B [5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 842,
+      "concept_text": "Identify larger quantity -- addition",
+      "winner": "baseline",
+      "score_a": 6.0,
+      "score_b": 7.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A is very repetitive, often reusing the same Maya/Leo sticker problem multiple times without progressing difficulty or adapting to the student's repeated \"I don't know\" responses. While it provides step-by-step breakdowns, it fails to connect to the student\u2019s specific weaknesses in \"Identify larger quantity \u2013 addition\" by varying examples or scaffolding effectively. Personalization is minimal\u2014although the tutor explains the comparison reversal mistake once, it does not adjust approach or problem structure to help the student move from confusion to success.  \nDialogue B, however, uses clear, varied, and progressively different examples (marbles, apples, books, stickers, balloons, seashells) that maintain engagement while reinforcing the addition\u2013comparison process. The pacing is smoother; after each mistake, it gives targeted feedback highlighting the correct additive work and the missed comparison step. Even with repeated \"I don't know\" answers, B adapts by simplifying and reiterating the core two-step method (add, then compare) with fresh contexts, which is better suited to help this specific student strengthen their weak skill. Although not heavily personalized to past profile data, the instructional clarity, variety of practice, and targeted feedback make B more effective for learning outcomes.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [5/10], B [6/10]**  \n**Overall Score: A [6/10], B [7.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 799,
+      "concept_text": "Identify larger quantity -- subtraction",
+      "winner": "target",
+      "score_a": 7.4,
+      "score_b": 3.7,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A gives clear, accurate explanations of subtraction with borrowing, scaffolded step-by-step instruction, and repeated worked examples. It responds directly to the student's repeated \u201cI don\u2019t know\u201d with structured reasoning that targets a known weakness from the profile (\u201cneeds improvement\u201d on identify larger quantity \u2014 subtraction), breaking comparison and borrowing into logical, digestible steps. While A is verbose, the repetition consistently reinforces the target skill and the explicit place-value reasoning \u2014 which is crucial for this learner \u2014 is pedagogically sound. Dialogue B, in contrast, is less focused and shows instructional errors and confusion about comparing digits, frequently referencing unrelated numbers; it doesn't build effectively on prior strengths or address weaknesses coherently. B's personalization is superficial \u2014 it does not leverage the student profile in a way that substantively improves learning \u2014 and its feedback sometimes misaligns with the given problems, risking further confusion. A's sustained, accurate scaffolding is more likely to produce improved learning outcomes for this specific student.\n\n**Instructional Quality: A [8/10], B [4/10]**  \n**Personalization Impact: A [6/10], B [3/10]**  \n**Overall Score: A [7.4/10], B [3.7/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 842,
+      "concept_text": "Identify larger quantity -- addition",
+      "winner": "baseline",
+      "score_a": 5.5,
+      "score_b": 7.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A is verbose, repetitive, and cycles through essentially the same Maya/Leo example without adjusting difficulty or engaging the student beyond restating the same process. Although it sometimes explains steps, it doesn't scaffold progressively or vary examples in a way that helps *this* student, whose weakness in \"Identify larger quantity \u2014 addition\" is clear. The repetition without novelty risks disengagement and does not directly leverage the student's strengths in other related skills (e.g., computation accuracy).  \n\nDialogue B, while generic, uses a variety of short, distinct examples, and repeats the **add then compare** structure consistently with concise, clear explanations. It gives immediate corrective feedback on mistakes and reinforces the comparison step \u2014 which is the key misconception this student repeatedly demonstrated (thinking 14 > 15). The pacing and variety make it more likely to build the needed skill, even without deep personalization. Dialogue B is more efficient and engages the student through different contexts, improving chances for durable learning.  \n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [5.5/10], B [7.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 834,
+      "concept_text": "Identify larger quantity -- addition",
+      "winner": "baseline",
+      "score_a": 4.5,
+      "score_b": 7.5,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**\nDialogue A gives long, overly complex feedback with repeated, sometimes inconsistent numerical examples, which risks confusing the student, especially given their \"needs improvement\" status on this skill. It does not meaningfully connect to the student\u2019s profile or strengths/weaknesses and often meanders, reducing instructional efficiency. Dialogue B, while more generic, maintains clear, concise step-by-step addition and comparison processes, directly reinforcing the core skill (\"add first, then compare\") that the student needs to improve. Its pacing and repetition are purposeful\u2014multiple cycles of scaffolded practice without added unrelated content\u2014leading to stronger reinforcement of the target concept. Although B does not show explicit personalization to the student profile, its instructional clarity and repeated practice on the exact weak skill make it more likely to improve outcomes for this student than A\u2019s verbose, scattered approach.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [6/10]**  \n**Overall Score: A [4.5/10], B [7.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 519,
+      "concept_text": "Calculate product of two numbers",
+      "winner": "baseline",
+      "score_a": 5.6,
+      "score_b": 7.2,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A is extremely verbose and meta\u2011focused on the meaning of \u201cI don\u2019t know,\u201d offering repeated philosophical reflections and generic scaffolds without actually pushing the student through concrete multiplication examples. While it has accurate math where done, the repetition and tangent into metacognition eat time without producing clear skill gains for a student who needs focused practice on \u201cCalculate product of two numbers.\u201d It doesn\u2019t adapt examples to the student\u2019s strengths or weaknesses meaningfully\u2014despite profile data, it defaults to generic bakery problems.  \nDialogue B, while less personalized, keeps the focus tightly on multiplication tasks with clear worked examples, explicit correction of errors, and immediate re\u2011engagement in similar problems to reinforce the skill. It responds directly to mistakes (e.g., 7\u00d78=54 correction) and models strategies like repeated addition and breaking numbers apart, which are useful for this student\u2019s low accuracy in multiplication. Even without deep personalization, the consistent targeted practice is more likely to improve this specific skill for this learner.\n\n**Instructional Quality: A [6/10], B [8/10]**  \n**Personalization Impact: A [4/10], B [5/10]**  \n**Overall Score: A [5.6/10], B [7.2/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 834,
+      "concept_text": "Identify larger quantity -- addition",
+      "winner": "baseline",
+      "score_a": 5.0,
+      "score_b": 7.0,
+      "judgment": "**Winner: Dialogue B**\n\n**Reasoning:**  \nDialogue A is verbose, overcomplicates simple comparison tasks, and sometimes introduces calculation errors or irrelevant quantities (e.g., odd table values unrelated to the original question). While it responds to \u201cI don\u2019t know\u201d with step-by-step reasoning, the pacing is poor and explanations are cluttered, which risks overwhelming a student with this profile\u2014who needs clear, focused guidance on identifying larger quantities, especially after addition. The personalization in A is superficial; it does not adapt difficulty or leverage the student\u2019s strengths in simpler additive tasks, instead presenting overly complex scenarios with mixed units and inconsistent data.  \n\nDialogue B offers shorter, clearer explanations with a consistent \u201cadd then compare\u201d routine, directly suited to the student\u2019s weak skill (\u201cIdentify larger quantity \u2013 addition\u201d) and builds on it with repeated practice. It scaffolds by reminding the student of steps and prompting explicit comparison statements, addressing both addition and comparison in a structured way. While B is not highly personalized from profile data, its instructional clarity, step structure, and repeated targeted practice better match the student\u2019s need for straightforward skill reinforcement, likely producing better outcomes for THIS student.\n\n**Instructional Quality: A [5/10], B [8/10]**  \n**Personalization Impact: A [3/10], B [5/10]**  \n**Overall Score: A [5/10], B [7/10]**\n\n**Confidence: High**"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "student_id": "447",
+  "dataset": "algebra2005",
+  "method": "pre-test",
+  "concept_text": "[SkillRule: Select Eliminate Parens; {CLT nested; CLT nested@@@@ parens; Distribute Mult right; Distribute Mult left; Distribute subex}]",
+  "concept_id": "80",
+  "original_accuracy": 0.42857142857142855,
+  "roleplay_accuracy": 0.9,
+  "deviation": 0.4714285714285715,
+  "roleplay_score": 9,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concepts related to simplifying expressions, distributing multiplication, and the role of parentheses in mathematical operations. Most answers are well-articulated and provide clear examples. However, there was a mistake in Question 5 regarding the simplification of the expression, indicating a need for more careful application of distribution in that context.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What does 'Select Eliminate Parens' mean in the context of simplifying mathematical expressions?",
+      "student_answer": "I think \u201cSelect\u202fEliminate\u202fParens\u201d is the step where you decide which sets of parentheses you can get rid of when you\u2019re simplifying an expression.\u202fUsually you look for places where the parentheses are either around a single term or are being multiplied by something, so you can distribute (or just drop) the brackets.\u202fFor example, in\u202f\\(3(x+2)\\) you would \u201cselect\u201d the parentheses around\u202f\\(x+2\\) and eliminate them by distributing the 3, giving\u202f\\(3x+6\\).\n\nSometimes it also means noticing when parentheses are unnecessary because of the order of operations\u2014like \\((a+b)\\) standing alone, which can just be written as \\(a+b\\).\u202fSo the idea is to pick out the brackets that you can safely remove (usually by distributing or by recognizing they don\u2019t affect the order) and then rewrite the expression without them. \n\nI\u2019m not completely sure if this also covers cases where you have nested parentheses that need to be simplified step\u2011by\u2011step, but that\u2019s the general sense I have of the term."
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the concept of 'CLT nested' and provide an example where it is applied.",
+      "student_answer": "The \u201cCLT\u202fnested\u201d idea is basically a way of using the Central\u202fLimit Theorem\u202fagain inside another statistical problem \u2013 you treat a statistic that itself is built from smaller\u2011sample statistics as if it were a new \u201csample\u201d and then apply the CLT to that.  \n\nIn other words, you first use the CLT to say that the average of a set of observations is approximately normal, and then you take those averages (or other CLT\u2011derived quantities) as data points in a second\u2011level analysis, where you apply the CLT a second time.  \n\n**Example (rough sketch).**  \nSuppose a company surveys 10\u202fdifferent stores, and at each store it randomly selects 30 customers and records how much each spends.  \n\n1. For each store you compute the mean spend of the 30 customers. By the CLT, each of those 10 store\u2011means is approximately normally distributed (even if the underlying spend distribution is not normal).  \n2. Now you have 10 \u201cstore\u2011mean\u201d values. If you take the average of those 10 means (or fit a model to them), you can again invoke the CLT\u2014this time treating the 10 means as independent observations\u2014to claim that the overall average across stores is also roughly normal.\n\nSo the \u201cnested\u201d part is just the second\u2011level use of the CLT on the first\u2011level CLT results.  \n\n*(I think that\u2019s the main idea, though I\u2019m not 100\u202f% sure the terminology is used exactly like this everywhere.)*"
+    },
+    {
+      "question_number": 3,
+      "question": "How do parentheses affect the order of operations in nested expressions?",
+      "student_answer": "Parentheses are basically \u201csticky\u201d brackets that tell you to treat whatever is inside them as a single chunk.  In most problems you\u2019re supposed to work on the innermost set first and then \u201cun\u2011wrap\u2019\u2019 the surrounding ones, because that guarantees you\u2019re following the intended grouping.  \n\nIn practice that means the normal PEMDAS/BODMAS hierarchy (exponents, then multiplication/division, then addition/subtraction) is overridden inside the parentheses \u2013 you do whatever the parentheses say before you worry about the rest of the expression.  So if you have something like  \n\n\\[\n(3+2)\\times(5-1)\n\\]\n\nyou\u2019d add\u202f3\u202f+\u202f2 and subtract\u202f5\u202f\u2212\u202f1 first, then multiply the two results.  \n\nWhen the parentheses are nested you generally start with the deepest (innermost) pair and work your way outward.  For example  \n\n\\[\n2\\bigl[3+(4-1)\\bigr]\n\\]\n\nyou\u2019d first evaluate the\u202f(4\u202f\u2212\u202f1), then the\u202f3\u202f+\u202f(that result), and finally multiply by\u202f2.\n\n(Although sometimes I\u2019m not 100\u202f% sure \u2013 I think in a few rare cases you might be able to evaluate the outer pair first if the inner part doesn\u2019t actually change the order, but the safe rule is to go from the inside out.)"
+    },
+    {
+      "question_number": 4,
+      "question": "Demonstrate how to distribute multiplication to the left in the expression: 3 * (x + 4).",
+      "student_answer": "To distribute the multiplication to the left, multiply each term inside the parentheses by the\u202f3:\n\n\\[\n3 \\times (x + 4) = 3 \\times x \\;+\\; 3 \\times 4.\n\\]\n\nSo the expression becomes  \n\n\\[\n3x + 12.\n\\]\n\n(So, after distributing, you get \\(3x + 12\\).)"
+    },
+    {
+      "question_number": 5,
+      "question": "Simplify the following expression using 'Distribute Mult right': (2a + 3)(4).",
+      "student_answer": "I think the expression simplifies to  \n\n\\[\n2a + 12\n\\]"
+    },
+    {
+      "question_number": 6,
+      "question": "What is the purpose of eliminating parentheses in mathematical expressions, and how does it simplify calculations?",
+      "student_answer": "The main reason we get rid of parentheses is to make the order of operations clear and to turn a \u201cnested\u2019\u2019 expression into a straight\u2011line (or \u201cflat\u2019\u2019) one that we can evaluate step\u2011by\u2011step.  When the brackets are removed we can:\n\n* see exactly which terms are being added, subtracted, multiplied or divided;\n* apply the distributive law (e.g.,\u202f\\(a(b+c)=ab+ac\\)) so that every operation is performed directly on individual numbers or variables rather than on a whole group;\n* avoid having to keep track of \u201cinside\u2011versus\u2011outside\u2019\u2019 levels, which reduces the chance of mixing up signs or forgetting to multiply a term by everything inside the brackets.\n\nIn practice this usually means the expression can be written as a simple sum or product of single terms, which is easier for mental arithmetic or for plugging numbers into a calculator.  (Sometimes people also say that eliminating parentheses *reduces the total number of terms*, but that isn\u2019t always true \u2013 it just reshapes the expression.)  \n\nOverall, dropping the parentheses simplifies the calculation by giving a linear, un\u2011ambiguous sequence of operations that can be carried out in the usual left\u2011to\u2011right (or PEMDAS) order."
+    },
+    {
+      "question_number": 7,
+      "question": "In the expression (5 + 2)(x - 3), use 'Distribute subex' to simplify the equation step by step.",
+      "student_answer": "**Step\u2011by\u2011step (using \u201cDistribute\u202fsubex\u201d)**\n\n1. **First split the product**  \n   \\[\n   (5+2)(x-3)=5(x-3)+2(x-3)\n   \\]\n\n2. **Distribute each term inside the parentheses**  \n   \\[\n   5(x-3)=5x-15\\qquad\\text{and}\\qquad 2(x-3)=2x-6\n   \\]\n\n3. **Write the expression with the two results together**  \n   \\[\n   5x-15\\;+\\;2x-6\n   \\]\n\n4. **Combine like terms**  \n   \\[\n   (5x+2x)=7x\\quad\\text{and}\\quad(-15-6)=-20\n   \\]\n\n5. **Final simplified form**  \n   \\[\n   (5+2)(x-3)=7x-20\n   \\]\n\n*(I think this is the simplified result after distributing the sub\u2011expressions.)*"
+    },
+    {
+      "question_number": 8,
+      "question": "Describe the difference between distributing multiplication to the left versus to the right in an algebraic expression.",
+      "student_answer": "The idea of \u201cdistributing to the left\u201d versus \u201cdistributing to the right\u201d is just a way of deciding which factor you treat as the one that \u201cgets spread\u201d over the parentheses.  \n\n- **Distribute to the left** \u2013 you take the term that is on the left\u2011hand side of the parentheses and multiply it by each term inside the parentheses. For example, in  \n\\( a\\,(b+c) \\) you would think of the \\(a\\) as being on the left, so you write \\(a\\cdot b + a\\cdot c\\).  \n\n- **Distribute to the right** \u2013 you do the same thing but you start with the factor that is on the right\u2011hand side of the parentheses. For instance, in  \n\\((b+c)\\,a\\) you would treat the \\(a\\) as the right\u2011hand factor and write \\(b\\cdot a + c\\cdot a\\).  \n\nBecause multiplication is commutative (\\(a\\cdot b = b\\cdot a\\)), the two procedures give the same final result; the only difference is the order in which you write the intermediate products. In practice you can pick whichever one looks easier, and the algebraic value does not change. \n\n(So, basically, left\u2011distribution and right\u2011distribution are just two perspectives on the same distributive property.)"
+    },
+    {
+      "question_number": 9,
+      "question": "Identify the correct method to simplify the nested expression: ((3x + 5) + (2x - 1)) using 'CLT nested'.",
+      "student_answer": "To simplify the expression  \n\n\\[\n((3x + 5) + (2x - 1))\n\\]\n\nusing the **CLT\u202fnested** (which relies on the associative and commutative properties), we first drop the outer pair of parentheses and then remove the inner ones, keeping the order of the terms flexible:\n\n1. **Remove the outer parentheses** (they don\u2019t affect the sum):\n   \\[\n   (3x + 5) + (2x - 1)\n   \\]\n\n2. **Remove the inner parentheses** (since addition is associative/commutative):\n   \\[\n   3x + 5 + 2x - 1\n   \\]\n\n3. **Combine like terms**:\n   \\[\n   (3x + 2x) + (5 - 1) = 5x + 4\n   \\]\n\nSo the simplified form is  \n\n\\[\n\\boxed{5x + 4}\n\\]"
+    },
+    {
+      "question_number": 10,
+      "question": "Provide an example where eliminating parentheses changes the structure of the expression but not the value, and explain why this is the case.",
+      "student_answer": "One simple example comes from the associative law for addition.  \n\nTake the expression  \n\n\\[\n(2+3)+4.\n\\]\n\nIf we \u201celiminate\u201d the parentheses and rewrite the expression as  \n\n\\[\n2+3+4,\n\\]\n\nthe **structure** has changed: the original grouping was \\((2+3)\\) first, then add\u202f4, whereas the rewritten form does not show any explicit grouping (the standard convention is to evaluate from left to right).  \n\nNevertheless the **value** stays the same:\n\n\\[\n(2+3)+4 = 5+4 = 9,\\qquad\n2+3+4 = (2+3)+4 = 5+4 = 9.\n\\]\n\nThe reason is that addition is **associative** \u2013 the way we parenthesize (or don\u2019t parenthesize) a sum does not affect its result. So removing the parentheses changes the written structure but not the numerical value.  \n\n(You could also use multiplication, e.g. \\((2\\cdot3)\\cdot4 = 2\\cdot(3\\cdot4) = 24\\), for the same reason.)"
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 101.0,
+    "num_attempts": 7,
+    "last_response": 0
+  },
+  "timing": {
+    "answer_time": 56.04204344749451,
+    "total_time": 57.41482186317444
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "target_method": "TutorLLM-llama",
+  "baseline_method": "Vanilla-ICL-llama",
+  "dataset": "assist2017",
+  "backbone": "llama",
+  "total_comparisons": 9,
+  "target_wins": 9,
+  "baseline_wins": 0,
+  "ties": 0,
+  "win_rate": 1.0,
+  "avg_score_target": 6.2375,
+  "avg_score_baseline": 4.4125,
+  "detailed_results": [
+    {
+      "student_id": 183,
+      "concept_text": "fraction-multiplication",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A delivers slightly better instructional quality because it consistently explains fraction multiplication with accurate steps (multiplying numerators and denominators separately) and connects the skill to related weaknesses like percent-of and area, which the student struggles with. While there is repetition and occasional confusion in execution, A incorporates scaffolding attempts (starting with simple fractions, building complexity) and shows awareness of the student\u2019s weak accuracy in fraction multiplication.  \nDialogue B\u2019s explanations are less precise, with repeated examples but occasional inaccuracies or muddled reasoning (e.g., confusing division by fractions with multiplication scenarios). Although B frames tasks in relatable contexts (pizza, books, crayons), personalization is minimal and doesn't leverage the student\u2019s profile meaningfully\u2014it repeats the pizza example without addressing related weak topics or bridging to stronger skills.  \nUltimately, A\u2019s modest personalization (linking fraction multiplication to percent-of and area) and somewhat clearer pedagogy give it the edge, despite both dialogues having engagement issues and some inefficiency.\n\n**Instructional Quality: A [6.5/10], B [5.5/10]**  \n**Personalization Impact: A [5.5/10], B [3.5/10]**  \n**Overall Score: A [6/10], B [5/10]**  \n\n**Confidence: Medium**"
+    },
+    {
+      "student_id": 183,
+      "concept_text": "fraction-multiplication",
+      "winner": "target",
+      "score_a": 6.6,
+      "score_b": 4.8,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides clearer step-by-step explanations of fraction multiplication, consistently reminding the student to multiply numerators and denominators separately, and connecting the concept to related skills the student struggles with (percent-of and area). While occasionally verbose, A sustains a repeated focus on the fraction multiplication process and attempts scaffolding by moving from simpler to more complex problems. The personalization\u2014linking to the student\u2019s documented weaknesses\u2014is actively used to frame explanations and choose practice questions, which is more meaningful than in B. Dialogue B, while using concrete contexts like pizzas and crayons, often repeats earlier examples without building conceptual clarity, and its explanations are occasionally muddled or inaccurate (e.g., confusion in interpreting student's partial solutions). Personalization in B is mostly generic and does not engage with the student's specific history or accuracy data. As a result, A demonstrates substantially better instructional quality and more actionable personalization for this learner.\n\n**Instructional Quality: A [7/10], B [5/10]**  \n**Personalization Impact: A [6/10], B [4/10]**  \n**Overall Score: A [6.6/10], B [4.8/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 119,
+      "concept_text": "equivalent-fractions-decimals-percents",
+      "winner": "target",
+      "score_a": 5.5,
+      "score_b": 3.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides more consistent scaffolding, repetition of key steps, and attempts to connect equivalent fractions, decimals, and percents to concrete examples (like the pizza analogy), which are appropriate given the student's major weaknesses in this area. Although A is somewhat repetitive and often revisits the same fraction (3/8), it tries to break the process down step\u2011by\u2011step and gives the student specific strategies (e.g., multiply decimal by 100 to get percent), and there is at least some minimal connection to the student's profile (references to their prior struggles and successes). Dialogue B remains largely generic, frequently mislabels answers as \u201cpartially correct\u201d in ways that are confusing, and does not meaningfully adapt to the student\u2019s documented weaknesses\u2014it repeats conversions without adjusting difficulty or approach. Engagement in B is weaker because feedback often reiterates the process without tailoring explanations or varying examples to sustain interest. Overall, A\u2019s instructional quality and personalization are marginally stronger, leading to better potential for learning gains in this student.\n\n**Instructional Quality: A [6/10], B [4/10]**  \n**Personalization Impact: A [5/10], B [3/10]**  \n**Overall Score: A [5.5/10], B [3.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 183,
+      "concept_text": "fraction-multiplication",
+      "winner": "target",
+      "score_a": 6.5,
+      "score_b": 4.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides clearer instructional scaffolding for fraction multiplication, breaking concepts into smaller steps (multiplying numerators and denominators separately) and revisiting fundamentals repeatedly. While somewhat repetitive, its explanations are generally accurate and tailored to the student's struggles in related areas (e.g., percent-of, area), linking these concepts to fraction multiplication to build conceptual understanding. Personalization is meaningfully used \u2014 the tutor notes the student's low accuracy in fraction multiplication and related weaknesses, and explicitly chooses simpler problems to address those gaps.  \n\nDialogue B, while using real-world contexts like pizzas and bookshelves to engage the student, often repeats earlier examples without advancing difficulty effectively and sometimes confuses the solution process (e.g., offering contradictory statements regarding simplification and correctness). Personalization is minimal \u2014 scenarios are generic and not connected to the student\u2019s profile or documented weaknesses in actionable ways. Overall, Dialogue A demonstrates stronger pedagogical structure and more targeted adaptation that would better support this specific student\u2019s needs.\n\n**Instructional Quality: A [7/10], B [5/10]**  \n**Personalization Impact: A [6/10], B [3/10]**  \n**Overall Score: A [6.5/10], B [4.5/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 183,
+      "concept_text": "fraction-multiplication",
+      "winner": "target",
+      "score_a": null,
+      "score_b": null,
+      "judgment": "**Winner:** Dialogue A\n\n**Reasoning:**  \nDialogue A provides more consistent and structured explanations tailored to the student's documented weaknesses in fraction multiplication. The tutor explicitly connects fraction multiplication to related concepts the student struggles with (e.g., percent-of and area problems) and emphasizes starting with simpler examples to build confidence, which is an actionable personalization based on the profile. Instructional quality is stronger due to step-by-step breakdowns of numerator and denominator multiplication, and the pacing progresses gradually from simpler to more complex problems.  \nDialogue B, while using relatable real-life scenarios (pizza, books, crayons), often repeats the same fraction-by-whole number example without moving forward conceptually. Explanations occasionally contain inaccuracies or confusing elements (e.g., contradicting whether 36/4 should be simplified), and personalization is minimal\u2014it does not draw on the student's history or other related weak areas to support learning. Engagement is reasonable in both cases, but Dialogue A is more responsive to the student's confusion and adapts the difficulty level appropriately.\n\n**Instructional Quality:** A [7/10], B [5/10]  \n**Personalization Impact:** A [6/10], B [3/10]  \n**Overall Score:** A [6.6/10], B [4.4/10]  \n\n**Confidence:** High"
+    },
+    {
+      "student_id": 183,
+      "concept_text": "fraction-multiplication",
+      "winner": "target",
+      "score_a": 6.6,
+      "score_b": 4.6,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides clearer explanations of fraction multiplication, consistently breaking the process into multiplying numerators and denominators separately and attempting to scaffold the student's understanding from simpler examples to more complex ones. While it is sometimes repetitive and verbose, it meaningfully links the topic to the student's known weaknesses (fraction-multiplication, percent-of, area) and uses this to frame the importance of the skill. Dialogue B, while offering relatable word problems, often repeats the same simple case without significant scaffolding progress, occasionally contains inaccuracies or confusing feedback (e.g., telling the student 36/4 is not correct but then claiming it\u2019s correct), and fails to build conceptual clarity. Personalization in B is minimal and generic, whereas in A, the tutor actively references the student's profile and prior struggles in a way that could reinforce learning outcomes. Dialogue A\u2019s instructional quality is stronger and more responsive to the profile, making it more effective for this student's targeted needs.\n\n**Instructional Quality: A [7/10], B [5/10]**  \n**Personalization Impact: A [6/10], B [3/10]**  \n**Overall Score: A [6.6/10], B [4.6/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 119,
+      "concept_text": "equivalent-fractions-decimals-percents",
+      "winner": "target",
+      "score_a": 6.6,
+      "score_b": 4.6,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A offers clearer step-by-step explanations and uses repeated scaffolding to break down conversions between fractions, decimals, and percentages. While pacing is somewhat slow and there\u2019s some repetitive focus on 3/8, the tutor consistently tries to connect the concept to concrete examples (like pizza or a water tank) and reinforces the calculation method, which suits the student's low accuracy in this area. Personalization in A is modest but more meaningful than in B: it references the student's known weaknesses, occasionally connecting to related topics such as area, and attempts to leverage strengths (e.g., division). Dialogue B, on the other hand, often repeats errors in feedback (e.g., mismatching fractions) and fails to correct misconceptions systematically; personalization is minimal and generic, with no strong adaptation to the student's profile beyond simple real-world contexts. Engagement in B suffers because feedback is not as targeted, and instructional quality declines due to confusion in examples and inconsistent alignment between questions and answers. Thus, A provides a more pedagogically sound experience for this struggling student.\n\n**Instructional Quality: A [7/10], B [5/10]**  \n**Personalization Impact: A [6/10], B [4/10]**  \n**Overall Score: A [6.6/10], B [4.6/10]**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 119,
+      "concept_text": "equivalent-fractions-decimals-percents",
+      "winner": "target",
+      "score_a": 5.5,
+      "score_b": 3.5,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A gives somewhat clearer step-by-step explanations and tries to connect fractions, decimals, and percents with concrete visual analogies (e.g., the pizza example), which is good scaffolding for the student\u2019s known weak area in converting between these formats. While it occasionally repeats questions and drifts into related but tangential topics (like area), it at least attempts to address misconceptions by breaking them down and reinforcing core conversion rules. Personalization is partially present \u2014 the tutor references the student\u2019s strengths (division) and weaknesses (fractions, percents) and selects related practice problems, though sometimes these links feel off-track.  \nDialogue B is more mechanical: explanations are frequently mismatched to the question, sometimes incorrect in context (referring back to 3/8 when the problem is about 5/10) and less tailored to the student\u2019s profile. Personalization is minimal and real-world contexts are not consistently leveraged to support the student\u2019s understanding. B\u2019s feedback loop often repeats a formulaic correction without varying the instructional approach, which limits engagement and learning impact.  \nOverall, A has stronger instructional quality and a moderately better use of personalization to address the student's weaknesses, making it the better learning experience.\n\n**Instructional Quality: A [6/10], B [4/10]**  \n**Personalization Impact: A [5/10], B [3/10]**  \n**Overall Score: A [5.5/10], B [3.5/10]**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 119,
+      "concept_text": "equivalent-fractions-decimals-percents",
+      "winner": "target",
+      "score_a": 6.6,
+      "score_b": 4.8,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A provides more thorough scaffolding and tries to break down the concept into smaller steps, repeatedly looping the student back to the fundamental process of converting between fractions, decimals, and percents. Although it sometimes drifts and repeats questions, it incorporates explanatory visuals (e.g., pizza slices) and review of related weaknesses (like area) to connect the skill to familiar contexts. Personalization is moderately effective \u2014 the tutor references the student\u2019s known difficulty areas and occasionally links problems to their strengths (like division), though not always in the most directly impactful way.  \nDialogue B, while straightforward and efficiently structured, often gives minimal explanation before moving on, missing opportunities to deepen understanding or tailor the approach based on the student\u2019s profile. Personalization is mostly superficial \u2014 it sets up \u201cfun\u201d real-world contexts but doesn\u2019t adapt difficulty or sequence based on the student\u2019s specific accuracy issues, and explanations are shorter and less supportive when the student says \u201cI don\u2019t know.\u201d\n\n**Instructional Quality: A [7/10], B [5/10]**  \n**Personalization Impact: A [6/10], B [4/10]**  \n**Overall Score: A [6.6/10], B [4.8/10]**\n\n**Confidence: High**"
+    }
+  ]
+}

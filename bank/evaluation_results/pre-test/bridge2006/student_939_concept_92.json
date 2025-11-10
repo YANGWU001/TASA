@@ -1,0 +1,86 @@
+{
+  "student_id": "939",
+  "dataset": "bridge2006",
+  "method": "pre-test",
+  "concept_text": "Identify whole number lower bound",
+  "concept_id": "92",
+  "original_accuracy": 0.7142857142857143,
+  "roleplay_accuracy": 1.0,
+  "deviation": 0.2857142857142857,
+  "roleplay_score": 10,
+  "max_score": 10,
+  "individual_scores": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "feedback": "The student demonstrates a strong understanding of the concept of whole number lower bounds. All answers are correct, showing a clear grasp of the definitions and applications of lower bounds in various contexts. No common mistakes were noted.",
+  "answers": [
+    {
+      "question_number": 1,
+      "question": "What is the whole number lower bound of 15.8?",
+      "student_answer": "The whole number lower bound of\u202f15.8\u202fis **15**."
+    },
+    {
+      "question_number": 2,
+      "question": "If a decimal number is 23.45, what is its whole number lower bound?",
+      "student_answer": "The whole\u2011number lower bound (the greatest integer that is not greater than 23.45) is  \n\n**23**."
+    },
+    {
+      "question_number": 3,
+      "question": "Explain the concept of a whole number lower bound in your own words.",
+      "student_answer": "A **whole\u2011number lower bound** for a quantity is the biggest whole (i.e., integer\u202f\u2265\u202f0) that is still **not larger** than the number we\u2019re approximating.  \nIn other words, it is the greatest integer that you can place \u201cunder\u201d the value without going over it.  \n\nFor example, if a measurement is 7.3, the whole\u2011number lower bound is 7, because 7\u202f\u2264\u202f7.3 and any larger whole number (8,\u202f9,\u202f\u2026) would be greater than the actual value.  \n\nThe idea is useful when we need a simple, guaranteed\u2011minimum whole\u2011number estimate of something that may not be a whole number itself."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the whole number lower bound of -7.3?",
+      "student_answer": "The whole\u2011number lower bound (the greatest integer\u202f\u2264\u202f\u20137.3) is **\u20138**."
+    },
+    {
+      "question_number": 5,
+      "question": "Is the whole number lower bound of 9.99 equal to 10? Why or why not?",
+      "student_answer": "No.  \n\nThe whole\u2011number lower bound (the greatest integer that is **\u2264** the given number) of 9.99 is 9, not 10.  \n\n- 9\u202f\u2264\u202f9.99, so 9 satisfies the \u201clower bound\u2019\u2019 condition.  \n- 10\u202f>\u202f9.99, so 10 is **not** \u2264\u202f9.99 and therefore cannot be the lower bound.  \n\nThus the lower bound of 9.99 is 9."
+    },
+    {
+      "question_number": 6,
+      "question": "Determine the whole number lower bound for the square root of 50.",
+      "student_answer": "The square root of 50 is between 7 and 8 (since \\(7^2 = 49\\) and \\(8^2 = 64\\)).  \nThus, the greatest whole\u2011number that does not exceed \\(\\sqrt{50}\\) is  \n\n**7**."
+    },
+    {
+      "question_number": 7,
+      "question": "If a number is -3.7, identify its whole number lower bound and explain your reasoning.",
+      "student_answer": "The whole\u2011number lower bound of \\(-3.7\\) is **\\(-4\\)**.\n\n**Reasoning**\n\nA whole\u2011number lower bound (or floor) is the greatest integer that is **less than or equal to** the given number.\n\n- The integers surrounding \\(-3.7\\) are \\(-4\\) and \\(-3\\).\n- \\(-4 \\le -3.7\\) (true) while \\(-3 \\le -3.7\\) is false because \\(-3\\) is greater than \\(-3.7\\).\n\nSince \\(-4\\) is the largest whole number that does not exceed \\(-3.7\\), it is the required lower bound."
+    },
+    {
+      "question_number": 8,
+      "question": "What role does rounding play when determining the whole number lower bound of a number?",
+      "student_answer": "Rounding is used to \u201cbring the number down\u201d to the nearest whole\u2011number value that is still less than or equal to the original quantity.  \nWhen we want the whole\u2011number lower bound of a number, we round it **down** (i.e., take the floor) to the next integer. This guarantees that the bound is not higher than the actual number, providing a safe underestimate that can be used in proofs, estimates, or further calculations."
+    },
+    {
+      "question_number": 9,
+      "question": "Find the whole number lower bound of 0.99 and justify your answer.",
+      "student_answer": "The whole number lower bound of \\(0.99\\) is **0**.\n\n**Justification**\n\nA whole\u2011number lower bound is the greatest integer that does not exceed the number.  \n- \\(0 \\le 0.99\\) \u2013 so 0 is a lower bound.  \n- The next whole number, \\(1\\), is greater than \\(0.99\\) (\\(1 > 0.99\\)).  \n\nSince no whole number larger than 0 can be a lower bound, 0 is the greatest whole\u2011number lower bound (i.e., the floor) of 0.99."
+    },
+    {
+      "question_number": 10,
+      "question": "How is the whole number lower bound different from the ceiling of a number? Provide an example.",
+      "student_answer": "The **whole\u2011number lower bound** of a real number is the greatest whole number that is **not larger** than the number.  \nIn other words, it is the integer \u201cjust below\u201d (or equal to) the value \u2013 it is the **floor** of the number.\n\nThe **ceiling** of a number, on the other hand, is the smallest whole number that is **not smaller** than the number.  \nIt is the integer \u201cjust above\u201d (or equal to) the value \u2013 the **ceiling** of the number.\n\n---\n\n### Example  \n\nTake the number \\(7.3\\).\n\n* **Whole\u2011number lower bound (floor):** \\( \\displaystyle\\lfloor 7.3 \\rfloor = 7\\).  \n  This is the greatest integer \u2264\u202f7.3.\n\n* **Ceiling:** \\( \\displaystyle\\lceil 7.3 \\rceil = 8\\).  \n  This is the smallest integer \u2265\u202f7.3.\n\nSo the lower bound gives the integer on the \u201clower\u201d side of the number, while the ceiling gives the integer on the \u201cupper\u201d side."
+    }
+  ],
+  "session_info": {
+    "delta_t_minutes": 5.383333333333334,
+    "num_attempts": 7,
+    "last_response": 1
+  },
+  "timing": {
+    "answer_time": 27.867417812347412,
+    "total_time": 32.79794883728027
+  }
+}

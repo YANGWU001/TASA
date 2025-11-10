@@ -1,0 +1,151 @@
+{
+  "target_method": "TutorLLM-llama",
+  "baseline_method": "Vanilla-ICL-llama",
+  "dataset": "nips_task34",
+  "backbone": "llama",
+  "total_comparisons": 17,
+  "target_wins": 17,
+  "baseline_wins": 0,
+  "ties": 0,
+  "win_rate": 1.0,
+  "avg_score_target": 6.411764705882353,
+  "avg_score_baseline": 3.1176470588235294,
+  "detailed_results": [
+    {
+      "student_id": 109,
+      "concept_text": "Factors and Highest Common Factor",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 5.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows a stronger level of personalization because it persistently revisits the same high\u2011priority weakness (\"Factors and Highest Common Factor\") with step-by-step scaffolding tied to the student's ongoing mistakes. For instance, when the student incorrectly guesses the HCF multiple times, the tutor guides them through listing complete factor sets for both numbers, then highlights exactly where their process failed, directly addressing the student's pattern of partial or incorrect lists. While Dialogue B gives correct definitions and some examples, it often responds generically to \u201cI don\u2019t know\u201d without re\u2011contextualizing based on the student's error patterns. Dialogue A demonstrates more adaptive feedback \u2014 e.g., noticing when the student partially corrects their factor lists and reinforcing progress, while also correcting specific misunderstandings. Dialogue B tends toward repetition of definitions and misses opportunities to connect the instruction to the student\u2019s previously correct partial answers or adapt exercises strategically. Overall, Dialogue A better leverages the student's prior attempts and misconceptions to target instruction.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 5/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2010,
+      "concept_text": "Time",
+      "winner": "target",
+      "score_a": 8.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A demonstrates substantially better personalization by consistently referencing the student's known weaknesses (Time, Factors, Ordering Negative Numbers) from their profile and past learning history. The tutor frequently connects current questions to these specific areas of need, explicitly noting patterns in the student's errors, such as repeated struggles with Time conversions and GCF problems. They also attempt to scaffold solutions step-by-step in response to uncertainty, offering targeted breakdowns (e.g., converting hours to minutes, working through factor lists) that align with the student\u2019s profile. In contrast, Dialogue B proceeds with generic time-based word problems and multiple-choice options, without meaningful adaptation to the student\u2019s documented struggles or history. While Dialogue B is more gamified, it fails to leverage the student\u2019s personal data and mostly gives rote corrections unrelated to prior mistakes. Thus, A is clearly more tailored to this student\u2019s needs.\n\n**Personalization Score A: 8/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2010,
+      "concept_text": "Time",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows clear attempts at personalization by repeatedly referencing the student's known weaknesses in **Time** and **Factors**, directly mentioning their past difficulties and accuracy rates, and crafting practice questions that deliberately target these weak areas (e.g., combining Time with Factors or linking Time to ordering negative numbers). It also tries to scaffold explanations based on the student's uncertainty, encouraging step-by-step breakdowns, and connecting problems to prior learning history (\u201cyou previously got a Time problem wrong\u201d). In contrast, Dialogue B remains mostly generic: although it presents themed \"Time Challenges,\" it does not leverage the student\u2019s profile or history in the design or feedback, nor does it adjust difficulty or content to their specific problem areas. B\u2019s questions and feedback tend to be standard arithmetic practice without tailoring to the student's needs, and occasionally irrelevant or inconsistent. Overall, Dialogue A demonstrates more actionable, student-specific adaptation, while Dialogue B is largely impersonal.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2641,
+      "concept_text": "BIDMAS",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows clearer and more frequent personalization to the student's specific profile and needs. The tutor references the student's past difficulties (\"Given your past challenges with Mental Multiplication and Division\") and deliberately incorporates problem types the student struggles with, such as negative numbers and BIDMAS operations. The questions escalate in complexity but remain tied to the student\u2019s known weaknesses, even blending topics (order of operations with negatives) to target multiple weak areas. In contrast, Dialogue B remains largely generic \u2014 while the tutor explains BIDMAS, the examples and feedback are not tailored to the student\u2019s error patterns or weak areas, nor does it explicitly leverage the student's history. Dialogue B repeats unrelated or mismatched examples and sometimes reuses prior solutions without logical sequence. Overall, Personalized scaffolding and integration of the student's history are stronger in Dialogue A.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2010,
+      "concept_text": "Time",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A demonstrates substantially better personalization by directly referencing the student's known weaknesses (Time, Factors, Ordering Negative Numbers) and past history (e.g., \"you previously got a Time problem wrong\" and \"had difficulty understanding Time\"). The tutor in A adapts questions to combine weak areas (Time + Factors, Time + Negative Numbers), attempts step-by-step breakdowns, and invites the student to recall prior concepts. While the questioning sequence is lengthy and sometimes repetitive, it does maintain a consistent focus on the student\u2019s documented problem areas and builds on past performance data. Dialogue B, by contrast, is generic, lacks any linkage to the student's profile or memory, and uses pre-set, unrelated scenarios without adapting difficulty or content to the student's known skill gaps. Feedback in B often appears mismatched to the question, failing to respond dynamically to the student\u2019s actual answers, which undermines personalization.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Factors and Highest Common Factor",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A explicitly references the student's profile (\u201cBased on the student's profile and past learning\u2026\u201d) and focuses on a documented area of need \u2014 *Factors and Highest Common Factor* \u2014 offering targeted practice and repeated scaffolding. It adapts in response to specific errors (e.g., the student confusing larger factors with HCF, stopping factor lists too early) and provides corrective reasoning tailored to the student's missteps. The tutor also reiterates definitions and walks through factor lists side-by-side, which matches the student's low accuracy in this skill. Dialogue B, while clear and structured, often repeats generic definitions without leveraging the student's known gaps or history beyond general factor-finding; it sometimes fails to directly correct misunderstandings (e.g., accepting \"3\" as HCF of 18 and 30 when the list clearly shows 6). B does not consistently reference the student's attempts or accuracy history to drive instruction, making its personalization weaker. The depth of tailored correction in A, along with its persistence in aligning practice to the student's weak area, makes it more personalized and effective for this student.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2114,
+      "concept_text": "Multiples and Lowest Common Multiple",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows a greater effort to personalize instruction to the student\u2019s known weaknesses and past performance. The tutor references the student\u2019s struggle with related areas (like adding/subtracting negatives, squares and cubes) and tries to connect LCM to real-world examples (e.g., music festival analogy) to make the concept more engaging. Although the approach gets repetitive and overly long in listing multiples, it still leverages the memory of previous topics and attempts to scaffold based on the student\u2019s history. Dialogue B, on the other hand, operates in a more generic manner \u2014 presenting basic multiples/LCM problems without referencing the specific student profile, past successes, or related weaknesses. Feedback in B is repetitive and doesn\u2019t adapt meaningfully to the student\u2019s persistent \u201cI don't know\u201d responses beyond re-explaining the same definition. Thus, despite its flaws, A provides more contextually relevant and targeted support than B.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Factors and Highest Common Factor",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows a stronger attempt at personalization by explicitly referencing the student's profile and past learning history at the outset (\u201cBased on the student's profile and past learning\u2026\u201d), focusing directly on the student's weak area (Factors and HCF) and scaffolding multiple practice questions around that topic. The tutor repeatedly adjusts feedback to address specific errors the student made (e.g., explaining why 12 is not the HCF for 18 and 24, and guiding them step-by-step in factor listing), which builds directly on their incorrect reasoning patterns. While the repetition sometimes borders on redundancy, it reinforces the exact conceptual gap the student shows in their profile. Dialogue B, by contrast, uses generic instruction and examples without referencing the student\u2019s historic difficulties or strengths; it points out partial correctness but doesn\u2019t tailor the sequence or examples to the student\u2019s trajectory beyond immediate corrections. Thus, Dialogue A\u2019s sustained focus on the student's known weaknesses and mistake patterns gives it a clearer personalization edge.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2173,
+      "concept_text": "Solving Linear Inequalities",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A shows a stronger attempt at personalization by repeatedly referencing the student's past weaknesses (e.g., noting prior struggles with Time, Types, Naming, and Estimating) and situating these in relation to the current topic of Solving Linear Inequalities. The tutor tries to scaffold learning by moving from simpler inequalities to contextual, word-based problems, and explicitly addresses common mistakes the student makes, such as reversing inequality signs incorrectly. Although some of the feedback loops are a bit repetitive and occasionally contain errors, the tutor is clearly adapting based on the student's uncertainty and misconceptions. By contrast, Dialogue B proceeds more generically\u2014offering step-by-step breakdowns of solving inequalities\u2014but does not leverage the student's specific profile or learning history. B remains instructional but without targeted connection to the student's documented strengths or struggles, making it less personalized overall.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 598,
+      "concept_text": "Linear Sequences (nth term)",
+      "winner": "target",
+      "score_a": 5.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A makes repeated attempts to reference the student's known weaknesses, e.g., connecting the problem of finding the nth term to the student's struggles in \"Angles in Triangles\" and \"Factors and HCF,\" and even trying to tie sequence starting points to concepts like perimeter, which is known from the profile. This shows an effort \u2014 albeit sometimes awkward and tangential \u2014 to leverage their learning history. Dialogue B, in contrast, uses entirely generic examples (club membership growth, bike price drops, bakery sales, etc.) without any connection to the student's documented strengths or weaknesses. While Dialogue A is verbose and sometimes misguided in its connections, it still shows more personalization intent than B, which is wholly generic. As per the criteria, personalization is the primary metric, so even imperfect attempts at tailoring win over no tailoring.\n\n**Personalization Score A: 5/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 1293,
+      "concept_text": "Types, Naming and Estimating",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows stronger personalization by directly referencing the student's profile and history (e.g., noting their struggles with *Types, Naming and Estimating* and *Basic Angle Facts*, and tailoring questions to address these weaknesses). The tutor in A adjusts explanations based on the student's uncertainty, reinforces definitions (acute, right, obtuse angles), and actively tries to bridge earlier mistakes with targeted review, guiding through step-by-step breakdowns. While A\u2019s execution is sometimes meandering, it still explicitly connects feedback to the student\u2019s known problem areas and builds practice around those deficits. In contrast, Dialogue B uses relevant Types, Naming and Estimating problems but does not reference the student\u2019s specific past performance or adjust instruction based on their prior errors, instead repeating similar division problems without layering in concepts the student historically struggled with. B\u2019s approach is largely generic and misses opportunities to tie back to the student\u2019s profile to strengthen engagement and learning retention.\n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 4/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2114,
+      "concept_text": "Multiples and Lowest Common Multiple",
+      "winner": "target",
+      "score_a": 5.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows more personalization because the tutor attempts to connect the concept of LCM to the student\u2019s past struggles (e.g., mentioning issues with types of numbers, squares and cubes, adding/subtracting negatives) and strengths (e.g., mental multiplication and division). The tutor also tries to use analogies (like the music festival example) to make the problem more engaging, and adapts questions to varying numbers the student has encountered before. While the personalization is inconsistent and sometimes verbose, it is still more targeted toward the specific student profile. In contrast, Dialogue B uses entirely generic explanations and repeats the same breakdown without reference to the student\u2019s known history, strengths, or weaknesses \u2014 essentially treating the student as any learner. Dialogue B\u2019s feedback is mechanical and does not meaningfully adapt to the student\u2019s repeated \u201cI don\u2019t know\u201d responses beyond generic reassurance and re-explaining basic definitions.\n\n**Personalization Score A: 5/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 598,
+      "concept_text": "Linear Sequences (nth term)",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A clearly attempts to personalize by referencing the student's documented weaknesses (e.g., Linear Sequences, Factors/HCF, Angles in Triangles) and tries to connect those concepts to the current topic to aid understanding. For example, the tutor mentions the student's past struggle with Angles in Triangles and perimeter to draw analogies to sequences, which shows awareness of the learning profile. Although repetitive and sometimes unfocused, A keeps tying practice questions to starting point recognition \u2014 a skill the student repeatedly stumbled on \u2014 and adapts question difficulty accordingly. Dialogue B, in contrast, presents generic arithmetic sequence examples (e.g., club membership, bike prices, bakery sales) without any references to the student's specific learning history or targeted weak concepts. B provides clear procedural feedback but lacks any tailoring to this student\u2019s documented patterns of mistakes or low-accuracy topics. Therefore, A demonstrates more personalized engagement, even if imperfect.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 2/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 109,
+      "concept_text": "Factors and Highest Common Factor",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 4.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**\nDialogue A demonstrates stronger personalization by referencing the student's difficulties and explicitly attempting to scaffold from their current misunderstandings toward mastery. The tutor repeatedly connects explanations to the student's prior attempts (e.g., noting they were \u201cclose\u201d with 12 when the HCF was 6) and uses step-by-step listing of factors to address recurring errors. Although somewhat repetitive, the responses show adaptation to the student's mistake patterns, such as prematurely stopping factor lists or confusing largest common with any common factor. In contrast, Dialogue B largely treats each attempt in isolation, repeating generic definitions without building much on the student's earlier outputs or specific misconceptions. While Dialogue B does praise and correct, the feedback is less targeted to this student's recurring issue set and doesn\u2019t clearly leverage their learning history.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 4/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2114,
+      "concept_text": "Multiples and Lowest Common Multiple",
+      "winner": "target",
+      "score_a": 6.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A makes repeated attempts to connect the LCM concept to the student's prior struggles and performance profile. For example, the tutor references the learner's past difficulties with \"types of numbers, squares and cubes, and adding and subtracting negative numbers,\" and even speculates that confusion may stem from mixing up LCM with HCF \u2014 a very specific, actionable personalization based on the student\u2019s existing strengths in factors. The tutor also tries to engage by using a real-life example (bands at a music festival) to illustrate LCM, which is more responsive to the student's repeated \"I don't know\" answers than Dialogue B's mostly repetitive listing of multiples.  \nBy contrast, Dialogue B follows a rigid sequence of generic LCM/multiples explanations that do not adapt to the student's profile or history, never leveraging the known strengths (e.g., prime numbers, ordering negatives) or past errors in a meaningful way. B repeats the same explanations in a loop without adjusting complexity, context, or approach. While both dialogues face the student's persistent uncertainty, A at least attempts targeted clarification and diagnostic reasoning about the student's misconceptions, whereas B remains formulaic.\n\n**Personalization Score A: 6/10**  \n**Personalization Score B: 3/10**\n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2010,
+      "concept_text": "Time",
+      "winner": "target",
+      "score_a": 7.0,
+      "score_b": 3.0,
+      "judgment": "**Winner: Dialogue A**  \n\n**Reasoning:**  \nDialogue A more clearly tailors its instruction to the student\u2019s documented weaknesses, notably in *Time* and *Factors and Highest Common Factor*. The tutor explicitly references the student's past difficulties (\"you previously got a Time problem wrong\" and \"you\u2019ve been struggling with Factors\") and builds questions designed to target these weak spots, sometimes even combining them in a single question to reinforce both skills. The feedback in A also steps through time calculations with clear breakdowns that match the student's needs, patiently reiterating core concepts like converting hours to minutes. In contrast, Dialogue B uses a game-like \u201cTime Challenge\u201d framing and multiple-choice questions, but the explanations and corrections are often inconsistent or mismatched to the student\u2019s answers, and it does not incorporate the student\u2019s learning history or strengths/weaknesses in a meaningful way. Overall, Dialogue A shows a stronger link between the student profile and the instructional content and scaffolding.  \n\n**Personalization Score A: 7/10**  \n**Personalization Score B: 3/10**  \n\n**Confidence: High**"
+    },
+    {
+      "student_id": 2642,
+      "concept_text": "Prime Numbers and Prime Factors",
+      "winner": "target",
+      "score_a": 5.0,
+      "score_b": 2.0,
+      "judgment": "**Winner: Dialogue A**\n\n**Reasoning:**  \nDialogue A shows at least some attempt to tailor the instruction to the student's profile \u2014 the tutor acknowledges the student's 38% accuracy in Prime Numbers and Prime Factors and deliberately starts with simpler, confidence\u2011building problems. At one point, it even references other weak areas (Basic Angle Facts, Rotation, Translation) to try to connect concepts, and later makes a \u201cPersonalized Connection\u201d linking factorization to Place Value and Vectors, which is explicitly drawn from the given profile. Although the delivery in A is repetitive, sometimes confusing, and occasionally muddles explanations, it still demonstrates specific awareness of this individual\u2019s history and tries to build from it.  \n\nBy contrast, Dialogue\u202fB delivers a fully generic sequence of low\u2011level prime factor questions with no reference to the student's known strengths, weaknesses, or prior mistakes in other areas. It doesn\u2019t adapt in real time to the student\u2019s repeated \u201cI don\u2019t know\u201d responses beyond restating definitions, and the feedback often repeats the same points without scaffolding based on this student\u2019s profile. It reads as a one\u2011size\u2011fits\u2011all script rather than personalized coaching.  \n\n**Personalization Score A: 5/10**  \n**Personalization Score B: 2/10**  \n\n**Confidence: High**"
+    }
+  ]
+}
