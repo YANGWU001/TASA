@@ -1,15 +1,15 @@
 """
-TASA Method Configuration - GPT Backbone
+TASA Method Configuration - Qwen Backbone
 Tutoring with Adaptive Student Assessment
 """
 
 # API配置
-ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"
-GPT_ENDPOINT = ENDPOINT  # GPT uses same endpoint
+ENDPOINT = "https://5d80b2bc05ca.ngrok-free.app/predict/"  # Qwen endpoint with /predict/
+#GPT_ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"  # GPT endpoint (for Student/Grader/Rewriter)
 API_KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
 
 # 模型配置
-TUTOR_MODEL = "gpt-oss-120b"
+TUTOR_MODEL = "Qwen3-4B-Instruct"
 REWRITE_MODEL = "gpt-oss-120b"    # Mastery重写模型
 STUDENT_MODEL = "gpt-oss-120b"    # 学生role-play模型
 GRADER_MODEL = "gpt-4o-mini"      # 批改模型

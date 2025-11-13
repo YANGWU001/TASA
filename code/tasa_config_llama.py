@@ -1,11 +1,11 @@
 """
-TASA Method Configuration
+TASA Method Configuration - Llama Backbone
 Tutoring with Adaptive Student Assessment
 """
 
 # API配置
-ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"
-GPT_ENDPOINT = ENDPOINT  # Default uses same endpoint
+ENDPOINT = "https://85bb6ded8e37.ngrok-free.app/predict/"  # Llama endpoint
+#GPT_ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"  # GPT endpoint (for Student/Grader/Rewriter)
 API_KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
 
 # 模型配置
