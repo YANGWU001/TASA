@@ -1,4 +1,4 @@
-# 🎓 TASA: Tutoring with Adaptive Student Assessment
+# 🎓 TASA: Personalized Tutoring System for Math Education
 
 **An Intelligent Personalized Tutoring System Based on Large Language Models and Knowledge Tracing**
 
