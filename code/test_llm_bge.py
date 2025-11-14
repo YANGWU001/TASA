@@ -9,8 +9,8 @@ import json
 from openai import OpenAI
 
 # LLM配置
-ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"
-KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
+ENDPOINT = ""  # Your API endpoint
+KEY = ""  # Your API key
 MODEL = "gpt-4o"
 
 print("1. 测试LLM连接...")

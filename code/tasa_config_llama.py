@@ -4,9 +4,9 @@ Tutoring with Adaptive Student Assessment
 """
 
 # API配置
-ENDPOINT = "https://85bb6ded8e37.ngrok-free.app/predict/"  # Llama endpoint
-#GPT_ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"  # GPT endpoint (for Student/Grader/Rewriter)
-API_KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
+ENDPOINT = ""  # Your Llama endpoint
+#GPT_ENDPOINT = ""  # GPT endpoint (for Student/Grader/Rewriter)
+API_KEY = ""  # Your API key
 
 # 模型配置
 TUTOR_MODEL = "llama-3.1-8B-Instruct"

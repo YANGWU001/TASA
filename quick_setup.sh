@@ -259,10 +259,10 @@ if [ ! -f "$PROJECT_ROOT/.env" ]; then
 # 请根据实际情况修改以下配置
 
 # API Keys
-API_KEY=sk-g-wO3D7N2V-VvcfhfqG9ww
+API_KEY=
 
 # GPT Proxy (Student/Grader/Rewriter)
-GPT_ENDPOINT=http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000
+GPT_ENDPOINT=
 
 # Llama API
 LLAMA_URL=https://YOUR_LLAMA_NGROK_URL/predict/

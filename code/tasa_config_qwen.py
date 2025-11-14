@@ -4,9 +4,9 @@ Tutoring with Adaptive Student Assessment
 """
 
 # API配置
-ENDPOINT = "https://5d80b2bc05ca.ngrok-free.app/predict/"  # Qwen endpoint with /predict/
-#GPT_ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"  # GPT endpoint (for Student/Grader/Rewriter)
-API_KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
+ENDPOINT = ""  # Your Qwen endpoint with /predict/
+#GPT_ENDPOINT = ""  # GPT endpoint (for Student/Grader/Rewriter)
+API_KEY = ""  # Your API key
 
 # 模型配置
 TUTOR_MODEL = "Qwen3-4B-Instruct"

@@ -8,8 +8,8 @@ Role-Play评估系统配置文件
 # endpoint将根据你是在公司网络还是pluto实例上而不同
 # 使用Slack命令 /get-llm-cred 获取key
 
-ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"
-API_KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
+ENDPOINT = ""  # Your API endpoint
+API_KEY = ""  # Your API key
 
 # 模型配置
 STUDENT_MODEL = "gpt-oss-120b"  # Role-play学生的模型

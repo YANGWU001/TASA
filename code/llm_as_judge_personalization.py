@@ -15,8 +15,8 @@ import random
 
 # Judge model配置
 JUDGE_MODEL = "gpt-5-chat"
-API_KEY = os.getenv("API_KEY", "sk-g-wO3D7N2V-VvcfhfqG9ww")
-ENDPOINT = os.getenv("ENDPOINT", "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000")
+API_KEY = os.getenv("API_KEY", "")
+ENDPOINT = os.getenv("ENDPOINT", "")
 
 # 全局锁
 print_lock = Lock()

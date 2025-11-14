@@ -101,10 +101,10 @@ EOF
 ```bash
 cat > /mnt/localssd/.env << 'EOF'
 # API配置
-API_KEY=sk-g-wO3D7N2V-VvcfhfqG9ww
+API_KEY=YOUR_API_KEY_HERE
 
 # GPT Proxy (Student/Grader/Rewriter固定使用)
-GPT_ENDPOINT=http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000
+GPT_ENDPOINT=YOUR_ENDPOINT_HERE
 
 # Llama API (可以根据需要更新ngrok链接)
 LLAMA_URL=https://2d96013eaaf0.ngrok-free.app/predict/

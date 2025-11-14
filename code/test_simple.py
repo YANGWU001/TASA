@@ -7,8 +7,8 @@
 print("测试LLM...")
 from openai import OpenAI
 
-ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"
-KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
+ENDPOINT = ""  # Your API endpoint
+KEY = ""  # Your API key
 MODEL = "gpt-4o"
 
 try:

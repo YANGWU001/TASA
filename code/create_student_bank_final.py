@@ -24,8 +24,8 @@ import openai
 import time
 
 # LLM配置
-ENDPOINT = "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000"
-KEY = "sk-g-wO3D7N2V-VvcfhfqG9ww"
+ENDPOINT = ""  # Your API endpoint
+KEY = ""  # Your API key
 MODEL = "gpt-4o"
 TEMPERATURE = 1.0  # 修改为1.0
 

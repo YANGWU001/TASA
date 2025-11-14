@@ -14,8 +14,8 @@ import re
 
 # GPT-5 Judge配置（使用内网代理，更快）
 import os
-JUDGE_API_KEY = os.getenv("API_KEY", "sk-g-wO3D7N2V-VvcfhfqG9ww")
-JUDGE_ENDPOINT = os.getenv("ENDPOINT", "http://pluto-prod-hawang-llm-proxy-9qtfav-0:4000")
+JUDGE_API_KEY = os.getenv("API_KEY", "")
+JUDGE_ENDPOINT = os.getenv("ENDPOINT", "")
 JUDGE_MODEL = "gpt-5-chat"
 
 DATASETS = ['assist2017', 'algebra2005', 'bridge2006', 'nips_task34']
