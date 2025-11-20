@@ -178,33 +178,6 @@ See [src/README.md](./src/README.md) for detailed code documentation.
 
 ---
 
-## Results
-
-### Learning Gain Comparison (%)
-
-| Method | Assist2017 | NIPS34 | Algebra2005 | Bridge2006 | Average |
-|--------|-----------|---------|-------------|------------|---------|
-| Vanilla-ICL | 42.3±1.5 | 45.8±1.2 | 40.1±0.9 | 43.7±1.1 | 43.0 |
-| MathChat | 45.6±1.3 | 48.2±1.4 | 43.2±1.2 | 46.1±0.8 | 45.8 |
-| TutorLLM | 47.8±1.1 | 50.5±1.6 | 45.4±1.3 | 48.3±1.4 | 48.0 |
-| PSS-MV | 49.2±0.9 | 52.1±1.3 | 46.8±1.1 | 49.7±1.2 | 49.5 |
-| **TASA (Ours)** | **53.8±1.3** | **57.9±1.1** | **51.2±1.7** | **55.8±1.2** | **54.7** |
-
-### Forgetting Method Ablation
-
-TASA with LPKT-based forgetting scores achieves **+5.6%** average learning gain improvement over simple time-based forgetting.
-
-### Key Findings
-
-- TASA achieves **superior learning outcomes** across all datasets
-- Forgetting-aware dynamics are **critical** for effective personalization
-- LPKT provides the **best forgetting score estimation** among KT models
-- Temporal decay modeling **significantly outperforms** static retrieval
-
-See the paper for detailed experimental results and analysis.
-
----
-
 ## Citation
 
 If you find this work useful, please cite our paper:
