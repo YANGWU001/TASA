@@ -1,359 +1,0 @@
-============================================================
-  创建学生Persona和Memory Bank - 最终版
-============================================================
-
-配置:
-  - Temperature: 1.0
-  - 存储: 每个学生单独文件
-  - Concept: 使用真实文本描述
-
-⚠️  测试模式：每个数据集处理3个学生
-
-
-============================================================
-处理数据集: assist2017
-============================================================
-
-加载数据: /mnt/localssd/pykt-toolkit/data/assist2017/train_valid_sequences.csv
-  学生数: 4487
-加载数据: /mnt/localssd/pykt-toolkit/data/assist2017/test_sequences.csv
-  学生数: 1050
-
-总学生数（train_valid + test）: 5537
-去重后学生数: 1708 (移除了3829个重复)
-测试模式：只处理前3个学生
-  assist2017: 加载了 102 个concept映射
-加载BGE-M3模型...
-Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 7891.45it/s]
-BGE-M3加载完成
-初始化LLM客户端...
-LLM客户端就绪
-
-开始处理学生...
-assist2017:   0%|          | 0/3 [00:00<?, ?it/s]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 260.52it/s]
-You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 66.22it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 961.33it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.91it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1002.94it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.14it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.14it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1093.69it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.95it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.95it/s]
-assist2017:  33%|███▎      | 1/3 [00:23<00:47, 23.95s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 948.72it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 67.30it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1014.10it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 65.99it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 975.65it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.94it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.94it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1113.14it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.93it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.93it/s]
-assist2017:  67%|██████▋   | 2/3 [00:42<00:21, 21.05s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 805.20it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 67.39it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 903.36it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.49it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1091.56it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 68.99it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1094.83it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 69.61it/s]
-assist2017: 100%|██████████| 3/3 [01:00<00:00, 19.64s/it]assist2017: 100%|██████████| 3/3 [01:00<00:00, 20.31s/it]
-
-✅ assist2017 完成: 成功3, 跳过0, 错误0
-
-============================================================
-处理数据集: nips_task34
-============================================================
-
-加载数据: /mnt/localssd/pykt-toolkit/data/nips_task34/train_valid_sequences.csv
-  学生数: 7546
-加载数据: /mnt/localssd/pykt-toolkit/data/nips_task34/test_sequences.csv
-  学生数: 1855
-
-总学生数（train_valid + test）: 9401
-去重后学生数: 4918 (移除了4483个重复)
-测试模式：只处理前3个学生
-  nips_task34: 加载了 57 个concept映射
-
-开始处理学生...
-nips_task34:   0%|          | 0/3 [00:00<?, ?it/s]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 927.74it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 67.26it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1074.91it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 80.01it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1059.30it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.10it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.10it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 972.71it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 76.01it/s]
-nips_task34:  33%|███▎      | 1/3 [00:15<00:30, 15.32s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1132.98it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.84it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1373.38it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 81.40it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 944.24it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.90it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.90it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 821.61it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 73.99it/s]
-nips_task34:  67%|██████▋   | 2/3 [00:31<00:15, 15.88s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1306.23it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.58it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1828.38it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 80.80it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1008.73it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 69.76it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1095.69it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 73.38it/s]
-nips_task34: 100%|██████████| 3/3 [00:46<00:00, 15.40s/it]nips_task34: 100%|██████████| 3/3 [00:46<00:00, 15.47s/it]
-
-✅ nips_task34 完成: 成功3, 跳过0, 错误0
-
-============================================================
-处理数据集: algebra2005
-============================================================
-
-加载数据: /mnt/localssd/pykt-toolkit/data/algebra2005/train_valid_sequences.csv
-  学生数: 3980
-加载数据: /mnt/localssd/pykt-toolkit/data/algebra2005/test_sequences.csv
-  学生数: 732
-
-总学生数（train_valid + test）: 4712
-去重后学生数: 574 (移除了4138个重复)
-测试模式：只处理前3个学生
-  algebra2005: 加载了 112 个concept映射
-
-开始处理学生...
-algebra2005:   0%|          | 0/3 [00:00<?, ?it/s]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 612.40it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 23.97it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 773.00it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 23.00it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1175.53it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 69.44it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1445.81it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 70.11it/s]
-algebra2005:  33%|███▎      | 1/3 [00:15<00:31, 15.92s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 743.01it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 33.95it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 911.61it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 33.67it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 775.43it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.77it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.77it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 778.02it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.79it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.79it/s]
-algebra2005:  67%|██████▋   | 2/3 [00:35<00:18, 18.18s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1309.49it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 65.85it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1622.55it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 70.47it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1121.62it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 69.95it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1006.19it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 73.27it/s]
-algebra2005: 100%|██████████| 3/3 [00:51<00:00, 17.29s/it]algebra2005: 100%|██████████| 3/3 [00:51<00:00, 17.30s/it]
-
-✅ algebra2005 完成: 成功3, 跳过0, 错误0
-
-============================================================
-处理数据集: bridge2006
-============================================================
-
-加载数据: /mnt/localssd/pykt-toolkit/data/bridge2algebra2006/train_valid_sequences.csv
-  学生数: 7795
-加载数据: /mnt/localssd/pykt-toolkit/data/bridge2algebra2006/test_sequences.csv
-  学生数: 1885
-
-总学生数（train_valid + test）: 9680
-去重后学生数: 1145 (移除了8535个重复)
-测试模式：只处理前3个学生
-  bridge2006: 加载了 493 个concept映射
-
-开始处理学生...
-bridge2006:   0%|          | 0/3 [00:00<?, ?it/s]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1719.68it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.65it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 2100.30it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.48it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 963.76it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.88it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.88it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1218.74it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 73.11it/s]
-bridge2006:  33%|███▎      | 1/3 [00:16<00:32, 16.22s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1725.34it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 66.37it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 2167.60it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.02it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 954.88it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
-Inference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.10it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00,  2.10it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1216.27it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 75.17it/s]
-bridge2006:  67%|██████▋   | 2/3 [00:30<00:15, 15.29s/it]  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-  LLM生成memory失败，使用后备方案: Expecting value: line 1 column 1 (char 0)
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 641.72it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 68.19it/s]
-
-pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 1/1 [00:00<00:00, 973.38it/s]
-
-Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 69.36it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1107.70it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 71.74it/s]
-
-pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s][Apre tokenize: 100%|██████████| 2/2 [00:00<00:00, 1228.74it/s]
-
-Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s][AInference Embeddings: 100%|██████████| 2/2 [00:00<00:00, 72.41it/s]
-bridge2006: 100%|██████████| 3/3 [00:48<00:00, 16.54s/it]bridge2006: 100%|██████████| 3/3 [00:48<00:00, 16.30s/it]
-
-✅ bridge2006 完成: 成功3, 跳过0, 错误0
-
-============================================================
-  ✅ 所有数据集处理完成！
-============================================================

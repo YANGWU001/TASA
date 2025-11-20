@@ -144,7 +144,12 @@ We evaluate TASA on four mathematics tutoring benchmarks:
 | **Algebra2005** | 574 | 210,710 | 112 | 809,694 | Algebra |
 | **Bridge2006** | 1,138 | 207,856 | 493 | 3,679,199 | Pre-Algebra |
 
-See [DATASETS.md](./DATASETS.md) for detailed descriptions, download links, and citations.
+📖 See [DATASETS.md](./DATASETS.md) for detailed descriptions, download links, and citations.
+
+**Note**: After running the experiments, the following directories will be generated:
+- `data/` - Preprocessed datasets and trained KT models
+- `bank/` - Student profiles (persona, memory, dialogue history)
+- `results/` - Experimental results for each method
 
 ---
 
