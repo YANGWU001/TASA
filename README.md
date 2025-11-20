@@ -1,4 +1,4 @@
-# TASA: Teaching According to Students' Aptitude
+# Teaching According to Students' Aptitude: Personalized Mathematics Tutoring via Persona-, Memory-, and Forgetting-Aware LLMs
 
 [![Paper](https://img.shields.io/badge/Paper-AAAI%202026-blue)](https://arxiv.org/abs/2511.15163)
 [![PDF](https://img.shields.io/badge/PDF-Download-red)](https://arxiv.org/pdf/2511.15163.pdf)
