@@ -1,21 +1,6 @@
-# Environment Variables
-.env
-.env.local
-.env.*.local
-*.env
-
-# API Keys and Credentials
-*_credentials.json
-*_secrets.json
-*.key
-*.pem
-*.crt
-
-# Backup Files
-*.backup
-*.bak
-*.old
-*~
+# ============================================================================
+# TASA .gitignore for AAAI 2026 Workshop Review
+# ============================================================================
 
 # Python
 __pycache__/
@@ -23,51 +8,65 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+dist/
+build/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
-# PyCharm
-.idea/
+# Environment
+.env
+.env.local
+venv/
+env/
+ENV/
 
-# VSCode
+# IDEs
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# MacOS
+# System
 .DS_Store
+._.DS_Store
+Thumbs.db
 
-# Data and Model Files (optional - uncomment if needed)
-# *.csv
-# *.json
-# *.pkl
-# *.pt
-# *.pth
-# *.h5
-# bank/
-
-# Logs
+# Logs and temporary files
 *.log
-logs/
-*.out
-
-# Temporary files
 *.tmp
 *.temp
+logs/
 tmp/
-temp/
 
+# Model checkpoints and cache
+*.pth
+*.pt
+*.ckpt
+.cache/
+__pypackages__/
+
+# Results (keep structure, ignore large result files)
+results/**/*.json
+results/**/*.csv
+!results/README.md
+
+# Old code directory (for review, keep in repo but ignore changes)
+# code/
+
+# Large data files (document in DATASETS.md instead)
+# bank/
+# data/
+
+# Backup and temporary reorganization files
+*.backup
+*.bak
+*.old
+*_backup/
+REORGANIZATION_REPORT.md
+STRUCTURE.md
+reorganize_project.sh
+quick_setup.sh
