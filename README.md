@@ -28,7 +28,7 @@ Unlike existing personalization methods that treat retrieved student information
 
 - **Temporal Forgetting Modeling**: Integrates forgetting curves with knowledge tracing (LPKT, DKT, AKT, SimpleKT)
 - **Hybrid RAG Retrieval**: Lambda-weighted fusion of persona descriptions and keywords using BGE-M3 embeddings
-- **Multi-LLM Support**: Compatible with GPT-4, Llama-3.1-8B, and Qwen3-4B backbones
+- **Multi-LLM Support**: Compatible with gpt-oss-120b, Llama-3.1-8B, and Qwen3-4B backbones
 - **Comprehensive Evaluation**: Tested on 4 mathematics tutoring benchmarks (Assist2017, NIPS34, Algebra2005, Bridge2006)
 
 ---
@@ -175,11 +175,13 @@ See [src/README.md](./src/README.md) for detailed code documentation.
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{wu2026tasa,
-  title={Teaching According to Students' Aptitude: Personalized Mathematics Tutoring via Persona-, Memory-, and Forgetting-Aware LLMs},
-  author={Wu, Yang and Yao, Rujing and Zhang, Tong and Shi, Yufei and Jiang, Zhuoren and Li, Zhushan and Liu, Xiaozhong},
-  booktitle={AAAI 2026 Workshop},
-  year={2026},
+@misc{wu2025teachingaccordingstudentsaptitude,
+  title={Teaching According to Students' Aptitude: Personalized Mathematics Tutoring via Persona-, Memory-, and Forgetting-Aware LLMs}, 
+  author={Yang Wu and Rujing Yao and Tong Zhang and Yufei Shi and Zhuoren Jiang and Zhushan Li and Xiaozhong Liu},
+  year={2025},
+  eprint={2511.15163},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
   url={https://arxiv.org/abs/2511.15163}
 }
 ```
