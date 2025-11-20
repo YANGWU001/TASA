@@ -30,7 +30,6 @@ Unlike existing personalization methods that treat retrieved student information
 - **Hybrid RAG Retrieval**: Lambda-weighted fusion of persona descriptions and keywords using BGE-M3 embeddings
 - **Multi-LLM Support**: Compatible with GPT-4, Llama-3.1-8B, and Qwen3-4B backbones
 - **Comprehensive Evaluation**: Tested on 4 mathematics tutoring benchmarks (Assist2017, NIPS34, Algebra2005, Bridge2006)
-- **Superior Performance**: Achieves **54.7% average learning gain**, outperforming state-of-the-art methods by **+5.2%**
 
 ---
 
@@ -112,20 +111,10 @@ python scripts/run_tasa.py \
     --num-rounds 10
 ```
 
-### Step 5: Run Baseline Methods
+### Step 5: Evaluate Results
 
 ```bash
-# Run all baselines (Vanilla-ICL, MathChat, TutorLLM, PSS-MV)
-python scripts/run_baselines.py \
-    --dataset assist2017 \
-    --backbone llama \
-    --method all
-```
-
-### Step 6: Evaluate Results
-
-```bash
-# Evaluate learning gains and win rates
+# Evaluate learning gains
 python scripts/evaluate_results.py \
     --method TASA \
     --dataset assist2017
@@ -163,13 +152,11 @@ TASA/
 │   │   ├── rag.py              # RAG retrieval for persona and memory
 │   │   ├── rag_lambda.py       # Lambda-weighted RAG (ablation study)
 │   │   └── rewrite.py          # Mastery-aware content rewriter
-│   ├── baselines/              # Baseline methods (Vanilla-ICL, MathChat, TutorLLM, PSS-MV)
 │   ├── knowledge_tracing/      # KT models (LPKT, DKT, AKT, SimpleKT)
 │   └── utils/                  # Utility functions
 │
 ├── scripts/                    # Executable scripts
 │   ├── run_tasa.py            # Run TASA experiments
-│   ├── run_baselines.py       # Run baseline methods
 │   ├── create_student_bank.py # Create student bank
 │   └── train_kt_models.py     # Train knowledge tracing models
 │
