@@ -31,25 +31,6 @@ python scripts/run_tasa.py \
 
 ---
 
-### `run_baselines.py`
-Run baseline method experiments
-
-```bash
-python scripts/run_baselines.py \
-    --dataset assist2017 \
-    --backbone llama \
-    --method all \
-    --num-students 10
-```
-
-**Arguments**:
-- `--dataset`: Dataset name
-- `--backbone`: LLM backbone
-- `--method`: Baseline method (`vanilla-icl`, `mathchat`, `tutorllm`, `pssmv`, `all`)
-- `--num-students`: Number of students
-
----
-
 ### `create_student_bank.py`
 Create student bank with persona, memory, and embeddings
 
@@ -77,17 +58,6 @@ python scripts/evaluate_tasa.py \
     --method TASA \
     --dataset assist2017 \
     --forgetting-method lpkt
-```
-
----
-
-### `evaluate_baselines.py`
-Evaluate baseline results
-
-```bash
-python scripts/evaluate_baselines.py \
-    --dataset assist2017 \
-    --method all
 ```
 
 ---
@@ -140,17 +110,8 @@ for dataset in assist2017 nips_task34 algebra2005 bridge2006; do
         --num-students 40
 done
 
-# 5. Run baseline experiments
-for dataset in assist2017 nips_task34 algebra2005 bridge2006; do
-    python scripts/run_baselines.py \
-        --dataset $dataset \
-        --backbone llama \
-        --method all \
-        --num-students 40
-done
-
-# 6. Evaluate and compare
-python scripts/evaluate_results.py --compare --output results/comparison.csv
+# 5. Evaluate results
+python scripts/evaluate_results.py --method TASA --dataset assist2017
 ```
 
 ---
@@ -170,23 +131,10 @@ wait
 
 ---
 
-## Expected Runtime
-
-On a system with RTX 3090 GPU:
-
-| Task | Time per Student | Total (40 students) |
-|------|------------------|---------------------|
-| Create Student Bank | ~2 min | ~1.5 hours |
-| Train LPKT | ~30 min | ~30 min |
-| Run TASA (10 rounds) | ~5 min | ~3.5 hours |
-| Run Baseline | ~3 min | ~2 hours |
-
----
-
 ## Output Locations
 
 - Student Bank: `bank/{persona,memory,session}/{dataset}/`
 - KT Models: `models/{dataset}/{lpkt,dkt,akt,simplekt}/`
-- Results: `results/{tasa,baselines}/{dataset}/`
+- Results: `results/tasa/{dataset}/`
 - Logs: `logs/{timestamp}/`
 
