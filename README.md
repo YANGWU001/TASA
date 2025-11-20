@@ -8,7 +8,7 @@
 
 *Yang Wu, Rujing Yao, Tong Zhang, Yufei Shi, Zhuoren Jiang, Zhushan Li, Xiaozhong Liu*
 
-**Published in:** AAAI 2026 Workshop
+**Accepted by:** AAAI 2026 Workshop
 
 ---
 
